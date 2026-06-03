@@ -10,19 +10,40 @@ in the output. You can rename or add groups freely.
 
 WATCHLIST: dict[str, list[str]] = {
     "ETF": [
-        "SPY", "QQQ", "IWM", "DIA",
-        "XLK", "XLF", "XLE", "XLV",
-        "GLD", "TLT", "HYG",
+        "SPY", "QQQ", "IWM",
+        "XLK", "XLF", "XLE",
+        "GLD", 
     ],
+    
     "Tech": [
-        "AAPL", "MSFT", "NVDA", "GOOGL", "META", "AMZN",
-        "TSLA", "AMD", "AVGO", "ORCL",
+        "MXL", "ARM", "ALAB", "SIMO", "GFS", "JBL", "FLEX",
+        "STX", "FORM", "ANET", "VICR", 
+        "CLS", "SHOP", "SYM", "OUST", "XE", "AMPX", "INOD", "PLTR", 
+        "FLY", "CRCL", "AMD", "AVGO", "ORCL",
     ],
-    "Finance": [
-        "JPM", "BAC", "GS", "MS",
+    
+    "光": [
+        "POET", "OCS", "GLW", "COHR", "LITE", "VELO", "AAOI", "CIEN", 
     ],
-    "Other": [
-        # Add any other US stocks/ETFs here
+    
+    "MEGA7": [
+        "META", "AAPL", "NVDA", "MSFT", "TSLA", "AMZN", "GOOGL",
+    ],
+    
+    "存储": [
+        "SNDK", "WDC", "MRVL", "MU",
+    ],
+    
+    "太空": [
+        "RKLB", "PL", "ONDS", 
+    ],
+
+    "数据中心": [
+        "NBIS", "IREN",
+    ],
+
+    "电力": [
+        "VRT", "BE", 
     ],
 }
 
