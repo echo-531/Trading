@@ -1,23 +1,10 @@
 {
-  "generated_at": "2026-06-03T12:35:52.385954+00:00",
+  "generated_at": "2026-06-03T23:00:00+00:00",
   "stats": {
-    "total_scanned": 154,
+    "total_scanned": 0,
     "buy_signals": 0,
-    "sell_signals": 1
+    "sell_signals": 0
   },
   "buy_signals": [],
-  "sell_signals": [
-    {
-      "ticker": "GOOGL",
-      "market": "US",
-      "timeframe": "weekly",
-      "date": "2026-06-01",
-      "close": 361.85,
-      "buy_signal": 0,
-      "sell_signal": 1,
-      "DIFF": 26.667579,
-      "DEA": 23.900706,
-      "MACD": 5.533746
-    }
-  ]
+  "sell_signals": []
 }
