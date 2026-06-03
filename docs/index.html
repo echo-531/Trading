@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>MRMC Signal Scanner</title>
+<title>MRMC 抄底 Scanner</title>
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
 <style>
   :root {
@@ -14,7 +14,6 @@
     --text:      #c8d0dd;
     --muted:     #4a5568;
     --buy:       #00e5a0;
-    --sell:      #ff4d6a;
     --accent:    #3b82f6;
     --warn:      #f59e0b;
     --mono:      'IBM Plex Mono', monospace;
@@ -79,8 +78,7 @@
     font-weight: 600;
     color: #fff;
   }
-  .stat-value.buy  { color: var(--buy); }
-  .stat-value.sell { color: var(--sell); }
+  .stat-value.buy { color: var(--buy); }
 
   /* ── Controls ── */
   .controls {
@@ -114,11 +112,9 @@
   .filter-btn:hover  { color: var(--text); }
   .filter-btn.active {
     background: var(--border2);
-    color: #fff;
+    color: var(--buy);
     font-weight: 500;
   }
-  .filter-btn.active.buy-active  { color: var(--buy); }
-  .filter-btn.active.sell-active { color: var(--sell); }
 
   .search-wrap {
     position: relative;
@@ -203,14 +199,13 @@
     letter-spacing: 0.08em;
     text-transform: uppercase;
   }
-  .badge-buy  { background: rgba(0,229,160,0.12); color: var(--buy); border: 1px solid rgba(0,229,160,0.3); }
-  .badge-sell { background: rgba(255,77,106,0.12); color: var(--sell); border: 1px solid rgba(255,77,106,0.3); }
-  .badge-tf   { background: rgba(59,130,246,0.1); color: var(--accent); border: 1px solid rgba(59,130,246,0.2); }
-  .badge-market { background: rgba(245,158,11,0.1); color: var(--warn); border: 1px solid rgba(245,158,11,0.2); }
+  .badge-buy    { background: rgba(0,229,160,0.12); color: var(--buy);    border: 1px solid rgba(0,229,160,0.3); }
+  .badge-tf     { background: rgba(59,130,246,0.1);  color: var(--accent); border: 1px solid rgba(59,130,246,0.2); }
+  .badge-market { background: rgba(245,158,11,0.1);  color: var(--warn);   border: 1px solid rgba(245,158,11,0.2); }
 
   .price-cell { color: #fff; }
   .macd-pos   { color: var(--buy); }
-  .macd-neg   { color: var(--sell); }
+  .macd-neg   { color: #ff4d6a; }
   .date-cell  { color: var(--muted); }
 
   .empty-state {
@@ -239,7 +234,6 @@
   }
   @keyframes spin { to { transform: rotate(360deg); } }
 
-  /* ── Chinese characters rendered correctly ── */
   .cn-signal {
     font-family: 'Noto Sans SC', var(--sans);
     font-size: 13px;
@@ -259,30 +253,19 @@
     <div class="stat-value" id="stat-scanned">—</div>
   </div>
   <div class="stat">
-    <div class="stat-label">抄底 Buy signals</div>
+    <div class="stat-label">抄底 Buy Signals</div>
     <div class="stat-value buy" id="stat-buy">—</div>
   </div>
   <div class="stat">
-    <div class="stat-label">卖出 Sell signals</div>
-    <div class="stat-value sell" id="stat-sell">—</div>
-  </div>
-  <div class="stat">
     <div class="stat-label">Showing</div>
-    <div class="stat-value" id="stat-showing">—</div>
+    <div class="stat-value buy" id="stat-showing">—</div>
   </div>
 </div>
 
 <div class="controls">
-  <!-- Signal type -->
-  <div class="filter-group" id="signal-filter">
-    <button class="filter-btn active buy-active" data-val="buy">抄底 Buy</button>
-    <button class="filter-btn" data-val="sell">卖出 Sell</button>
-    <button class="filter-btn" data-val="all">All</button>
-  </div>
-
   <!-- Timeframe -->
   <div class="filter-group" id="tf-filter">
-    <button class="filter-btn active" data-val="all">All TF</button>
+    <button class="filter-btn active" data-val="all">All Timeframes</button>
     <button class="filter-btn" data-val="daily">Daily</button>
     <button class="filter-btn" data-val="weekly">Weekly</button>
     <button class="filter-btn" data-val="monthly">Monthly</button>
@@ -328,7 +311,7 @@
   </table>
   <div class="empty-state" id="empty" style="display:none">
     <div class="big">📭</div>
-    No signals match the current filters.
+    No 抄底 signals match the current filters.
   </div>
 </div>
 
@@ -338,11 +321,11 @@ const DATA_URL = "signals.json";
 let allRows = [];
 let sortCol = "date";
 let sortDir = "desc";
-let filters = { signal: "buy", tf: "all", market: "all", search: "" };
+let filters = { tf: "all", market: "all", search: "" };
 
 async function loadData() {
   try {
-    const res = await fetch(DATA_URL + "?t=" + Date.now());
+    const res  = await fetch(DATA_URL + "?t=" + Date.now());
     const data = await res.json();
 
     document.getElementById("last-update").textContent =
@@ -351,16 +334,11 @@ async function loadData() {
       (data.stats?.total_scanned ?? "—").toLocaleString();
     document.getElementById("stat-buy").textContent =
       (data.stats?.buy_signals ?? 0).toLocaleString();
-    document.getElementById("stat-sell").textContent =
-      (data.stats?.sell_signals ?? 0).toLocaleString();
 
-    // Merge buy + sell with a type tag
-    allRows = [
-      ...(data.buy_signals  || []).map(r => ({ ...r, _type: "buy"  })),
-      ...(data.sell_signals || []).map(r => ({ ...r, _type: "sell" })),
-    ];
+    // Buy signals only
+    allRows = (data.buy_signals || []).map(r => ({ ...r, _type: "buy" }));
 
-    document.getElementById("loading").style.display = "none";
+    document.getElementById("loading").style.display    = "none";
     document.getElementById("table-wrap").style.display = "block";
     render();
   } catch(e) {
@@ -371,10 +349,8 @@ async function loadData() {
 
 function applyFilters(rows) {
   return rows.filter(r => {
-    if (filters.signal === "buy"  && r._type !== "buy")  return false;
-    if (filters.signal === "sell" && r._type !== "sell") return false;
-    if (filters.tf !== "all" && r.timeframe !== filters.tf) return false;
-    if (filters.market !== "all" && r.market !== filters.market) return false;
+    if (filters.tf     !== "all" && r.timeframe !== filters.tf)     return false;
+    if (filters.market !== "all" && r.market    !== filters.market) return false;
     if (filters.search && !r.ticker.toLowerCase().includes(filters.search)) return false;
     return true;
   });
@@ -415,17 +391,12 @@ function render() {
   }
   empty.style.display = "none";
 
-  const tfOrder = { daily: 1, weekly: 2, monthly: 3 };
-
   tbody.innerHTML = sorted.map(r => {
-    const signalBadge = r._type === "buy"
-      ? `<span class="badge badge-buy cn-signal">抄底</span>`
-      : `<span class="badge badge-sell cn-signal">卖出</span>`;
     const macdClass = r.MACD >= 0 ? "macd-pos" : "macd-neg";
     return `
       <tr>
         <td class="ticker-cell">${r.ticker}</td>
-        <td>${signalBadge}</td>
+        <td><span class="badge badge-buy cn-signal">抄底</span></td>
         <td><span class="badge badge-market">${r.market}</span></td>
         <td><span class="badge badge-tf">${r.timeframe}</span></td>
         <td class="price-cell">${fmt(r.close, 2)}</td>
@@ -437,22 +408,19 @@ function render() {
   }).join("");
 }
 
-// ── Controls ─────────────────────────────────────────────────────────────────
+// ── Controls ──────────────────────────────────────────────────────────────────
 function setupFilter(groupId, filterKey) {
   document.getElementById(groupId).addEventListener("click", e => {
     const btn = e.target.closest(".filter-btn");
     if (!btn) return;
     document.querySelectorAll(`#${groupId} .filter-btn`).forEach(b => {
-      b.classList.remove("active", "buy-active", "sell-active");
+      b.classList.remove("active");
     });
     btn.classList.add("active");
-    if (btn.dataset.val === "buy")  btn.classList.add("buy-active");
-    if (btn.dataset.val === "sell") btn.classList.add("sell-active");
     filters[filterKey] = btn.dataset.val;
     render();
   });
 }
-setupFilter("signal-filter", "signal");
 setupFilter("tf-filter",     "tf");
 setupFilter("market-filter", "market");
 
