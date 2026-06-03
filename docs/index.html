@@ -304,7 +304,8 @@
         <th data-col="DIFF">DIFF</th>
         <th data-col="DEA">DEA</th>
         <th data-col="MACD">MACD</th>
-        <th data-col="date">Date</th>
+        <th data-col="signal_date">信号日期</th>
+        <th data-col="bars_ago">距今(bars)</th>
       </tr>
     </thead>
     <tbody id="tbody"></tbody>
@@ -319,7 +320,7 @@
 const DATA_URL = "signals.json";
 
 let allRows = [];
-let sortCol = "date";
+let sortCol = "signal_date";
 let sortDir = "desc";
 let filters = { tf: "all", market: "all", search: "" };
 
@@ -403,7 +404,8 @@ function render() {
         <td class="${r.DIFF >= 0 ? 'macd-pos' : 'macd-neg'}">${fmt(r.DIFF)}</td>
         <td class="${r.DEA  >= 0 ? 'macd-pos' : 'macd-neg'}">${fmt(r.DEA)}</td>
         <td class="${macdClass}">${fmt(r.MACD)}</td>
-        <td class="date-cell">${r.date}</td>
+        <td class="date-cell">${r.signal_date}</td>
+        <td class="date-cell">${r.bars_ago === 0 ? '<span style="color:var(--buy)">今天</span>' : r.bars_ago + ' bars前'}</td>
       </tr>`;
   }).join("");
 }

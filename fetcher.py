@@ -4,13 +4,23 @@ Data fetcher.
 Downloads forward-adjusted OHLCV data via yfinance for a given ticker
 and timeframe. Returns a clean pandas DataFrame.
 
+yfinance "possibly delisted" warnings are suppressed — those tickers
+simply return None and are skipped by the scanner.
+
 Timeframes supported: 1d, 1wk, 1mo
 Forward-adjusted prices are the yfinance default (auto_adjust=True).
 """
 
+import logging
 import time
+
 import yfinance as yf
 import pandas as pd
+
+# ── Silence yfinance / urllib3 noise (delisted warnings, etc.) ────────────────
+logging.getLogger("yfinance").setLevel(logging.CRITICAL)
+logging.getLogger("urllib3").setLevel(logging.CRITICAL)
+logging.getLogger("peewee").setLevel(logging.CRITICAL)
 
 
 TIMEFRAME_MAP = {
@@ -66,7 +76,7 @@ def fetch_ohlcv(ticker: str, interval: str = "1d", period: str = None) -> pd.Dat
 
 
 def fetch_latest_price(ticker: str) -> float | None:
-    """Return latest close price (for US >$20 filter)."""
+    """Return latest close price (for US price filter)."""
     try:
         tkr = yf.Ticker(ticker)
         hist = tkr.history(period="5d", interval="1d", auto_adjust=True)
@@ -75,3 +85,17 @@ def fetch_latest_price(ticker: str) -> float | None:
         return float(hist["Close"].dropna().iloc[-1])
     except Exception:
         return None
+
+
+def is_alive(ticker: str) -> bool:
+    """
+    Quick check: does this ticker have recent price data?
+    Used by universe.py --clean to filter out delisted stocks.
+    Returns True if yfinance returns at least 1 bar in the last 30 days.
+    """
+    try:
+        tkr = yf.Ticker(ticker)
+        hist = tkr.history(period="1mo", interval="1d", auto_adjust=True)
+        return not hist.empty and len(hist) >= 1
+    except Exception:
+        return False

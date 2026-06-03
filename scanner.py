@@ -4,34 +4,56 @@ MRMC Scanner
 Loops over every ticker in the universe × 3 timeframes,
 runs the MRMC indicator, and writes signals.json.
 
+Signal detection uses a lookback window per timeframe — any buy signal
+that fired within the last N bars is captured, not just the current bar.
+This prevents missing signals when the scanner isn't run every single day.
+
+Lookback defaults (adjustable via SIGNAL_LOOKBACK below):
+    daily   — 3 bars  (~3 trading days)
+    weekly  — 3 bars  (~3 weeks)
+    monthly — 2 bars  (~2 months)
+
 Usage:
     python scanner.py                    # full run
-    python scanner.py --quick            # SP500 only, 1d only (dev/test)
-    python scanner.py --ticker AAPL      # single ticker debug
+    python scanner.py --quick            # first 50 US tickers, daily only
+    python scanner.py --ticker AAPL      # debug single ticker
 """
 
 import json
 import time
 import argparse
-import traceback
 from datetime import datetime, timezone
 
 import pandas as pd
 
-from universe import build_universe, get_sp500_tickers
+from universe import build_universe
 from fetcher  import fetch_ohlcv, fetch_latest_price
 from indicator import run_mrmc
 
 
 TIMEFRAMES = ["1d", "1wk", "1mo"]
 TIMEFRAME_LABELS = {"1d": "daily", "1wk": "weekly", "1mo": "monthly"}
-US_MIN_PRICE = 20.0
+US_MIN_PRICE = 10.0
+
+# ── Lookback window: how many recent bars to check for a buy signal ────────────
+# Increase these if you scan infrequently (e.g. set weekly to 4 if you scan
+# once a month and don't want to miss anything within that month).
+SIGNAL_LOOKBACK = {
+    "1d":  3,   # daily:   catch signals from the last 3 trading days
+    "1wk": 3,   # weekly:  catch signals from the last 3 weeks
+    "1mo": 2,   # monthly: catch signals from the last 2 months
+}
 
 
 def scan_ticker(ticker: str, market: str, timeframes: list[str]) -> list[dict]:
     """
     Scan one ticker across all timeframes.
-    Returns a list of signal dicts (one per timeframe where signal fired on last bar).
+
+    For each timeframe, looks back SIGNAL_LOOKBACK[tf] bars and captures
+    the most recent buy signal found within that window (if any).
+
+    Returns a list of signal dicts — one entry per timeframe where a buy
+    signal fired within the lookback window.
     """
     signals = []
 
@@ -42,25 +64,38 @@ def scan_ticker(ticker: str, market: str, timeframes: list[str]) -> list[dict]:
                 continue
 
             result = run_mrmc(df)
-            last = result.iloc[-1]
+
+            # Slice the lookback window
+            lookback = SIGNAL_LOOKBACK[tf]
+            window = result.iloc[-lookback:]
+
+            # Check if any bar in the window fired a buy signal
+            if not window["buy_signal"].any():
+                continue
+
+            # Use the most recent signal bar within the window
+            signal_bars = window[window["buy_signal"] == 1]
+            sig_bar = signal_bars.iloc[-1]
+
+            # How many bars ago did this signal fire?
+            # 0 = current (last) bar, 1 = one bar ago, etc.
+            bars_ago = len(result) - 1 - result.index.get_loc(sig_bar.name)
 
             row = {
                 "ticker":       ticker,
                 "market":       market,
                 "timeframe":    TIMEFRAME_LABELS[tf],
-                "date":         str(last.name.date()),
-                "close":        round(float(last["close"]), 4),
-                "buy_signal":   int(last["buy_signal"]),
-                "sell_signal":  int(last["sell_signal"]),
-                "DIFF":         round(float(last["DIFF"]), 6) if pd.notna(last["DIFF"]) else None,
-                "DEA":          round(float(last["DEA"]),  6) if pd.notna(last["DEA"])  else None,
-                "MACD":         round(float(last["MACD"]), 6) if pd.notna(last["MACD"]) else None,
+                "signal_date":  str(sig_bar.name.date()),
+                "bars_ago":     bars_ago,
+                "close":        round(float(sig_bar["close"]), 4),
+                "DIFF":         round(float(sig_bar["DIFF"]), 6) if pd.notna(sig_bar["DIFF"]) else None,
+                "DEA":          round(float(sig_bar["DEA"]),  6) if pd.notna(sig_bar["DEA"])  else None,
+                "MACD":         round(float(sig_bar["MACD"]), 6) if pd.notna(sig_bar["MACD"]) else None,
             }
             signals.append(row)
 
         except Exception as e:
             print(f"  [error] {ticker} {tf}: {e}")
-            # traceback.print_exc()
 
     return signals
 
@@ -69,14 +104,17 @@ def run_scan(quick: bool = False, single_ticker: str = None) -> None:
     print(f"\n{'='*60}")
     print(f"MRMC Scanner — {datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC')}")
     print(f"{'='*60}")
+    print(f"Lookback window: daily={SIGNAL_LOOKBACK['1d']}bars  "
+          f"weekly={SIGNAL_LOOKBACK['1wk']}bars  "
+          f"monthly={SIGNAL_LOOKBACK['1mo']}bars")
 
     # ── Build ticker list ──────────────────────────────────────────────────────
     if single_ticker:
         tasks = [(single_ticker, "US")]
         timeframes = TIMEFRAMES
     elif quick:
-        tickers = get_sp500_tickers()[:50]
-        tasks = [(t, "US") for t in tickers]
+        universe = build_universe(include_us=True, include_china=False)
+        tasks = [(t, "US") for t in universe["US"][:50]]
         timeframes = ["1d"]
     else:
         universe = build_universe(include_us=True, include_china=True)
@@ -88,11 +126,8 @@ def run_scan(quick: bool = False, single_ticker: str = None) -> None:
 
     print(f"Tickers to scan: {len(tasks)}  ×  timeframes: {timeframes}\n")
 
-    all_signals  = []   # every ticker-timeframe result (for full history)
-    buy_signals  = []   # only rows where buy_signal == 1
-    sell_signals = []   # only rows where sell_signal == 1
-
-    price_cache = {}    # ticker → latest price
+    buy_signals  = []
+    price_cache  = {}
 
     for i, (ticker, market) in enumerate(tasks):
         if i % 50 == 0:
@@ -108,34 +143,36 @@ def run_scan(quick: bool = False, single_ticker: str = None) -> None:
                 continue
 
         signals = scan_ticker(ticker, market, timeframes)
-        all_signals.extend(signals)
-        buy_signals.extend([s for s in signals if s["buy_signal"] == 1])
-        sell_signals.extend([s for s in signals if s["sell_signal"] == 1])
+        buy_signals.extend(signals)
 
-        time.sleep(0.15)   # polite rate limit
+        time.sleep(0.15)
+
+    # Sort by most recent signal first (bars_ago ascending)
+    buy_signals.sort(key=lambda x: (x["bars_ago"], x["ticker"]))
 
     # ── Build output JSON ──────────────────────────────────────────────────────
     output = {
         "generated_at": datetime.now(timezone.utc).isoformat(),
+        "lookback": SIGNAL_LOOKBACK,
         "stats": {
             "total_scanned": len(tasks),
             "buy_signals":   len(buy_signals),
-            "sell_signals":  len(sell_signals),
         },
-        "buy_signals":  buy_signals,
-        "sell_signals": sell_signals,
+        "buy_signals": buy_signals,
     }
 
     with open("signals.json", "w", encoding="utf-8") as f:
         json.dump(output, f, ensure_ascii=False, indent=2)
 
-    print(f"\n✅ Done. Buy signals: {len(buy_signals)}  Sell signals: {len(sell_signals)}")
+    print(f"\n✅ Done. Buy signals: {len(buy_signals)}")
     print("Saved → signals.json")
 
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--quick",  action="store_true", help="SP500 first 50, daily only")
-    parser.add_argument("--ticker", type=str, default=None, help="Debug single ticker")
+    parser.add_argument("--quick",  action="store_true",
+                        help="First 50 US tickers, daily only")
+    parser.add_argument("--ticker", type=str, default=None,
+                        help="Debug single ticker")
     args = parser.parse_args()
     run_scan(quick=args.quick, single_ticker=args.ticker)
