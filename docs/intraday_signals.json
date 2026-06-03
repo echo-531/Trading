@@ -1,11 +1,23 @@
 {
-  "generated_at": "2026-06-03T20:02:11.307167+00:00",
-  "next_scan_at": "2026-06-03T21:00:00+00:00",
+  "generated_at": "2026-06-03T21:04:31.089825+00:00",
+  "next_scan_at": "2026-06-03T22:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
   "stats": {
-    "total_scanned": 25,
-    "buy_signals": 0
+    "total_scanned": 57,
+    "buy_signals": 1
   },
-  "buy_signals": []
+  "buy_signals": [
+    {
+      "ticker": "XE",
+      "group": "Tech",
+      "timeframe": "1h",
+      "signal_ts": "2026-06-03 15:30 UTC",
+      "bars_ago": 0,
+      "close": 26.28,
+      "DIFF": -0.306092,
+      "DEA": -0.26901,
+      "MACD": -0.074162
+    }
+  ]
 }
