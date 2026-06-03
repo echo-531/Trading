@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MRMC Intraday Scanner</title>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg:        #0a0c0f;
+    --surface:   #111318;
+    --border:    #1e2229;
+    --border2:   #2a3040;
+    --text:      #c8d0dd;
+    --muted:     #4a5568;
+    --buy:       #00e5a0;
+    --accent:    #3b82f6;
+    --warn:      #f59e0b;
+    --mono:      'IBM Plex Mono', monospace;
+    --sans:      'IBM Plex Sans', sans-serif;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: var(--sans);
+    font-size: 14px;
+    min-height: 100vh;
+  }
+
+  /* ── Header ── */
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 32px;
+    border-bottom: 1px solid var(--border);
+    background: var(--surface);
+  }
+  .logo {
+    font-family: var(--mono);
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    color: #fff;
+  }
+  .logo span { color: var(--buy); }
+
+  .header-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 4px;
+  }
+  #last-update {
+    font-family: var(--mono);
+    font-size: 11px;
+    color: var(--muted);
+  }
+  #refresh-countdown {
+    font-family: var(--mono);
+    font-size: 10px;
+    color: var(--accent);
+  }
+
+  /* ── Stats bar ── */
+  .stats {
+    display: flex;
+    gap: 1px;
+    background: var(--border);
+    border-bottom: 1px solid var(--border);
+  }
+  .stat {
+    flex: 1;
+    padding: 14px 24px;
+    background: var(--surface);
+  }
+  .stat-label {
+    font-size: 10px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 4px;
+  }
+  .stat-value {
+    font-family: var(--mono);
+    font-size: 22px;
+    font-weight: 600;
+    color: #fff;
+  }
+
+  /* ── Toolbar ── */
+  .toolbar {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 16px 32px;
+    border-bottom: 1px solid var(--border);
+    flex-wrap: wrap;
+  }
+  .filter-group {
+    display: flex;
+    gap: 2px;
+    background: var(--border);
+    padding: 2px;
+    border-radius: 6px;
+  }
+  .filter-btn {
+    font-family: var(--mono);
+    font-size: 12px;
+    padding: 6px 14px;
+    border: none;
+    border-radius: 4px;
+    background: transparent;
+    color: var(--muted);
+    cursor: pointer;
+    transition: all 0.15s;
+    letter-spacing: 0.04em;
+  }
+  .filter-btn:hover  { color: var(--text); }
+  .filter-btn.active {
+    background: var(--border2);
+    color: var(--buy);
+    font-weight: 500;
+  }
+
+  .search-wrap {
+    position: relative;
+    flex: 1;
+    min-width: 160px;
+    max-width: 260px;
+  }
+  .search-wrap svg {
+    position: absolute;
+    left: 10px; top: 50%;
+    transform: translateY(-50%);
+    color: var(--muted);
+  }
+  #search {
+    width: 100%;
+    padding: 7px 10px 7px 34px;
+    background: var(--surface);
+    border: 1px solid var(--border2);
+    border-radius: 6px;
+    color: var(--text);
+    font-family: var(--mono);
+    font-size: 12px;
+    outline: none;
+    transition: border-color 0.15s;
+  }
+  #search:focus { border-color: var(--accent); }
+  #search::placeholder { color: var(--muted); }
+
+  /* ── Table ── */
+  .table-wrap {
+    overflow-x: auto;
+    padding: 0 32px 32px;
+    margin-top: 20px;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: var(--mono);
+    font-size: 12px;
+  }
+  thead th {
+    text-align: left;
+    padding: 8px 12px;
+    color: var(--muted);
+    font-size: 10px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    border-bottom: 1px solid var(--border);
+    cursor: pointer;
+    user-select: none;
+    white-space: nowrap;
+  }
+  thead th:hover { color: var(--text); }
+  thead th.sort-asc::after  { content: " ↑"; color: var(--buy); }
+  thead th.sort-desc::after { content: " ↓"; color: var(--buy); }
+
+  tbody tr {
+    border-bottom: 1px solid var(--border);
+    transition: background 0.1s;
+  }
+  tbody tr:hover { background: var(--surface); }
+  tbody td { padding: 10px 12px; }
+
+  .ticker-cell {
+    font-weight: 600;
+    color: #fff;
+    font-size: 13px;
+  }
+
+  .badge {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 0.06em;
+  }
+  .badge-buy    { background: rgba(0,229,160,0.12); color: var(--buy);  border: 1px solid rgba(0,229,160,0.2); }
+  .badge-group  { background: rgba(59,130,246,0.1); color: var(--accent); border: 1px solid rgba(59,130,246,0.2); }
+  .badge-tf     { background: rgba(100,116,139,0.15); color: var(--text); border: 1px solid var(--border2); }
+
+  .price-cell { color: #fff; }
+  .macd-pos   { color: var(--buy); }
+  .macd-neg   { color: #ff4d6a; }
+  .ts-cell    { color: var(--muted); font-size: 11px; }
+
+  .fresh-now {
+    color: var(--buy);
+    font-weight: 600;
+  }
+
+  .empty-state {
+    text-align: center;
+    padding: 80px 0;
+    color: var(--muted);
+  }
+  .empty-state .big { font-size: 32px; margin-bottom: 12px; }
+
+  #loading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 80px;
+    gap: 12px;
+    color: var(--muted);
+    font-family: var(--mono);
+    font-size: 13px;
+  }
+  .spinner {
+    width: 18px; height: 18px;
+    border: 2px solid var(--border2);
+    border-top-color: var(--accent);
+    border-radius: 50%;
+    animation: spin 0.7s linear infinite;
+  }
+  @keyframes spin { to { transform: rotate(360deg); } }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo">MRMC <span>Intraday</span> Scanner</div>
+  <div class="header-right">
+    <div id="last-update">Loading…</div>
+    <div id="refresh-countdown"></div>
+  </div>
+</header>
+
+<div class="stats">
+  <div class="stat">
+    <div class="stat-label">Watchlist</div>
+    <div class="stat-value" id="stat-scanned">—</div>
+  </div>
+  <div class="stat">
+    <div class="stat-label">Buy Signals</div>
+    <div class="stat-value" id="stat-buy" style="color:var(--buy)">—</div>
+  </div>
+  <div class="stat">
+    <div class="stat-label">Showing</div>
+    <div class="stat-value" id="stat-showing">—</div>
+  </div>
+  <div class="stat">
+    <div class="stat-label">Timeframe</div>
+    <div class="stat-value" style="font-size:16px;color:var(--accent)">1H</div>
+  </div>
+</div>
+
+<div class="toolbar">
+  <!-- Group filter (populated dynamically) -->
+  <div class="filter-group" id="group-filter">
+    <button class="filter-btn active" data-val="all">All Groups</button>
+  </div>
+
+  <!-- Bars ago filter -->
+  <div class="filter-group" id="recency-filter">
+    <button class="filter-btn active" data-val="all">All Recency</button>
+    <button class="filter-btn" data-val="0">Current bar</button>
+    <button class="filter-btn" data-val="1">≤ 1 bar ago</button>
+    <button class="filter-btn" data-val="2">≤ 2 bars ago</button>
+  </div>
+
+  <!-- Search -->
+  <div class="search-wrap">
+    <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+      <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
+    </svg>
+    <input id="search" type="text" placeholder="Search ticker…">
+  </div>
+</div>
+
+<div id="loading">
+  <div class="spinner"></div>
+  Fetching intraday signals…
+</div>
+
+<div class="table-wrap" style="display:none" id="table-wrap">
+  <table id="signals-table">
+    <thead>
+      <tr>
+        <th data-col="ticker">Ticker</th>
+        <th data-col="signal">Signal</th>
+        <th data-col="group">Group</th>
+        <th data-col="timeframe">TF</th>
+        <th data-col="close">Price</th>
+        <th data-col="DIFF">DIFF</th>
+        <th data-col="DEA">DEA</th>
+        <th data-col="MACD">MACD</th>
+        <th data-col="signal_ts">Signal Time</th>
+        <th data-col="bars_ago">Bars Ago</th>
+      </tr>
+    </thead>
+    <tbody id="tbody"></tbody>
+  </table>
+  <div class="empty-state" id="empty" style="display:none">
+    <div class="big">📭</div>
+    No buy signals match the current filters.
+  </div>
+</div>
+
+<script>
+const DATA_URL = "intraday_signals.json";
+
+let allRows  = [];
+let sortCol  = "bars_ago";
+let sortDir  = "asc";
+let filters  = { group: "all", recency: "all", search: "" };
+let nextScanAt = null;    // Date object, populated from JSON
+let countdownInterval = null;
+
+// ── Load data ─────────────────────────────────────────────────────────────────
+async function loadData() {
+  try {
+    const res  = await fetch(DATA_URL + "?t=" + Date.now());
+    const data = await res.json();
+
+    document.getElementById("last-update").textContent =
+      "Updated: " + new Date(data.generated_at).toLocaleString();
+
+    document.getElementById("stat-scanned").textContent =
+      (data.stats?.total_scanned ?? "—").toLocaleString();
+    document.getElementById("stat-buy").textContent =
+      (data.stats?.buy_signals ?? 0).toLocaleString();
+
+    allRows = (data.buy_signals || []).map(r => ({ ...r }));
+
+    // Schedule auto-refresh ~5 minutes after next_scan_at
+    if (data.next_scan_at) {
+      nextScanAt = new Date(new Date(data.next_scan_at).getTime() + 5 * 60 * 1000);
+      startCountdown();
+    }
+
+    document.getElementById("loading").style.display    = "none";
+    document.getElementById("table-wrap").style.display = "block";
+
+    buildGroupFilter();
+    render();
+  } catch(e) {
+    document.getElementById("loading").innerHTML =
+      "⚠️ Could not load intraday_signals.json — run the scanner first.";
+  }
+}
+
+// ── Countdown & auto-refresh ──────────────────────────────────────────────────
+function startCountdown() {
+  if (countdownInterval) clearInterval(countdownInterval);
+
+  const el = document.getElementById("refresh-countdown");
+
+  function tick() {
+    if (!nextScanAt) return;
+    const diffMs = nextScanAt - Date.now();
+    if (diffMs <= 0) {
+      el.textContent = "Refreshing…";
+      clearInterval(countdownInterval);
+      setTimeout(() => location.reload(), 1500);
+      return;
+    }
+    const m = Math.floor(diffMs / 60000);
+    const s = Math.floor((diffMs % 60000) / 1000);
+    el.textContent = `Next refresh in ${m}:${String(s).padStart(2,"0")}`;
+  }
+
+  tick();
+  countdownInterval = setInterval(tick, 1000);
+}
+
+// ── Dynamic group filter buttons ──────────────────────────────────────────────
+function buildGroupFilter() {
+  const groups = [...new Set(allRows.map(r => r.group))].sort();
+  const container = document.getElementById("group-filter");
+  // Keep the "All Groups" button, add one per group
+  groups.forEach(g => {
+    const btn = document.createElement("button");
+    btn.className = "filter-btn";
+    btn.dataset.val = g;
+    btn.textContent = g;
+    container.appendChild(btn);
+  });
+}
+
+// ── Filtering & sorting ───────────────────────────────────────────────────────
+function applyFilters(rows) {
+  return rows.filter(r => {
+    if (filters.group !== "all" && r.group !== filters.group) return false;
+    if (filters.recency !== "all" && r.bars_ago > parseInt(filters.recency)) return false;
+    if (filters.search && !r.ticker.toLowerCase().includes(filters.search)) return false;
+    return true;
+  });
+}
+
+function sortRows(rows) {
+  return [...rows].sort((a, b) => {
+    let va = a[sortCol], vb = b[sortCol];
+    if (va == null) va = "";
+    if (vb == null) vb = "";
+    if (typeof va === "number" && typeof vb === "number") {
+      return sortDir === "asc" ? va - vb : vb - va;
+    }
+    return sortDir === "asc"
+      ? String(va).localeCompare(String(vb))
+      : String(vb).localeCompare(String(va));
+  });
+}
+
+function fmt(v, digits = 4) {
+  if (v == null || isNaN(v)) return "—";
+  return Number(v).toFixed(digits);
+}
+
+function render() {
+  const filtered = applyFilters(allRows);
+  const sorted   = sortRows(filtered);
+
+  document.getElementById("stat-showing").textContent = sorted.length.toLocaleString();
+
+  const tbody = document.getElementById("tbody");
+  const empty = document.getElementById("empty");
+
+  if (sorted.length === 0) {
+    tbody.innerHTML = "";
+    empty.style.display = "block";
+    return;
+  }
+  empty.style.display = "none";
+
+  tbody.innerHTML = sorted.map(r => {
+    const barsLabel = r.bars_ago === 0
+      ? '<span class="fresh-now">Current</span>'
+      : r.bars_ago + " bars ago";
+
+    return `
+      <tr>
+        <td class="ticker-cell">${r.ticker}</td>
+        <td><span class="badge badge-buy">抄底</span></td>
+        <td><span class="badge badge-group">${r.group}</span></td>
+        <td><span class="badge badge-tf">${r.timeframe}</span></td>
+        <td class="price-cell">${fmt(r.close, 2)}</td>
+        <td class="${r.DIFF >= 0 ? "macd-pos" : "macd-neg"}">${fmt(r.DIFF)}</td>
+        <td class="${r.DEA  >= 0 ? "macd-pos" : "macd-neg"}">${fmt(r.DEA)}</td>
+        <td class="${r.MACD >= 0 ? "macd-pos" : "macd-neg"}">${fmt(r.MACD)}</td>
+        <td class="ts-cell">${r.signal_ts}</td>
+        <td class="ts-cell">${barsLabel}</td>
+      </tr>`;
+  }).join("");
+}
+
+// ── Controls ──────────────────────────────────────────────────────────────────
+function setupFilter(groupId, filterKey) {
+  document.getElementById(groupId).addEventListener("click", e => {
+    const btn = e.target.closest(".filter-btn");
+    if (!btn) return;
+    document.querySelectorAll(`#${groupId} .filter-btn`).forEach(b => b.classList.remove("active"));
+    btn.classList.add("active");
+    filters[filterKey] = btn.dataset.val;
+    render();
+  });
+}
+setupFilter("group-filter",   "group");
+setupFilter("recency-filter", "recency");
+
+document.getElementById("search").addEventListener("input", e => {
+  filters.search = e.target.value.trim().toLowerCase();
+  render();
+});
+
+// ── Sortable columns ──────────────────────────────────────────────────────────
+document.querySelectorAll("thead th[data-col]").forEach(th => {
+  th.addEventListener("click", () => {
+    const col = th.dataset.col;
+    if (col === "signal") return;   // badge column, not sortable
+    if (sortCol === col) {
+      sortDir = sortDir === "asc" ? "desc" : "asc";
+    } else {
+      sortCol = col;
+      sortDir = col === "bars_ago" ? "asc" : "desc";
+    }
+    document.querySelectorAll("thead th").forEach(t => t.classList.remove("sort-asc", "sort-desc"));
+    th.classList.add(sortDir === "asc" ? "sort-asc" : "sort-desc");
+    render();
+  });
+});
+
+loadData();
+</script>
+</body>
+</html>
