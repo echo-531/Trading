@@ -12,7 +12,7 @@
   "buy_signals": [
     {
       "ticker": "000008.SZ",
-      "market": "SZ",
+      "market": "CN",
       "timeframe": "daily",
       "signal_date": "2026-06-03",
       "bars_ago": 0,
@@ -23,7 +23,7 @@
     },
     {
       "ticker": "000825.SZ",
-      "market": "SZ",
+      "market": "CN",
       "timeframe": "daily",
       "signal_date": "2026-06-03",
       "bars_ago": 0,
@@ -34,7 +34,7 @@
     },
     {
       "ticker": "000881.SZ",
-      "market": "SZ",
+      "market": "CN",
       "timeframe": "daily",
       "signal_date": "2026-06-03",
       "bars_ago": 0,
@@ -45,7 +45,7 @@
     },
     {
       "ticker": "002003.SZ",
-      "market": "SZ",
+      "market": "CN",
       "timeframe": "weekly",
       "signal_date": "2026-06-01",
       "bars_ago": 0,
@@ -56,7 +56,7 @@
     },
     {
       "ticker": "1066.HK",
-      "market": "HK",
+      "market": "CN",
       "timeframe": "weekly",
       "signal_date": "2026-06-01",
       "bars_ago": 0,
@@ -67,7 +67,7 @@
     },
     {
       "ticker": "1193.HK",
-      "market": "HK",
+      "market": "CN",
       "timeframe": "weekly",
       "signal_date": "2026-06-01",
       "bars_ago": 0,
@@ -78,7 +78,7 @@
     },
     {
       "ticker": "300044.SZ",
-      "market": "SZ",
+      "market": "CN",
       "timeframe": "daily",
       "signal_date": "2026-06-03",
       "bars_ago": 0,
@@ -89,7 +89,7 @@
     },
     {
       "ticker": "300516.SZ",
-      "market": "SZ",
+      "market": "CN",
       "timeframe": "daily",
       "signal_date": "2026-06-03",
       "bars_ago": 0,
@@ -100,7 +100,7 @@
     },
     {
       "ticker": "300749.SZ",
-      "market": "SZ",
+      "market": "CN",
       "timeframe": "daily",
       "signal_date": "2026-06-03",
       "bars_ago": 0,
@@ -111,7 +111,7 @@
     },
     {
       "ticker": "3888.HK",
-      "market": "HK",
+      "market": "CN",
       "timeframe": "weekly",
       "signal_date": "2026-06-01",
       "bars_ago": 0,
@@ -122,7 +122,7 @@
     },
     {
       "ticker": "6186.HK",
-      "market": "HK",
+      "market": "CN",
       "timeframe": "weekly",
       "signal_date": "2026-06-01",
       "bars_ago": 0,
@@ -133,7 +133,7 @@
     },
     {
       "ticker": "6196.HK",
-      "market": "HK",
+      "market": "CN",
       "timeframe": "daily",
       "signal_date": "2026-06-03",
       "bars_ago": 0,
@@ -342,7 +342,7 @@
     },
     {
       "ticker": "000056.SZ",
-      "market": "SZ",
+      "market": "CN",
       "timeframe": "weekly",
       "signal_date": "2026-05-25",
       "bars_ago": 1,
@@ -353,7 +353,7 @@
     },
     {
       "ticker": "000090.SZ",
-      "market": "SZ",
+      "market": "CN",
       "timeframe": "weekly",
       "signal_date": "2026-05-25",
       "bars_ago": 1,
@@ -364,7 +364,7 @@
     },
     {
       "ticker": "002024.SZ",
-      "market": "SZ",
+      "market": "CN",
       "timeframe": "weekly",
       "signal_date": "2026-05-25",
       "bars_ago": 1,
@@ -375,7 +375,7 @@
     },
     {
       "ticker": "002026.SZ",
-      "market": "SZ",
+      "market": "CN",
       "timeframe": "daily",
       "signal_date": "2026-06-02",
       "bars_ago": 1,
@@ -386,7 +386,7 @@
     },
     {
       "ticker": "002630.SZ",
-      "market": "SZ",
+      "market": "CN",
       "timeframe": "daily",
       "signal_date": "2026-06-02",
       "bars_ago": 1,
@@ -397,7 +397,7 @@
     },
     {
       "ticker": "0386.HK",
-      "market": "HK",
+      "market": "CN",
       "timeframe": "daily",
       "signal_date": "2026-06-02",
       "bars_ago": 1,
@@ -408,7 +408,7 @@
     },
     {
       "ticker": "0435.HK",
-      "market": "HK",
+      "market": "CN",
       "timeframe": "daily",
       "signal_date": "2026-06-02",
       "bars_ago": 1,
@@ -419,7 +419,7 @@
     },
     {
       "ticker": "0575.HK",
-      "market": "HK",
+      "market": "CN",
       "timeframe": "daily",
       "signal_date": "2026-06-02",
       "bars_ago": 1,
@@ -430,7 +430,7 @@
     },
     {
       "ticker": "0874.HK",
-      "market": "HK",
+      "market": "CN",
       "timeframe": "daily",
       "signal_date": "2026-06-02",
       "bars_ago": 1,
@@ -441,7 +441,7 @@
     },
     {
       "ticker": "1060.HK",
-      "market": "HK",
+      "market": "CN",
       "timeframe": "daily",
       "signal_date": "2026-06-02",
       "bars_ago": 1,
@@ -452,7 +452,7 @@
     },
     {
       "ticker": "1238.HK",
-      "market": "HK",
+      "market": "CN",
       "timeframe": "daily",
       "signal_date": "2026-06-02",
       "bars_ago": 1,
@@ -463,7 +463,7 @@
     },
     {
       "ticker": "1247.HK",
-      "market": "HK",
+      "market": "CN",
       "timeframe": "daily",
       "signal_date": "2026-06-02",
       "bars_ago": 1,
@@ -474,7 +474,7 @@
     },
     {
       "ticker": "2368.HK",
-      "market": "HK",
+      "market": "CN",
       "timeframe": "daily",
       "signal_date": "2026-06-02",
       "bars_ago": 1,
@@ -485,7 +485,7 @@
     },
     {
       "ticker": "2601.HK",
-      "market": "HK",
+      "market": "CN",
       "timeframe": "daily",
       "signal_date": "2026-06-02",
       "bars_ago": 1,
@@ -496,7 +496,7 @@
     },
     {
       "ticker": "300685.SZ",
-      "market": "SZ",
+      "market": "CN",
       "timeframe": "weekly",
       "signal_date": "2026-05-25",
       "bars_ago": 1,
@@ -507,7 +507,7 @@
     },
     {
       "ticker": "300925.SZ",
-      "market": "SZ",
+      "market": "CN",
       "timeframe": "daily",
       "signal_date": "2026-06-02",
       "bars_ago": 1,
@@ -518,7 +518,7 @@
     },
     {
       "ticker": "300926.SZ",
-      "market": "SZ",
+      "market": "CN",
       "timeframe": "daily",
       "signal_date": "2026-06-02",
       "bars_ago": 1,
@@ -529,7 +529,7 @@
     },
     {
       "ticker": "3700.HK",
-      "market": "HK",
+      "market": "CN",
       "timeframe": "monthly",
       "signal_date": "2026-05-01",
       "bars_ago": 1,
@@ -540,7 +540,7 @@
     },
     {
       "ticker": "3728.HK",
-      "market": "HK",
+      "market": "CN",
       "timeframe": "daily",
       "signal_date": "2026-06-02",
       "bars_ago": 1,
@@ -551,7 +551,7 @@
     },
     {
       "ticker": "3800.HK",
-      "market": "HK",
+      "market": "CN",
       "timeframe": "daily",
       "signal_date": "2026-06-02",
       "bars_ago": 1,
@@ -562,7 +562,7 @@
     },
     {
       "ticker": "601166.SS",
-      "market": "SS",
+      "market": "CN",
       "timeframe": "weekly",
       "signal_date": "2026-05-25",
       "bars_ago": 1,
@@ -573,7 +573,7 @@
     },
     {
       "ticker": "6158.HK",
-      "market": "HK",
+      "market": "CN",
       "timeframe": "weekly",
       "signal_date": "2026-05-25",
       "bars_ago": 1,
@@ -584,7 +584,7 @@
     },
     {
       "ticker": "6178.HK",
-      "market": "HK",
+      "market": "CN",
       "timeframe": "daily",
       "signal_date": "2026-06-02",
       "bars_ago": 1,
@@ -936,7 +936,7 @@
     },
     {
       "ticker": "000030.SZ",
-      "market": "SZ",
+      "market": "CN",
       "timeframe": "daily",
       "signal_date": "2026-06-01",
       "bars_ago": 2,
@@ -947,7 +947,7 @@
     },
     {
       "ticker": "000048.SZ",
-      "market": "SZ",
+      "market": "CN",
       "timeframe": "daily",
       "signal_date": "2026-06-01",
       "bars_ago": 2,
@@ -958,7 +958,7 @@
     },
     {
       "ticker": "000156.SZ",
-      "market": "SZ",
+      "market": "CN",
       "timeframe": "daily",
       "signal_date": "2026-06-01",
       "bars_ago": 2,
@@ -969,7 +969,7 @@
     },
     {
       "ticker": "000158.SZ",
-      "market": "SZ",
+      "market": "CN",
       "timeframe": "daily",
       "signal_date": "2026-06-01",
       "bars_ago": 2,
@@ -980,7 +980,7 @@
     },
     {
       "ticker": "000768.SZ",
-      "market": "SZ",
+      "market": "CN",
       "timeframe": "daily",
       "signal_date": "2026-06-01",
       "bars_ago": 2,
@@ -991,7 +991,7 @@
     },
     {
       "ticker": "000850.SZ",
-      "market": "SZ",
+      "market": "CN",
       "timeframe": "daily",
       "signal_date": "2026-06-01",
       "bars_ago": 2,
@@ -1002,7 +1002,7 @@
     },
     {
       "ticker": "000869.SZ",
-      "market": "SZ",
+      "market": "CN",
       "timeframe": "daily",
       "signal_date": "2026-06-01",
       "bars_ago": 2,
@@ -1013,7 +1013,7 @@
     },
     {
       "ticker": "000878.SZ",
-      "market": "SZ",
+      "market": "CN",
       "timeframe": "daily",
       "signal_date": "2026-06-01",
       "bars_ago": 2,
@@ -1024,7 +1024,7 @@
     },
     {
       "ticker": "0020.HK",
-      "market": "HK",
+      "market": "CN",
       "timeframe": "daily",
       "signal_date": "2026-06-01",
       "bars_ago": 2,
@@ -1035,7 +1035,7 @@
     },
     {
       "ticker": "002020.SZ",
-      "market": "SZ",
+      "market": "CN",
       "timeframe": "daily",
       "signal_date": "2026-06-01",
       "bars_ago": 2,
@@ -1046,7 +1046,7 @@
     },
     {
       "ticker": "002038.SZ",
-      "market": "SZ",
+      "market": "CN",
       "timeframe": "daily",
       "signal_date": "2026-06-01",
       "bars_ago": 2,
@@ -1057,7 +1057,7 @@
     },
     {
       "ticker": "002043.SZ",
-      "market": "SZ",
+      "market": "CN",
       "timeframe": "daily",
       "signal_date": "2026-06-01",
       "bars_ago": 2,
@@ -1068,7 +1068,7 @@
     },
     {
       "ticker": "002094.SZ",
-      "market": "SZ",
+      "market": "CN",
       "timeframe": "daily",
       "signal_date": "2026-06-01",
       "bars_ago": 2,
@@ -1079,7 +1079,7 @@
     },
     {
       "ticker": "002103.SZ",
-      "market": "SZ",
+      "market": "CN",
       "timeframe": "daily",
       "signal_date": "2026-06-01",
       "bars_ago": 2,
@@ -1090,7 +1090,7 @@
     },
     {
       "ticker": "002271.SZ",
-      "market": "SZ",
+      "market": "CN",
       "timeframe": "daily",
       "signal_date": "2026-06-01",
       "bars_ago": 2,
@@ -1101,7 +1101,7 @@
     },
     {
       "ticker": "002426.SZ",
-      "market": "SZ",
+      "market": "CN",
       "timeframe": "daily",
       "signal_date": "2026-06-01",
       "bars_ago": 2,
@@ -1112,7 +1112,7 @@
     },
     {
       "ticker": "002493.SZ",
-      "market": "SZ",
+      "market": "CN",
       "timeframe": "daily",
       "signal_date": "2026-06-01",
       "bars_ago": 2,
@@ -1123,7 +1123,7 @@
     },
     {
       "ticker": "002555.SZ",
-      "market": "SZ",
+      "market": "CN",
       "timeframe": "daily",
       "signal_date": "2026-06-01",
       "bars_ago": 2,
@@ -1134,7 +1134,7 @@
     },
     {
       "ticker": "002558.SZ",
-      "market": "SZ",
+      "market": "CN",
       "timeframe": "daily",
       "signal_date": "2026-06-01",
       "bars_ago": 2,
@@ -1145,7 +1145,7 @@
     },
     {
       "ticker": "002614.SZ",
-      "market": "SZ",
+      "market": "CN",
       "timeframe": "daily",
       "signal_date": "2026-06-01",
       "bars_ago": 2,
@@ -1156,7 +1156,7 @@
     },
     {
       "ticker": "002626.SZ",
-      "market": "SZ",
+      "market": "CN",
       "timeframe": "daily",
       "signal_date": "2026-06-01",
       "bars_ago": 2,
@@ -1167,7 +1167,7 @@
     },
     {
       "ticker": "0345.HK",
-      "market": "HK",
+      "market": "CN",
       "timeframe": "daily",
       "signal_date": "2026-06-01",
       "bars_ago": 2,
@@ -1178,7 +1178,7 @@
     },
     {
       "ticker": "0590.HK",
-      "market": "HK",
+      "market": "CN",
       "timeframe": "daily",
       "signal_date": "2026-06-01",
       "bars_ago": 2,
@@ -1189,7 +1189,7 @@
     },
     {
       "ticker": "0700.HK",
-      "market": "HK",
+      "market": "CN",
       "timeframe": "daily",
       "signal_date": "2026-06-01",
       "bars_ago": 2,
@@ -1200,7 +1200,7 @@
     },
     {
       "ticker": "0772.HK",
-      "market": "HK",
+      "market": "CN",
       "timeframe": "daily",
       "signal_date": "2026-06-01",
       "bars_ago": 2,
@@ -1211,7 +1211,7 @@
     },
     {
       "ticker": "0853.HK",
-      "market": "HK",
+      "market": "CN",
       "timeframe": "daily",
       "signal_date": "2026-06-01",
       "bars_ago": 2,
@@ -1222,7 +1222,7 @@
     },
     {
       "ticker": "0881.HK",
-      "market": "HK",
+      "market": "CN",
       "timeframe": "daily",
       "signal_date": "2026-06-01",
       "bars_ago": 2,
@@ -1233,7 +1233,7 @@
     },
     {
       "ticker": "0883.HK",
-      "market": "HK",
+      "market": "CN",
       "timeframe": "daily",
       "signal_date": "2026-06-01",
       "bars_ago": 2,
@@ -1244,7 +1244,7 @@
     },
     {
       "ticker": "0884.HK",
-      "market": "HK",
+      "market": "CN",
       "timeframe": "daily",
       "signal_date": "2026-06-01",
       "bars_ago": 2,
@@ -1255,7 +1255,7 @@
     },
     {
       "ticker": "1024.HK",
-      "market": "HK",
+      "market": "CN",
       "timeframe": "daily",
       "signal_date": "2026-06-01",
       "bars_ago": 2,
@@ -1266,7 +1266,7 @@
     },
     {
       "ticker": "1148.HK",
-      "market": "HK",
+      "market": "CN",
       "timeframe": "daily",
       "signal_date": "2026-06-01",
       "bars_ago": 2,
@@ -1277,7 +1277,7 @@
     },
     {
       "ticker": "1193.HK",
-      "market": "HK",
+      "market": "CN",
       "timeframe": "daily",
       "signal_date": "2026-06-01",
       "bars_ago": 2,
@@ -1288,7 +1288,7 @@
     },
     {
       "ticker": "1199.HK",
-      "market": "HK",
+      "market": "CN",
       "timeframe": "daily",
       "signal_date": "2026-06-01",
       "bars_ago": 2,
@@ -1299,7 +1299,7 @@
     },
     {
       "ticker": "1233.HK",
-      "market": "HK",
+      "market": "CN",
       "timeframe": "daily",
       "signal_date": "2026-06-01",
       "bars_ago": 2,
@@ -1310,7 +1310,7 @@
     },
     {
       "ticker": "1268.HK",
-      "market": "HK",
+      "market": "CN",
       "timeframe": "daily",
       "signal_date": "2026-06-01",
       "bars_ago": 2,
@@ -1321,7 +1321,7 @@
     },
     {
       "ticker": "1298.HK",
-      "market": "HK",
+      "market": "CN",
       "timeframe": "daily",
       "signal_date": "2026-06-01",
       "bars_ago": 2,
@@ -1332,7 +1332,7 @@
     },
     {
       "ticker": "1313.HK",
-      "market": "HK",
+      "market": "CN",
       "timeframe": "daily",
       "signal_date": "2026-06-01",
       "bars_ago": 2,
@@ -1343,7 +1343,7 @@
     },
     {
       "ticker": "2611.HK",
-      "market": "HK",
+      "market": "CN",
       "timeframe": "daily",
       "signal_date": "2026-06-01",
       "bars_ago": 2,
@@ -1354,7 +1354,7 @@
     },
     {
       "ticker": "2811.HK",
-      "market": "HK",
+      "market": "CN",
       "timeframe": "weekly",
       "signal_date": "2024-09-23",
       "bars_ago": 2,
@@ -1365,7 +1365,7 @@
     },
     {
       "ticker": "300039.SZ",
-      "market": "SZ",
+      "market": "CN",
       "timeframe": "daily",
       "signal_date": "2026-06-01",
       "bars_ago": 2,
@@ -1376,7 +1376,7 @@
     },
     {
       "ticker": "300048.SZ",
-      "market": "SZ",
+      "market": "CN",
       "timeframe": "daily",
       "signal_date": "2026-06-01",
       "bars_ago": 2,
@@ -1387,7 +1387,7 @@
     },
     {
       "ticker": "300063.SZ",
-      "market": "SZ",
+      "market": "CN",
       "timeframe": "daily",
       "signal_date": "2026-06-01",
       "bars_ago": 2,
@@ -1398,7 +1398,7 @@
     },
     {
       "ticker": "300071.SZ",
-      "market": "SZ",
+      "market": "CN",
       "timeframe": "daily",
       "signal_date": "2026-06-01",
       "bars_ago": 2,
@@ -1409,7 +1409,7 @@
     },
     {
       "ticker": "300171.SZ",
-      "market": "SZ",
+      "market": "CN",
       "timeframe": "daily",
       "signal_date": "2026-06-01",
       "bars_ago": 2,
@@ -1420,7 +1420,7 @@
     },
     {
       "ticker": "300251.SZ",
-      "market": "SZ",
+      "market": "CN",
       "timeframe": "daily",
       "signal_date": "2026-06-01",
       "bars_ago": 2,
@@ -1431,7 +1431,7 @@
     },
     {
       "ticker": "300271.SZ",
-      "market": "SZ",
+      "market": "CN",
       "timeframe": "daily",
       "signal_date": "2026-06-01",
       "bars_ago": 2,
@@ -1442,7 +1442,7 @@
     },
     {
       "ticker": "300357.SZ",
-      "market": "SZ",
+      "market": "CN",
       "timeframe": "daily",
       "signal_date": "2026-06-01",
       "bars_ago": 2,
@@ -1453,7 +1453,7 @@
     },
     {
       "ticker": "300388.SZ",
-      "market": "SZ",
+      "market": "CN",
       "timeframe": "daily",
       "signal_date": "2026-06-01",
       "bars_ago": 2,
@@ -1464,7 +1464,7 @@
     },
     {
       "ticker": "300413.SZ",
-      "market": "SZ",
+      "market": "CN",
       "timeframe": "daily",
       "signal_date": "2026-06-01",
       "bars_ago": 2,
@@ -1475,7 +1475,7 @@
     },
     {
       "ticker": "300451.SZ",
-      "market": "SZ",
+      "market": "CN",
       "timeframe": "daily",
       "signal_date": "2026-06-01",
       "bars_ago": 2,
@@ -1486,7 +1486,7 @@
     },
     {
       "ticker": "300470.SZ",
-      "market": "SZ",
+      "market": "CN",
       "timeframe": "daily",
       "signal_date": "2026-06-01",
       "bars_ago": 2,
@@ -1497,7 +1497,7 @@
     },
     {
       "ticker": "300638.SZ",
-      "market": "SZ",
+      "market": "CN",
       "timeframe": "daily",
       "signal_date": "2026-06-01",
       "bars_ago": 2,
@@ -1508,7 +1508,7 @@
     },
     {
       "ticker": "300645.SZ",
-      "market": "SZ",
+      "market": "CN",
       "timeframe": "daily",
       "signal_date": "2026-06-01",
       "bars_ago": 2,
@@ -1519,7 +1519,7 @@
     },
     {
       "ticker": "300662.SZ",
-      "market": "SZ",
+      "market": "CN",
       "timeframe": "daily",
       "signal_date": "2026-06-01",
       "bars_ago": 2,
@@ -1530,7 +1530,7 @@
     },
     {
       "ticker": "300729.SZ",
-      "market": "SZ",
+      "market": "CN",
       "timeframe": "daily",
       "signal_date": "2026-06-01",
       "bars_ago": 2,
@@ -1541,7 +1541,7 @@
     },
     {
       "ticker": "300741.SZ",
-      "market": "SZ",
+      "market": "CN",
       "timeframe": "daily",
       "signal_date": "2026-06-01",
       "bars_ago": 2,
@@ -1552,7 +1552,7 @@
     },
     {
       "ticker": "300766.SZ",
-      "market": "SZ",
+      "market": "CN",
       "timeframe": "daily",
       "signal_date": "2026-06-01",
       "bars_ago": 2,
@@ -1563,7 +1563,7 @@
     },
     {
       "ticker": "300770.SZ",
-      "market": "SZ",
+      "market": "CN",
       "timeframe": "daily",
       "signal_date": "2026-06-01",
       "bars_ago": 2,
@@ -1574,7 +1574,7 @@
     },
     {
       "ticker": "300781.SZ",
-      "market": "SZ",
+      "market": "CN",
       "timeframe": "daily",
       "signal_date": "2026-06-01",
       "bars_ago": 2,
@@ -1585,7 +1585,7 @@
     },
     {
       "ticker": "300785.SZ",
-      "market": "SZ",
+      "market": "CN",
       "timeframe": "daily",
       "signal_date": "2026-06-01",
       "bars_ago": 2,
@@ -1596,7 +1596,7 @@
     },
     {
       "ticker": "300792.SZ",
-      "market": "SZ",
+      "market": "CN",
       "timeframe": "daily",
       "signal_date": "2026-06-01",
       "bars_ago": 2,
@@ -1607,7 +1607,7 @@
     },
     {
       "ticker": "300805.SZ",
-      "market": "SZ",
+      "market": "CN",
       "timeframe": "daily",
       "signal_date": "2026-06-01",
       "bars_ago": 2,
@@ -1618,7 +1618,7 @@
     },
     {
       "ticker": "300869.SZ",
-      "market": "SZ",
+      "market": "CN",
       "timeframe": "daily",
       "signal_date": "2026-06-01",
       "bars_ago": 2,
@@ -1629,7 +1629,7 @@
     },
     {
       "ticker": "300887.SZ",
-      "market": "SZ",
+      "market": "CN",
       "timeframe": "daily",
       "signal_date": "2026-06-01",
       "bars_ago": 2,
@@ -1640,7 +1640,7 @@
     },
     {
       "ticker": "300888.SZ",
-      "market": "SZ",
+      "market": "CN",
       "timeframe": "daily",
       "signal_date": "2026-06-01",
       "bars_ago": 2,
@@ -1651,7 +1651,7 @@
     },
     {
       "ticker": "300892.SZ",
-      "market": "SZ",
+      "market": "CN",
       "timeframe": "daily",
       "signal_date": "2026-06-01",
       "bars_ago": 2,
@@ -1662,7 +1662,7 @@
     },
     {
       "ticker": "300898.SZ",
-      "market": "SZ",
+      "market": "CN",
       "timeframe": "daily",
       "signal_date": "2026-06-01",
       "bars_ago": 2,
@@ -1673,7 +1673,7 @@
     },
     {
       "ticker": "300949.SZ",
-      "market": "SZ",
+      "market": "CN",
       "timeframe": "daily",
       "signal_date": "2026-06-01",
       "bars_ago": 2,
@@ -1684,7 +1684,7 @@
     },
     {
       "ticker": "300968.SZ",
-      "market": "SZ",
+      "market": "CN",
       "timeframe": "daily",
       "signal_date": "2026-06-01",
       "bars_ago": 2,
@@ -1695,7 +1695,7 @@
     },
     {
       "ticker": "3690.HK",
-      "market": "HK",
+      "market": "CN",
       "timeframe": "daily",
       "signal_date": "2026-06-01",
       "bars_ago": 2,
@@ -1706,7 +1706,7 @@
     },
     {
       "ticker": "3888.HK",
-      "market": "HK",
+      "market": "CN",
       "timeframe": "daily",
       "signal_date": "2026-06-01",
       "bars_ago": 2,
@@ -1717,7 +1717,7 @@
     },
     {
       "ticker": "3899.HK",
-      "market": "HK",
+      "market": "CN",
       "timeframe": "daily",
       "signal_date": "2026-06-01",
       "bars_ago": 2,
@@ -1728,7 +1728,7 @@
     },
     {
       "ticker": "600061.SS",
-      "market": "SS",
+      "market": "CN",
       "timeframe": "daily",
       "signal_date": "2026-06-01",
       "bars_ago": 2,
@@ -1739,7 +1739,7 @@
     },
     {
       "ticker": "600073.SS",
-      "market": "SS",
+      "market": "CN",
       "timeframe": "daily",
       "signal_date": "2026-06-01",
       "bars_ago": 2,
@@ -1750,7 +1750,7 @@
     },
     {
       "ticker": "600581.SS",
-      "market": "SS",
+      "market": "CN",
       "timeframe": "daily",
       "signal_date": "2026-06-01",
       "bars_ago": 2,
@@ -1761,7 +1761,7 @@
     },
     {
       "ticker": "600588.SS",
-      "market": "SS",
+      "market": "CN",
       "timeframe": "daily",
       "signal_date": "2026-06-01",
       "bars_ago": 2,
@@ -1772,7 +1772,7 @@
     },
     {
       "ticker": "601288.SS",
-      "market": "SS",
+      "market": "CN",
       "timeframe": "daily",
       "signal_date": "2026-06-01",
       "bars_ago": 2,
@@ -1783,7 +1783,7 @@
     },
     {
       "ticker": "6100.HK",
-      "market": "HK",
+      "market": "CN",
       "timeframe": "daily",
       "signal_date": "2026-06-01",
       "bars_ago": 2,
@@ -1794,7 +1794,7 @@
     },
     {
       "ticker": "6186.HK",
-      "market": "HK",
+      "market": "CN",
       "timeframe": "daily",
       "signal_date": "2026-06-01",
       "bars_ago": 2,
@@ -1805,7 +1805,7 @@
     },
     {
       "ticker": "6188.HK",
-      "market": "HK",
+      "market": "CN",
       "timeframe": "weekly",
       "signal_date": "2026-05-18",
       "bars_ago": 2,
