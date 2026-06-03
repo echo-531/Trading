@@ -1,0 +1,11 @@
+{
+  "generated_at": "2026-06-03T20:02:11.307167+00:00",
+  "next_scan_at": "2026-06-03T21:00:00+00:00",
+  "interval": "1h",
+  "lookback_bars": 3,
+  "stats": {
+    "total_scanned": 25,
+    "buy_signals": 0
+  },
+  "buy_signals": []
+}
