@@ -31,6 +31,7 @@ from fetcher  import fetch_ohlcv, fetch_latest_price
 from indicator import run_mrmc
 
 
+MARKET_DISPLAY = {"US": "US", "SS": "CN", "SZ": "CN", "HK": "CN"}
 TIMEFRAMES = ["1d", "1wk", "1mo"]
 TIMEFRAME_LABELS = {"1d": "daily", "1wk": "weekly", "1mo": "monthly"}
 US_MIN_PRICE = 10.0
@@ -83,7 +84,7 @@ def scan_ticker(ticker: str, market: str, timeframes: list[str]) -> list[dict]:
 
             row = {
                 "ticker":       ticker,
-                "market":       market,
+                "market":       MARKET_DISPLAY.get(market, market),
                 "timeframe":    TIMEFRAME_LABELS[tf],
                 "signal_date":  str(sig_bar.name.date()),
                 "bars_ago":     bars_ago,
