@@ -377,10 +377,11 @@ function startCountdown() {
     if (!nextScanAt) return;
     const diffMs = nextScanAt - Date.now();
     if (diffMs <= 0) {
-      el.textContent = "Refreshing…";
-      clearInterval(countdownInterval);
-      setTimeout(() => location.reload(), 1500);
-      return;
+    el.textContent = "Next scan pending…";
+    clearInterval(countdownInterval);
+    // 最多每5分钟刷新一次，避免死循环
+    setTimeout(() => location.reload(), 5 * 60 * 1000);
+    return;
     }
     const m = Math.floor(diffMs / 60000);
     const s = Math.floor((diffMs % 60000) / 1000);
