@@ -1,34 +1,11 @@
 {
-  "generated_at": "2026-06-08T21:20:46.095354+00:00",
-  "next_scan_at": "2026-06-08T22:00:00+00:00",
+  "generated_at": "2026-06-09T16:15:33.950268+00:00",
+  "next_scan_at": "2026-06-09T17:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
   "stats": {
     "total_scanned": 57,
-    "buy_signals": 2
+    "buy_signals": 0
   },
-  "buy_signals": [
-    {
-      "ticker": "AMZN",
-      "group": "MEGA7",
-      "timeframe": "1h",
-      "signal_ts": "2026-06-08 15:30 UTC",
-      "bars_ago": 0,
-      "close": 245.21,
-      "DIFF": -3.168696,
-      "DEA": -2.979904,
-      "MACD": -0.377584
-    },
-    {
-      "ticker": "VRT",
-      "group": "电力",
-      "timeframe": "1h",
-      "signal_ts": "2026-06-08 13:30 UTC",
-      "bars_ago": 2,
-      "close": 302.995,
-      "DIFF": -6.188034,
-      "DEA": -5.701342,
-      "MACD": -0.973384
-    }
-  ]
+  "buy_signals": []
 }
