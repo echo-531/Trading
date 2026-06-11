@@ -1,23 +1,11 @@
 {
-  "generated_at": "2026-06-11T18:46:05.168841+00:00",
-  "next_scan_at": "2026-06-11T19:00:00+00:00",
+  "generated_at": "2026-06-11T19:32:14.647134+00:00",
+  "next_scan_at": "2026-06-11T20:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
   "stats": {
     "total_scanned": 57,
-    "buy_signals": 1
+    "buy_signals": 0
   },
-  "buy_signals": [
-    {
-      "ticker": "SHOP",
-      "group": "Tech",
-      "timeframe": "1h",
-      "signal_ts": "2026-06-11 12:30 UTC",
-      "bars_ago": 2,
-      "close": 108.56,
-      "DIFF": -1.289332,
-      "DEA": -1.19849,
-      "MACD": -0.181685
-    }
-  ]
+  "buy_signals": []
 }
