@@ -1,11 +1,34 @@
 {
-  "generated_at": "2026-06-10T21:33:35.903390+00:00",
-  "next_scan_at": "2026-06-10T22:00:00+00:00",
+  "generated_at": "2026-06-11T17:04:27.736572+00:00",
+  "next_scan_at": "2026-06-11T18:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
   "stats": {
     "total_scanned": 57,
-    "buy_signals": 0
+    "buy_signals": 2
   },
-  "buy_signals": []
+  "buy_signals": [
+    {
+      "ticker": "NVDA",
+      "group": "MEGA7",
+      "timeframe": "1h",
+      "signal_ts": "2026-06-11 11:30 UTC",
+      "bars_ago": 1,
+      "close": 201.33,
+      "DIFF": -2.573008,
+      "DEA": -2.596772,
+      "MACD": 0.047528
+    },
+    {
+      "ticker": "XE",
+      "group": "Tech",
+      "timeframe": "1h",
+      "signal_ts": "2026-06-11 10:30 UTC",
+      "bars_ago": 2,
+      "close": 18.405,
+      "DIFF": -1.290418,
+      "DEA": -1.240778,
+      "MACD": -0.09928
+    }
+  ]
 }
