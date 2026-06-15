@@ -7,11 +7,14 @@ and picked up by docs/intraday.html.
 
 Lookback: 3 bars  (catches signals fired within the last 3 hourly bars)
 
-Triggered by GitHub Actions every hour during US market hours (Mon–Fri).
+Triggered by GitHub Actions at several fixed UTC times that cover both
+EDT and EST market sessions (Mon–Fri). Which runs actually scan is decided
+by the is_market_open() guard below, so DST switches are handled automatically.
 Can also be run locally at any time:
 
     python intraday_scanner.py
     python intraday_scanner.py --ticker AAPL   # debug single ticker
+    python intraday_scanner.py --force         # ignore the market-hours guard
 
 Market-hours guard: the scanner checks whether US markets are currently
 open before doing any work. If run outside market hours it exits cleanly
@@ -21,7 +24,8 @@ open before doing any work. If run outside market hours it exits cleanly
 import json
 import time
 import argparse
-from datetime import datetime, timezone, timedelta
+from datetime import datetime, timezone, timedelta, time as dtime
+from zoneinfo import ZoneInfo
 
 import pandas as pd
 import yfinance as yf
@@ -42,27 +46,28 @@ MIN_BARS       = 60           # skip tickers with too little data
 SIGNAL_LOOKBACK = 3           # how many recent bars to check for a signal
 OUTPUT_PATH    = "docs/intraday_signals.json"
 
-# US Eastern Time offset (no DST handling needed — GitHub Actions uses UTC)
-# ET = UTC-5 (EST) / UTC-4 (EDT). We use a conservative window:
-#   market open  ≈ 13:30 UTC (09:30 ET)
-#   market close ≈ 20:00 UTC (16:00 ET)
-MARKET_OPEN_UTC  = 13   # hour (inclusive)
-MARKET_CLOSE_UTC = 20   # hour (exclusive)
+# US market regular trading hours, evaluated in the America/New_York timezone
+# so that DST (EDT/EST) is handled automatically.
+ET           = ZoneInfo("America/New_York")
+MARKET_OPEN  = dtime(9, 30)
+MARKET_CLOSE = dtime(16, 0)
 
 
 # ── Market hours guard ─────────────────────────────────────────────────────────
 
 def is_market_open(now_utc: datetime | None = None) -> bool:
     """
-    Returns True if US equity markets are likely open right now.
-    Checks: Mon–Fri, 13:00–20:00 UTC (covers 09:00–16:00 ET with buffer).
+    Returns True if US equity markets are in regular trading hours right now
+    (Mon–Fri, 09:30–16:00 ET). Uses the America/New_York timezone, so summer
+    (EDT) and winter (EST) are handled automatically.
     Does NOT account for US public holidays.
     """
     if now_utc is None:
         now_utc = datetime.now(timezone.utc)
-    if now_utc.weekday() >= 5:          # Saturday=5, Sunday=6
+    now_et = now_utc.astimezone(ET)
+    if now_et.weekday() >= 5:          # Saturday=5, Sunday=6
         return False
-    return MARKET_OPEN_UTC <= now_utc.hour < MARKET_CLOSE_UTC
+    return MARKET_OPEN <= now_et.time() <= MARKET_CLOSE
 
 
 # ── Data fetch ─────────────────────────────────────────────────────────────────
@@ -115,11 +120,11 @@ def scan_ticker(ticker: str, group: str) -> list[dict]:
 
     bars_ago = len(result) - 1 - result.index.get_loc(sig_bar.name)
 
-    # Format signal timestamp in ET (UTC-4 during EDT, UTC-5 during EST)
-    # We store UTC and let the frontend localise if needed
+    # Format signal timestamp. yfinance 1h bars are tz-aware; store as UTC and
+    # let the frontend localise if needed.
     sig_ts = sig_bar.name
     if hasattr(sig_ts, "tzinfo") and sig_ts.tzinfo is not None:
-        sig_ts_str = sig_ts.strftime("%Y-%m-%d %H:%M UTC")
+        sig_ts_str = sig_ts.astimezone(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
     else:
         sig_ts_str = str(sig_ts)
 
@@ -172,7 +177,8 @@ def run_scan(single_ticker: str | None = None, force: bool = False) -> None:
     # Sort: most recent signal first
     buy_signals.sort(key=lambda x: x["bars_ago"])
 
-    # Calculate next scheduled scan time (next whole hour during market hours)
+    # Approximate next scan time (next whole hour). The real schedule is driven
+    # by the cron entries in the workflow; this is only a display hint.
     next_hour = (now_utc + timedelta(hours=1)).replace(minute=0, second=0, microsecond=0)
 
     output = {
