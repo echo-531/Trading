@@ -1,7 +1,7 @@
 """
 MRMC Intraday Scanner
 =====================
-Scans a fixed watchlist (<50 tickers) on the 4h timeframe during
+Scans a fixed watchlist (<50 tickers) on the 1h timeframe during
 US market hours. Signals are written to docs/intraday_signals.json
 and picked up by docs/intraday.html.
 
@@ -36,8 +36,8 @@ logging.getLogger("urllib3").setLevel(logging.CRITICAL)
 logging.getLogger("peewee").setLevel(logging.CRITICAL)
 
 # ── Config ─────────────────────────────────────────────────────────────────────
-INTERVAL       = "4h"
-PERIOD         = "60d"        # enough history for MRMC to warm up on 4h bars
+INTERVAL       = "1h"
+PERIOD         = "60d"        # enough history for MRMC to warm up on 1h bars
 MIN_BARS       = 60           # skip tickers with too little data
 SIGNAL_LOOKBACK = 3           # how many recent bars to check for a signal
 OUTPUT_PATH    = "docs/intraday_signals.json"
@@ -67,10 +67,10 @@ def is_market_open(now_utc: datetime | None = None) -> bool:
 
 # ── Data fetch ─────────────────────────────────────────────────────────────────
 
-def fetch_4h(ticker: str) -> pd.DataFrame | None:
+def fetch_1h(ticker: str) -> pd.DataFrame | None:
     """
-    Fetch 4h OHLCV bars for a US ticker via yfinance.
-    yfinance limits 4h data to the last 730 days; PERIOD="60d" is well within that.
+    Fetch 1h OHLCV bars for a US ticker via yfinance.
+    yfinance limits 1h data to the last 730 days; PERIOD="60d" is well within that.
     """
     try:
         tkr = yf.Ticker(ticker)
@@ -91,10 +91,10 @@ def fetch_4h(ticker: str) -> pd.DataFrame | None:
 
 def scan_ticker(ticker: str, group: str) -> list[dict]:
     """
-    Run MRMC on the 4h series for one ticker.
+    Run MRMC on the 1h series for one ticker.
     Returns a list of signal dicts (0 or 1 entries).
     """
-    df = fetch_4h(ticker)
+    df = fetch_1h(ticker)
     if df is None:
         return []
 
@@ -126,7 +126,7 @@ def scan_ticker(ticker: str, group: str) -> list[dict]:
     return [{
         "ticker":       ticker,
         "group":        group,
-        "timeframe":    "4h",
+        "timeframe":    "1h",
         "signal_ts":    sig_ts_str,
         "bars_ago":     bars_ago,
         "close":        round(float(sig_bar["close"]), 4),
