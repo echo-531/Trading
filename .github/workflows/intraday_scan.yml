@@ -2,26 +2,31 @@ name: MRMC Intraday Scanner
 
 on:
   schedule:
-    # Every hour during US market hours (Mon–Fri), UTC times:
-    # 13:30 = 09:30 ET (open)
-    # 14:00–19:00 = 10:00–15:00 ET (every hour)
-    # 19:30 = 15:30 ET (30 min before close)
-    - cron: "30 13 * * 1-5"
-    - cron: "0 14 * * 1-5"
-    - cron: "0 15 * * 1-5"
-    - cron: "0 16 * * 1-5"
-    - cron: "0 17 * * 1-5"
-    - cron: "0 18 * * 1-5"
-    - cron: "0 19 * * 1-5"
-    - cron: "30 19 * * 1-5"
-  workflow_dispatch:   # allow manual trigger from GitHub UI
+    # UTC 时间。覆盖夏令时(EDT, UTC-4)和冬令时(EST, UTC-5)两套盘中时段。
+    # 哪些真正执行由脚本里的 is_market_open() 守卫决定。
+    - cron: "30 13 * * 1-5"   # EDT 09:30 开盘
+    - cron: "0 14 * * 1-5"    # EDT 10:00
+    - cron: "30 14 * * 1-5"   # EST 09:30 开盘
+    - cron: "0 15 * * 1-5"    # EDT 11:00 / EST 10:00
+    - cron: "0 16 * * 1-5"    # EDT 12:00 / EST 11:00
+    - cron: "0 17 * * 1-5"    # EDT 13:00 / EST 12:00
+    - cron: "0 18 * * 1-5"    # EDT 14:00 / EST 13:00
+    - cron: "0 19 * * 1-5"    # EDT 15:00 / EST 14:00
+    - cron: "30 19 * * 1-5"   # EDT 15:30 收盘前30分 / EST 14:30
+    - cron: "0 20 * * 1-5"    # EST 15:00
+    - cron: "30 20 * * 1-5"   # EST 15:30 收盘前30分
+  workflow_dispatch:
+
+# 防止两次运行同时 push 冲突
+concurrency:
+  group: intraday-scan
+  cancel-in-progress: false
 
 jobs:
   intraday-scan:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
@@ -33,11 +38,11 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install yfinance pandas numpy
+          pip install yfinance pandas numpy tzdata
 
       - name: Run intraday scanner
         run: |
-          python intraday_scanner.py --force
+          python intraday_scanner.py
 
       - name: Commit and push intraday_signals.json
         run: |
