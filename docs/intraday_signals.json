@@ -1,11 +1,56 @@
 {
-  "generated_at": "2026-06-12T21:10:49.929614+00:00",
-  "next_scan_at": "2026-06-12T22:00:00+00:00",
+  "generated_at": "2026-06-15T17:54:57.463387+00:00",
+  "next_scan_at": "2026-06-15T18:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
   "stats": {
-    "total_scanned": 57,
-    "buy_signals": 0
+    "total_scanned": 68,
+    "buy_signals": 4
   },
-  "buy_signals": []
+  "buy_signals": [
+    {
+      "ticker": "FLY",
+      "group": "Tech",
+      "timeframe": "1h",
+      "signal_ts": "2026-06-15 15:30 UTC",
+      "bars_ago": 2,
+      "close": 34.0,
+      "DIFF": -0.844324,
+      "DEA": -0.683929,
+      "MACD": -0.320789
+    },
+    {
+      "ticker": "PL",
+      "group": "太空",
+      "timeframe": "1h",
+      "signal_ts": "2026-06-15 15:30 UTC",
+      "bars_ago": 2,
+      "close": 31.035,
+      "DIFF": -0.68398,
+      "DEA": -0.67348,
+      "MACD": -0.020999
+    },
+    {
+      "ticker": "RDW",
+      "group": "太空",
+      "timeframe": "1h",
+      "signal_ts": "2026-06-15 15:30 UTC",
+      "bars_ago": 2,
+      "close": 15.319,
+      "DIFF": -0.48132,
+      "DEA": -0.478796,
+      "MACD": -0.005048
+    },
+    {
+      "ticker": "ASTS",
+      "group": "太空",
+      "timeframe": "1h",
+      "signal_ts": "2026-06-15 15:30 UTC",
+      "bars_ago": 2,
+      "close": 88.15,
+      "DIFF": -2.292367,
+      "DEA": -2.150318,
+      "MACD": -0.284097
+    }
+  ]
 }
