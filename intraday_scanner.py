@@ -1,7 +1,7 @@
 """
 MRMC Intraday Scanner
 =====================
-Scans a fixed watchlist (<50 tickers) on the 1h timeframe during
+Scans a fixed watchlist (<50 tickers) on the 4h timeframe during
 US market hours. Signals are written to docs/intraday_signals.json
 and picked up by docs/intraday.html.
 
@@ -91,10 +91,10 @@ def fetch_4h(ticker: str) -> pd.DataFrame | None:
 
 def scan_ticker(ticker: str, group: str) -> list[dict]:
     """
-    Run MRMC on the 1h series for one ticker.
+    Run MRMC on the 4h series for one ticker.
     Returns a list of signal dicts (0 or 1 entries).
     """
-    df = fetch_1h(ticker)
+    df = fetch_4h(ticker)
     if df is None:
         return []
 
@@ -126,7 +126,7 @@ def scan_ticker(ticker: str, group: str) -> list[dict]:
     return [{
         "ticker":       ticker,
         "group":        group,
-        "timeframe":    "1h",
+        "timeframe":    "4h",
         "signal_ts":    sig_ts_str,
         "bars_ago":     bars_ago,
         "close":        round(float(sig_bar["close"]), 4),
