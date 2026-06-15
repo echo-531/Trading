@@ -35,7 +35,7 @@ WATCHLIST: dict[str, list[str]] = {
     ],
     
     "太空": [
-        "RKLB", "PL", "ONDS", "RDW", "ASTS"
+        "RKLB", "PL", "ONDS", "RDW", "ASTS", "SPCX",
     ],
 
     "数据中心": [
