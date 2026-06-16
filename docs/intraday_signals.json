@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-06-16T18:27:55.293134+00:00",
+  "generated_at": "2026-06-16T18:43:17.806727+00:00",
   "next_scan_at": "2026-06-16T19:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
   "stats": {
     "total_scanned": 68,
-    "buy_signals": 3
+    "buy_signals": 4
   },
   "buy_signals": [
     {
@@ -13,33 +13,44 @@
       "group": "Tech",
       "timeframe": "1h",
       "signal_ts": "2026-06-16 17:30 UTC",
-      "bars_ago": 0,
-      "close": 41.4,
-      "DIFF": -0.437231,
-      "DEA": -0.359289,
-      "MACD": -0.155884
+      "bars_ago": 1,
+      "close": 41.36,
+      "DIFF": -0.440422,
+      "DEA": -0.359927,
+      "MACD": -0.16099
+    },
+    {
+      "ticker": "AMPX",
+      "group": "Tech",
+      "timeframe": "1h",
+      "signal_ts": "2026-06-16 17:30 UTC",
+      "bars_ago": 1,
+      "close": 15.9519,
+      "DIFF": -0.382706,
+      "DEA": -0.360048,
+      "MACD": -0.045314
     },
     {
       "ticker": "RDW",
       "group": "太空",
       "timeframe": "1h",
       "signal_ts": "2026-06-16 17:30 UTC",
-      "bars_ago": 0,
-      "close": 13.975,
-      "DIFF": -0.660668,
-      "DEA": -0.588783,
-      "MACD": -0.14377
+      "bars_ago": 1,
+      "close": 13.99,
+      "DIFF": -0.659472,
+      "DEA": -0.588544,
+      "MACD": -0.141855
     },
     {
       "ticker": "FLY",
       "group": "太空",
       "timeframe": "1h",
       "signal_ts": "2026-06-16 17:30 UTC",
-      "bars_ago": 0,
-      "close": 31.76,
-      "DIFF": -1.114124,
-      "DEA": -0.962328,
-      "MACD": -0.303593
+      "bars_ago": 1,
+      "close": 32.01,
+      "DIFF": -1.094182,
+      "DEA": -0.958339,
+      "MACD": -0.271684
     }
   ]
 }
