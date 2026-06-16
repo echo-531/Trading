@@ -1,13 +1,24 @@
 {
-  "generated_at": "2026-06-16T18:13:27.253440+00:00",
+  "generated_at": "2026-06-16T18:27:55.293134+00:00",
   "next_scan_at": "2026-06-16T19:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
   "stats": {
     "total_scanned": 68,
-    "buy_signals": 2
+    "buy_signals": 3
   },
   "buy_signals": [
+    {
+      "ticker": "SYM",
+      "group": "Tech",
+      "timeframe": "1h",
+      "signal_ts": "2026-06-16 17:30 UTC",
+      "bars_ago": 0,
+      "close": 41.4,
+      "DIFF": -0.437231,
+      "DEA": -0.359289,
+      "MACD": -0.155884
+    },
     {
       "ticker": "RDW",
       "group": "太空",
@@ -25,10 +36,10 @@
       "timeframe": "1h",
       "signal_ts": "2026-06-16 17:30 UTC",
       "bars_ago": 0,
-      "close": 31.64,
-      "DIFF": -1.123697,
-      "DEA": -0.964243,
-      "MACD": -0.318909
+      "close": 31.76,
+      "DIFF": -1.114124,
+      "DEA": -0.962328,
+      "MACD": -0.303593
     }
   ]
 }
