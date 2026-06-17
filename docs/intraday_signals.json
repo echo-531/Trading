@@ -1,11 +1,23 @@
 {
-  "generated_at": "2026-06-17T17:29:08.084861+00:00",
+  "generated_at": "2026-06-17T17:51:14.050557+00:00",
   "next_scan_at": "2026-06-17T18:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
   "stats": {
     "total_scanned": 68,
-    "buy_signals": 0
+    "buy_signals": 1
   },
-  "buy_signals": []
+  "buy_signals": [
+    {
+      "ticker": "AMPX",
+      "group": "Tech",
+      "timeframe": "1h",
+      "signal_ts": "2026-06-17 16:30 UTC",
+      "bars_ago": 1,
+      "close": 15.36,
+      "DIFF": -0.466973,
+      "DEA": -0.430445,
+      "MACD": -0.073056
+    }
+  ]
 }
