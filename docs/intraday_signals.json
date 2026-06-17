@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-17T18:13:46.723776+00:00",
-  "next_scan_at": "2026-06-17T19:00:00+00:00",
+  "generated_at": "2026-06-17T19:22:23.973031+00:00",
+  "next_scan_at": "2026-06-17T20:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
   "stats": {
@@ -13,7 +13,7 @@
       "group": "Tech",
       "timeframe": "1h",
       "signal_ts": "2026-06-17 16:30 UTC",
-      "bars_ago": 1,
+      "bars_ago": 2,
       "close": 15.36,
       "DIFF": -0.466973,
       "DEA": -0.430445,
