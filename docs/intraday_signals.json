@@ -1,23 +1,56 @@
 {
-  "generated_at": "2026-06-18T16:57:14.725949+00:00",
-  "next_scan_at": "2026-06-18T17:00:00+00:00",
+  "generated_at": "2026-06-18T17:42:06.847004+00:00",
+  "next_scan_at": "2026-06-18T18:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
   "stats": {
     "total_scanned": 68,
-    "buy_signals": 1
+    "buy_signals": 4
   },
   "buy_signals": [
+    {
+      "ticker": "PL",
+      "group": "太空",
+      "timeframe": "1h",
+      "signal_ts": "2026-06-18 17:30 UTC",
+      "bars_ago": 0,
+      "close": 27.3,
+      "DIFF": -0.911107,
+      "DEA": -0.908219,
+      "MACD": -0.005775
+    },
+    {
+      "ticker": "IONQ",
+      "group": "量子",
+      "timeframe": "1h",
+      "signal_ts": "2026-06-18 17:30 UTC",
+      "bars_ago": 0,
+      "close": 54.88,
+      "DIFF": -1.202679,
+      "DEA": -1.056394,
+      "MACD": -0.292571
+    },
     {
       "ticker": "MSFT",
       "group": "MEGA7",
       "timeframe": "1h",
       "signal_ts": "2026-06-18 16:30 UTC",
-      "bars_ago": 0,
-      "close": 379.445,
-      "DIFF": -4.778592,
-      "DEA": -3.977575,
-      "MACD": -1.602035
+      "bars_ago": 1,
+      "close": 379.695,
+      "DIFF": -4.758649,
+      "DEA": -3.973586,
+      "MACD": -1.570126
+    },
+    {
+      "ticker": "ONDS",
+      "group": "太空",
+      "timeframe": "1h",
+      "signal_ts": "2026-06-18 16:30 UTC",
+      "bars_ago": 1,
+      "close": 9.105,
+      "DIFF": -0.123725,
+      "DEA": -0.118644,
+      "MACD": -0.010162
     }
   ]
 }
