@@ -1,52 +1,63 @@
 {
-  "generated_at": "2026-06-18T18:25:24.137744+00:00",
-  "next_scan_at": "2026-06-18T19:00:00+00:00",
+  "generated_at": "2026-06-18T19:24:08.251386+00:00",
+  "next_scan_at": "2026-06-18T20:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
   "stats": {
     "total_scanned": 68,
-    "buy_signals": 4
+    "buy_signals": 5
   },
   "buy_signals": [
+    {
+      "ticker": "MSFT",
+      "group": "MEGA7",
+      "timeframe": "1h",
+      "signal_ts": "2026-06-18 18:30 UTC",
+      "bars_ago": 0,
+      "close": 377.7774,
+      "DIFF": -4.695261,
+      "DEA": -4.243852,
+      "MACD": -0.902817
+    },
+    {
+      "ticker": "FLY",
+      "group": "太空",
+      "timeframe": "1h",
+      "signal_ts": "2026-06-18 18:30 UTC",
+      "bars_ago": 0,
+      "close": 30.065,
+      "DIFF": -1.051024,
+      "DEA": -1.003902,
+      "MACD": -0.094243
+    },
     {
       "ticker": "PL",
       "group": "太空",
       "timeframe": "1h",
       "signal_ts": "2026-06-18 17:30 UTC",
-      "bars_ago": 0,
-      "close": 27.33,
-      "DIFF": -0.908714,
-      "DEA": -0.907741,
-      "MACD": -0.001946
+      "bars_ago": 1,
+      "close": 27.345,
+      "DIFF": -0.907517,
+      "DEA": -0.907501,
+      "MACD": -3.2e-05
     },
     {
       "ticker": "IONQ",
       "group": "量子",
       "timeframe": "1h",
       "signal_ts": "2026-06-18 17:30 UTC",
-      "bars_ago": 0,
-      "close": 54.7025,
-      "DIFF": -1.216223,
-      "DEA": -1.058975,
-      "MACD": -0.314496
-    },
-    {
-      "ticker": "MSFT",
-      "group": "MEGA7",
-      "timeframe": "1h",
-      "signal_ts": "2026-06-18 16:30 UTC",
       "bars_ago": 1,
-      "close": 379.695,
-      "DIFF": -4.758649,
-      "DEA": -3.973586,
-      "MACD": -1.570126
+      "close": 54.615,
+      "DIFF": -1.223203,
+      "DEA": -1.060371,
+      "MACD": -0.325664
     },
     {
       "ticker": "ONDS",
       "group": "太空",
       "timeframe": "1h",
       "signal_ts": "2026-06-18 16:30 UTC",
-      "bars_ago": 1,
+      "bars_ago": 2,
       "close": 9.105,
       "DIFF": -0.123725,
       "DEA": -0.118644,
