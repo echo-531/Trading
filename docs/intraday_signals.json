@@ -1,41 +1,74 @@
 {
-  "generated_at": "2026-06-22T18:12:48.392763+00:00",
+  "generated_at": "2026-06-22T18:32:05.404818+00:00",
   "next_scan_at": "2026-06-22T19:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
   "stats": {
     "total_scanned": 68,
-    "buy_signals": 4
+    "buy_signals": 7
   },
   "buy_signals": [
+    {
+      "ticker": "INOD",
+      "group": "Tech",
+      "timeframe": "1h",
+      "signal_ts": "2026-06-22 18:30 UTC",
+      "bars_ago": 0,
+      "close": 91.55,
+      "DIFF": -3.495259,
+      "DEA": -2.990323,
+      "MACD": -1.009872
+    },
+    {
+      "ticker": "META",
+      "group": "MEGA7",
+      "timeframe": "1h",
+      "signal_ts": "2026-06-22 18:30 UTC",
+      "bars_ago": 0,
+      "close": 565.8,
+      "DIFF": -5.217889,
+      "DEA": -4.300328,
+      "MACD": -1.835121
+    },
+    {
+      "ticker": "MSFT",
+      "group": "MEGA7",
+      "timeframe": "1h",
+      "signal_ts": "2026-06-22 18:30 UTC",
+      "bars_ago": 0,
+      "close": 370.44,
+      "DIFF": -5.560747,
+      "DEA": -5.133495,
+      "MACD": -0.854503
+    },
     {
       "ticker": "RDW",
       "group": "太空",
       "timeframe": "1h",
       "signal_ts": "2026-06-22 17:30 UTC",
-      "bars_ago": 0,
-      "close": 13.22,
-      "DIFF": -0.455203,
-      "DEA": -0.421714,
-      "MACD": -0.06698
+      "bars_ago": 1,
+      "close": 13.315,
+      "DIFF": -0.447625,
+      "DEA": -0.420198,
+      "MACD": -0.054854
     },
     {
       "ticker": "FLY",
       "group": "太空",
       "timeframe": "1h",
       "signal_ts": "2026-06-22 17:30 UTC",
-      "bars_ago": 0,
-      "close": 29.345,
-      "DIFF": -1.001102,
-      "DEA": -1.026617,
-      "MACD": 0.051029
+      "bars_ago": 1,
+      "close": 29.39,
+      "DIFF": -0.997513,
+      "DEA": -1.025899,
+      "MACD": 0.056772
     },
     {
       "ticker": "AAOI",
       "group": "光",
       "timeframe": "1h",
       "signal_ts": "2026-06-22 16:30 UTC",
-      "bars_ago": 1,
+      "bars_ago": 2,
       "close": 169.06,
       "DIFF": -3.782711,
       "DEA": -3.860894,
@@ -46,7 +79,7 @@
       "group": "太空",
       "timeframe": "1h",
       "signal_ts": "2026-06-22 16:30 UTC",
-      "bars_ago": 1,
+      "bars_ago": 2,
       "close": 8.985,
       "DIFF": -0.130745,
       "DEA": -0.125588,
