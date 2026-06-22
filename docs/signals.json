@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-19T09:18:27.188633+00:00",
+  "generated_at": "2026-06-22T08:53:34.098950+00:00",
   "lookback": {
     "1d": 3,
     "1wk": 3,
@@ -7,7 +7,7 @@
   },
   "stats": {
     "total_scanned": 3019,
-    "buy_signals": 147
+    "buy_signals": 143
   },
   "buy_signals": [
     {
@@ -16,21 +16,10 @@
       "timeframe": "monthly",
       "signal_date": "2026-06-01",
       "bars_ago": 0,
-      "close": 4.3,
-      "DIFF": -0.28534,
-      "DEA": -0.265306,
-      "MACD": -0.040067
-    },
-    {
-      "ticker": "0003.HK",
-      "market": "CN",
-      "timeframe": "daily",
-      "signal_date": "2026-06-18",
-      "bars_ago": 0,
-      "close": 6.76,
-      "DIFF": -0.083596,
-      "DEA": -0.071569,
-      "MACD": -0.024054
+      "close": 4.73,
+      "DIFF": -0.251038,
+      "DEA": -0.258446,
+      "MACD": 0.014816
     },
     {
       "ticker": "000810.SZ",
@@ -38,10 +27,10 @@
       "timeframe": "weekly",
       "signal_date": "2026-06-15",
       "bars_ago": 0,
-      "close": 12.3,
-      "DIFF": -0.108604,
-      "DEA": -0.077272,
-      "MACD": -0.062666
+      "close": 12.2097,
+      "DIFF": -0.115806,
+      "DEA": -0.078712,
+      "MACD": -0.074188
     },
     {
       "ticker": "000810.SZ",
@@ -49,21 +38,21 @@
       "timeframe": "monthly",
       "signal_date": "2026-06-01",
       "bars_ago": 0,
-      "close": 12.3,
-      "DIFF": -0.084457,
-      "DEA": -0.073573,
-      "MACD": -0.021768
+      "close": 12.95,
+      "DIFF": -0.032606,
+      "DEA": -0.063203,
+      "MACD": 0.061195
     },
     {
-      "ticker": "002230.SZ",
+      "ticker": "002001.SZ",
       "market": "CN",
       "timeframe": "daily",
-      "signal_date": "2026-06-18",
+      "signal_date": "2026-06-22",
       "bars_ago": 0,
-      "close": 42.61,
-      "DIFF": -1.910523,
-      "DEA": -1.550073,
-      "MACD": -0.720901
+      "close": 29.45,
+      "DIFF": -0.796571,
+      "DEA": -0.734492,
+      "MACD": -0.124157
     },
     {
       "ticker": "0341.HK",
@@ -71,10 +60,21 @@
       "timeframe": "monthly",
       "signal_date": "2026-06-01",
       "bars_ago": 0,
-      "close": 5.18,
-      "DIFF": -0.955436,
-      "DEA": -0.878907,
-      "MACD": -0.153058
+      "close": 5.43,
+      "DIFF": -0.935493,
+      "DEA": -0.874918,
+      "MACD": -0.121149
+    },
+    {
+      "ticker": "0582.HK",
+      "market": "CN",
+      "timeframe": "daily",
+      "signal_date": "2026-06-22",
+      "bars_ago": 0,
+      "close": 0.044,
+      "DIFF": -0.010119,
+      "DEA": -0.01015,
+      "MACD": 6.1e-05
     },
     {
       "ticker": "1123.HK",
@@ -88,191 +88,202 @@
       "MACD": 0.000231
     },
     {
-      "ticker": "1222.HK",
-      "market": "CN",
-      "timeframe": "daily",
-      "signal_date": "2026-06-18",
-      "bars_ago": 0,
-      "close": 0.02,
-      "DIFF": -0.000402,
-      "DEA": -0.000303,
-      "MACD": -0.000198
-    },
-    {
       "ticker": "1305.HK",
       "market": "CN",
       "timeframe": "monthly",
       "signal_date": "2026-06-01",
       "bars_ago": 0,
-      "close": 0.94,
-      "DIFF": -0.046897,
-      "DEA": -0.053146,
-      "MACD": 0.012498
+      "close": 0.93,
+      "DIFF": -0.047694,
+      "DEA": -0.053305,
+      "MACD": 0.011221
     },
     {
-      "ticker": "300071.SZ",
+      "ticker": "300043.SZ",
       "market": "CN",
       "timeframe": "daily",
-      "signal_date": "2026-06-18",
+      "signal_date": "2026-06-22",
       "bars_ago": 0,
-      "close": 3.8,
-      "DIFF": -0.241077,
-      "DEA": -0.235025,
-      "MACD": -0.012104
+      "close": 4.35,
+      "DIFF": -0.269874,
+      "DEA": -0.270477,
+      "MACD": 0.001207
     },
     {
-      "ticker": "300229.SZ",
+      "ticker": "300072.SZ",
       "market": "CN",
       "timeframe": "daily",
-      "signal_date": "2026-06-18",
+      "signal_date": "2026-06-22",
       "bars_ago": 0,
-      "close": 15.64,
-      "DIFF": -0.773658,
-      "DEA": -0.740726,
-      "MACD": -0.065864
+      "close": 3.55,
+      "DIFF": -0.222116,
+      "DEA": -0.220165,
+      "MACD": -0.003903
     },
     {
-      "ticker": "300253.SZ",
+      "ticker": "300315.SZ",
       "market": "CN",
       "timeframe": "daily",
-      "signal_date": "2026-06-18",
+      "signal_date": "2026-06-22",
       "bars_ago": 0,
-      "close": 7.14,
-      "DIFF": -0.409853,
-      "DEA": -0.386877,
-      "MACD": -0.045952
+      "close": 4.12,
+      "DIFF": -0.19899,
+      "DEA": -0.188819,
+      "MACD": -0.02034
     },
     {
-      "ticker": "300357.SZ",
+      "ticker": "300413.SZ",
       "market": "CN",
       "timeframe": "daily",
-      "signal_date": "2026-06-18",
+      "signal_date": "2026-06-22",
       "bars_ago": 0,
-      "close": 21.25,
-      "DIFF": -0.860065,
-      "DEA": -0.856102,
-      "MACD": -0.007926
+      "close": 15.77,
+      "DIFF": -0.924994,
+      "DEA": -0.951852,
+      "MACD": 0.053716
     },
     {
-      "ticker": "300421.SZ",
+      "ticker": "300459.SZ",
       "market": "CN",
       "timeframe": "daily",
-      "signal_date": "2026-06-18",
+      "signal_date": "2026-06-22",
       "bars_ago": 0,
-      "close": 20.29,
-      "DIFF": -1.279774,
-      "DEA": -1.113817,
-      "MACD": -0.331913
+      "close": 3.6,
+      "DIFF": -0.138911,
+      "DEA": -0.122691,
+      "MACD": -0.032441
     },
     {
-      "ticker": "300634.SZ",
+      "ticker": "300509.SZ",
       "market": "CN",
       "timeframe": "daily",
-      "signal_date": "2026-06-18",
+      "signal_date": "2026-06-22",
       "bars_ago": 0,
-      "close": 22.24,
-      "DIFF": -1.106278,
-      "DEA": -0.841772,
-      "MACD": -0.529011
+      "close": 8.97,
+      "DIFF": -0.552719,
+      "DEA": -0.562355,
+      "MACD": 0.019272
     },
     {
-      "ticker": "300638.SZ",
+      "ticker": "300533.SZ",
       "market": "CN",
       "timeframe": "daily",
-      "signal_date": "2026-06-18",
+      "signal_date": "2026-06-22",
       "bars_ago": 0,
-      "close": 20.3,
-      "DIFF": -0.948918,
-      "DEA": -0.848355,
-      "MACD": -0.201125
+      "close": 14.83,
+      "DIFF": -0.914567,
+      "DEA": -0.878392,
+      "MACD": -0.07235
     },
     {
-      "ticker": "300659.SZ",
+      "ticker": "300543.SZ",
       "market": "CN",
       "timeframe": "daily",
-      "signal_date": "2026-06-18",
+      "signal_date": "2026-06-22",
       "bars_ago": 0,
-      "close": 10.27,
-      "DIFF": -0.589057,
-      "DEA": -0.58607,
-      "MACD": -0.005974
+      "close": 8.0,
+      "DIFF": -0.370945,
+      "DEA": -0.347534,
+      "MACD": -0.046822
     },
     {
-      "ticker": "300698.SZ",
+      "ticker": "300645.SZ",
       "market": "CN",
       "timeframe": "daily",
-      "signal_date": "2026-06-18",
+      "signal_date": "2026-06-22",
       "bars_ago": 0,
-      "close": 31.99,
-      "DIFF": -1.548041,
-      "DEA": -1.360472,
-      "MACD": -0.375138
+      "close": 13.1,
+      "DIFF": -0.737223,
+      "DEA": -0.751136,
+      "MACD": 0.027825
     },
     {
-      "ticker": "300768.SZ",
+      "ticker": "300670.SZ",
       "market": "CN",
       "timeframe": "daily",
-      "signal_date": "2026-06-18",
+      "signal_date": "2026-06-22",
       "bars_ago": 0,
-      "close": 14.67,
-      "DIFF": -0.688717,
-      "DEA": -0.612609,
-      "MACD": -0.152216
+      "close": 6.34,
+      "DIFF": -0.205403,
+      "DEA": -0.161091,
+      "MACD": -0.088624
     },
     {
-      "ticker": "300792.SZ",
+      "ticker": "300743.SZ",
       "market": "CN",
       "timeframe": "daily",
-      "signal_date": "2026-06-18",
+      "signal_date": "2026-06-22",
       "bars_ago": 0,
-      "close": 29.88,
-      "DIFF": -1.490736,
-      "DEA": -1.30816,
-      "MACD": -0.365153
+      "close": 16.14,
+      "DIFF": -0.679155,
+      "DEA": -0.63609,
+      "MACD": -0.08613
     },
     {
-      "ticker": "300793.SZ",
+      "ticker": "300908.SZ",
       "market": "CN",
       "timeframe": "daily",
-      "signal_date": "2026-06-18",
+      "signal_date": "2026-06-22",
       "bars_ago": 0,
-      "close": 12.45,
-      "DIFF": -0.555711,
-      "DEA": -0.498224,
-      "MACD": -0.114975
+      "close": 23.07,
+      "DIFF": -0.839603,
+      "DEA": -0.821024,
+      "MACD": -0.037159
     },
     {
-      "ticker": "300896.SZ",
+      "ticker": "300917.SZ",
       "market": "CN",
       "timeframe": "daily",
-      "signal_date": "2026-06-18",
+      "signal_date": "2026-06-22",
       "bars_ago": 0,
-      "close": 91.36,
-      "DIFF": -5.123187,
-      "DEA": -5.038082,
-      "MACD": -0.170211
+      "close": 26.14,
+      "DIFF": -1.59708,
+      "DEA": -1.51313,
+      "MACD": -0.167899
     },
     {
-      "ticker": "600867.SS",
+      "ticker": "300947.SZ",
       "market": "CN",
       "timeframe": "daily",
-      "signal_date": "2026-06-18",
+      "signal_date": "2026-06-22",
       "bars_ago": 0,
-      "close": 7.46,
-      "DIFF": -0.306393,
-      "DEA": -0.302315,
-      "MACD": -0.008156
+      "close": 13.82,
+      "DIFF": -0.796634,
+      "DEA": -0.750778,
+      "MACD": -0.091712
     },
     {
-      "ticker": "6158.HK",
+      "ticker": "3858.HK",
       "market": "CN",
       "timeframe": "daily",
-      "signal_date": "2026-06-18",
+      "signal_date": "2026-06-22",
       "bars_ago": 0,
-      "close": 0.015,
-      "DIFF": -0.000835,
-      "DEA": -0.000818,
-      "MACD": -3.5e-05
+      "close": 81.25,
+      "DIFF": -2.654539,
+      "DEA": -1.96153,
+      "MACD": -1.386017
+    },
+    {
+      "ticker": "600588.SS",
+      "market": "CN",
+      "timeframe": "daily",
+      "signal_date": "2026-06-22",
+      "bars_ago": 0,
+      "close": 9.99,
+      "DIFF": -0.437275,
+      "DEA": -0.411457,
+      "MACD": -0.051636
+    },
+    {
+      "ticker": "6113.HK",
+      "market": "CN",
+      "timeframe": "daily",
+      "signal_date": "2026-06-22",
+      "bars_ago": 0,
+      "close": 1.66,
+      "DIFF": -0.054145,
+      "DEA": -0.041243,
+      "MACD": -0.025804
     },
     {
       "ticker": "6158.HK",
@@ -284,6 +295,17 @@
       "DIFF": -0.004934,
       "DEA": -0.004823,
       "MACD": -0.000221
+    },
+    {
+      "ticker": "AGCO",
+      "market": "US",
+      "timeframe": "daily",
+      "signal_date": "2026-06-18",
+      "bars_ago": 0,
+      "close": 113.66,
+      "DIFF": -0.928816,
+      "DEA": -0.863102,
+      "MACD": -0.131428
     },
     {
       "ticker": "ALG",
@@ -326,7 +348,7 @@
       "bars_ago": 0,
       "close": 21.52,
       "DIFF": -2.352398,
-      "DEA": -2.184598,
+      "DEA": -2.184599,
       "MACD": -0.3356
     },
     {
@@ -339,6 +361,17 @@
       "DIFF": -3.878484,
       "DEA": -2.593245,
       "MACD": -2.570478
+    },
+    {
+      "ticker": "GPN",
+      "market": "US",
+      "timeframe": "daily",
+      "signal_date": "2026-06-18",
+      "bars_ago": 0,
+      "close": 66.88,
+      "DIFF": -0.946307,
+      "DEA": -0.819152,
+      "MACD": -0.254309
     },
     {
       "ticker": "LNN",
@@ -374,17 +407,6 @@
       "MACD": -0.080627
     },
     {
-      "ticker": "MOS",
-      "market": "US",
-      "timeframe": "daily",
-      "signal_date": "2026-06-17",
-      "bars_ago": 0,
-      "close": 22.51,
-      "DIFF": -0.294218,
-      "DEA": -0.336339,
-      "MACD": 0.084242
-    },
-    {
       "ticker": "MTG",
       "market": "US",
       "timeframe": "weekly",
@@ -394,6 +416,17 @@
       "DIFF": -0.294604,
       "DEA": -0.211288,
       "MACD": -0.16663
+    },
+    {
+      "ticker": "NX",
+      "market": "US",
+      "timeframe": "daily",
+      "signal_date": "2026-06-18",
+      "bars_ago": 0,
+      "close": 17.0,
+      "DIFF": -0.533882,
+      "DEA": -0.555442,
+      "MACD": 0.043119
     },
     {
       "ticker": "TRIP",
@@ -407,17 +440,6 @@
       "MACD": -0.134286
     },
     {
-      "ticker": "000002.SZ",
-      "market": "CN",
-      "timeframe": "daily",
-      "signal_date": "2026-06-17",
-      "bars_ago": 1,
-      "close": 3.09,
-      "DIFF": -0.176654,
-      "DEA": -0.177527,
-      "MACD": 0.001746
-    },
-    {
       "ticker": "000090.SZ",
       "market": "CN",
       "timeframe": "weekly",
@@ -429,59 +451,26 @@
       "MACD": -0.017236
     },
     {
-      "ticker": "0020.HK",
+      "ticker": "0003.HK",
       "market": "CN",
       "timeframe": "daily",
-      "signal_date": "2026-06-17",
+      "signal_date": "2026-06-18",
       "bars_ago": 1,
-      "close": 1.5,
-      "DIFF": -0.116602,
-      "DEA": -0.10716,
-      "MACD": -0.018884
+      "close": 6.76,
+      "DIFF": -0.083596,
+      "DEA": -0.071569,
+      "MACD": -0.024054
     },
     {
-      "ticker": "002044.SZ",
+      "ticker": "002230.SZ",
       "market": "CN",
       "timeframe": "daily",
-      "signal_date": "2026-06-17",
+      "signal_date": "2026-06-18",
       "bars_ago": 1,
-      "close": 5.23,
-      "DIFF": -0.196237,
-      "DEA": -0.164422,
-      "MACD": -0.06363
-    },
-    {
-      "ticker": "002086.SZ",
-      "market": "CN",
-      "timeframe": "daily",
-      "signal_date": "2026-06-17",
-      "bars_ago": 1,
-      "close": 1.82,
-      "DIFF": -0.040163,
-      "DEA": -0.038883,
-      "MACD": -0.00256
-    },
-    {
-      "ticker": "0027.HK",
-      "market": "CN",
-      "timeframe": "daily",
-      "signal_date": "2026-06-17",
-      "bars_ago": 1,
-      "close": 30.9,
-      "DIFF": -0.474773,
-      "DEA": -0.459816,
-      "MACD": -0.029913
-    },
-    {
-      "ticker": "1003.HK",
-      "market": "CN",
-      "timeframe": "daily",
-      "signal_date": "2026-06-17",
-      "bars_ago": 1,
-      "close": 0.21,
-      "DIFF": -0.010288,
-      "DEA": -0.00891,
-      "MACD": -0.002756
+      "close": 42.61,
+      "DIFF": -1.910523,
+      "DEA": -1.550073,
+      "MACD": -0.720901
     },
     {
       "ticker": "1066.HK",
@@ -493,6 +482,17 @@
       "DIFF": -0.505213,
       "DEA": -0.466172,
       "MACD": -0.078083
+    },
+    {
+      "ticker": "1222.HK",
+      "market": "CN",
+      "timeframe": "daily",
+      "signal_date": "2026-06-18",
+      "bars_ago": 1,
+      "close": 0.02,
+      "DIFF": -0.000402,
+      "DEA": -0.000303,
+      "MACD": -0.000198
     },
     {
       "ticker": "2020.HK",
@@ -517,48 +517,81 @@
       "MACD": -0.003603
     },
     {
-      "ticker": "2819.HK",
+      "ticker": "300071.SZ",
       "market": "CN",
       "timeframe": "daily",
-      "signal_date": "2026-06-17",
+      "signal_date": "2026-06-18",
       "bars_ago": 1,
-      "close": 100.85,
-      "DIFF": -0.245966,
-      "DEA": -0.245296,
-      "MACD": -0.001342
+      "close": 3.8,
+      "DIFF": -0.241077,
+      "DEA": -0.235025,
+      "MACD": -0.012104
     },
     {
-      "ticker": "300036.SZ",
+      "ticker": "300229.SZ",
       "market": "CN",
       "timeframe": "daily",
-      "signal_date": "2026-06-17",
+      "signal_date": "2026-06-18",
       "bars_ago": 1,
-      "close": 12.5,
-      "DIFF": -0.670268,
-      "DEA": -0.683522,
-      "MACD": 0.026507
+      "close": 15.64,
+      "DIFF": -0.773658,
+      "DEA": -0.740726,
+      "MACD": -0.065864
     },
     {
-      "ticker": "300040.SZ",
+      "ticker": "300253.SZ",
       "market": "CN",
       "timeframe": "daily",
-      "signal_date": "2026-06-17",
+      "signal_date": "2026-06-18",
       "bars_ago": 1,
-      "close": 6.89,
-      "DIFF": -0.221576,
-      "DEA": -0.137371,
-      "MACD": -0.16841
+      "close": 7.14,
+      "DIFF": -0.409853,
+      "DEA": -0.386877,
+      "MACD": -0.045952
     },
     {
-      "ticker": "300555.SZ",
+      "ticker": "300357.SZ",
       "market": "CN",
       "timeframe": "daily",
-      "signal_date": "2026-06-17",
+      "signal_date": "2026-06-18",
       "bars_ago": 1,
-      "close": 13.87,
-      "DIFF": -0.324758,
-      "DEA": -0.339316,
-      "MACD": 0.029114
+      "close": 21.25,
+      "DIFF": -0.860065,
+      "DEA": -0.856102,
+      "MACD": -0.007926
+    },
+    {
+      "ticker": "300421.SZ",
+      "market": "CN",
+      "timeframe": "daily",
+      "signal_date": "2026-06-18",
+      "bars_ago": 1,
+      "close": 20.29,
+      "DIFF": -1.279774,
+      "DEA": -1.113817,
+      "MACD": -0.331913
+    },
+    {
+      "ticker": "300634.SZ",
+      "market": "CN",
+      "timeframe": "daily",
+      "signal_date": "2026-06-18",
+      "bars_ago": 1,
+      "close": 22.24,
+      "DIFF": -1.106278,
+      "DEA": -0.841772,
+      "MACD": -0.529011
+    },
+    {
+      "ticker": "300638.SZ",
+      "market": "CN",
+      "timeframe": "daily",
+      "signal_date": "2026-06-18",
+      "bars_ago": 1,
+      "close": 20.3,
+      "DIFF": -0.948918,
+      "DEA": -0.848355,
+      "MACD": -0.201125
     },
     {
       "ticker": "300641.SZ",
@@ -572,15 +605,26 @@
       "MACD": -0.6512
     },
     {
-      "ticker": "300708.SZ",
+      "ticker": "300659.SZ",
       "market": "CN",
       "timeframe": "daily",
-      "signal_date": "2026-06-17",
+      "signal_date": "2026-06-18",
       "bars_ago": 1,
-      "close": 8.62,
-      "DIFF": -0.28761,
-      "DEA": -0.244522,
-      "MACD": -0.086177
+      "close": 10.27,
+      "DIFF": -0.589057,
+      "DEA": -0.58607,
+      "MACD": -0.005974
+    },
+    {
+      "ticker": "300698.SZ",
+      "market": "CN",
+      "timeframe": "daily",
+      "signal_date": "2026-06-18",
+      "bars_ago": 1,
+      "close": 31.99,
+      "DIFF": -1.548041,
+      "DEA": -1.360472,
+      "MACD": -0.375138
     },
     {
       "ticker": "300760.SZ",
@@ -591,7 +635,51 @@
       "close": 151.04,
       "DIFF": -13.314044,
       "DEA": -12.992069,
-      "MACD": -0.643949
+      "MACD": -0.64395
+    },
+    {
+      "ticker": "300768.SZ",
+      "market": "CN",
+      "timeframe": "daily",
+      "signal_date": "2026-06-18",
+      "bars_ago": 1,
+      "close": 14.67,
+      "DIFF": -0.688717,
+      "DEA": -0.612609,
+      "MACD": -0.152216
+    },
+    {
+      "ticker": "300792.SZ",
+      "market": "CN",
+      "timeframe": "daily",
+      "signal_date": "2026-06-18",
+      "bars_ago": 1,
+      "close": 29.88,
+      "DIFF": -1.490736,
+      "DEA": -1.30816,
+      "MACD": -0.365153
+    },
+    {
+      "ticker": "300793.SZ",
+      "market": "CN",
+      "timeframe": "daily",
+      "signal_date": "2026-06-18",
+      "bars_ago": 1,
+      "close": 12.45,
+      "DIFF": -0.555711,
+      "DEA": -0.498224,
+      "MACD": -0.114975
+    },
+    {
+      "ticker": "300896.SZ",
+      "market": "CN",
+      "timeframe": "daily",
+      "signal_date": "2026-06-18",
+      "bars_ago": 1,
+      "close": 91.36,
+      "DIFF": -5.123187,
+      "DEA": -5.038082,
+      "MACD": -0.170211
     },
     {
       "ticker": "3700.HK",
@@ -627,15 +715,26 @@
       "MACD": -0.014846
     },
     {
-      "ticker": "603501.SS",
+      "ticker": "600867.SS",
       "market": "CN",
       "timeframe": "daily",
-      "signal_date": "2026-06-17",
+      "signal_date": "2026-06-18",
       "bars_ago": 1,
-      "close": 90.12,
-      "DIFF": -3.280429,
-      "DEA": -2.479209,
-      "MACD": -1.602441
+      "close": 7.46,
+      "DIFF": -0.306393,
+      "DEA": -0.302315,
+      "MACD": -0.008156
+    },
+    {
+      "ticker": "6158.HK",
+      "market": "CN",
+      "timeframe": "daily",
+      "signal_date": "2026-06-18",
+      "bars_ago": 1,
+      "close": 0.015,
+      "DIFF": -0.000835,
+      "DEA": -0.000818,
+      "MACD": -3.5e-05
     },
     {
       "ticker": "6186.HK",
@@ -647,28 +746,6 @@
       "DIFF": -0.248058,
       "DEA": -0.229994,
       "MACD": -0.036129
-    },
-    {
-      "ticker": "AGCO",
-      "market": "US",
-      "timeframe": "daily",
-      "signal_date": "2026-06-16",
-      "bars_ago": 1,
-      "close": 113.21,
-      "DIFF": -0.98886,
-      "DEA": -0.798989,
-      "MACD": -0.379742
-    },
-    {
-      "ticker": "AHR",
-      "market": "US",
-      "timeframe": "daily",
-      "signal_date": "2026-06-16",
-      "bars_ago": 1,
-      "close": 46.87,
-      "DIFF": -0.916043,
-      "DEA": -0.83721,
-      "MACD": -0.157667
     },
     {
       "ticker": "ATR",
@@ -690,7 +767,7 @@
       "close": 159.25,
       "DIFF": -5.279233,
       "DEA": -3.583658,
-      "MACD": -3.39115
+      "MACD": -3.391151
     },
     {
       "ticker": "BAX",
@@ -699,7 +776,7 @@
       "signal_date": "2026-05-01",
       "bars_ago": 1,
       "close": 18.7702,
-      "DIFF": -5.668256,
+      "DIFF": -5.668255,
       "DEA": -5.653913,
       "MACD": -0.028685
     },
@@ -713,17 +790,6 @@
       "DIFF": -2.803194,
       "DEA": -2.131382,
       "MACD": -1.343624
-    },
-    {
-      "ticker": "BILL",
-      "market": "US",
-      "timeframe": "daily",
-      "signal_date": "2026-06-16",
-      "bars_ago": 1,
-      "close": 33.68,
-      "DIFF": -1.350203,
-      "DEA": -1.120437,
-      "MACD": -0.459532
     },
     {
       "ticker": "BJ",
@@ -757,17 +823,6 @@
       "DIFF": -1.122004,
       "DEA": -0.990609,
       "MACD": -0.262791
-    },
-    {
-      "ticker": "CPRT",
-      "market": "US",
-      "timeframe": "daily",
-      "signal_date": "2026-06-16",
-      "bars_ago": 1,
-      "close": 30.74,
-      "DIFF": -0.691458,
-      "DEA": -0.609854,
-      "MACD": -0.163208
     },
     {
       "ticker": "CXT",
@@ -825,17 +880,6 @@
       "MACD": -0.460603
     },
     {
-      "ticker": "EXE",
-      "market": "US",
-      "timeframe": "daily",
-      "signal_date": "2026-06-16",
-      "bars_ago": 1,
-      "close": 88.36,
-      "DIFF": -2.479493,
-      "DEA": -2.18824,
-      "MACD": -0.582505
-    },
-    {
       "ticker": "FND",
       "market": "US",
       "timeframe": "weekly",
@@ -856,17 +900,6 @@
       "DIFF": -3.542126,
       "DEA": -2.740568,
       "MACD": -1.603116
-    },
-    {
-      "ticker": "GILD",
-      "market": "US",
-      "timeframe": "daily",
-      "signal_date": "2026-06-16",
-      "bars_ago": 1,
-      "close": 127.23,
-      "DIFF": -2.04725,
-      "DEA": -1.844965,
-      "MACD": -0.40457
     },
     {
       "ticker": "HRL",
@@ -904,6 +937,17 @@
     {
       "ticker": "MOS",
       "market": "US",
+      "timeframe": "daily",
+      "signal_date": "2026-06-17",
+      "bars_ago": 1,
+      "close": 22.51,
+      "DIFF": -0.294218,
+      "DEA": -0.336339,
+      "MACD": 0.084242
+    },
+    {
+      "ticker": "MOS",
+      "market": "US",
       "timeframe": "weekly",
       "signal_date": "2026-06-08",
       "bars_ago": 1,
@@ -919,7 +963,7 @@
       "signal_date": "2026-05-01",
       "bars_ago": 1,
       "close": 133.6,
-      "DIFF": -12.941406,
+      "DIFF": -12.941407,
       "DEA": -13.352928,
       "MACD": 0.823043
     },
@@ -933,39 +977,6 @@
       "DIFF": -1.414912,
       "DEA": -1.251044,
       "MACD": -0.327735
-    },
-    {
-      "ticker": "PEN",
-      "market": "US",
-      "timeframe": "daily",
-      "signal_date": "2026-06-16",
-      "bars_ago": 1,
-      "close": 318.46,
-      "DIFF": -1.95094,
-      "DEA": -1.94967,
-      "MACD": -0.002541
-    },
-    {
-      "ticker": "PRIM",
-      "market": "US",
-      "timeframe": "daily",
-      "signal_date": "2026-06-16",
-      "bars_ago": 1,
-      "close": 103.27,
-      "DIFF": -9.067096,
-      "DEA": -8.053665,
-      "MACD": -2.026861
-    },
-    {
-      "ticker": "QTWO",
-      "market": "US",
-      "timeframe": "daily",
-      "signal_date": "2026-06-16",
-      "bars_ago": 1,
-      "close": 45.13,
-      "DIFF": -1.066868,
-      "DEA": -0.984397,
-      "MACD": -0.164941
     },
     {
       "ticker": "SDGR",
@@ -986,7 +997,7 @@
       "bars_ago": 1,
       "close": 40.91,
       "DIFF": -1.37604,
-      "DEA": -1.273781,
+      "DEA": -1.27378,
       "MACD": -0.204518
     },
     {
@@ -1023,28 +1034,6 @@
       "MACD": -1.958403
     },
     {
-      "ticker": "TRMB",
-      "market": "US",
-      "timeframe": "daily",
-      "signal_date": "2026-06-16",
-      "bars_ago": 1,
-      "close": 50.78,
-      "DIFF": -2.69622,
-      "DEA": -2.510261,
-      "MACD": -0.371918
-    },
-    {
-      "ticker": "TRU",
-      "market": "US",
-      "timeframe": "daily",
-      "signal_date": "2026-06-16",
-      "bars_ago": 1,
-      "close": 68.92,
-      "DIFF": -0.736377,
-      "DEA": -0.454992,
-      "MACD": -0.562769
-    },
-    {
       "ticker": "TTEK",
       "market": "US",
       "timeframe": "weekly",
@@ -1056,17 +1045,6 @@
       "MACD": -0.755519
     },
     {
-      "ticker": "TYL",
-      "market": "US",
-      "timeframe": "daily",
-      "signal_date": "2026-06-16",
-      "bars_ago": 1,
-      "close": 298.27,
-      "DIFF": -6.838328,
-      "DEA": -6.024616,
-      "MACD": -1.627424
-    },
-    {
       "ticker": "UFPI",
       "market": "US",
       "timeframe": "weekly",
@@ -1075,7 +1053,7 @@
       "close": 84.56,
       "DIFF": -4.337159,
       "DEA": -3.172231,
-      "MACD": -2.329856
+      "MACD": -2.329857
     },
     {
       "ticker": "USPH",
@@ -1133,59 +1111,48 @@
       "MACD": -15.000823
     },
     {
-      "ticker": "000059.SZ",
+      "ticker": "000002.SZ",
       "market": "CN",
       "timeframe": "daily",
-      "signal_date": "2026-06-16",
+      "signal_date": "2026-06-17",
       "bars_ago": 2,
-      "close": 4.36,
-      "DIFF": -0.21059,
-      "DEA": -0.207257,
-      "MACD": -0.006666
+      "close": 3.09,
+      "DIFF": -0.176654,
+      "DEA": -0.177527,
+      "MACD": 0.001746
     },
     {
-      "ticker": "000880.SZ",
+      "ticker": "0020.HK",
       "market": "CN",
       "timeframe": "daily",
-      "signal_date": "2026-06-16",
+      "signal_date": "2026-06-17",
       "bars_ago": 2,
-      "close": 25.46,
-      "DIFF": -1.656305,
-      "DEA": -1.168175,
-      "MACD": -0.976259
+      "close": 1.5,
+      "DIFF": -0.116602,
+      "DEA": -0.10716,
+      "MACD": -0.018884
     },
     {
-      "ticker": "002090.SZ",
+      "ticker": "002044.SZ",
       "market": "CN",
       "timeframe": "daily",
-      "signal_date": "2026-06-16",
+      "signal_date": "2026-06-17",
       "bars_ago": 2,
-      "close": 9.65,
-      "DIFF": -0.435908,
-      "DEA": -0.346683,
-      "MACD": -0.17845
+      "close": 5.23,
+      "DIFF": -0.196237,
+      "DEA": -0.164422,
+      "MACD": -0.06363
     },
     {
-      "ticker": "002236.SZ",
+      "ticker": "002086.SZ",
       "market": "CN",
       "timeframe": "daily",
-      "signal_date": "2026-06-16",
+      "signal_date": "2026-06-17",
       "bars_ago": 2,
-      "close": 16.41,
-      "DIFF": -0.381538,
-      "DEA": -0.315444,
-      "MACD": -0.132187
-    },
-    {
-      "ticker": "002376.SZ",
-      "market": "CN",
-      "timeframe": "daily",
-      "signal_date": "2026-06-16",
-      "bars_ago": 2,
-      "close": 6.2,
-      "DIFF": -0.206948,
-      "DEA": -0.179345,
-      "MACD": -0.055205
+      "close": 1.82,
+      "DIFF": -0.040163,
+      "DEA": -0.038883,
+      "MACD": -0.00256
     },
     {
       "ticker": "002630.SZ",
@@ -1199,15 +1166,15 @@
       "MACD": -0.053202
     },
     {
-      "ticker": "0582.HK",
+      "ticker": "0027.HK",
       "market": "CN",
       "timeframe": "daily",
-      "signal_date": "2026-06-16",
+      "signal_date": "2026-06-17",
       "bars_ago": 2,
-      "close": 0.044,
-      "DIFF": -0.010359,
-      "DEA": -0.009865,
-      "MACD": -0.000987
+      "close": 30.9,
+      "DIFF": -0.474773,
+      "DEA": -0.459816,
+      "MACD": -0.029913
     },
     {
       "ticker": "0606.HK",
@@ -1221,6 +1188,17 @@
       "MACD": -0.002742
     },
     {
+      "ticker": "1003.HK",
+      "market": "CN",
+      "timeframe": "daily",
+      "signal_date": "2026-06-17",
+      "bars_ago": 2,
+      "close": 0.21,
+      "DIFF": -0.010288,
+      "DEA": -0.00891,
+      "MACD": -0.002756
+    },
+    {
       "ticker": "2811.HK",
       "market": "CN",
       "timeframe": "weekly",
@@ -1228,140 +1206,63 @@
       "bars_ago": 2,
       "close": 13.13,
       "DIFF": -0.21419,
-      "DEA": -0.20956,
-      "MACD": -0.009261
+      "DEA": -0.209559,
+      "MACD": -0.009262
     },
     {
-      "ticker": "300076.SZ",
+      "ticker": "2819.HK",
       "market": "CN",
       "timeframe": "daily",
-      "signal_date": "2026-06-16",
+      "signal_date": "2026-06-17",
       "bars_ago": 2,
-      "close": 4.51,
-      "DIFF": -0.243976,
-      "DEA": -0.230083,
-      "MACD": -0.027786
+      "close": 100.85,
+      "DIFF": -0.245966,
+      "DEA": -0.245296,
+      "MACD": -0.001342
     },
     {
-      "ticker": "300168.SZ",
+      "ticker": "300036.SZ",
       "market": "CN",
       "timeframe": "daily",
-      "signal_date": "2026-06-16",
+      "signal_date": "2026-06-17",
       "bars_ago": 2,
-      "close": 4.89,
-      "DIFF": -0.217681,
-      "DEA": -0.184203,
-      "MACD": -0.066956
+      "close": 12.5,
+      "DIFF": -0.670268,
+      "DEA": -0.683522,
+      "MACD": 0.026507
     },
     {
-      "ticker": "300474.SZ",
+      "ticker": "300040.SZ",
       "market": "CN",
       "timeframe": "daily",
-      "signal_date": "2026-06-16",
+      "signal_date": "2026-06-17",
       "bars_ago": 2,
-      "close": 53.9,
-      "DIFF": -2.943544,
-      "DEA": -2.432934,
-      "MACD": -1.021221
+      "close": 6.89,
+      "DIFF": -0.221576,
+      "DEA": -0.137371,
+      "MACD": -0.16841
     },
     {
-      "ticker": "300523.SZ",
+      "ticker": "300555.SZ",
       "market": "CN",
       "timeframe": "daily",
-      "signal_date": "2026-06-16",
+      "signal_date": "2026-06-17",
       "bars_ago": 2,
-      "close": 20.15,
-      "DIFF": -0.669902,
-      "DEA": -0.497828,
-      "MACD": -0.344148
+      "close": 13.87,
+      "DIFF": -0.324758,
+      "DEA": -0.339316,
+      "MACD": 0.029114
     },
     {
-      "ticker": "300622.SZ",
+      "ticker": "300708.SZ",
       "market": "CN",
       "timeframe": "daily",
-      "signal_date": "2026-06-16",
+      "signal_date": "2026-06-17",
       "bars_ago": 2,
-      "close": 15.54,
-      "DIFF": -0.70186,
-      "DEA": -0.570409,
-      "MACD": -0.262902
-    },
-    {
-      "ticker": "300652.SZ",
-      "market": "CN",
-      "timeframe": "daily",
-      "signal_date": "2026-06-16",
-      "bars_ago": 2,
-      "close": 40.74,
-      "DIFF": -1.629093,
-      "DEA": -1.045233,
-      "MACD": -1.167722
-    },
-    {
-      "ticker": "300735.SZ",
-      "market": "CN",
-      "timeframe": "daily",
-      "signal_date": "2026-06-16",
-      "bars_ago": 2,
-      "close": 20.71,
-      "DIFF": -0.569693,
-      "DEA": -0.36245,
-      "MACD": -0.414487
-    },
-    {
-      "ticker": "300751.SZ",
-      "market": "CN",
-      "timeframe": "daily",
-      "signal_date": "2026-06-16",
-      "bars_ago": 2,
-      "close": 220.4,
-      "DIFF": -11.936531,
-      "DEA": -9.304455,
-      "MACD": -5.264153
-    },
-    {
-      "ticker": "300822.SZ",
-      "market": "CN",
-      "timeframe": "daily",
-      "signal_date": "2026-06-16",
-      "bars_ago": 2,
-      "close": 13.26,
-      "DIFF": -0.454521,
-      "DEA": -0.33898,
-      "MACD": -0.231082
-    },
-    {
-      "ticker": "300842.SZ",
-      "market": "CN",
-      "timeframe": "daily",
-      "signal_date": "2026-06-16",
-      "bars_ago": 2,
-      "close": 80.02,
-      "DIFF": -3.729443,
-      "DEA": -2.960987,
-      "MACD": -1.536914
-    },
-    {
-      "ticker": "300918.SZ",
-      "market": "CN",
-      "timeframe": "daily",
-      "signal_date": "2026-06-16",
-      "bars_ago": 2,
-      "close": 12.63,
-      "DIFF": -0.527026,
-      "DEA": -0.508774,
-      "MACD": -0.036504
-    },
-    {
-      "ticker": "300968.SZ",
-      "market": "CN",
-      "timeframe": "daily",
-      "signal_date": "2026-06-16",
-      "bars_ago": 2,
-      "close": 10.82,
-      "DIFF": -0.418391,
-      "DEA": -0.34126,
-      "MACD": -0.154262
+      "close": 8.62,
+      "DIFF": -0.28761,
+      "DEA": -0.244522,
+      "MACD": -0.086177
     },
     {
       "ticker": "3888.HK",
@@ -1375,6 +1276,17 @@
       "MACD": 0.026318
     },
     {
+      "ticker": "603501.SS",
+      "market": "CN",
+      "timeframe": "daily",
+      "signal_date": "2026-06-17",
+      "bars_ago": 2,
+      "close": 90.12,
+      "DIFF": -3.280429,
+      "DEA": -2.479209,
+      "MACD": -1.602441
+    },
+    {
       "ticker": "ACI",
       "market": "US",
       "timeframe": "weekly",
@@ -1384,6 +1296,17 @@
       "DIFF": -0.44574,
       "DEA": -0.395395,
       "MACD": -0.100688
+    },
+    {
+      "ticker": "AHR",
+      "market": "US",
+      "timeframe": "daily",
+      "signal_date": "2026-06-16",
+      "bars_ago": 2,
+      "close": 46.87,
+      "DIFF": -0.916043,
+      "DEA": -0.83721,
+      "MACD": -0.157667
     },
     {
       "ticker": "AMCR",
@@ -1408,6 +1331,17 @@
       "MACD": -0.238671
     },
     {
+      "ticker": "BILL",
+      "market": "US",
+      "timeframe": "daily",
+      "signal_date": "2026-06-16",
+      "bars_ago": 2,
+      "close": 33.68,
+      "DIFF": -1.350203,
+      "DEA": -1.120437,
+      "MACD": -0.459532
+    },
+    {
       "ticker": "CLX",
       "market": "US",
       "timeframe": "weekly",
@@ -1415,7 +1349,7 @@
       "bars_ago": 2,
       "close": 94.14,
       "DIFF": -5.483148,
-      "DEA": -4.444992,
+      "DEA": -4.444991,
       "MACD": -2.076313
     },
     {
@@ -1430,26 +1364,15 @@
       "MACD": -1.695932
     },
     {
-      "ticker": "DLB",
+      "ticker": "CPRT",
       "market": "US",
       "timeframe": "daily",
-      "signal_date": "2026-06-15",
+      "signal_date": "2026-06-16",
       "bars_ago": 2,
-      "close": 53.44,
-      "DIFF": -1.270449,
-      "DEA": -1.281738,
-      "MACD": 0.022577
-    },
-    {
-      "ticker": "EEFT",
-      "market": "US",
-      "timeframe": "daily",
-      "signal_date": "2026-06-15",
-      "bars_ago": 2,
-      "close": 66.9,
-      "DIFF": -1.09681,
-      "DEA": -0.844454,
-      "MACD": -0.504712
+      "close": 30.74,
+      "DIFF": -0.691458,
+      "DEA": -0.609854,
+      "MACD": -0.163208
     },
     {
       "ticker": "EPC",
@@ -1463,6 +1386,28 @@
       "MACD": -0.543099
     },
     {
+      "ticker": "EXE",
+      "market": "US",
+      "timeframe": "daily",
+      "signal_date": "2026-06-16",
+      "bars_ago": 2,
+      "close": 88.36,
+      "DIFF": -2.479493,
+      "DEA": -2.18824,
+      "MACD": -0.582505
+    },
+    {
+      "ticker": "GILD",
+      "market": "US",
+      "timeframe": "daily",
+      "signal_date": "2026-06-16",
+      "bars_ago": 2,
+      "close": 127.23,
+      "DIFF": -2.04725,
+      "DEA": -1.844965,
+      "MACD": -0.40457
+    },
+    {
       "ticker": "MRSH",
       "market": "US",
       "timeframe": "weekly",
@@ -1472,28 +1417,6 @@
       "DIFF": -6.608105,
       "DEA": -6.324597,
       "MACD": -0.567016
-    },
-    {
-      "ticker": "MSA",
-      "market": "US",
-      "timeframe": "daily",
-      "signal_date": "2026-06-15",
-      "bars_ago": 2,
-      "close": 162.48,
-      "DIFF": -2.63129,
-      "DEA": -2.267218,
-      "MACD": -0.728144
-    },
-    {
-      "ticker": "NRG",
-      "market": "US",
-      "timeframe": "daily",
-      "signal_date": "2026-06-15",
-      "bars_ago": 2,
-      "close": 130.4,
-      "DIFF": -4.572375,
-      "DEA": -4.724988,
-      "MACD": 0.305227
     },
     {
       "ticker": "PEG",
@@ -1507,15 +1430,15 @@
       "MACD": -0.684733
     },
     {
-      "ticker": "PLTR",
+      "ticker": "PEN",
       "market": "US",
       "timeframe": "daily",
-      "signal_date": "2026-06-15",
+      "signal_date": "2026-06-16",
       "bars_ago": 2,
-      "close": 134.71,
-      "DIFF": -2.148372,
-      "DEA": -0.870923,
-      "MACD": -2.554898
+      "close": 318.46,
+      "DIFF": -1.95094,
+      "DEA": -1.94967,
+      "MACD": -0.002541
     },
     {
       "ticker": "POOL",
@@ -1526,7 +1449,29 @@
       "close": 185.52,
       "DIFF": -19.316845,
       "DEA": -18.043918,
-      "MACD": -2.545854
+      "MACD": -2.545853
+    },
+    {
+      "ticker": "PRIM",
+      "market": "US",
+      "timeframe": "daily",
+      "signal_date": "2026-06-16",
+      "bars_ago": 2,
+      "close": 103.27,
+      "DIFF": -9.067096,
+      "DEA": -8.053665,
+      "MACD": -2.026861
+    },
+    {
+      "ticker": "QTWO",
+      "market": "US",
+      "timeframe": "daily",
+      "signal_date": "2026-06-16",
+      "bars_ago": 2,
+      "close": 45.13,
+      "DIFF": -1.066868,
+      "DEA": -0.984397,
+      "MACD": -0.164941
     },
     {
       "ticker": "RLI",
@@ -1573,6 +1518,28 @@
       "MACD": 1.157938
     },
     {
+      "ticker": "TRMB",
+      "market": "US",
+      "timeframe": "daily",
+      "signal_date": "2026-06-16",
+      "bars_ago": 2,
+      "close": 50.78,
+      "DIFF": -2.69622,
+      "DEA": -2.510261,
+      "MACD": -0.371918
+    },
+    {
+      "ticker": "TRU",
+      "market": "US",
+      "timeframe": "daily",
+      "signal_date": "2026-06-16",
+      "bars_ago": 2,
+      "close": 68.92,
+      "DIFF": -0.736377,
+      "DEA": -0.454992,
+      "MACD": -0.562769
+    },
+    {
       "ticker": "TRUP",
       "market": "US",
       "timeframe": "weekly",
@@ -1584,26 +1551,15 @@
       "MACD": 0.024059
     },
     {
-      "ticker": "UHT",
+      "ticker": "TYL",
       "market": "US",
       "timeframe": "daily",
-      "signal_date": "2026-06-15",
+      "signal_date": "2026-06-16",
       "bars_ago": 2,
-      "close": 40.33,
-      "DIFF": -0.254321,
-      "DEA": -0.195206,
-      "MACD": -0.11823
-    },
-    {
-      "ticker": "ULTA",
-      "market": "US",
-      "timeframe": "daily",
-      "signal_date": "2026-06-15",
-      "bars_ago": 2,
-      "close": 471.65,
-      "DIFF": -13.785865,
-      "DEA": -13.536384,
-      "MACD": -0.498963
+      "close": 298.27,
+      "DIFF": -6.838328,
+      "DEA": -6.024616,
+      "MACD": -1.627424
     },
     {
       "ticker": "WAY",
