@@ -1,45 +1,23 @@
 {
-  "generated_at": "2026-06-22T18:32:05.404818+00:00",
+  "generated_at": "2026-06-22T18:51:26.761324+00:00",
   "next_scan_at": "2026-06-22T19:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
   "stats": {
     "total_scanned": 68,
-    "buy_signals": 7
+    "buy_signals": 5
   },
   "buy_signals": [
-    {
-      "ticker": "INOD",
-      "group": "Tech",
-      "timeframe": "1h",
-      "signal_ts": "2026-06-22 18:30 UTC",
-      "bars_ago": 0,
-      "close": 91.55,
-      "DIFF": -3.495259,
-      "DEA": -2.990323,
-      "MACD": -1.009872
-    },
     {
       "ticker": "META",
       "group": "MEGA7",
       "timeframe": "1h",
       "signal_ts": "2026-06-22 18:30 UTC",
       "bars_ago": 0,
-      "close": 565.8,
-      "DIFF": -5.217889,
-      "DEA": -4.300328,
-      "MACD": -1.835121
-    },
-    {
-      "ticker": "MSFT",
-      "group": "MEGA7",
-      "timeframe": "1h",
-      "signal_ts": "2026-06-22 18:30 UTC",
-      "bars_ago": 0,
-      "close": 370.44,
-      "DIFF": -5.560747,
-      "DEA": -5.133495,
-      "MACD": -0.854503
+      "close": 565.38,
+      "DIFF": -5.251392,
+      "DEA": -4.307029,
+      "MACD": -1.888726
     },
     {
       "ticker": "RDW",
