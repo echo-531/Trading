@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-22T17:59:29.243930+00:00",
-  "next_scan_at": "2026-06-22T18:00:00+00:00",
+  "generated_at": "2026-06-22T18:12:48.392763+00:00",
+  "next_scan_at": "2026-06-22T19:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
   "stats": {
@@ -9,15 +9,15 @@
   },
   "buy_signals": [
     {
-      "ticker": "INOD",
-      "group": "Tech",
+      "ticker": "RDW",
+      "group": "太空",
       "timeframe": "1h",
       "signal_ts": "2026-06-22 17:30 UTC",
       "bars_ago": 0,
-      "close": 92.51,
-      "DIFF": -3.441341,
-      "DEA": -2.844624,
-      "MACD": -1.193434
+      "close": 13.22,
+      "DIFF": -0.455203,
+      "DEA": -0.421714,
+      "MACD": -0.06698
     },
     {
       "ticker": "FLY",
@@ -25,10 +25,10 @@
       "timeframe": "1h",
       "signal_ts": "2026-06-22 17:30 UTC",
       "bars_ago": 0,
-      "close": 29.235,
-      "DIFF": -1.009877,
-      "DEA": -1.028372,
-      "MACD": 0.036989
+      "close": 29.345,
+      "DIFF": -1.001102,
+      "DEA": -1.026617,
+      "MACD": 0.051029
     },
     {
       "ticker": "AAOI",
