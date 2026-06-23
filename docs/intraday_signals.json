@@ -1,23 +1,34 @@
 {
-  "generated_at": "2026-06-23T16:08:12.935758+00:00",
+  "generated_at": "2026-06-23T16:28:00.111453+00:00",
   "next_scan_at": "2026-06-23T17:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
   "stats": {
     "total_scanned": 68,
-    "buy_signals": 4
+    "buy_signals": 5
   },
   "buy_signals": [
+    {
+      "ticker": "JBL",
+      "group": "Tech",
+      "timeframe": "1h",
+      "signal_ts": "2026-06-23 15:30 UTC",
+      "bars_ago": 0,
+      "close": 371.38,
+      "DIFF": -2.037521,
+      "DEA": -1.890699,
+      "MACD": -0.293645
+    },
     {
       "ticker": "INOD",
       "group": "Tech",
       "timeframe": "1h",
       "signal_ts": "2026-06-23 15:30 UTC",
       "bars_ago": 0,
-      "close": 89.45,
-      "DIFF": -3.537219,
-      "DEA": -3.317867,
-      "MACD": -0.438704
+      "close": 89.66,
+      "DIFF": -3.520466,
+      "DEA": -3.314516,
+      "MACD": -0.4119
     },
     {
       "ticker": "META",
@@ -25,10 +36,10 @@
       "timeframe": "1h",
       "signal_ts": "2026-06-23 15:30 UTC",
       "bars_ago": 0,
-      "close": 563.62,
-      "DIFF": -4.773774,
-      "DEA": -4.659055,
-      "MACD": -0.229437
+      "close": 564.1018,
+      "DIFF": -4.735338,
+      "DEA": -4.651368,
+      "MACD": -0.167941
     },
     {
       "ticker": "AMZN",
@@ -36,10 +47,10 @@
       "timeframe": "1h",
       "signal_ts": "2026-06-23 15:30 UTC",
       "bars_ago": 0,
-      "close": 234.61,
-      "DIFF": -2.258318,
-      "DEA": -1.949414,
-      "MACD": -0.617807
+      "close": 234.7,
+      "DIFF": -2.251138,
+      "DEA": -1.947978,
+      "MACD": -0.606321
     },
     {
       "ticker": "MSFT",
