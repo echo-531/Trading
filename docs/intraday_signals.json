@@ -1,67 +1,56 @@
 {
-  "generated_at": "2026-06-23T16:28:00.111453+00:00",
-  "next_scan_at": "2026-06-23T17:00:00+00:00",
+  "generated_at": "2026-06-23T17:00:33.315483+00:00",
+  "next_scan_at": "2026-06-23T18:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
   "stats": {
     "total_scanned": 68,
-    "buy_signals": 5
+    "buy_signals": 4
   },
   "buy_signals": [
+    {
+      "ticker": "INOD",
+      "group": "Tech",
+      "timeframe": "1h",
+      "signal_ts": "2026-06-23 16:30 UTC",
+      "bars_ago": 0,
+      "close": 89.37,
+      "DIFF": -3.475944,
+      "DEA": -3.351397,
+      "MACD": -0.249095
+    },
     {
       "ticker": "JBL",
       "group": "Tech",
       "timeframe": "1h",
       "signal_ts": "2026-06-23 15:30 UTC",
-      "bars_ago": 0,
-      "close": 371.38,
-      "DIFF": -2.037521,
-      "DEA": -1.890699,
-      "MACD": -0.293645
-    },
-    {
-      "ticker": "INOD",
-      "group": "Tech",
-      "timeframe": "1h",
-      "signal_ts": "2026-06-23 15:30 UTC",
-      "bars_ago": 0,
-      "close": 89.66,
-      "DIFF": -3.520466,
-      "DEA": -3.314516,
-      "MACD": -0.4119
+      "bars_ago": 1,
+      "close": 371.535,
+      "DIFF": -2.025157,
+      "DEA": -1.888226,
+      "MACD": -0.273862
     },
     {
       "ticker": "META",
       "group": "MEGA7",
       "timeframe": "1h",
       "signal_ts": "2026-06-23 15:30 UTC",
-      "bars_ago": 0,
-      "close": 564.1018,
-      "DIFF": -4.735338,
-      "DEA": -4.651368,
-      "MACD": -0.167941
+      "bars_ago": 1,
+      "close": 563.83,
+      "DIFF": -4.75702,
+      "DEA": -4.655704,
+      "MACD": -0.202631
     },
     {
       "ticker": "AMZN",
       "group": "MEGA7",
       "timeframe": "1h",
       "signal_ts": "2026-06-23 15:30 UTC",
-      "bars_ago": 0,
-      "close": 234.7,
-      "DIFF": -2.251138,
-      "DEA": -1.947978,
-      "MACD": -0.606321
-    },
-    {
-      "ticker": "MSFT",
-      "group": "MEGA7",
-      "timeframe": "1h",
-      "signal_ts": "2026-06-23 13:30 UTC",
-      "bars_ago": 2,
-      "close": 376.28,
-      "DIFF": -5.048425,
-      "DEA": -5.220788,
-      "MACD": 0.344727
+      "bars_ago": 1,
+      "close": 234.615,
+      "DIFF": -2.257918,
+      "DEA": -1.949334,
+      "MACD": -0.617169
     }
   ]
 }
