@@ -1,67 +1,56 @@
 {
-  "generated_at": "2026-06-22T19:24:11.298586+00:00",
-  "next_scan_at": "2026-06-22T20:00:00+00:00",
+  "generated_at": "2026-06-23T16:08:12.935758+00:00",
+  "next_scan_at": "2026-06-23T17:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
   "stats": {
     "total_scanned": 68,
-    "buy_signals": 5
+    "buy_signals": 4
   },
   "buy_signals": [
+    {
+      "ticker": "INOD",
+      "group": "Tech",
+      "timeframe": "1h",
+      "signal_ts": "2026-06-23 15:30 UTC",
+      "bars_ago": 0,
+      "close": 89.45,
+      "DIFF": -3.537219,
+      "DEA": -3.317867,
+      "MACD": -0.438704
+    },
     {
       "ticker": "META",
       "group": "MEGA7",
       "timeframe": "1h",
-      "signal_ts": "2026-06-22 18:30 UTC",
+      "signal_ts": "2026-06-23 15:30 UTC",
       "bars_ago": 0,
-      "close": 565.305,
-      "DIFF": -5.257376,
-      "DEA": -4.308226,
-      "MACD": -1.8983
+      "close": 563.62,
+      "DIFF": -4.773774,
+      "DEA": -4.659055,
+      "MACD": -0.229437
     },
     {
-      "ticker": "RDW",
-      "group": "太空",
+      "ticker": "AMZN",
+      "group": "MEGA7",
       "timeframe": "1h",
-      "signal_ts": "2026-06-22 17:30 UTC",
-      "bars_ago": 1,
-      "close": 13.315,
-      "DIFF": -0.447625,
-      "DEA": -0.420198,
-      "MACD": -0.054854
+      "signal_ts": "2026-06-23 15:30 UTC",
+      "bars_ago": 0,
+      "close": 234.61,
+      "DIFF": -2.258318,
+      "DEA": -1.949414,
+      "MACD": -0.617807
     },
     {
-      "ticker": "FLY",
-      "group": "太空",
+      "ticker": "MSFT",
+      "group": "MEGA7",
       "timeframe": "1h",
-      "signal_ts": "2026-06-22 17:30 UTC",
-      "bars_ago": 1,
-      "close": 29.39,
-      "DIFF": -0.997513,
-      "DEA": -1.025899,
-      "MACD": 0.056772
-    },
-    {
-      "ticker": "AAOI",
-      "group": "光",
-      "timeframe": "1h",
-      "signal_ts": "2026-06-22 16:30 UTC",
+      "signal_ts": "2026-06-23 13:30 UTC",
       "bars_ago": 2,
-      "close": 169.06,
-      "DIFF": -3.782711,
-      "DEA": -3.860894,
-      "MACD": 0.156365
-    },
-    {
-      "ticker": "ONDS",
-      "group": "太空",
-      "timeframe": "1h",
-      "signal_ts": "2026-06-22 16:30 UTC",
-      "bars_ago": 2,
-      "close": 8.985,
-      "DIFF": -0.130745,
-      "DEA": -0.125588,
-      "MACD": -0.010314
+      "close": 376.28,
+      "DIFF": -5.048425,
+      "DEA": -5.220788,
+      "MACD": 0.344727
     }
   ]
 }
