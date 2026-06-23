@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-06-23T17:51:30.695896+00:00",
-  "next_scan_at": "2026-06-23T18:00:00+00:00",
+  "generated_at": "2026-06-23T19:08:09.673376+00:00",
+  "next_scan_at": "2026-06-23T20:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
   "stats": {
     "total_scanned": 68,
-    "buy_signals": 4
+    "buy_signals": 2
   },
   "buy_signals": [
     {
@@ -13,44 +13,22 @@
       "group": "MEGA7",
       "timeframe": "1h",
       "signal_ts": "2026-06-23 17:30 UTC",
-      "bars_ago": 0,
-      "close": 234.62,
-      "DIFF": -2.147067,
-      "DEA": -2.03525,
-      "MACD": -0.223633
+      "bars_ago": 1,
+      "close": 234.88,
+      "DIFF": -2.126325,
+      "DEA": -2.031102,
+      "MACD": -0.190446
     },
     {
       "ticker": "INOD",
       "group": "Tech",
       "timeframe": "1h",
       "signal_ts": "2026-06-23 16:30 UTC",
-      "bars_ago": 1,
+      "bars_ago": 2,
       "close": 89.42,
       "DIFF": -3.471956,
       "DEA": -3.350599,
       "MACD": -0.242714
-    },
-    {
-      "ticker": "JBL",
-      "group": "Tech",
-      "timeframe": "1h",
-      "signal_ts": "2026-06-23 15:30 UTC",
-      "bars_ago": 2,
-      "close": 371.535,
-      "DIFF": -2.025157,
-      "DEA": -1.888226,
-      "MACD": -0.273862
-    },
-    {
-      "ticker": "META",
-      "group": "MEGA7",
-      "timeframe": "1h",
-      "signal_ts": "2026-06-23 15:30 UTC",
-      "bars_ago": 2,
-      "close": 563.83,
-      "DIFF": -4.75702,
-      "DEA": -4.655704,
-      "MACD": -0.202631
     }
   ]
 }
