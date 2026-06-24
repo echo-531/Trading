@@ -1,34 +1,45 @@
 {
-  "generated_at": "2026-06-23T19:08:09.673376+00:00",
-  "next_scan_at": "2026-06-23T20:00:00+00:00",
+  "generated_at": "2026-06-24T15:40:22.122554+00:00",
+  "next_scan_at": "2026-06-24T16:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
   "stats": {
     "total_scanned": 68,
-    "buy_signals": 2
+    "buy_signals": 3
   },
   "buy_signals": [
     {
-      "ticker": "AMZN",
-      "group": "MEGA7",
-      "timeframe": "1h",
-      "signal_ts": "2026-06-23 17:30 UTC",
-      "bars_ago": 1,
-      "close": 234.88,
-      "DIFF": -2.126325,
-      "DEA": -2.031102,
-      "MACD": -0.190446
-    },
-    {
-      "ticker": "INOD",
+      "ticker": "AVGO",
       "group": "Tech",
       "timeframe": "1h",
-      "signal_ts": "2026-06-23 16:30 UTC",
+      "signal_ts": "2026-06-24 14:30 UTC",
+      "bars_ago": 1,
+      "close": 385.63,
+      "DIFF": -3.483295,
+      "DEA": -2.193531,
+      "MACD": -2.579529
+    },
+    {
+      "ticker": "LITE",
+      "group": "光",
+      "timeframe": "1h",
+      "signal_ts": "2026-06-24 14:30 UTC",
+      "bars_ago": 1,
+      "close": 845.33,
+      "DIFF": -11.713098,
+      "DEA": -10.940602,
+      "MACD": -1.544993
+    },
+    {
+      "ticker": "CLS",
+      "group": "Tech",
+      "timeframe": "1h",
+      "signal_ts": "2026-06-24 13:30 UTC",
       "bars_ago": 2,
-      "close": 89.42,
-      "DIFF": -3.471956,
-      "DEA": -3.350599,
-      "MACD": -0.242714
+      "close": 370.73,
+      "DIFF": -6.624652,
+      "DEA": -6.719036,
+      "MACD": 0.188768
     }
   ]
 }
