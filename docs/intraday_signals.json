@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-06-24T16:23:21.226933+00:00",
+  "generated_at": "2026-06-24T16:37:53.922699+00:00",
   "next_scan_at": "2026-06-24T17:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
   "stats": {
     "total_scanned": 68,
-    "buy_signals": 3
+    "buy_signals": 2
   },
   "buy_signals": [
     {
@@ -13,7 +13,7 @@
       "group": "Tech",
       "timeframe": "1h",
       "signal_ts": "2026-06-24 14:30 UTC",
-      "bars_ago": 1,
+      "bars_ago": 2,
       "close": 385.63,
       "DIFF": -3.483295,
       "DEA": -2.193531,
@@ -24,22 +24,11 @@
       "group": "光",
       "timeframe": "1h",
       "signal_ts": "2026-06-24 14:30 UTC",
-      "bars_ago": 1,
+      "bars_ago": 2,
       "close": 845.33,
       "DIFF": -11.713098,
       "DEA": -10.940602,
       "MACD": -1.544993
-    },
-    {
-      "ticker": "CLS",
-      "group": "Tech",
-      "timeframe": "1h",
-      "signal_ts": "2026-06-24 13:30 UTC",
-      "bars_ago": 2,
-      "close": 370.73,
-      "DIFF": -6.624652,
-      "DEA": -6.719036,
-      "MACD": 0.188768
     }
   ]
 }
