@@ -1,34 +1,11 @@
 {
-  "generated_at": "2026-06-24T17:10:02.426769+00:00",
+  "generated_at": "2026-06-24T17:52:49.970095+00:00",
   "next_scan_at": "2026-06-24T18:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
   "stats": {
     "total_scanned": 68,
-    "buy_signals": 2
+    "buy_signals": 0
   },
-  "buy_signals": [
-    {
-      "ticker": "AVGO",
-      "group": "Tech",
-      "timeframe": "1h",
-      "signal_ts": "2026-06-24 14:30 UTC",
-      "bars_ago": 2,
-      "close": 385.63,
-      "DIFF": -3.483295,
-      "DEA": -2.193531,
-      "MACD": -2.579529
-    },
-    {
-      "ticker": "LITE",
-      "group": "光",
-      "timeframe": "1h",
-      "signal_ts": "2026-06-24 14:30 UTC",
-      "bars_ago": 2,
-      "close": 845.33,
-      "DIFF": -11.713098,
-      "DEA": -10.940602,
-      "MACD": -1.544993
-    }
-  ]
+  "buy_signals": []
 }
