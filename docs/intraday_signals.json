@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-25T15:57:49.512702+00:00",
-  "next_scan_at": "2026-06-25T16:00:00+00:00",
+  "generated_at": "2026-06-25T16:26:46.540051+00:00",
+  "next_scan_at": "2026-06-25T17:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
   "stats": {
@@ -9,15 +9,15 @@
   },
   "buy_signals": [
     {
-      "ticker": "TSLA",
-      "group": "MEGA7",
+      "ticker": "AMPX",
+      "group": "Tech",
       "timeframe": "1h",
       "signal_ts": "2026-06-25 15:30 UTC",
       "bars_ago": 0,
-      "close": 375.51,
-      "DIFF": -6.06315,
-      "DEA": -5.646826,
-      "MACD": -0.832647
+      "close": 12.4,
+      "DIFF": -0.859112,
+      "DEA": -0.754964,
+      "MACD": -0.208296
     },
     {
       "ticker": "AVGO",
