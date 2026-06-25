@@ -1,45 +1,78 @@
 {
-  "generated_at": "2026-06-25T17:18:47.670685+00:00",
-  "next_scan_at": "2026-06-25T18:00:00+00:00",
+  "generated_at": "2026-06-25T18:08:08.138128+00:00",
+  "next_scan_at": "2026-06-25T19:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
   "stats": {
     "total_scanned": 68,
-    "buy_signals": 3
+    "buy_signals": 6
   },
   "buy_signals": [
+    {
+      "ticker": "ORCL",
+      "group": "Tech",
+      "timeframe": "1h",
+      "signal_ts": "2026-06-25 17:30 UTC",
+      "bars_ago": 0,
+      "close": 152.96,
+      "DIFF": -7.009981,
+      "DEA": -6.893088,
+      "MACD": -0.233784
+    },
+    {
+      "ticker": "POET",
+      "group": "光",
+      "timeframe": "1h",
+      "signal_ts": "2026-06-25 17:30 UTC",
+      "bars_ago": 0,
+      "close": 10.2299,
+      "DIFF": -0.467601,
+      "DEA": -0.439928,
+      "MACD": -0.055346
+    },
+    {
+      "ticker": "GOOGL",
+      "group": "MEGA7",
+      "timeframe": "1h",
+      "signal_ts": "2026-06-25 17:30 UTC",
+      "bars_ago": 0,
+      "close": 341.5166,
+      "DIFF": -3.98444,
+      "DEA": -3.912407,
+      "MACD": -0.144066
+    },
+    {
+      "ticker": "PL",
+      "group": "太空",
+      "timeframe": "1h",
+      "signal_ts": "2026-06-25 17:30 UTC",
+      "bars_ago": 0,
+      "close": 26.19,
+      "DIFF": -0.645085,
+      "DEA": -0.586801,
+      "MACD": -0.116568
+    },
     {
       "ticker": "TSLA",
       "group": "MEGA7",
       "timeframe": "1h",
       "signal_ts": "2026-06-25 16:30 UTC",
-      "bars_ago": 0,
-      "close": 374.445,
-      "DIFF": -6.058141,
-      "DEA": -5.743384,
-      "MACD": -0.629513
+      "bars_ago": 1,
+      "close": 374.355,
+      "DIFF": -6.06532,
+      "DEA": -5.74482,
+      "MACD": -0.640999
     },
     {
       "ticker": "AMPX",
       "group": "Tech",
       "timeframe": "1h",
       "signal_ts": "2026-06-25 15:30 UTC",
-      "bars_ago": 1,
+      "bars_ago": 2,
       "close": 12.425,
       "DIFF": -0.857118,
       "DEA": -0.754565,
       "MACD": -0.205105
-    },
-    {
-      "ticker": "AVGO",
-      "group": "Tech",
-      "timeframe": "1h",
-      "signal_ts": "2026-06-25 14:30 UTC",
-      "bars_ago": 2,
-      "close": 381.11,
-      "DIFF": -3.57025,
-      "DEA": -3.286311,
-      "MACD": -0.567879
     }
   ]
 }
