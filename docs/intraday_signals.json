@@ -1,13 +1,24 @@
 {
-  "generated_at": "2026-06-25T16:40:53.194677+00:00",
-  "next_scan_at": "2026-06-25T17:00:00+00:00",
+  "generated_at": "2026-06-25T17:18:47.670685+00:00",
+  "next_scan_at": "2026-06-25T18:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
   "stats": {
     "total_scanned": 68,
-    "buy_signals": 2
+    "buy_signals": 3
   },
   "buy_signals": [
+    {
+      "ticker": "TSLA",
+      "group": "MEGA7",
+      "timeframe": "1h",
+      "signal_ts": "2026-06-25 16:30 UTC",
+      "bars_ago": 0,
+      "close": 374.445,
+      "DIFF": -6.058141,
+      "DEA": -5.743384,
+      "MACD": -0.629513
+    },
     {
       "ticker": "AMPX",
       "group": "Tech",
