@@ -1,41 +1,41 @@
 {
-  "generated_at": "2026-06-25T19:03:58.033264+00:00",
+  "generated_at": "2026-06-25T19:59:13.408488+00:00",
   "next_scan_at": "2026-06-25T20:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
   "stats": {
     "total_scanned": 68,
-    "buy_signals": 5
+    "buy_signals": 4
   },
   "buy_signals": [
+    {
+      "ticker": "POET",
+      "group": "光",
+      "timeframe": "1h",
+      "signal_ts": "2026-06-25 19:30 UTC",
+      "bars_ago": 0,
+      "close": 10.145,
+      "DIFF": -0.453344,
+      "DEA": -0.445446,
+      "MACD": -0.015797
+    },
     {
       "ticker": "ORCL",
       "group": "Tech",
       "timeframe": "1h",
       "signal_ts": "2026-06-25 17:30 UTC",
-      "bars_ago": 1,
+      "bars_ago": 2,
       "close": 153.73,
       "DIFF": -6.948557,
       "DEA": -6.880804,
       "MACD": -0.135507
     },
     {
-      "ticker": "POET",
-      "group": "光",
-      "timeframe": "1h",
-      "signal_ts": "2026-06-25 17:30 UTC",
-      "bars_ago": 1,
-      "close": 10.275,
-      "DIFF": -0.464003,
-      "DEA": -0.439208,
-      "MACD": -0.04959
-    },
-    {
       "ticker": "GOOGL",
       "group": "MEGA7",
       "timeframe": "1h",
       "signal_ts": "2026-06-25 17:30 UTC",
-      "bars_ago": 1,
+      "bars_ago": 2,
       "close": 342.835,
       "DIFF": -3.87927,
       "DEA": -3.891373,
@@ -46,22 +46,11 @@
       "group": "太空",
       "timeframe": "1h",
       "signal_ts": "2026-06-25 17:30 UTC",
-      "bars_ago": 1,
+      "bars_ago": 2,
       "close": 26.7,
       "DIFF": -0.604401,
       "DEA": -0.578665,
       "MACD": -0.051474
-    },
-    {
-      "ticker": "TSLA",
-      "group": "MEGA7",
-      "timeframe": "1h",
-      "signal_ts": "2026-06-25 16:30 UTC",
-      "bars_ago": 2,
-      "close": 374.355,
-      "DIFF": -6.06532,
-      "DEA": -5.74482,
-      "MACD": -0.640999
     }
   ]
 }
