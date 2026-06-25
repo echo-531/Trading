@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-06-25T16:26:46.540051+00:00",
+  "generated_at": "2026-06-25T16:40:53.194677+00:00",
   "next_scan_at": "2026-06-25T17:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
   "stats": {
     "total_scanned": 68,
-    "buy_signals": 3
+    "buy_signals": 2
   },
   "buy_signals": [
     {
@@ -13,33 +13,22 @@
       "group": "Tech",
       "timeframe": "1h",
       "signal_ts": "2026-06-25 15:30 UTC",
-      "bars_ago": 0,
-      "close": 12.4,
-      "DIFF": -0.859112,
-      "DEA": -0.754964,
-      "MACD": -0.208296
+      "bars_ago": 1,
+      "close": 12.425,
+      "DIFF": -0.857118,
+      "DEA": -0.754565,
+      "MACD": -0.205105
     },
     {
       "ticker": "AVGO",
       "group": "Tech",
       "timeframe": "1h",
       "signal_ts": "2026-06-25 14:30 UTC",
-      "bars_ago": 1,
+      "bars_ago": 2,
       "close": 381.11,
       "DIFF": -3.57025,
       "DEA": -3.286311,
       "MACD": -0.567879
-    },
-    {
-      "ticker": "GLD",
-      "group": "ETF",
-      "timeframe": "1h",
-      "signal_ts": "2026-06-25 13:30 UTC",
-      "bars_ago": 2,
-      "close": 369.35,
-      "DIFF": -5.701593,
-      "DEA": -5.200692,
-      "MACD": -1.001802
     }
   ]
 }
