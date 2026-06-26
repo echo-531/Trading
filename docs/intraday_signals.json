@@ -1,23 +1,56 @@
 {
-  "generated_at": "2026-06-26T18:27:51.263191+00:00",
-  "next_scan_at": "2026-06-26T19:00:00+00:00",
+  "generated_at": "2026-06-26T19:45:28.597608+00:00",
+  "next_scan_at": "2026-06-26T20:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
   "stats": {
     "total_scanned": 68,
-    "buy_signals": 1
+    "buy_signals": 4
   },
   "buy_signals": [
     {
-      "ticker": "AAOI",
+      "ticker": "XLK",
+      "group": "ETF",
+      "timeframe": "1h",
+      "signal_ts": "2026-06-26 19:30 UTC",
+      "bars_ago": 0,
+      "close": 182.47,
+      "DIFF": -1.198687,
+      "DEA": -1.219977,
+      "MACD": 0.04258
+    },
+    {
+      "ticker": "ARM",
+      "group": "Tech",
+      "timeframe": "1h",
+      "signal_ts": "2026-06-26 19:30 UTC",
+      "bars_ago": 0,
+      "close": 333.95,
+      "DIFF": -13.482702,
+      "DEA": -13.49717,
+      "MACD": 0.028937
+    },
+    {
+      "ticker": "POET",
       "group": "光",
       "timeframe": "1h",
-      "signal_ts": "2026-06-26 16:30 UTC",
-      "bars_ago": 1,
-      "close": 137.861,
-      "DIFF": -6.207141,
-      "DEA": -6.439982,
-      "MACD": 0.465683
+      "signal_ts": "2026-06-26 19:30 UTC",
+      "bars_ago": 0,
+      "close": 9.4093,
+      "DIFF": -0.532911,
+      "DEA": -0.508998,
+      "MACD": -0.047826
+    },
+    {
+      "ticker": "MRVL",
+      "group": "存储",
+      "timeframe": "1h",
+      "signal_ts": "2026-06-26 19:30 UTC",
+      "bars_ago": 0,
+      "close": 266.24,
+      "DIFF": -5.727809,
+      "DEA": -5.557504,
+      "MACD": -0.340611
     }
   ]
 }
