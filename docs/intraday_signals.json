@@ -1,56 +1,11 @@
 {
-  "generated_at": "2026-06-26T16:18:55.963848+00:00",
+  "generated_at": "2026-06-26T16:31:51.640673+00:00",
   "next_scan_at": "2026-06-26T17:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
   "stats": {
     "total_scanned": 68,
-    "buy_signals": 4
+    "buy_signals": 0
   },
-  "buy_signals": [
-    {
-      "ticker": "META",
-      "group": "MEGA7",
-      "timeframe": "1h",
-      "signal_ts": "2026-06-26 13:30 UTC",
-      "bars_ago": 2,
-      "close": 550.89,
-      "DIFF": -6.153575,
-      "DEA": -5.646898,
-      "MACD": -1.013355
-    },
-    {
-      "ticker": "MSFT",
-      "group": "MEGA7",
-      "timeframe": "1h",
-      "signal_ts": "2026-06-26 13:30 UTC",
-      "bars_ago": 2,
-      "close": 367.07,
-      "DIFF": -5.385407,
-      "DEA": -5.25233,
-      "MACD": -0.266153
-    },
-    {
-      "ticker": "QBTS",
-      "group": "量子",
-      "timeframe": "1h",
-      "signal_ts": "2026-06-26 13:30 UTC",
-      "bars_ago": 2,
-      "close": 22.5,
-      "DIFF": -0.622493,
-      "DEA": -0.537729,
-      "MACD": -0.169528
-    },
-    {
-      "ticker": "IONQ",
-      "group": "量子",
-      "timeframe": "1h",
-      "signal_ts": "2026-06-26 13:30 UTC",
-      "bars_ago": 2,
-      "close": 52.2701,
-      "DIFF": -1.621376,
-      "DEA": -1.454933,
-      "MACD": -0.332886
-    }
-  ]
+  "buy_signals": []
 }
