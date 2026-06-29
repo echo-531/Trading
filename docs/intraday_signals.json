@@ -1,56 +1,89 @@
 {
-  "generated_at": "2026-06-26T19:45:28.597608+00:00",
-  "next_scan_at": "2026-06-26T20:00:00+00:00",
+  "generated_at": "2026-06-29T16:44:12.621744+00:00",
+  "next_scan_at": "2026-06-29T17:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
   "stats": {
     "total_scanned": 68,
-    "buy_signals": 4
+    "buy_signals": 7
   },
   "buy_signals": [
-    {
-      "ticker": "XLK",
-      "group": "ETF",
-      "timeframe": "1h",
-      "signal_ts": "2026-06-26 19:30 UTC",
-      "bars_ago": 0,
-      "close": 182.47,
-      "DIFF": -1.198687,
-      "DEA": -1.219977,
-      "MACD": 0.04258
-    },
     {
       "ticker": "ARM",
       "group": "Tech",
       "timeframe": "1h",
-      "signal_ts": "2026-06-26 19:30 UTC",
-      "bars_ago": 0,
-      "close": 333.95,
-      "DIFF": -13.482702,
-      "DEA": -13.49717,
-      "MACD": 0.028937
+      "signal_ts": "2026-06-29 15:30 UTC",
+      "bars_ago": 1,
+      "close": 337.6744,
+      "DIFF": -12.609085,
+      "DEA": -13.486635,
+      "MACD": 1.755102
+    },
+    {
+      "ticker": "SMTC",
+      "group": "Tech",
+      "timeframe": "1h",
+      "signal_ts": "2026-06-29 15:30 UTC",
+      "bars_ago": 1,
+      "close": 152.95,
+      "DIFF": -2.926922,
+      "DEA": -2.41505,
+      "MACD": -1.023744
+    },
+    {
+      "ticker": "XLK",
+      "group": "ETF",
+      "timeframe": "1h",
+      "signal_ts": "2026-06-29 14:30 UTC",
+      "bars_ago": 2,
+      "close": 183.26,
+      "DIFF": -1.164342,
+      "DEA": -1.244341,
+      "MACD": 0.159998
+    },
+    {
+      "ticker": "AMD",
+      "group": "Tech",
+      "timeframe": "1h",
+      "signal_ts": "2026-06-29 14:30 UTC",
+      "bars_ago": 2,
+      "close": 522.3101,
+      "DIFF": -1.942042,
+      "DEA": -1.565426,
+      "MACD": -0.753232
     },
     {
       "ticker": "POET",
       "group": "光",
       "timeframe": "1h",
-      "signal_ts": "2026-06-26 19:30 UTC",
-      "bars_ago": 0,
-      "close": 9.4093,
-      "DIFF": -0.532911,
-      "DEA": -0.508998,
-      "MACD": -0.047826
+      "signal_ts": "2026-06-29 14:30 UTC",
+      "bars_ago": 2,
+      "close": 9.365,
+      "DIFF": -0.534159,
+      "DEA": -0.520429,
+      "MACD": -0.027461
+    },
+    {
+      "ticker": "LITE",
+      "group": "光",
+      "timeframe": "1h",
+      "signal_ts": "2026-06-29 14:30 UTC",
+      "bars_ago": 2,
+      "close": 810.0,
+      "DIFF": -13.649044,
+      "DEA": -11.074507,
+      "MACD": -5.149073
     },
     {
       "ticker": "MRVL",
       "group": "存储",
       "timeframe": "1h",
-      "signal_ts": "2026-06-26 19:30 UTC",
-      "bars_ago": 0,
-      "close": 266.24,
-      "DIFF": -5.727809,
-      "DEA": -5.557504,
-      "MACD": -0.340611
+      "signal_ts": "2026-06-29 14:30 UTC",
+      "bars_ago": 2,
+      "close": 264.7516,
+      "DIFF": -6.104292,
+      "DEA": -5.790562,
+      "MACD": -0.627459
     }
   ]
 }
