@@ -15,15 +15,16 @@ WATCHLIST: dict[str, list[str]] = {
         "GLD", 
     ],
     
-    "Tech": [
+    "Semi": [
         "MXL", "ARM", "ALAB", "SIMO", "GFS", "JBL", "FLEX",
         "STX", "FORM", "ANET", "VICR", 
         "CLS", "SHOP", "SYM", "OUST", "XE", "AMPX", "INOD", "PLTR", 
-        "CRCL", "AMD", "AVGO", "ORCL", "TEM", "SMTC", "AMKR", "NOK", "TTMI",
+        "CRCL", "AMD", "AVGO", "ORCL", "TEM", "SMTC", "AMKR", "NOK", "TTMI", "AEVA", "VPG", "BB", "AMBA", 
+        "CGNX", "WYFI", "SYNA", 
     ],
     
     "光": [
-        "POET", "OCS", "GLW", "COHR", "LITE", "VELO", "AAOI", "CIEN", "FORM", "OCC",
+        "POET", "OCS", "GLW", "COHR", "LITE", "VELO", "AAOI", "CIEN", "FORM", "OCC", "MXL", 
     ],
     
     "MEGA7": [
@@ -35,7 +36,7 @@ WATCHLIST: dict[str, list[str]] = {
     ],
     
     "太空": [
-        "RKLB", "PL", "ONDS", "RDW", "ASTS", "SPCX", "FLY",
+        "RKLB", "PL", "ONDS", "RDW", "ASTS", "SPCX", "FLY", "BKSY"
     ],
 
     "数据中心": [
