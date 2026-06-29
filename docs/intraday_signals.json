@@ -1,34 +1,11 @@
 {
-  "generated_at": "2026-06-29T18:07:39.460984+00:00",
-  "next_scan_at": "2026-06-29T19:00:00+00:00",
+  "generated_at": "2026-06-29T19:02:33.173730+00:00",
+  "next_scan_at": "2026-06-29T20:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
   "stats": {
     "total_scanned": 68,
-    "buy_signals": 2
+    "buy_signals": 0
   },
-  "buy_signals": [
-    {
-      "ticker": "ARM",
-      "group": "Tech",
-      "timeframe": "1h",
-      "signal_ts": "2026-06-29 15:30 UTC",
-      "bars_ago": 2,
-      "close": 337.6744,
-      "DIFF": -12.609085,
-      "DEA": -13.486635,
-      "MACD": 1.755102
-    },
-    {
-      "ticker": "SMTC",
-      "group": "Tech",
-      "timeframe": "1h",
-      "signal_ts": "2026-06-29 15:30 UTC",
-      "bars_ago": 2,
-      "close": 152.95,
-      "DIFF": -2.926922,
-      "DEA": -2.41505,
-      "MACD": -1.023744
-    }
-  ]
+  "buy_signals": []
 }
