@@ -202,6 +202,25 @@
   .badge-buy    { background: rgba(0,229,160,0.12); color: var(--buy);    border: 1px solid rgba(0,229,160,0.3); }
   .badge-tf     { background: rgba(59,130,246,0.1);  color: var(--accent); border: 1px solid rgba(59,130,246,0.2); }
   .badge-market { background: rgba(245,158,11,0.1);  color: var(--warn);   border: 1px solid rgba(245,158,11,0.2); }
+  .badge-sector { background: rgba(167,139,250,0.12); color: #a78bfa;       border: 1px solid rgba(167,139,250,0.28); text-transform: none; letter-spacing: 0; }
+  .industry-cell { color: var(--text); }
+
+  /* ── Filter dropdowns (Sector / Industry) ── */
+  .filter-select {
+    font-family: var(--mono);
+    font-size: 12px;
+    padding: 7px 10px;
+    background: var(--surface);
+    border: 1px solid var(--border2);
+    border-radius: 6px;
+    color: var(--text);
+    outline: none;
+    cursor: pointer;
+    max-width: 200px;
+    transition: border-color 0.15s;
+  }
+  .filter-select:hover  { color: #fff; }
+  .filter-select:focus  { border-color: var(--accent); }
 
   .price-cell { color: #fff; }
   .macd-pos   { color: var(--buy); }
@@ -273,6 +292,16 @@
 
   <!-- Market filter removed — US-only scanner -->
 
+  <!-- Sector (板块) -->
+  <select id="sector-filter" class="filter-select">
+    <option value="all">All Sectors / 全部板块</option>
+  </select>
+
+  <!-- Industry (行业) -->
+  <select id="industry-filter" class="filter-select">
+    <option value="all">All Industries / 全部行业</option>
+  </select>
+
   <!-- Search -->
   <div class="search-wrap">
     <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
@@ -294,6 +323,8 @@
         <th data-col="ticker">Ticker</th>
         <th data-col="signal">Signal</th>
         <th data-col="market">Market</th>
+        <th data-col="sector">板块 Sector</th>
+        <th data-col="industry">行业 Industry</th>
         <th data-col="timeframe">Timeframe</th>
         <th data-col="close">Price</th>
         <th data-col="DIFF">DIFF</th>
@@ -317,7 +348,7 @@ const DATA_URL = "signals.json";
 let allRows = [];
 let sortCol = "signal_date";
 let sortDir = "desc";
-let filters = { tf: "all", market: "all", search: "" };
+let filters = { tf: "all", market: "all", sector: "all", industry: "all", search: "" };
 
 async function loadData() {
   try {
@@ -334,6 +365,8 @@ async function loadData() {
     // Buy signals only
     allRows = (data.buy_signals || []).map(r => ({ ...r, _type: "buy" }));
 
+    populateFilterOptions();
+
     document.getElementById("loading").style.display    = "none";
     document.getElementById("table-wrap").style.display = "block";
     render();
@@ -345,8 +378,10 @@ async function loadData() {
 
 function applyFilters(rows) {
   return rows.filter(r => {
-    if (filters.tf     !== "all" && r.timeframe !== filters.tf)     return false;
-    if (filters.market !== "all" && r.market    !== filters.market) return false;
+    if (filters.tf       !== "all" && r.timeframe !== filters.tf)       return false;
+    if (filters.market   !== "all" && r.market    !== filters.market)   return false;
+    if (filters.sector   !== "all" && (r.sector   || "Unknown") !== filters.sector)   return false;
+    if (filters.industry !== "all" && (r.industry || "Unknown") !== filters.industry) return false;
     if (filters.search && !r.ticker.toLowerCase().includes(filters.search)) return false;
     return true;
   });
@@ -369,6 +404,30 @@ function sortRows(rows) {
 function fmt(v, digits = 4) {
   if (v == null || isNaN(v)) return "—";
   return Number(v).toFixed(digits);
+}
+
+// Build the Sector / Industry dropdown options from whatever is in the data.
+// "Unknown" (if present) is always pushed to the end; everything else sorted.
+function populateFilterOptions() {
+  const uniq = key => {
+    const set = new Set(allRows.map(r => r[key] || "Unknown"));
+    const hasUnknown = set.delete("Unknown");
+    const list = [...set].sort((a, b) => a.localeCompare(b));
+    if (hasUnknown) list.push("Unknown");
+    return list;
+  };
+
+  const fill = (selId, values, allLabel, current) => {
+    const sel = document.getElementById(selId);
+    sel.innerHTML =
+      `<option value="all">${allLabel}</option>` +
+      values.map(v => `<option value="${v}">${v}</option>`).join("");
+    // keep the user's current choice if it still exists
+    sel.value = values.includes(current) ? current : "all";
+  };
+
+  fill("sector-filter",   uniq("sector"),   "All Sectors / 全部板块",   filters.sector);
+  fill("industry-filter", uniq("industry"), "All Industries / 全部行业", filters.industry);
 }
 
 function render() {
@@ -394,6 +453,8 @@ function render() {
         <td class="ticker-cell">${r.ticker}</td>
         <td><span class="badge badge-buy cn-signal">抄底</span></td>
         <td><span class="badge badge-market">${r.market}</span></td>
+        <td><span class="badge badge-sector">${r.sector || 'Unknown'}</span></td>
+        <td class="industry-cell">${r.industry || 'Unknown'}</td>
         <td><span class="badge badge-tf">${r.timeframe}</span></td>
         <td class="price-cell">${fmt(r.close, 2)}</td>
         <td class="${r.DIFF >= 0 ? 'macd-pos' : 'macd-neg'}">${fmt(r.DIFF)}</td>
@@ -423,6 +484,15 @@ setupFilter("tf-filter",     "tf");
 
 document.getElementById("search").addEventListener("input", e => {
   filters.search = e.target.value.trim().toLowerCase();
+  render();
+});
+
+document.getElementById("sector-filter").addEventListener("change", e => {
+  filters.sector = e.target.value;
+  render();
+});
+document.getElementById("industry-filter").addEventListener("change", e => {
+  filters.industry = e.target.value;
   render();
 });
 
