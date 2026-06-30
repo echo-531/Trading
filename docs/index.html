@@ -271,12 +271,7 @@
     <button class="filter-btn" data-val="monthly">Monthly</button>
   </div>
 
-  <!-- Market -->
-  <div class="filter-group" id="market-filter">
-    <button class="filter-btn active" data-val="all">All Markets</button>
-    <button class="filter-btn" data-val="US">🇺🇸 US</button>
-    <button class="filter-btn" data-val="CN">🇨🇳 China</button>
-  </div>
+  <!-- Market filter removed — US-only scanner -->
 
   <!-- Search -->
   <div class="search-wrap">
@@ -424,7 +419,7 @@ function setupFilter(groupId, filterKey) {
   });
 }
 setupFilter("tf-filter",     "tf");
-setupFilter("market-filter", "market");
+// market-filter removed (US-only); filters.market stays "all" so no rows are excluded.
 
 document.getElementById("search").addEventListener("input", e => {
   filters.search = e.target.value.trim().toLowerCase();
