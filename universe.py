@@ -1,17 +1,24 @@
 """
 Universe builder.
 
-US  — S&P 1500 (S&P 500 + S&P 400 MidCap + S&P 600 SmallCap),
-      scraped live from Wikipedia with proper browser headers.
+US  — built from official ETF daily holdings files (State Street / SPDR,
+      with iShares as an automatic fallback). These are published every
+      trading day by the fund issuers and are the freshest free, machine-
+      readable mirror of the underlying indices (~T+1). Falls back to a
+      local on-disk cache if every source is unreachable.
+      The exact set of ETFs tracked is configured in US_ETF_SOURCES below.
 
-China — Comprehensive static lists for Shanghai (.SS), Shenzhen (.SZ),
-        and Hong Kong (.HK). akshare is blocked outside China, so we
-        maintain well-populated static lists and attempt a live akshare
-        refresh only if it succeeds (e.g. when run via VPN).
+China — (DISABLED BY DEFAULT) Static lists for Shanghai (.SS), Shenzhen
+        (.SZ), and Hong Kong (.HK) are still defined in this file and the
+        `--clean` helper still works, but build_universe() no longer scans
+        them unless called with include_china=True.
 """
 
+import io
+import os
 import json
 import time
+import datetime
 import requests
 import pandas as pd
 
@@ -27,74 +34,250 @@ BROWSER_HEADERS = {
 
 
 # ══════════════════════════════════════════════════════════════════════════════
-# US — S&P 1500 via Wikipedia (500 + 400 MidCap + 600 SmallCap)
+# US — universe via official ETF daily holdings (SPDR primary, iShares fallback)
 # ══════════════════════════════════════════════════════════════════════════════
+#
+# Why ETF holdings instead of Wikipedia?
+#   * The fund issuers publish complete holdings every trading day (~T+1),
+#     so the list tracks real index additions/removals within a day, versus
+#     Wikipedia which is hand-edited by volunteers and can lag days to weeks.
+#   * The files are stable, machine-readable downloads (xlsx / csv).
+#
+# Note: holdings data is S&P / issuer intellectual property. Fine for personal
+# screening; do not redistribute the full constituent lists.
 
-def _scrape_wikipedia_table(url: str, table_id: str, symbol_cols: list[str]) -> list[str]:
+US_CACHE_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                             "us_universe_cache.json")
+
+# ──────────────────────────────────────────────────────────────────────────────
+# ▼▼▼  追踪更多 ETF：只需在下面的 US_ETF_SOURCES 里加一个条目即可  ▼▼▼
+# ──────────────────────────────────────────────────────────────────────────────
+#
+# 最终的股票 watchlist = 下面所有 ETF 持仓的「并集」(去重)。
+# 想多追踪一个 ETF，就往 US_ETF_SOURCES 里 **加一个 block**，其它什么都不用动 ——
+# get_us_universe() 会自动遍历这个字典里的每一个条目。
+#
+# 每个 block 的结构：
+#     "显示名称": {
+#         "spdr":    <State Street / SPDR 的 xlsx 下载链接>  或 None,
+#         "ishares": <iShares 的 csv 下载链接>              或 None,
+#         "min":     <这个 ETF 合理的最小持仓数量>,
+#     }
+#
+# 规则说明：
+#   • 抓取顺序是 spdr -> ishares：先用 spdr，失败或数量不足就退回 ishares，
+#     两个都失败再退回本地缓存 (us_universe_cache.json)。
+#   • 不必两个 issuer 都填。只有一个来源时，把另一个设成 None 即可。
+#   • 两个抓取器对文件格式有固定假设：spdr = xlsx，ishares = csv。
+#     只要新链接是对应格式、且表里有 "Ticker" 列，就能直接用、无需改代码。
+#   • "min" 是一个合理性下限：如果某次下载返回的行数比它还少，就当作这次抓取
+#     失败并继续往下退。一般设成「真实成分股数量」再往下留 ~5% 余量。
+#
+# 怎么找下载链接？
+#   SPDR    : 链接遵循固定模式
+#             https://www.ssga.com/library-content/products/fund-data/etfs/us/
+#                 holdings-daily-us-en-<ticker小写>.xlsx
+#             把 <ticker小写> 换成基金代码即可（如 spy / mdy / spsm）。
+#   iShares : 打开该基金的官网页面 -> 右键 “Download holdings”(CSV) ->
+#             复制那个 .ajax?...&fileType=csv... 链接，整段贴进来。
+#             链接里那串数字 assetId 是每只基金固定的；哪天 404 了，
+#             重新去基金页面复制一份新链接替换即可（填错也无害，只会自动退回）。
+#
+# ──────────────────────────────────────────────────────────────────────────────
+
+US_ETF_SOURCES = {
+    # ── S&P 500 (大盘) : SPY (SPDR) / IVV (iShares) ──────────────────────────
+    "S&P 500": {
+        "spdr":    "https://www.ssga.com/library-content/products/fund-data/etfs/us/holdings-daily-us-en-spy.xlsx",
+        "ishares": "https://www.ishares.com/us/products/239726/ishares-core-sp-500-etf/1467271812596.ajax?fileType=csv&fileName=IVV_holdings&dataType=fund",
+        "min":     480,
+    },
+    # ── S&P MidCap 400 (中盘) : MDY (SPDR) / IJH (iShares) ───────────────────
+    "S&P 400": {
+        "spdr":    "https://www.ssga.com/library-content/products/fund-data/etfs/us/holdings-daily-us-en-mdy.xlsx",
+        "ishares": "https://www.ishares.com/us/products/239763/ishares-core-sp-midcap-etf/1467271812596.ajax?fileType=csv&fileName=IJH_holdings&dataType=fund",
+        "min":     380,
+    },
+    # ── S&P SmallCap 600 (小盘) : SPSM (SPDR) / IJR (iShares) ────────────────
+    "S&P 600": {
+        "spdr":    "https://www.ssga.com/library-content/products/fund-data/etfs/us/holdings-daily-us-en-spsm.xlsx",
+        "ishares": "https://www.ishares.com/us/products/239774/ishares-core-sp-smallcap-etf/1467271812596.ajax?fileType=csv&fileName=IJR_holdings&dataType=fund",
+        "min":     560,
+    },
+
+    # ── ✏️ 示例：想顺带追踪 Nasdaq-100，把下面这段取消注释即可 ───────────────
+    # 步骤：去 iShares 的 NASDAQ-100 ETF 页面，右键 “Download holdings” 复制
+    # CSV 链接贴到 "ishares" 里。该指数约 100 只成分股，"min" 设成 ~95。
+    # (没有对应 SPDR 的 xlsx 来源就把 "spdr" 留成 None。)
+    # "Nasdaq 100": {
+    #     "spdr":    None,
+    #     "ishares": "https://www.ishares.com/us/products/<product-id>/<slug>/<assetId>.ajax?fileType=csv&fileName=<XXX>_holdings&dataType=fund",
+    #     "min":     95,
+    # },
+
+    # ── ✏️ 示例：想追踪某个 SPDR 行业基金（如科技 XLK），按模式拼 xlsx 链接 ──
+    # "XLK Technology": {
+    #     "spdr":    "https://www.ssga.com/library-content/products/fund-data/etfs/us/holdings-daily-us-en-xlk.xlsx",
+    #     "ishares": None,
+    #     "min":     50,
+    # },
+}
+
+
+def _normalize_ticker(raw: str) -> str | None:
     """
-    Generic Wikipedia table scraper with browser headers.
-    symbol_cols: list of candidate column names to try in order.
+    Clean a raw ticker cell into a yfinance-compatible symbol, or None if the
+    row is not a real equity (cash, futures, blanks, disclaimer text, etc.).
     """
-    try:
-        resp = requests.get(url, headers=BROWSER_HEADERS, timeout=HTTP_TIMEOUT)
-        resp.raise_for_status()
-        tables = pd.read_html(pd.io.common.StringIO(resp.text),
-                              attrs={"id": table_id})
-        df = tables[0]
+    if raw is None:
+        return None
+    t = str(raw).strip().upper()
+    if not t or t in ("NAN", "-", "--"):
+        return None
+    # Drop obvious non-equity line items found at the bottom of holdings files.
+    junk = ("CASH", "USD", "DOLLAR", "RECEIVABLE", "PAYABLE", "FUTURE",
+            "MARGIN", "NET ", "OTHER", "UNREALIZED", "SWAP", "REPO")
+    if any(j in t for j in junk):
+        return None
+    # Issuer files use dots (BRK.B); yfinance wants dashes (BRK-B).
+    t = t.replace(".", "-")
+    # Valid symbol: starts with a letter, then letters/dashes, up to ~6 chars.
+    import re
+    if not re.fullmatch(r"[A-Z][A-Z\-]{0,6}", t):
+        return None
+    return t
 
-        # Try each candidate column name in order
-        col = next((c for c in symbol_cols if c in df.columns), None)
-        if col is None:
-            print(f"  [universe] Column not found. Available: {list(df.columns)}")
-            return []
 
-        tickers = df[col].astype(str).tolist()
-        # Wikipedia uses dots (BRK.B); yfinance wants dashes (BRK-B)
-        tickers = [t.replace(".", "-") for t in tickers
-                   if isinstance(t, str) and t not in ("nan", "")]
-        return tickers
-    except Exception as e:
-        print(f"  [universe] Wikipedia scrape failed ({url}): {e}")
+def _extract_tickers_from_frame(raw_df: pd.DataFrame) -> list[str]:
+    """
+    Given a holdings sheet read with no header, locate the header row (the row
+    containing a 'Ticker' cell), then pull and normalize that column. This is
+    resilient to the issuer changing how many metadata/disclaimer rows sit
+    above the table.
+    """
+    header_row = None
+    ticker_col = None
+    for r in range(min(15, len(raw_df))):
+        for c in range(raw_df.shape[1]):
+            cell = str(raw_df.iat[r, c]).strip().lower()
+            if cell in ("ticker", "ticker symbol", "symbol"):
+                header_row, ticker_col = r, c
+                break
+        if header_row is not None:
+            break
+
+    if header_row is None:
         return []
+
+    col = raw_df.iloc[header_row + 1:, ticker_col]
+    out, seen = [], set()
+    for v in col:
+        sym = _normalize_ticker(v)
+        if sym and sym not in seen:
+            seen.add(sym)
+            out.append(sym)
+    return out
+
+
+def _fetch_spdr(url: str) -> list[str]:
+    resp = requests.get(url, headers=BROWSER_HEADERS, timeout=HTTP_TIMEOUT)
+    resp.raise_for_status()
+    raw = pd.read_excel(io.BytesIO(resp.content), header=None, engine="openpyxl")
+    return _extract_tickers_from_frame(raw)
+
+
+def _fetch_ishares(url: str) -> list[str]:
+    resp = requests.get(url, headers=BROWSER_HEADERS, timeout=HTTP_TIMEOUT)
+    resp.raise_for_status()
+    # iShares CSVs carry a few metadata lines before the real header.
+    raw = pd.read_csv(io.StringIO(resp.text), header=None, dtype=str,
+                      on_bad_lines="skip")
+    return _extract_tickers_from_frame(raw)
+
+
+def _load_us_cache() -> dict:
+    try:
+        with open(US_CACHE_FILE, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except Exception:
+        return {}
+
+
+def _save_us_cache(cache: dict) -> None:
+    try:
+        with open(US_CACHE_FILE, "w", encoding="utf-8") as f:
+            json.dump(cache, f, ensure_ascii=False, indent=2)
+    except Exception as e:
+        print(f"  [universe] Could not write US cache: {e}")
 
 
 def get_us_universe() -> list[str]:
     """
-    Fetch S&P 500 + S&P 400 MidCap + S&P 600 SmallCap from Wikipedia.
-    Returns a deduplicated list of ~1,500 tickers.
+    Build the US universe as the union of every ETF in US_ETF_SOURCES.
+    For each ETF: try SPDR (xlsx), then iShares (csv), then the cached list.
+    Returns a deduplicated, sorted ticker list.
+
+    To track more / fewer ETFs, edit US_ETF_SOURCES above — this loop
+    automatically iterates over whatever is configured there.
     """
-    print("[universe] Fetching S&P 1500 from Wikipedia…")
-
-    sources = [
-        (
-            "S&P 500",
-            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
-            "constituents",
-            ["Symbol", "Ticker", "Ticker symbol"],
-        ),
-        (
-            "S&P 400",
-            "https://en.wikipedia.org/wiki/List_of_S%26P_400_companies",
-            "constituents",
-            ["Ticker", "Symbol", "Ticker symbol"],
-        ),
-        (
-            "S&P 600",
-            "https://en.wikipedia.org/wiki/List_of_S%26P_600_companies",
-            "constituents",
-            ["Ticker", "Symbol", "Ticker symbol"],
-        ),
-    ]
-
+    print(f"[universe] Fetching US universe from {len(US_ETF_SOURCES)} "
+          f"ETF holdings file(s)…")
+    cache = _load_us_cache()
     all_tickers = set()
-    for name, url, table_id, cols in sources:
-        tickers = _scrape_wikipedia_table(url, table_id, cols)
-        print(f"  [universe] {name}: {len(tickers)} tickers")
-        all_tickers.update(tickers)
-        time.sleep(1)   # polite delay between Wikipedia requests
+
+    for name, cfg in US_ETF_SOURCES.items():
+        tickers, source = [], None
+        min_count = cfg.get("min", 1)
+
+        # 1) SPDR (primary, xlsx) — skipped if no spdr URL configured
+        if cfg.get("spdr"):
+            try:
+                tickers = _fetch_spdr(cfg["spdr"])
+                if len(tickers) >= min_count:
+                    source = "SPDR"
+                else:
+                    print(f"  [universe] {name}: SPDR returned only "
+                          f"{len(tickers)} (<{min_count}), trying iShares")
+                    tickers = []
+            except Exception as e:
+                print(f"  [universe] {name}: SPDR fetch failed ({e}), trying iShares")
+
+        # 2) iShares (fallback, csv) — skipped if no ishares URL configured
+        if not tickers and cfg.get("ishares"):
+            try:
+                tickers = _fetch_ishares(cfg["ishares"])
+                if len(tickers) >= min_count:
+                    source = "iShares"
+                else:
+                    print(f"  [universe] {name}: iShares returned only "
+                          f"{len(tickers)} (<{min_count})")
+                    tickers = []
+            except Exception as e:
+                print(f"  [universe] {name}: iShares fetch failed ({e})")
+
+        # 3) Cache (last resort)
+        if not tickers and name in cache.get("by_index", {}):
+            tickers = cache["by_index"][name]
+            asof = cache.get("as_of", "unknown")
+            source = f"cache ({asof})"
+
+        if tickers:
+            print(f"  [universe] {name}: {len(tickers)} tickers  [{source}]")
+            all_tickers.update(tickers)
+            cache.setdefault("by_index", {})[name] = sorted(set(tickers))
+        else:
+            print(f"  [universe] {name}: ❌ no data from any source")
+
+        time.sleep(1)  # polite delay between issuer requests
+
+    # Persist whatever we managed to fetch as the new cache.
+    if all_tickers:
+        cache["as_of"] = datetime.datetime.now(datetime.timezone.utc) \
+            .strftime("%Y-%m-%d %H:%M UTC")
+        _save_us_cache(cache)
 
     result = sorted(all_tickers)
-    print(f"[universe] US (S&P 1500): {len(result)} tickers total")
+    print(f"[universe] US: {len(result)} tickers total")
     return result
 
 
@@ -465,10 +648,15 @@ def get_china_universe() -> dict[str, list[str]]:
 # Main entry point
 # ══════════════════════════════════════════════════════════════════════════════
 
-def build_universe(include_us=True, include_china=True) -> dict[str, list[str]]:
+def build_universe(include_us=True, include_china=False) -> dict[str, list[str]]:
     """
     Returns {market_label: [tickers]} consumed by scanner.py.
-    Labels: "US", "SS", "SZ", "HK"
+    Labels: "US"  (and "SS"/"SZ"/"HK" only if include_china=True).
+
+    China scanning is OFF by default. The China static lists and
+    get_china_universe() are kept in this file (so `--clean` still works),
+    but build_universe() no longer pulls them unless you pass
+    include_china=True explicitly.
     """
     universe = {}
 

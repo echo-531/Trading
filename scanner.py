@@ -118,7 +118,8 @@ def run_scan(quick: bool = False, single_ticker: str = None) -> None:
         tasks = [(t, "US") for t in universe["US"][:50]]
         timeframes = ["1d"]
     else:
-        universe = build_universe(include_us=True, include_china=True)
+        # US-only full run (China scanning disabled).
+        universe = build_universe(include_us=True, include_china=False)
         tasks = []
         for market, tickers in universe.items():
             for t in tickers:
