@@ -16,9 +16,9 @@ WATCHLIST: dict[str, list[str]] = {
     ],
     
     "Semi": [
-        "MXL", "ARM", "ALAB", "SIMO", "GFS", "JBL", "FLEX",
-        "STX", "FORM", "ANET", "VICR", 
-        "CLS", "SHOP", "SYM", "OUST", "XE", "AMPX", "INOD", "PLTR", 
+        "ARM", "ALAB", "SIMO", "GFS", "JBL", "FLEX",
+        "STX", "ANET", "VICR", 
+        "CLS", "SHOP", "SYM", "OUST", "AMPX", "INOD", "PLTR", 
         "CRCL", "AMD", "AVGO", "ORCL", "TEM", "SMTC", "AMKR", "NOK", "TTMI", "AEVA", "VPG", "BB", "AMBA", 
         "CGNX", "WYFI", "SYNA", "INTC", "CRWV", 
     ],
