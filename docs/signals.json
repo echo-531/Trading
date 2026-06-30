@@ -1,18 +1,20 @@
 {
-  "generated_at": "2026-06-30T09:47:20.213247+00:00",
+  "generated_at": "2026-06-30T13:39:25.281389+00:00",
   "lookback": {
     "1d": 3,
     "1wk": 3,
     "1mo": 2
   },
   "stats": {
-    "total_scanned": 1505,
-    "buy_signals": 76
+    "total_scanned": 1504,
+    "buy_signals": 75
   },
   "buy_signals": [
     {
       "ticker": "ALRM",
       "market": "US",
+      "sector": "Information Technology",
+      "industry": "Software - Application",
       "timeframe": "monthly",
       "signal_date": "2026-06-01",
       "bars_ago": 0,
@@ -24,6 +26,8 @@
     {
       "ticker": "AZTA",
       "market": "US",
+      "sector": "Health Care",
+      "industry": "Medical Instruments & Supplies",
       "timeframe": "monthly",
       "signal_date": "2026-06-01",
       "bars_ago": 0,
@@ -35,6 +39,8 @@
     {
       "ticker": "BJ",
       "market": "US",
+      "sector": "Consumer Staples",
+      "industry": "Discount Stores",
       "timeframe": "weekly",
       "signal_date": "2026-06-29",
       "bars_ago": 0,
@@ -46,6 +52,8 @@
     {
       "ticker": "CALX",
       "market": "US",
+      "sector": "Information Technology",
+      "industry": "Software - Infrastructure",
       "timeframe": "daily",
       "signal_date": "2026-06-29",
       "bars_ago": 0,
@@ -57,6 +65,8 @@
     {
       "ticker": "CHTR",
       "market": "US",
+      "sector": "Communication",
+      "industry": "Telecom Services",
       "timeframe": "weekly",
       "signal_date": "2026-06-29",
       "bars_ago": 0,
@@ -68,6 +78,8 @@
     {
       "ticker": "CMCSA",
       "market": "US",
+      "sector": "Communication",
+      "industry": "Telecom Services",
       "timeframe": "weekly",
       "signal_date": "2026-06-29",
       "bars_ago": 0,
@@ -79,6 +91,8 @@
     {
       "ticker": "CNH",
       "market": "US",
+      "sector": "Industrials",
+      "industry": "Farm & Heavy Construction Machinery",
       "timeframe": "monthly",
       "signal_date": "2026-06-01",
       "bars_ago": 0,
@@ -90,6 +104,8 @@
     {
       "ticker": "COIN",
       "market": "US",
+      "sector": "Financials",
+      "industry": "Financial Data & Stock Exchanges",
       "timeframe": "daily",
       "signal_date": "2026-06-29",
       "bars_ago": 0,
@@ -101,17 +117,21 @@
     {
       "ticker": "COO",
       "market": "US",
+      "sector": "Health Care",
+      "industry": "Medical Instruments & Supplies",
       "timeframe": "monthly",
       "signal_date": "2026-06-01",
       "bars_ago": 0,
       "close": 71.39,
       "DIFF": -5.470003,
       "DEA": -4.610387,
-      "MACD": -1.719233
+      "MACD": -1.719234
     },
     {
       "ticker": "EEFT",
       "market": "US",
+      "sector": "Financials",
+      "industry": "Software - Infrastructure",
       "timeframe": "monthly",
       "signal_date": "2026-06-01",
       "bars_ago": 0,
@@ -123,6 +143,8 @@
     {
       "ticker": "ENR",
       "market": "US",
+      "sector": "Consumer Staples",
+      "industry": "Electrical Equipment & Parts",
       "timeframe": "monthly",
       "signal_date": "2026-06-01",
       "bars_ago": 0,
@@ -134,6 +156,8 @@
     {
       "ticker": "FIS",
       "market": "US",
+      "sector": "Financials",
+      "industry": "Information Technology Services",
       "timeframe": "weekly",
       "signal_date": "2026-06-29",
       "bars_ago": 0,
@@ -145,17 +169,21 @@
     {
       "ticker": "LNN",
       "market": "US",
+      "sector": "Industrials",
+      "industry": "Farm & Heavy Construction Machinery",
       "timeframe": "monthly",
       "signal_date": "2026-06-01",
       "bars_ago": 0,
       "close": 124.23,
-      "DIFF": -2.226065,
-      "DEA": -1.104208,
-      "MACD": -2.243714
+      "DIFF": -2.226066,
+      "DEA": -1.104209,
+      "MACD": -2.243713
     },
     {
       "ticker": "LW",
       "market": "US",
+      "sector": "Consumer Staples",
+      "industry": "Packaged Foods",
       "timeframe": "monthly",
       "signal_date": "2026-06-01",
       "bars_ago": 0,
@@ -167,50 +195,47 @@
     {
       "ticker": "MLKN",
       "market": "US",
+      "sector": "Industrials",
+      "industry": "Furnishings, Fixtures & Appliances",
       "timeframe": "monthly",
       "signal_date": "2026-06-01",
       "bars_ago": 0,
-      "close": 20.46,
-      "DIFF": -1.207001,
-      "DEA": -1.419406,
-      "MACD": 0.424809
+      "close": 20.41,
+      "DIFF": -1.21099,
+      "DEA": -1.420203,
+      "MACD": 0.418427
     },
     {
-      "ticker": "PRIM",
+      "ticker": "OLLI",
       "market": "US",
+      "sector": "Consumer Discretionary",
+      "industry": "Discount Stores",
       "timeframe": "daily",
-      "signal_date": "2026-06-29",
+      "signal_date": "2026-06-30",
       "bars_ago": 0,
-      "close": 97.24,
-      "DIFF": -8.571596,
-      "DEA": -8.736767,
-      "MACD": 0.330342
-    },
-    {
-      "ticker": "PSN",
-      "market": "US",
-      "timeframe": "daily",
-      "signal_date": "2026-06-29",
-      "bars_ago": 0,
-      "close": 51.32,
-      "DIFF": -1.50491,
-      "DEA": -0.73275,
-      "MACD": -1.544319
+      "close": 74.3,
+      "DIFF": -2.475347,
+      "DEA": -2.071158,
+      "MACD": -0.808379
     },
     {
       "ticker": "TRIP",
       "market": "US",
+      "sector": "Communication",
+      "industry": "Travel Services",
       "timeframe": "monthly",
       "signal_date": "2026-06-01",
       "bars_ago": 0,
-      "close": 14.03,
-      "DIFF": -1.803508,
-      "DEA": -1.804331,
-      "MACD": 0.001645
+      "close": 13.93,
+      "DIFF": -1.811485,
+      "DEA": -1.805926,
+      "MACD": -0.011118
     },
     {
       "ticker": "BAX",
       "market": "US",
+      "sector": "Health Care",
+      "industry": "Medical Instruments & Supplies",
       "timeframe": "monthly",
       "signal_date": "2026-05-01",
       "bars_ago": 1,
@@ -222,6 +247,8 @@
     {
       "ticker": "BFAM",
       "market": "US",
+      "sector": "Consumer Discretionary",
+      "industry": "Personal Services",
       "timeframe": "weekly",
       "signal_date": "2026-06-22",
       "bars_ago": 1,
@@ -233,6 +260,8 @@
     {
       "ticker": "BILL",
       "market": "US",
+      "sector": "Information Technology",
+      "industry": "Software - Application",
       "timeframe": "weekly",
       "signal_date": "2026-06-22",
       "bars_ago": 1,
@@ -244,6 +273,8 @@
     {
       "ticker": "BJ",
       "market": "US",
+      "sector": "Consumer Staples",
+      "industry": "Discount Stores",
       "timeframe": "daily",
       "signal_date": "2026-06-26",
       "bars_ago": 1,
@@ -255,6 +286,8 @@
     {
       "ticker": "BR",
       "market": "US",
+      "sector": "Industrials",
+      "industry": "Information Technology Services",
       "timeframe": "daily",
       "signal_date": "2026-06-26",
       "bars_ago": 1,
@@ -266,6 +299,8 @@
     {
       "ticker": "CAG",
       "market": "US",
+      "sector": "Consumer Staples",
+      "industry": "Packaged Foods",
       "timeframe": "weekly",
       "signal_date": "2026-06-22",
       "bars_ago": 1,
@@ -277,6 +312,8 @@
     {
       "ticker": "CE",
       "market": "US",
+      "sector": "Materials",
+      "industry": "Chemicals",
       "timeframe": "daily",
       "signal_date": "2026-06-26",
       "bars_ago": 1,
@@ -288,6 +325,8 @@
     {
       "ticker": "CNXC",
       "market": "US",
+      "sector": "Industrials",
+      "industry": "Information Technology Services",
       "timeframe": "daily",
       "signal_date": "2026-06-26",
       "bars_ago": 1,
@@ -299,6 +338,8 @@
     {
       "ticker": "CSGP",
       "market": "US",
+      "sector": "Real Estate",
+      "industry": "Real Estate Services",
       "timeframe": "daily",
       "signal_date": "2026-06-26",
       "bars_ago": 1,
@@ -310,6 +351,8 @@
     {
       "ticker": "DEI",
       "market": "US",
+      "sector": "Real Estate",
+      "industry": "REIT - Office",
       "timeframe": "monthly",
       "signal_date": "2026-05-01",
       "bars_ago": 1,
@@ -321,6 +364,8 @@
     {
       "ticker": "DPZ",
       "market": "US",
+      "sector": "Consumer Discretionary",
+      "industry": "Restaurants",
       "timeframe": "daily",
       "signal_date": "2026-06-26",
       "bars_ago": 1,
@@ -332,6 +377,8 @@
     {
       "ticker": "EFOR",
       "market": "US",
+      "sector": "Information Technology",
+      "industry": "Information Technology Services",
       "timeframe": "daily",
       "signal_date": "2026-06-26",
       "bars_ago": 1,
@@ -343,6 +390,8 @@
     {
       "ticker": "EFOR",
       "market": "US",
+      "sector": "Information Technology",
+      "industry": "Information Technology Services",
       "timeframe": "weekly",
       "signal_date": "2026-06-22",
       "bars_ago": 1,
@@ -354,6 +403,8 @@
     {
       "ticker": "EFX",
       "market": "US",
+      "sector": "Industrials",
+      "industry": "Consulting Services",
       "timeframe": "daily",
       "signal_date": "2026-06-26",
       "bars_ago": 1,
@@ -365,6 +416,8 @@
     {
       "ticker": "EPAM",
       "market": "US",
+      "sector": "Information Technology",
+      "industry": "Information Technology Services",
       "timeframe": "daily",
       "signal_date": "2026-06-26",
       "bars_ago": 1,
@@ -376,6 +429,8 @@
     {
       "ticker": "EXPO",
       "market": "US",
+      "sector": "Industrials",
+      "industry": "Engineering & Construction",
       "timeframe": "weekly",
       "signal_date": "2026-06-22",
       "bars_ago": 1,
@@ -387,6 +442,8 @@
     {
       "ticker": "FCN",
       "market": "US",
+      "sector": "Industrials",
+      "industry": "Consulting Services",
       "timeframe": "daily",
       "signal_date": "2026-06-26",
       "bars_ago": 1,
@@ -398,6 +455,8 @@
     {
       "ticker": "HLNE",
       "market": "US",
+      "sector": "Financials",
+      "industry": "Asset Management",
       "timeframe": "daily",
       "signal_date": "2026-06-26",
       "bars_ago": 1,
@@ -409,6 +468,8 @@
     {
       "ticker": "HRL",
       "market": "US",
+      "sector": "Consumer Staples",
+      "industry": "Packaged Foods",
       "timeframe": "monthly",
       "signal_date": "2026-05-01",
       "bars_ago": 1,
@@ -420,6 +481,8 @@
     {
       "ticker": "ISRG",
       "market": "US",
+      "sector": "Health Care",
+      "industry": "Medical Instruments & Supplies",
       "timeframe": "daily",
       "signal_date": "2026-06-26",
       "bars_ago": 1,
@@ -431,6 +494,8 @@
     {
       "ticker": "KD",
       "market": "US",
+      "sector": "Information Technology",
+      "industry": "Information Technology Services",
       "timeframe": "daily",
       "signal_date": "2026-06-26",
       "bars_ago": 1,
@@ -442,6 +507,8 @@
     {
       "ticker": "KMPR",
       "market": "US",
+      "sector": "Financials",
+      "industry": "Insurance - Property & Casualty",
       "timeframe": "weekly",
       "signal_date": "2026-06-22",
       "bars_ago": 1,
@@ -453,6 +520,8 @@
     {
       "ticker": "KMX",
       "market": "US",
+      "sector": "Consumer Discretionary",
+      "industry": "Auto & Truck Dealerships",
       "timeframe": "monthly",
       "signal_date": "2026-05-01",
       "bars_ago": 1,
@@ -464,17 +533,21 @@
     {
       "ticker": "LKQ",
       "market": "US",
+      "sector": "Consumer Discretionary",
+      "industry": "Auto Parts",
       "timeframe": "weekly",
       "signal_date": "2026-06-22",
       "bars_ago": 1,
       "close": 27.03,
-      "DIFF": -1.34867,
+      "DIFF": -1.348671,
       "DEA": -1.144012,
       "MACD": -0.409317
     },
     {
       "ticker": "LULU",
       "market": "US",
+      "sector": "Consumer Discretionary",
+      "industry": "Apparel Retail",
       "timeframe": "weekly",
       "signal_date": "2026-06-22",
       "bars_ago": 1,
@@ -484,19 +557,10 @@
       "MACD": -3.537629
     },
     {
-      "ticker": "MAT",
-      "market": "US",
-      "timeframe": "daily",
-      "signal_date": "2026-06-26",
-      "bars_ago": 1,
-      "close": 13.98,
-      "DIFF": -0.256847,
-      "DEA": -0.228918,
-      "MACD": -0.055859
-    },
-    {
       "ticker": "MTN",
       "market": "US",
+      "sector": "Consumer Discretionary",
+      "industry": "Resorts & Casinos",
       "timeframe": "monthly",
       "signal_date": "2026-05-01",
       "bars_ago": 1,
@@ -506,30 +570,10 @@
       "MACD": 0.810375
     },
     {
-      "ticker": "NXST",
-      "market": "US",
-      "timeframe": "daily",
-      "signal_date": "2026-06-26",
-      "bars_ago": 1,
-      "close": 164.0,
-      "DIFF": -7.318452,
-      "DEA": -6.684799,
-      "MACD": -1.267304
-    },
-    {
-      "ticker": "ORLY",
-      "market": "US",
-      "timeframe": "daily",
-      "signal_date": "2026-06-26",
-      "bars_ago": 1,
-      "close": 89.55,
-      "DIFF": -0.760755,
-      "DEA": -0.792075,
-      "MACD": 0.06264
-    },
-    {
       "ticker": "PBH",
       "market": "US",
+      "sector": "Health Care",
+      "industry": "Drug Manufacturers - Specialty & Generic",
       "timeframe": "weekly",
       "signal_date": "2026-06-22",
       "bars_ago": 1,
@@ -539,41 +583,49 @@
       "MACD": -1.136953
     },
     {
-      "ticker": "PEGA",
+      "ticker": "PRIM",
       "market": "US",
+      "sector": "Industrials",
+      "industry": "Engineering & Construction",
       "timeframe": "daily",
-      "signal_date": "2026-06-26",
+      "signal_date": "2026-06-29",
       "bars_ago": 1,
-      "close": 30.78,
-      "DIFF": -1.60133,
-      "DEA": -1.396222,
-      "MACD": -0.410216
+      "close": 97.24,
+      "DIFF": -8.571596,
+      "DEA": -8.736767,
+      "MACD": 0.330342
     },
     {
-      "ticker": "PPC",
+      "ticker": "PSN",
       "market": "US",
+      "sector": "Industrials",
+      "industry": "Information Technology Services",
       "timeframe": "daily",
-      "signal_date": "2026-06-26",
+      "signal_date": "2026-06-29",
       "bars_ago": 1,
-      "close": 28.61,
-      "DIFF": -0.620641,
-      "DEA": -0.611712,
-      "MACD": -0.017858
+      "close": 51.32,
+      "DIFF": -1.50491,
+      "DEA": -0.73275,
+      "MACD": -1.544319
     },
     {
       "ticker": "RSG",
       "market": "US",
+      "sector": "Industrials",
+      "industry": "Waste Management",
       "timeframe": "weekly",
       "signal_date": "2026-06-22",
       "bars_ago": 1,
       "close": 216.39,
-      "DIFF": -2.799907,
+      "DIFF": -2.799906,
       "DEA": -3.139869,
       "MACD": 0.679925
     },
     {
       "ticker": "SAM",
       "market": "US",
+      "sector": "Consumer Staples",
+      "industry": "Beverages - Brewers",
       "timeframe": "weekly",
       "signal_date": "2026-06-22",
       "bars_ago": 1,
@@ -585,6 +637,8 @@
     {
       "ticker": "SDGR",
       "market": "US",
+      "sector": "Health Care",
+      "industry": "Health Information Services",
       "timeframe": "monthly",
       "signal_date": "2026-05-01",
       "bars_ago": 1,
@@ -594,19 +648,10 @@
       "MACD": -0.33444
     },
     {
-      "ticker": "SPGI",
-      "market": "US",
-      "timeframe": "daily",
-      "signal_date": "2026-06-26",
-      "bars_ago": 1,
-      "close": 408.16,
-      "DIFF": -4.485296,
-      "DEA": -2.566318,
-      "MACD": -3.837956
-    },
-    {
       "ticker": "STRA",
       "market": "US",
+      "sector": "Consumer Discretionary",
+      "industry": "Education & Training Services",
       "timeframe": "weekly",
       "signal_date": "2026-06-22",
       "bars_ago": 1,
@@ -616,19 +661,10 @@
       "MACD": -0.296997
     },
     {
-      "ticker": "STWD",
-      "market": "US",
-      "timeframe": "daily",
-      "signal_date": "2026-06-26",
-      "bars_ago": 1,
-      "close": 16.82,
-      "DIFF": -0.172339,
-      "DEA": -0.17634,
-      "MACD": 0.008003
-    },
-    {
       "ticker": "TAP",
       "market": "US",
+      "sector": "Consumer Staples",
+      "industry": "Beverages - Brewers",
       "timeframe": "weekly",
       "signal_date": "2026-06-22",
       "bars_ago": 1,
@@ -638,19 +674,10 @@
       "MACD": -0.246295
     },
     {
-      "ticker": "TTD",
-      "market": "US",
-      "timeframe": "daily",
-      "signal_date": "2026-06-26",
-      "bars_ago": 1,
-      "close": 18.37,
-      "DIFF": -1.04105,
-      "DEA": -0.974514,
-      "MACD": -0.133073
-    },
-    {
       "ticker": "TTEK",
       "market": "US",
+      "sector": "Industrials",
+      "industry": "Engineering & Construction",
       "timeframe": "weekly",
       "signal_date": "2026-06-22",
       "bars_ago": 1,
@@ -662,6 +689,8 @@
     {
       "ticker": "USPH",
       "market": "US",
+      "sector": "Health Care",
+      "industry": "Medical Care Facilities",
       "timeframe": "weekly",
       "signal_date": "2026-06-22",
       "bars_ago": 1,
@@ -671,19 +700,10 @@
       "MACD": -0.729873
     },
     {
-      "ticker": "VEEV",
-      "market": "US",
-      "timeframe": "daily",
-      "signal_date": "2026-06-26",
-      "bars_ago": 1,
-      "close": 171.36,
-      "DIFF": -1.48741,
-      "DEA": -1.643508,
-      "MACD": 0.312196
-    },
-    {
       "ticker": "WAY",
       "market": "US",
+      "sector": "Health Care",
+      "industry": "Health Information Services",
       "timeframe": "weekly",
       "signal_date": "2026-06-22",
       "bars_ago": 1,
@@ -695,6 +715,8 @@
     {
       "ticker": "WGO",
       "market": "US",
+      "sector": "Consumer Discretionary",
+      "industry": "Recreational Vehicles",
       "timeframe": "weekly",
       "signal_date": "2026-06-22",
       "bars_ago": 1,
@@ -706,6 +728,8 @@
     {
       "ticker": "WMG",
       "market": "US",
+      "sector": "Communication",
+      "industry": "Entertainment",
       "timeframe": "monthly",
       "signal_date": "2026-05-01",
       "bars_ago": 1,
@@ -717,6 +741,8 @@
     {
       "ticker": "XRAY",
       "market": "US",
+      "sector": "Health Care",
+      "industry": "Medical Instruments & Supplies",
       "timeframe": "weekly",
       "signal_date": "2026-06-22",
       "bars_ago": 1,
@@ -728,6 +754,8 @@
     {
       "ticker": "ZBRA",
       "market": "US",
+      "sector": "Information Technology",
+      "industry": "Communication Equipment",
       "timeframe": "monthly",
       "signal_date": "2026-05-01",
       "bars_ago": 1,
@@ -739,6 +767,8 @@
     {
       "ticker": "ALG",
       "market": "US",
+      "sector": "Industrials",
+      "industry": "Farm & Heavy Construction Machinery",
       "timeframe": "weekly",
       "signal_date": "2026-06-15",
       "bars_ago": 2,
@@ -750,6 +780,8 @@
     {
       "ticker": "BMY",
       "market": "US",
+      "sector": "Health Care",
+      "industry": "Drug Manufacturers - General",
       "timeframe": "daily",
       "signal_date": "2026-06-25",
       "bars_ago": 2,
@@ -761,6 +793,8 @@
     {
       "ticker": "CC",
       "market": "US",
+      "sector": "Materials",
+      "industry": "Specialty Chemicals",
       "timeframe": "daily",
       "signal_date": "2026-06-25",
       "bars_ago": 2,
@@ -772,6 +806,8 @@
     {
       "ticker": "CMCSA",
       "market": "US",
+      "sector": "Communication",
+      "industry": "Telecom Services",
       "timeframe": "daily",
       "signal_date": "2026-06-25",
       "bars_ago": 2,
@@ -783,6 +819,8 @@
     {
       "ticker": "CMG",
       "market": "US",
+      "sector": "Consumer Discretionary",
+      "industry": "Restaurants",
       "timeframe": "weekly",
       "signal_date": "2026-06-15",
       "bars_ago": 2,
@@ -794,17 +832,21 @@
     {
       "ticker": "CSW",
       "market": "US",
+      "sector": "Industrials",
+      "industry": "Specialty Industrial Machinery",
       "timeframe": "weekly",
       "signal_date": "2026-06-15",
       "bars_ago": 2,
       "close": 279.94,
       "DIFF": -2.617973,
       "DEA": -2.105039,
-      "MACD": -1.025869
+      "MACD": -1.025868
     },
     {
       "ticker": "FRPT",
       "market": "US",
+      "sector": "Consumer Staples",
+      "industry": "Packaged Foods",
       "timeframe": "weekly",
       "signal_date": "2026-06-15",
       "bars_ago": 2,
@@ -814,8 +856,23 @@
       "MACD": -2.570478
     },
     {
+      "ticker": "MAT",
+      "market": "US",
+      "sector": "Consumer Discretionary",
+      "industry": "Leisure",
+      "timeframe": "daily",
+      "signal_date": "2026-06-26",
+      "bars_ago": 2,
+      "close": 13.98,
+      "DIFF": -0.256847,
+      "DEA": -0.228918,
+      "MACD": -0.055859
+    },
+    {
       "ticker": "MTG",
       "market": "US",
+      "sector": "Financials",
+      "industry": "Insurance - Specialty",
       "timeframe": "weekly",
       "signal_date": "2026-06-15",
       "bars_ago": 2,
@@ -825,26 +882,108 @@
       "MACD": -0.16663
     },
     {
-      "ticker": "PEN",
+      "ticker": "NXST",
       "market": "US",
+      "sector": "Communication",
+      "industry": "Broadcasting",
       "timeframe": "daily",
-      "signal_date": "2026-06-25",
+      "signal_date": "2026-06-26",
       "bars_ago": 2,
-      "close": 317.4,
-      "DIFF": -1.951487,
-      "DEA": -2.020193,
-      "MACD": 0.137412
+      "close": 164.0,
+      "DIFF": -7.318452,
+      "DEA": -6.684799,
+      "MACD": -1.267304
     },
     {
-      "ticker": "WHR",
+      "ticker": "ORLY",
       "market": "US",
+      "sector": "Consumer Discretionary",
+      "industry": "Auto Parts",
       "timeframe": "daily",
-      "signal_date": "2026-06-25",
+      "signal_date": "2026-06-26",
       "bars_ago": 2,
-      "close": 37.74,
-      "DIFF": -2.154442,
-      "DEA": -2.146009,
-      "MACD": -0.016867
+      "close": 89.55,
+      "DIFF": -0.760755,
+      "DEA": -0.792075,
+      "MACD": 0.06264
+    },
+    {
+      "ticker": "PEGA",
+      "market": "US",
+      "sector": "Information Technology",
+      "industry": "Software - Application",
+      "timeframe": "daily",
+      "signal_date": "2026-06-26",
+      "bars_ago": 2,
+      "close": 30.78,
+      "DIFF": -1.60133,
+      "DEA": -1.396222,
+      "MACD": -0.410216
+    },
+    {
+      "ticker": "PPC",
+      "market": "US",
+      "sector": "Consumer Staples",
+      "industry": "Packaged Foods",
+      "timeframe": "daily",
+      "signal_date": "2026-06-26",
+      "bars_ago": 2,
+      "close": 28.61,
+      "DIFF": -0.620641,
+      "DEA": -0.611712,
+      "MACD": -0.017858
+    },
+    {
+      "ticker": "SPGI",
+      "market": "US",
+      "sector": "Financials",
+      "industry": "Financial Data & Stock Exchanges",
+      "timeframe": "daily",
+      "signal_date": "2026-06-26",
+      "bars_ago": 2,
+      "close": 408.16,
+      "DIFF": -4.485296,
+      "DEA": -2.566318,
+      "MACD": -3.837956
+    },
+    {
+      "ticker": "STWD",
+      "market": "US",
+      "sector": "Financials",
+      "industry": "REIT - Mortgage",
+      "timeframe": "daily",
+      "signal_date": "2026-06-26",
+      "bars_ago": 2,
+      "close": 16.82,
+      "DIFF": -0.172339,
+      "DEA": -0.17634,
+      "MACD": 0.008003
+    },
+    {
+      "ticker": "TTD",
+      "market": "US",
+      "sector": "Communication",
+      "industry": "Advertising Agencies",
+      "timeframe": "daily",
+      "signal_date": "2026-06-26",
+      "bars_ago": 2,
+      "close": 18.37,
+      "DIFF": -1.04105,
+      "DEA": -0.974514,
+      "MACD": -0.133073
+    },
+    {
+      "ticker": "VEEV",
+      "market": "US",
+      "sector": "Health Care",
+      "industry": "Health Information Services",
+      "timeframe": "daily",
+      "signal_date": "2026-06-26",
+      "bars_ago": 2,
+      "close": 171.36,
+      "DIFF": -1.48741,
+      "DEA": -1.643508,
+      "MACD": 0.312196
     }
   ]
 }
