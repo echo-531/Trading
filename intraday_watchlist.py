@@ -20,13 +20,13 @@ WATCHLIST: dict[str, list[str]] = {
         "STX", "FORM", "ANET", "VICR", 
         "CLS", "SHOP", "SYM", "OUST", "XE", "AMPX", "INOD", "PLTR", 
         "CRCL", "AMD", "AVGO", "ORCL", "TEM", "SMTC", "AMKR", "NOK", "TTMI", "AEVA", "VPG", "BB", "AMBA", 
-        "CGNX", "WYFI", "SYNA", 
+        "CGNX", "WYFI", "SYNA", "INTC", "CRWV", 
     ],
     
     "光": [
         "POET", "OCS", "GLW", "COHR", "LITE", "VELO", "AAOI", "CIEN", "FORM", "OCC", "MXL", 
     ],
-    
+
     "MEGA7": [
         "META", "AAPL", "NVDA", "MSFT", "TSLA", "AMZN", "GOOGL",
     ],
