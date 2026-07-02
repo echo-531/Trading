@@ -1,34 +1,11 @@
 {
-  "generated_at": "2026-07-02T16:19:28.198381+00:00",
+  "generated_at": "2026-07-02T16:55:48.055485+00:00",
   "next_scan_at": "2026-07-02T17:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
   "stats": {
     "total_scanned": 78,
-    "buy_signals": 2
+    "buy_signals": 0
   },
-  "buy_signals": [
-    {
-      "ticker": "XLE",
-      "group": "ETF",
-      "timeframe": "1h",
-      "signal_ts": "2026-07-02 13:30 UTC",
-      "bars_ago": 2,
-      "close": 53.405,
-      "DIFF": -0.237049,
-      "DEA": -0.238682,
-      "MACD": 0.003266
-    },
-    {
-      "ticker": "VELO",
-      "group": "光",
-      "timeframe": "1h",
-      "signal_ts": "2026-07-02 13:30 UTC",
-      "bars_ago": 2,
-      "close": 16.99,
-      "DIFF": -0.469292,
-      "DEA": -0.472244,
-      "MACD": 0.005903
-    }
-  ]
+  "buy_signals": []
 }
