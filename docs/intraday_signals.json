@@ -1,34 +1,11 @@
 {
-  "generated_at": "2026-07-06T18:09:42.842109+00:00",
+  "generated_at": "2026-07-06T18:52:12.118857+00:00",
   "next_scan_at": "2026-07-06T19:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
   "stats": {
     "total_scanned": 78,
-    "buy_signals": 2
+    "buy_signals": 0
   },
-  "buy_signals": [
-    {
-      "ticker": "VELO",
-      "group": "光",
-      "timeframe": "1h",
-      "signal_ts": "2026-07-06 15:30 UTC",
-      "bars_ago": 2,
-      "close": 15.73,
-      "DIFF": -0.60509,
-      "DEA": -0.587191,
-      "MACD": -0.0358
-    },
-    {
-      "ticker": "XE",
-      "group": "电力",
-      "timeframe": "1h",
-      "signal_ts": "2026-07-06 15:30 UTC",
-      "bars_ago": 2,
-      "close": 17.995,
-      "DIFF": -0.304525,
-      "DEA": -0.243098,
-      "MACD": -0.122853
-    }
-  ]
+  "buy_signals": []
 }
