@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-07-06T17:20:41.094543+00:00",
+  "generated_at": "2026-07-06T17:47:59.129554+00:00",
   "next_scan_at": "2026-07-06T18:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
   "stats": {
     "total_scanned": 78,
-    "buy_signals": 3
+    "buy_signals": 2
   },
   "buy_signals": [
     {
@@ -13,7 +13,7 @@
       "group": "光",
       "timeframe": "1h",
       "signal_ts": "2026-07-06 15:30 UTC",
-      "bars_ago": 1,
+      "bars_ago": 2,
       "close": 15.73,
       "DIFF": -0.60509,
       "DEA": -0.587191,
@@ -24,22 +24,11 @@
       "group": "电力",
       "timeframe": "1h",
       "signal_ts": "2026-07-06 15:30 UTC",
-      "bars_ago": 1,
+      "bars_ago": 2,
       "close": 17.995,
       "DIFF": -0.304525,
       "DEA": -0.243098,
       "MACD": -0.122853
-    },
-    {
-      "ticker": "ONDS",
-      "group": "太空",
-      "timeframe": "1h",
-      "signal_ts": "2026-07-06 14:30 UTC",
-      "bars_ago": 2,
-      "close": 7.699,
-      "DIFF": -0.150231,
-      "DEA": -0.107919,
-      "MACD": -0.084623
     }
   ]
 }
