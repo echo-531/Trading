@@ -1,23 +1,67 @@
 {
-  "generated_at": "2026-07-07T15:59:23.809429+00:00",
-  "next_scan_at": "2026-07-07T16:00:00+00:00",
+  "generated_at": "2026-07-07T16:32:49.295856+00:00",
+  "next_scan_at": "2026-07-07T17:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
   "stats": {
     "total_scanned": 78,
-    "buy_signals": 1
+    "buy_signals": 5
   },
   "buy_signals": [
+    {
+      "ticker": "LITE",
+      "group": "光",
+      "timeframe": "1h",
+      "signal_ts": "2026-07-07 16:30 UTC",
+      "bars_ago": 0,
+      "close": 702.1,
+      "DIFF": -26.946794,
+      "DEA": -26.17951,
+      "MACD": -1.534567
+    },
+    {
+      "ticker": "ONDS",
+      "group": "太空",
+      "timeframe": "1h",
+      "signal_ts": "2026-07-07 16:30 UTC",
+      "bars_ago": 0,
+      "close": 7.535,
+      "DIFF": -0.119484,
+      "DEA": -0.114226,
+      "MACD": -0.010515
+    },
+    {
+      "ticker": "NBIS",
+      "group": "数据中心",
+      "timeframe": "1h",
+      "signal_ts": "2026-07-07 16:30 UTC",
+      "bars_ago": 0,
+      "close": 203.29,
+      "DIFF": -10.983082,
+      "DEA": -10.897979,
+      "MACD": -0.170205
+    },
+    {
+      "ticker": "CIEN",
+      "group": "光",
+      "timeframe": "1h",
+      "signal_ts": "2026-07-07 15:30 UTC",
+      "bars_ago": 1,
+      "close": 424.16,
+      "DIFF": -10.990299,
+      "DEA": -10.633494,
+      "MACD": -0.71361
+    },
     {
       "ticker": "NVDA",
       "group": "MEGA7",
       "timeframe": "1h",
       "signal_ts": "2026-07-07 15:30 UTC",
-      "bars_ago": 0,
-      "close": 194.745,
-      "DIFF": -0.63356,
-      "DEA": -0.460444,
-      "MACD": -0.346231
+      "bars_ago": 1,
+      "close": 197.39,
+      "DIFF": -0.422562,
+      "DEA": -0.418245,
+      "MACD": -0.008635
     }
   ]
 }
