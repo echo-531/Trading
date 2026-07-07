@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-07-07T16:32:49.295856+00:00",
+  "generated_at": "2026-07-07T16:55:45.401046+00:00",
   "next_scan_at": "2026-07-07T17:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
   "stats": {
     "total_scanned": 78,
-    "buy_signals": 5
+    "buy_signals": 4
   },
   "buy_signals": [
     {
@@ -14,21 +14,10 @@
       "timeframe": "1h",
       "signal_ts": "2026-07-07 16:30 UTC",
       "bars_ago": 0,
-      "close": 702.1,
-      "DIFF": -26.946794,
-      "DEA": -26.17951,
-      "MACD": -1.534567
-    },
-    {
-      "ticker": "ONDS",
-      "group": "太空",
-      "timeframe": "1h",
-      "signal_ts": "2026-07-07 16:30 UTC",
-      "bars_ago": 0,
-      "close": 7.535,
-      "DIFF": -0.119484,
-      "DEA": -0.114226,
-      "MACD": -0.010515
+      "close": 703.91,
+      "DIFF": -26.802406,
+      "DEA": -26.150633,
+      "MACD": -1.303547
     },
     {
       "ticker": "NBIS",
@@ -36,10 +25,10 @@
       "timeframe": "1h",
       "signal_ts": "2026-07-07 16:30 UTC",
       "bars_ago": 0,
-      "close": 203.29,
-      "DIFF": -10.983082,
-      "DEA": -10.897979,
-      "MACD": -0.170205
+      "close": 203.02,
+      "DIFF": -11.004619,
+      "DEA": -10.902287,
+      "MACD": -0.204665
     },
     {
       "ticker": "CIEN",
