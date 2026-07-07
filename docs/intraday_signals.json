@@ -1,52 +1,85 @@
 {
-  "generated_at": "2026-07-07T17:22:54.020509+00:00",
+  "generated_at": "2026-07-07T17:57:24.813899+00:00",
   "next_scan_at": "2026-07-07T18:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
   "stats": {
     "total_scanned": 78,
-    "buy_signals": 5
+    "buy_signals": 8
   },
   "buy_signals": [
     {
       "ticker": "LITE",
       "group": "光",
       "timeframe": "1h",
-      "signal_ts": "2026-07-07 16:30 UTC",
+      "signal_ts": "2026-07-07 17:30 UTC",
       "bars_ago": 0,
-      "close": 704.475,
-      "DIFF": -26.757335,
-      "DEA": -26.141619,
-      "MACD": -1.231433
+      "close": 704.89,
+      "DIFF": -26.209088,
+      "DEA": -26.186064,
+      "MACD": -0.046048
     },
     {
       "ticker": "MU",
       "group": "存储",
       "timeframe": "1h",
-      "signal_ts": "2026-07-07 16:30 UTC",
+      "signal_ts": "2026-07-07 17:30 UTC",
       "bars_ago": 0,
-      "close": 936.06,
-      "DIFF": -38.095873,
-      "DEA": -35.354108,
-      "MACD": -5.48353
+      "close": 934.26,
+      "DIFF": -37.62698,
+      "DEA": -35.838294,
+      "MACD": -3.577372
+    },
+    {
+      "ticker": "ONDS",
+      "group": "太空",
+      "timeframe": "1h",
+      "signal_ts": "2026-07-07 17:30 UTC",
+      "bars_ago": 0,
+      "close": 7.5486,
+      "DIFF": -0.118149,
+      "DEA": -0.115457,
+      "MACD": -0.005383
+    },
+    {
+      "ticker": "QBTS",
+      "group": "量子",
+      "timeframe": "1h",
+      "signal_ts": "2026-07-07 17:30 UTC",
+      "bars_ago": 0,
+      "close": 21.835,
+      "DIFF": -0.495631,
+      "DEA": -0.363985,
+      "MACD": -0.263292
+    },
+    {
+      "ticker": "IONQ",
+      "group": "量子",
+      "timeframe": "1h",
+      "signal_ts": "2026-07-07 17:30 UTC",
+      "bars_ago": 0,
+      "close": 46.59,
+      "DIFF": -1.595485,
+      "DEA": -1.298346,
+      "MACD": -0.594278
     },
     {
       "ticker": "NBIS",
       "group": "数据中心",
       "timeframe": "1h",
       "signal_ts": "2026-07-07 16:30 UTC",
-      "bars_ago": 0,
-      "close": 204.325,
-      "DIFF": -10.900518,
-      "DEA": -10.881467,
-      "MACD": -0.038102
+      "bars_ago": 1,
+      "close": 203.835,
+      "DIFF": -10.939605,
+      "DEA": -10.889284,
+      "MACD": -0.100642
     },
     {
       "ticker": "CIEN",
       "group": "光",
       "timeframe": "1h",
       "signal_ts": "2026-07-07 15:30 UTC",
-      "bars_ago": 1,
+      "bars_ago": 2,
       "close": 424.16,
       "DIFF": -10.990299,
       "DEA": -10.633494,
@@ -57,7 +90,7 @@
       "group": "MEGA7",
       "timeframe": "1h",
       "signal_ts": "2026-07-07 15:30 UTC",
-      "bars_ago": 1,
+      "bars_ago": 2,
       "close": 197.39,
       "DIFF": -0.422562,
       "DEA": -0.418245,
