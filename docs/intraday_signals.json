@@ -1,34 +1,89 @@
 {
-  "generated_at": "2026-07-07T18:59:09.731075+00:00",
-  "next_scan_at": "2026-07-07T19:00:00+00:00",
+  "generated_at": "2026-07-07T19:53:13.692328+00:00",
+  "next_scan_at": "2026-07-07T20:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
   "stats": {
     "total_scanned": 78,
-    "buy_signals": 2
+    "buy_signals": 7
   },
   "buy_signals": [
+    {
+      "ticker": "AAOI",
+      "group": "光",
+      "timeframe": "1h",
+      "signal_ts": "2026-07-07 19:30 UTC",
+      "bars_ago": 0,
+      "close": 113.9199,
+      "DIFF": -5.802516,
+      "DEA": -5.584417,
+      "MACD": -0.436199
+    },
+    {
+      "ticker": "CIEN",
+      "group": "光",
+      "timeframe": "1h",
+      "signal_ts": "2026-07-07 19:30 UTC",
+      "bars_ago": 0,
+      "close": 416.95,
+      "DIFF": -10.544327,
+      "DEA": -10.658133,
+      "MACD": 0.227612
+    },
+    {
+      "ticker": "WDC",
+      "group": "存储",
+      "timeframe": "1h",
+      "signal_ts": "2026-07-07 19:30 UTC",
+      "bars_ago": 0,
+      "close": 530.37,
+      "DIFF": -19.121918,
+      "DEA": -18.239063,
+      "MACD": -1.76571
+    },
+    {
+      "ticker": "MU",
+      "group": "存储",
+      "timeframe": "1h",
+      "signal_ts": "2026-07-07 19:30 UTC",
+      "bars_ago": 0,
+      "close": 924.74,
+      "DIFF": -37.634144,
+      "DEA": -36.664385,
+      "MACD": -1.939518
+    },
+    {
+      "ticker": "VRT",
+      "group": "电力",
+      "timeframe": "1h",
+      "signal_ts": "2026-07-07 19:30 UTC",
+      "bars_ago": 0,
+      "close": 304.8825,
+      "DIFF": -3.223313,
+      "DEA": -2.412853,
+      "MACD": -1.62092
+    },
+    {
+      "ticker": "LITE",
+      "group": "光",
+      "timeframe": "1h",
+      "signal_ts": "2026-07-07 18:30 UTC",
+      "bars_ago": 1,
+      "close": 696.28,
+      "DIFF": -26.506099,
+      "DEA": -26.351605,
+      "MACD": -0.308988
+    },
     {
       "ticker": "POET",
       "group": "光",
       "timeframe": "1h",
       "signal_ts": "2026-07-07 17:30 UTC",
-      "bars_ago": 1,
+      "bars_ago": 2,
       "close": 8.395,
       "DIFF": -0.354293,
       "DEA": -0.32111,
       "MACD": -0.066366
-    },
-    {
-      "ticker": "NBIS",
-      "group": "数据中心",
-      "timeframe": "1h",
-      "signal_ts": "2026-07-07 16:30 UTC",
-      "bars_ago": 2,
-      "close": 203.835,
-      "DIFF": -10.939605,
-      "DEA": -10.889284,
-      "MACD": -0.100642
     }
   ]
 }
