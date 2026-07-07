@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-07-07T16:55:45.401046+00:00",
-  "next_scan_at": "2026-07-07T17:00:00+00:00",
+  "generated_at": "2026-07-07T17:22:54.020509+00:00",
+  "next_scan_at": "2026-07-07T18:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
   "stats": {
     "total_scanned": 78,
-    "buy_signals": 4
+    "buy_signals": 5
   },
   "buy_signals": [
     {
@@ -14,10 +14,21 @@
       "timeframe": "1h",
       "signal_ts": "2026-07-07 16:30 UTC",
       "bars_ago": 0,
-      "close": 703.91,
-      "DIFF": -26.802406,
-      "DEA": -26.150633,
-      "MACD": -1.303547
+      "close": 704.475,
+      "DIFF": -26.757335,
+      "DEA": -26.141619,
+      "MACD": -1.231433
+    },
+    {
+      "ticker": "MU",
+      "group": "存储",
+      "timeframe": "1h",
+      "signal_ts": "2026-07-07 16:30 UTC",
+      "bars_ago": 0,
+      "close": 936.06,
+      "DIFF": -38.095873,
+      "DEA": -35.354108,
+      "MACD": -5.48353
     },
     {
       "ticker": "NBIS",
@@ -25,10 +36,10 @@
       "timeframe": "1h",
       "signal_ts": "2026-07-07 16:30 UTC",
       "bars_ago": 0,
-      "close": 203.02,
-      "DIFF": -11.004619,
-      "DEA": -10.902287,
-      "MACD": -0.204665
+      "close": 204.325,
+      "DIFF": -10.900518,
+      "DEA": -10.881467,
+      "MACD": -0.038102
     },
     {
       "ticker": "CIEN",
