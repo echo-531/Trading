@@ -1,23 +1,56 @@
 {
-  "generated_at": "2026-07-08T16:02:29.678448+00:00",
+  "generated_at": "2026-07-08T16:14:08.037362+00:00",
   "next_scan_at": "2026-07-08T17:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
   "stats": {
     "total_scanned": 78,
-    "buy_signals": 8
+    "buy_signals": 9
   },
   "buy_signals": [
+    {
+      "ticker": "SYNA",
+      "group": "Semi",
+      "timeframe": "1h",
+      "signal_ts": "2026-07-08 15:30 UTC",
+      "bars_ago": 0,
+      "close": 120.33,
+      "DIFF": -1.170088,
+      "DEA": -0.99638,
+      "MACD": -0.347416
+    },
+    {
+      "ticker": "ONDS",
+      "group": "太空",
+      "timeframe": "1h",
+      "signal_ts": "2026-07-08 15:30 UTC",
+      "bars_ago": 0,
+      "close": 7.405,
+      "DIFF": -0.131305,
+      "DEA": -0.126689,
+      "MACD": -0.009232
+    },
     {
       "ticker": "RDW",
       "group": "太空",
       "timeframe": "1h",
       "signal_ts": "2026-07-08 15:30 UTC",
       "bars_ago": 0,
-      "close": 10.405,
-      "DIFF": -0.358426,
-      "DEA": -0.340058,
-      "MACD": -0.036736
+      "close": 10.49,
+      "DIFF": -0.351646,
+      "DEA": -0.338702,
+      "MACD": -0.025887
+    },
+    {
+      "ticker": "XE",
+      "group": "电力",
+      "timeframe": "1h",
+      "signal_ts": "2026-07-08 15:30 UTC",
+      "bars_ago": 0,
+      "close": 16.48,
+      "DIFF": -0.500497,
+      "DEA": -0.451919,
+      "MACD": -0.097157
     },
     {
       "ticker": "ARM",
@@ -53,17 +86,6 @@
       "MACD": -0.625099
     },
     {
-      "ticker": "SYNA",
-      "group": "Semi",
-      "timeframe": "1h",
-      "signal_ts": "2026-07-08 13:30 UTC",
-      "bars_ago": 2,
-      "close": 121.7,
-      "DIFF": -1.096486,
-      "DEA": -0.888211,
-      "MACD": -0.416549
-    },
-    {
       "ticker": "POET",
       "group": "光",
       "timeframe": "1h",
@@ -73,17 +95,6 @@
       "DIFF": -0.326717,
       "DEA": -0.33242,
       "MACD": 0.011405
-    },
-    {
-      "ticker": "ONDS",
-      "group": "太空",
-      "timeframe": "1h",
-      "signal_ts": "2026-07-08 13:30 UTC",
-      "bars_ago": 2,
-      "close": 7.505,
-      "DIFF": -0.128118,
-      "DEA": -0.123446,
-      "MACD": -0.009345
     },
     {
       "ticker": "NBIS",
