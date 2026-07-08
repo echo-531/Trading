@@ -1,23 +1,34 @@
 {
-  "generated_at": "2026-07-08T16:44:16.375817+00:00",
-  "next_scan_at": "2026-07-08T17:00:00+00:00",
+  "generated_at": "2026-07-08T17:27:11.801994+00:00",
+  "next_scan_at": "2026-07-08T18:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
   "stats": {
     "total_scanned": 78,
-    "buy_signals": 7
+    "buy_signals": 9
   },
   "buy_signals": [
+    {
+      "ticker": "ARM",
+      "group": "Semi",
+      "timeframe": "1h",
+      "signal_ts": "2026-07-08 16:30 UTC",
+      "bars_ago": 0,
+      "close": 298.75,
+      "DIFF": -9.853544,
+      "DEA": -9.306134,
+      "MACD": -1.09482
+    },
     {
       "ticker": "SMTC",
       "group": "Semi",
       "timeframe": "1h",
       "signal_ts": "2026-07-08 16:30 UTC",
       "bars_ago": 0,
-      "close": 125.26,
-      "DIFF": -5.41198,
-      "DEA": -5.244348,
-      "MACD": -0.335264
+      "close": 127.235,
+      "DIFF": -5.25443,
+      "DEA": -5.212838,
+      "MACD": -0.083185
     },
     {
       "ticker": "NOK",
@@ -25,10 +36,10 @@
       "timeframe": "1h",
       "signal_ts": "2026-07-08 16:30 UTC",
       "bars_ago": 0,
-      "close": 11.705,
-      "DIFF": -0.273287,
-      "DEA": -0.255366,
-      "MACD": -0.035843
+      "close": 11.77,
+      "DIFF": -0.268102,
+      "DEA": -0.254329,
+      "MACD": -0.027546
     },
     {
       "ticker": "COHR",
@@ -36,10 +47,21 @@
       "timeframe": "1h",
       "signal_ts": "2026-07-08 16:30 UTC",
       "bars_ago": 0,
-      "close": 312.2396,
-      "DIFF": -12.743179,
-      "DEA": -13.132203,
-      "MACD": 0.778048
+      "close": 314.81,
+      "DIFF": -12.538132,
+      "DEA": -13.091194,
+      "MACD": 1.106123
+    },
+    {
+      "ticker": "VELO",
+      "group": "光",
+      "timeframe": "1h",
+      "signal_ts": "2026-07-08 16:30 UTC",
+      "bars_ago": 0,
+      "close": 13.2381,
+      "DIFF": -0.885947,
+      "DEA": -0.834907,
+      "MACD": -0.10208
     },
     {
       "ticker": "SYNA",
