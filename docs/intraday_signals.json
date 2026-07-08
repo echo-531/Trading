@@ -1,52 +1,74 @@
 {
-  "generated_at": "2026-07-08T18:14:42.739337+00:00",
-  "next_scan_at": "2026-07-08T19:00:00+00:00",
+  "generated_at": "2026-07-08T19:22:57.992802+00:00",
+  "next_scan_at": "2026-07-08T20:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
   "stats": {
     "total_scanned": 78,
-    "buy_signals": 11
+    "buy_signals": 9
   },
   "buy_signals": [
+    {
+      "ticker": "ARM",
+      "group": "Semi",
+      "timeframe": "1h",
+      "signal_ts": "2026-07-08 18:30 UTC",
+      "bars_ago": 0,
+      "close": 298.125,
+      "DIFF": -9.40526,
+      "DEA": -9.397372,
+      "MACD": -0.015776
+    },
+    {
+      "ticker": "AMPX",
+      "group": "Semi",
+      "timeframe": "1h",
+      "signal_ts": "2026-07-08 18:30 UTC",
+      "bars_ago": 0,
+      "close": 11.47,
+      "DIFF": -0.466893,
+      "DEA": -0.41904,
+      "MACD": -0.095704
+    },
+    {
+      "ticker": "BE",
+      "group": "电力",
+      "timeframe": "1h",
+      "signal_ts": "2026-07-08 18:30 UTC",
+      "bars_ago": 0,
+      "close": 252.65,
+      "DIFF": -10.334716,
+      "DEA": -8.053768,
+      "MACD": -4.561894
+    },
     {
       "ticker": "INOD",
       "group": "Semi",
       "timeframe": "1h",
       "signal_ts": "2026-07-08 17:30 UTC",
-      "bars_ago": 0,
-      "close": 68.685,
-      "DIFF": -1.265589,
-      "DEA": -1.141957,
-      "MACD": -0.247266
+      "bars_ago": 1,
+      "close": 68.62,
+      "DIFF": -1.270774,
+      "DEA": -1.142994,
+      "MACD": -0.255561
     },
     {
       "ticker": "ORCL",
       "group": "Semi",
       "timeframe": "1h",
       "signal_ts": "2026-07-08 17:30 UTC",
-      "bars_ago": 0,
-      "close": 139.02,
-      "DIFF": -1.602981,
-      "DEA": -1.618555,
-      "MACD": 0.031148
-    },
-    {
-      "ticker": "ARM",
-      "group": "Semi",
-      "timeframe": "1h",
-      "signal_ts": "2026-07-08 16:30 UTC",
       "bars_ago": 1,
-      "close": 299.24,
-      "DIFF": -9.814457,
-      "DEA": -9.298317,
-      "MACD": -1.03228
+      "close": 139.215,
+      "DIFF": -1.587426,
+      "DEA": -1.615444,
+      "MACD": 0.056036
     },
     {
       "ticker": "SMTC",
       "group": "Semi",
       "timeframe": "1h",
       "signal_ts": "2026-07-08 16:30 UTC",
-      "bars_ago": 1,
+      "bars_ago": 2,
       "close": 127.0,
       "DIFF": -5.273177,
       "DEA": -5.216587,
@@ -57,7 +79,7 @@
       "group": "Semi",
       "timeframe": "1h",
       "signal_ts": "2026-07-08 16:30 UTC",
-      "bars_ago": 1,
+      "bars_ago": 2,
       "close": 11.75,
       "DIFF": -0.269697,
       "DEA": -0.254648,
@@ -68,7 +90,7 @@
       "group": "光",
       "timeframe": "1h",
       "signal_ts": "2026-07-08 16:30 UTC",
-      "bars_ago": 1,
+      "bars_ago": 2,
       "close": 315.0155,
       "DIFF": -12.521739,
       "DEA": -13.087915,
@@ -79,55 +101,11 @@
       "group": "光",
       "timeframe": "1h",
       "signal_ts": "2026-07-08 16:30 UTC",
-      "bars_ago": 1,
+      "bars_ago": 2,
       "close": 13.4,
       "DIFF": -0.873032,
       "DEA": -0.832324,
       "MACD": -0.081416
-    },
-    {
-      "ticker": "SYNA",
-      "group": "Semi",
-      "timeframe": "1h",
-      "signal_ts": "2026-07-08 15:30 UTC",
-      "bars_ago": 2,
-      "close": 120.54,
-      "DIFF": -1.153336,
-      "DEA": -0.99303,
-      "MACD": -0.320612
-    },
-    {
-      "ticker": "ONDS",
-      "group": "太空",
-      "timeframe": "1h",
-      "signal_ts": "2026-07-08 15:30 UTC",
-      "bars_ago": 2,
-      "close": 7.395,
-      "DIFF": -0.132103,
-      "DEA": -0.126849,
-      "MACD": -0.010508
-    },
-    {
-      "ticker": "RDW",
-      "group": "太空",
-      "timeframe": "1h",
-      "signal_ts": "2026-07-08 15:30 UTC",
-      "bars_ago": 2,
-      "close": 10.51,
-      "DIFF": -0.35005,
-      "DEA": -0.338383,
-      "MACD": -0.023335
-    },
-    {
-      "ticker": "XE",
-      "group": "电力",
-      "timeframe": "1h",
-      "signal_ts": "2026-07-08 15:30 UTC",
-      "bars_ago": 2,
-      "close": 16.57,
-      "DIFF": -0.493318,
-      "DEA": -0.450483,
-      "MACD": -0.08567
     }
   ]
 }
