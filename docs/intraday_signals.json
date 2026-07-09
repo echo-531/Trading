@@ -1,111 +1,23 @@
 {
-  "generated_at": "2026-07-08T19:22:57.992802+00:00",
-  "next_scan_at": "2026-07-08T20:00:00+00:00",
+  "generated_at": "2026-07-09T16:11:16.026035+00:00",
+  "next_scan_at": "2026-07-09T17:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
   "stats": {
     "total_scanned": 78,
-    "buy_signals": 9
+    "buy_signals": 1
   },
   "buy_signals": [
-    {
-      "ticker": "ARM",
-      "group": "Semi",
-      "timeframe": "1h",
-      "signal_ts": "2026-07-08 18:30 UTC",
-      "bars_ago": 0,
-      "close": 298.125,
-      "DIFF": -9.40526,
-      "DEA": -9.397372,
-      "MACD": -0.015776
-    },
-    {
-      "ticker": "AMPX",
-      "group": "Semi",
-      "timeframe": "1h",
-      "signal_ts": "2026-07-08 18:30 UTC",
-      "bars_ago": 0,
-      "close": 11.47,
-      "DIFF": -0.466893,
-      "DEA": -0.41904,
-      "MACD": -0.095704
-    },
-    {
-      "ticker": "BE",
-      "group": "电力",
-      "timeframe": "1h",
-      "signal_ts": "2026-07-08 18:30 UTC",
-      "bars_ago": 0,
-      "close": 252.65,
-      "DIFF": -10.334716,
-      "DEA": -8.053768,
-      "MACD": -4.561894
-    },
     {
       "ticker": "INOD",
       "group": "Semi",
       "timeframe": "1h",
-      "signal_ts": "2026-07-08 17:30 UTC",
+      "signal_ts": "2026-07-09 14:30 UTC",
       "bars_ago": 1,
       "close": 68.62,
-      "DIFF": -1.270774,
-      "DEA": -1.142994,
-      "MACD": -0.255561
-    },
-    {
-      "ticker": "ORCL",
-      "group": "Semi",
-      "timeframe": "1h",
-      "signal_ts": "2026-07-08 17:30 UTC",
-      "bars_ago": 1,
-      "close": 139.215,
-      "DIFF": -1.587426,
-      "DEA": -1.615444,
-      "MACD": 0.056036
-    },
-    {
-      "ticker": "SMTC",
-      "group": "Semi",
-      "timeframe": "1h",
-      "signal_ts": "2026-07-08 16:30 UTC",
-      "bars_ago": 2,
-      "close": 127.0,
-      "DIFF": -5.273177,
-      "DEA": -5.216587,
-      "MACD": -0.113179
-    },
-    {
-      "ticker": "NOK",
-      "group": "Semi",
-      "timeframe": "1h",
-      "signal_ts": "2026-07-08 16:30 UTC",
-      "bars_ago": 2,
-      "close": 11.75,
-      "DIFF": -0.269697,
-      "DEA": -0.254648,
-      "MACD": -0.030099
-    },
-    {
-      "ticker": "COHR",
-      "group": "光",
-      "timeframe": "1h",
-      "signal_ts": "2026-07-08 16:30 UTC",
-      "bars_ago": 2,
-      "close": 315.0155,
-      "DIFF": -12.521739,
-      "DEA": -13.087915,
-      "MACD": 1.132353
-    },
-    {
-      "ticker": "VELO",
-      "group": "光",
-      "timeframe": "1h",
-      "signal_ts": "2026-07-08 16:30 UTC",
-      "bars_ago": 2,
-      "close": 13.4,
-      "DIFF": -0.873032,
-      "DEA": -0.832324,
-      "MACD": -0.081416
+      "DIFF": -1.223002,
+      "DEA": -1.198274,
+      "MACD": -0.049456
     }
   ]
 }
