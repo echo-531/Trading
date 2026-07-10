@@ -1,11 +1,23 @@
 {
-  "generated_at": "2026-07-10T16:26:39.677519+00:00",
+  "generated_at": "2026-07-10T16:36:55.174099+00:00",
   "next_scan_at": "2026-07-10T17:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
   "stats": {
     "total_scanned": 78,
-    "buy_signals": 0
+    "buy_signals": 1
   },
-  "buy_signals": []
+  "buy_signals": [
+    {
+      "ticker": "BKSY",
+      "group": "太空",
+      "timeframe": "1h",
+      "signal_ts": "2026-07-10 16:30 UTC",
+      "bars_ago": 0,
+      "close": 24.705,
+      "DIFF": -0.588771,
+      "DEA": -0.560806,
+      "MACD": -0.055932
+    }
+  ]
 }
