@@ -1,56 +1,45 @@
 {
-  "generated_at": "2026-07-10T19:25:28.481619+00:00",
-  "next_scan_at": "2026-07-10T20:00:00+00:00",
+  "generated_at": "2026-07-13T16:01:53.685762+00:00",
+  "next_scan_at": "2026-07-13T17:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
   "stats": {
     "total_scanned": 78,
-    "buy_signals": 4
+    "buy_signals": 3
   },
   "buy_signals": [
     {
-      "ticker": "BKSY",
+      "ticker": "ONDS",
       "group": "太空",
       "timeframe": "1h",
-      "signal_ts": "2026-07-10 18:30 UTC",
+      "signal_ts": "2026-07-13 15:30 UTC",
       "bars_ago": 0,
-      "close": 24.53,
-      "DIFF": -0.596232,
-      "DEA": -0.577187,
-      "MACD": -0.03809
+      "close": 7.27,
+      "DIFF": -0.114359,
+      "DEA": -0.090334,
+      "MACD": -0.048051
     },
     {
-      "ticker": "PL",
-      "group": "太空",
+      "ticker": "BB",
+      "group": "Semi",
       "timeframe": "1h",
-      "signal_ts": "2026-07-10 17:30 UTC",
+      "signal_ts": "2026-07-13 14:30 UTC",
       "bars_ago": 1,
-      "close": 25.965,
-      "DIFF": -1.003707,
-      "DEA": -0.947269,
-      "MACD": -0.112877
+      "close": 10.95,
+      "DIFF": -0.133509,
+      "DEA": -0.112097,
+      "MACD": -0.042824
     },
     {
       "ticker": "BE",
       "group": "电力",
       "timeframe": "1h",
-      "signal_ts": "2026-07-10 17:30 UTC",
+      "signal_ts": "2026-07-13 14:30 UTC",
       "bars_ago": 1,
-      "close": 243.81,
-      "DIFF": -8.007505,
-      "DEA": -7.373827,
-      "MACD": -1.267357
-    },
-    {
-      "ticker": "XE",
-      "group": "电力",
-      "timeframe": "1h",
-      "signal_ts": "2026-07-10 17:30 UTC",
-      "bars_ago": 1,
-      "close": 15.94,
-      "DIFF": -0.423627,
-      "DEA": -0.364265,
-      "MACD": -0.118724
+      "close": 241.31,
+      "DIFF": -7.451402,
+      "DEA": -7.503621,
+      "MACD": 0.104437
     }
   ]
 }
