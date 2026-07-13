@@ -1,34 +1,11 @@
 {
-  "generated_at": "2026-07-13T17:19:05.048491+00:00",
+  "generated_at": "2026-07-13T17:52:52.444512+00:00",
   "next_scan_at": "2026-07-13T18:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
   "stats": {
     "total_scanned": 78,
-    "buy_signals": 2
+    "buy_signals": 0
   },
-  "buy_signals": [
-    {
-      "ticker": "BB",
-      "group": "Semi",
-      "timeframe": "1h",
-      "signal_ts": "2026-07-13 14:30 UTC",
-      "bars_ago": 2,
-      "close": 10.95,
-      "DIFF": -0.133509,
-      "DEA": -0.112097,
-      "MACD": -0.042824
-    },
-    {
-      "ticker": "BE",
-      "group": "电力",
-      "timeframe": "1h",
-      "signal_ts": "2026-07-13 14:30 UTC",
-      "bars_ago": 2,
-      "close": 241.31,
-      "DIFF": -7.451402,
-      "DEA": -7.503621,
-      "MACD": 0.104437
-    }
-  ]
+  "buy_signals": []
 }
