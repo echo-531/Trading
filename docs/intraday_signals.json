@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-07-14T16:20:16.819403+00:00",
-  "next_scan_at": "2026-07-14T17:00:00+00:00",
+  "generated_at": "2026-07-14T17:12:04.767372+00:00",
+  "next_scan_at": "2026-07-14T18:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
   "stats": {
     "total_scanned": 78,
-    "buy_signals": 14
+    "buy_signals": 3
   },
   "buy_signals": [
     {
@@ -13,18 +13,18 @@
       "group": "Semi",
       "timeframe": "1h",
       "signal_ts": "2026-07-14 15:30 UTC",
-      "bars_ago": 0,
-      "close": 62.72,
-      "DIFF": -0.806639,
-      "DEA": -0.565915,
-      "MACD": -0.481448
+      "bars_ago": 1,
+      "close": 63.01,
+      "DIFF": -0.783505,
+      "DEA": -0.561288,
+      "MACD": -0.444434
     },
     {
       "ticker": "AMBA",
       "group": "Semi",
       "timeframe": "1h",
       "signal_ts": "2026-07-14 14:30 UTC",
-      "bars_ago": 1,
+      "bars_ago": 2,
       "close": 73.16,
       "DIFF": -1.33046,
       "DEA": -0.925672,
@@ -35,132 +35,11 @@
       "group": "电力",
       "timeframe": "1h",
       "signal_ts": "2026-07-14 14:30 UTC",
-      "bars_ago": 1,
+      "bars_ago": 2,
       "close": 15.47,
       "DIFF": -0.379926,
       "DEA": -0.371893,
       "MACD": -0.016066
-    },
-    {
-      "ticker": "OUST",
-      "group": "Semi",
-      "timeframe": "1h",
-      "signal_ts": "2026-07-14 13:30 UTC",
-      "bars_ago": 2,
-      "close": 41.32,
-      "DIFF": -1.708639,
-      "DEA": -1.513676,
-      "MACD": -0.389924
-    },
-    {
-      "ticker": "TTMI",
-      "group": "Semi",
-      "timeframe": "1h",
-      "signal_ts": "2026-07-14 13:30 UTC",
-      "bars_ago": 2,
-      "close": 139.37,
-      "DIFF": -3.594694,
-      "DEA": -3.14976,
-      "MACD": -0.889867
-    },
-    {
-      "ticker": "AEVA",
-      "group": "Semi",
-      "timeframe": "1h",
-      "signal_ts": "2026-07-14 13:30 UTC",
-      "bars_ago": 2,
-      "close": 19.39,
-      "DIFF": -0.940151,
-      "DEA": -0.856052,
-      "MACD": -0.168198
-    },
-    {
-      "ticker": "VPG",
-      "group": "Semi",
-      "timeframe": "1h",
-      "signal_ts": "2026-07-14 13:30 UTC",
-      "bars_ago": 2,
-      "close": 108.29,
-      "DIFF": -2.720066,
-      "DEA": -2.538243,
-      "MACD": -0.363645
-    },
-    {
-      "ticker": "INTC",
-      "group": "Semi",
-      "timeframe": "1h",
-      "signal_ts": "2026-07-14 13:30 UTC",
-      "bars_ago": 2,
-      "close": 103.875,
-      "DIFF": -2.916396,
-      "DEA": -2.660833,
-      "MACD": -0.511126
-    },
-    {
-      "ticker": "VELO",
-      "group": "光",
-      "timeframe": "1h",
-      "signal_ts": "2026-07-14 13:30 UTC",
-      "bars_ago": 2,
-      "close": 12.66,
-      "DIFF": -0.586191,
-      "DEA": -0.543165,
-      "MACD": -0.086051
-    },
-    {
-      "ticker": "AAOI",
-      "group": "光",
-      "timeframe": "1h",
-      "signal_ts": "2026-07-14 13:30 UTC",
-      "bars_ago": 2,
-      "close": 119.3,
-      "DIFF": -1.956253,
-      "DEA": -2.027703,
-      "MACD": 0.142902
-    },
-    {
-      "ticker": "OCC",
-      "group": "光",
-      "timeframe": "1h",
-      "signal_ts": "2026-07-14 13:30 UTC",
-      "bars_ago": 2,
-      "close": 15.9,
-      "DIFF": -0.25222,
-      "DEA": -0.218464,
-      "MACD": -0.067513
-    },
-    {
-      "ticker": "MRVL",
-      "group": "存储",
-      "timeframe": "1h",
-      "signal_ts": "2026-07-14 13:30 UTC",
-      "bars_ago": 2,
-      "close": 221.09,
-      "DIFF": -6.613506,
-      "DEA": -5.402157,
-      "MACD": -2.422699
-    },
-    {
-      "ticker": "ONDS",
-      "group": "太空",
-      "timeframe": "1h",
-      "signal_ts": "2026-07-14 13:30 UTC",
-      "bars_ago": 2,
-      "close": 7.16,
-      "DIFF": -0.140539,
-      "DEA": -0.123204,
-      "MACD": -0.03467
-    },
-    {
-      "ticker": "FLY",
-      "group": "太空",
-      "timeframe": "1h",
-      "signal_ts": "2026-07-14 13:30 UTC",
-      "bars_ago": 2,
-      "close": 22.43,
-      "DIFF": -1.042803,
-      "DEA": -0.947231,
-      "MACD": -0.191143
     }
   ]
 }
