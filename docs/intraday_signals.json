@@ -1,23 +1,34 @@
 {
-  "generated_at": "2026-07-14T15:06:11.116436+00:00",
+  "generated_at": "2026-07-14T15:24:38.514525+00:00",
   "next_scan_at": "2026-07-14T16:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
   "stats": {
     "total_scanned": 78,
-    "buy_signals": 18
+    "buy_signals": 19
   },
   "buy_signals": [
+    {
+      "ticker": "AMBA",
+      "group": "Semi",
+      "timeframe": "1h",
+      "signal_ts": "2026-07-14 14:30 UTC",
+      "bars_ago": 0,
+      "close": 72.7401,
+      "DIFF": -1.363957,
+      "DEA": -0.932372,
+      "MACD": -0.86317
+    },
     {
       "ticker": "XE",
       "group": "电力",
       "timeframe": "1h",
       "signal_ts": "2026-07-14 14:30 UTC",
       "bars_ago": 0,
-      "close": 15.4,
-      "DIFF": -0.38551,
-      "DEA": -0.37301,
-      "MACD": -0.025001
+      "close": 15.45,
+      "DIFF": -0.381521,
+      "DEA": -0.372212,
+      "MACD": -0.018619
     },
     {
       "ticker": "OUST",
