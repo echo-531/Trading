@@ -1,34 +1,23 @@
 {
-  "generated_at": "2026-07-14T17:58:45.446458+00:00",
-  "next_scan_at": "2026-07-14T18:00:00+00:00",
+  "generated_at": "2026-07-14T19:17:27.847361+00:00",
+  "next_scan_at": "2026-07-14T20:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
   "stats": {
     "total_scanned": 78,
-    "buy_signals": 2
+    "buy_signals": 1
   },
   "buy_signals": [
     {
-      "ticker": "XE",
-      "group": "电力",
-      "timeframe": "1h",
-      "signal_ts": "2026-07-14 17:30 UTC",
-      "bars_ago": 0,
-      "close": 15.285,
-      "DIFF": -0.370338,
-      "DEA": -0.372423,
-      "MACD": 0.004169
-    },
-    {
-      "ticker": "CRCL",
+      "ticker": "GFS",
       "group": "Semi",
       "timeframe": "1h",
-      "signal_ts": "2026-07-14 15:30 UTC",
-      "bars_ago": 2,
-      "close": 63.01,
-      "DIFF": -0.783505,
-      "DEA": -0.561288,
-      "MACD": -0.444434
+      "signal_ts": "2026-07-14 18:30 UTC",
+      "bars_ago": 0,
+      "close": 63.87,
+      "DIFF": -1.497566,
+      "DEA": -1.319812,
+      "MACD": -0.355508
     }
   ]
 }
