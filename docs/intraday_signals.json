@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-14T19:17:27.847361+00:00",
-  "next_scan_at": "2026-07-14T20:00:00+00:00",
+  "generated_at": "2026-07-15T15:05:25.410960+00:00",
+  "next_scan_at": "2026-07-15T16:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
   "stats": {
@@ -9,15 +9,15 @@
   },
   "buy_signals": [
     {
-      "ticker": "GFS",
+      "ticker": "NOK",
       "group": "Semi",
       "timeframe": "1h",
-      "signal_ts": "2026-07-14 18:30 UTC",
-      "bars_ago": 0,
-      "close": 63.87,
-      "DIFF": -1.497566,
-      "DEA": -1.319812,
-      "MACD": -0.355508
+      "signal_ts": "2026-07-14 19:30 UTC",
+      "bars_ago": 2,
+      "close": 11.7,
+      "DIFF": -0.199036,
+      "DEA": -0.177488,
+      "MACD": -0.043097
     }
   ]
 }
