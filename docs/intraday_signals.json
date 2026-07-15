@@ -1,11 +1,45 @@
 {
-  "generated_at": "2026-07-15T16:38:12.091944+00:00",
-  "next_scan_at": "2026-07-15T17:00:00+00:00",
+  "generated_at": "2026-07-15T17:15:14.976212+00:00",
+  "next_scan_at": "2026-07-15T18:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
   "stats": {
     "total_scanned": 78,
-    "buy_signals": 0
+    "buy_signals": 3
   },
-  "buy_signals": []
+  "buy_signals": [
+    {
+      "ticker": "CRWV",
+      "group": "Semi",
+      "timeframe": "1h",
+      "signal_ts": "2026-07-15 16:30 UTC",
+      "bars_ago": 0,
+      "close": 77.58,
+      "DIFF": -2.790746,
+      "DEA": -2.289459,
+      "MACD": -1.002575
+    },
+    {
+      "ticker": "FLY",
+      "group": "太空",
+      "timeframe": "1h",
+      "signal_ts": "2026-07-15 16:30 UTC",
+      "bars_ago": 0,
+      "close": 21.13,
+      "DIFF": -0.999167,
+      "DEA": -0.970642,
+      "MACD": -0.057049
+    },
+    {
+      "ticker": "NBIS",
+      "group": "数据中心",
+      "timeframe": "1h",
+      "signal_ts": "2026-07-15 16:30 UTC",
+      "bars_ago": 0,
+      "close": 196.67,
+      "DIFF": -5.656574,
+      "DEA": -4.840765,
+      "MACD": -1.631619
+    }
+  ]
 }
