@@ -1,23 +1,11 @@
 {
-  "generated_at": "2026-07-15T15:27:02.587046+00:00",
-  "next_scan_at": "2026-07-15T16:00:00+00:00",
+  "generated_at": "2026-07-15T16:01:19.328375+00:00",
+  "next_scan_at": "2026-07-15T17:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
   "stats": {
     "total_scanned": 78,
-    "buy_signals": 1
+    "buy_signals": 0
   },
-  "buy_signals": [
-    {
-      "ticker": "NOK",
-      "group": "Semi",
-      "timeframe": "1h",
-      "signal_ts": "2026-07-14 19:30 UTC",
-      "bars_ago": 2,
-      "close": 11.7,
-      "DIFF": -0.199036,
-      "DEA": -0.177488,
-      "MACD": -0.043097
-    }
-  ]
+  "buy_signals": []
 }
