@@ -1,23 +1,56 @@
 {
-  "generated_at": "2026-07-16T19:07:23.568906+00:00",
+  "generated_at": "2026-07-16T19:59:26.209789+00:00",
   "next_scan_at": "2026-07-16T20:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
   "stats": {
     "total_scanned": 78,
-    "buy_signals": 1
+    "buy_signals": 4
   },
   "buy_signals": [
+    {
+      "ticker": "GFS",
+      "group": "Semi",
+      "timeframe": "1h",
+      "signal_ts": "2026-07-16 19:30 UTC",
+      "bars_ago": 0,
+      "close": 58.31,
+      "DIFF": -2.250642,
+      "DEA": -2.160941,
+      "MACD": -0.179402
+    },
+    {
+      "ticker": "GLW",
+      "group": "光",
+      "timeframe": "1h",
+      "signal_ts": "2026-07-16 19:30 UTC",
+      "bars_ago": 0,
+      "close": 158.7,
+      "DIFF": -8.156708,
+      "DEA": -6.903809,
+      "MACD": -2.505798
+    },
+    {
+      "ticker": "TSLA",
+      "group": "MEGA7",
+      "timeframe": "1h",
+      "signal_ts": "2026-07-16 19:30 UTC",
+      "bars_ago": 0,
+      "close": 391.06,
+      "DIFF": -2.382625,
+      "DEA": -2.123706,
+      "MACD": -0.517839
+    },
     {
       "ticker": "CRWV",
       "group": "Semi",
       "timeframe": "1h",
       "signal_ts": "2026-07-16 18:30 UTC",
-      "bars_ago": 0,
-      "close": 73.14,
-      "DIFF": -3.095456,
-      "DEA": -2.90252,
-      "MACD": -0.385871
+      "bars_ago": 1,
+      "close": 73.37,
+      "DIFF": -3.077108,
+      "DEA": -2.898851,
+      "MACD": -0.356514
     }
   ]
 }
