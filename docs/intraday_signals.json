@@ -1,11 +1,23 @@
 {
-  "generated_at": "2026-07-16T18:02:09.842192+00:00",
-  "next_scan_at": "2026-07-16T19:00:00+00:00",
+  "generated_at": "2026-07-16T19:07:23.568906+00:00",
+  "next_scan_at": "2026-07-16T20:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
   "stats": {
     "total_scanned": 78,
-    "buy_signals": 0
+    "buy_signals": 1
   },
-  "buy_signals": []
+  "buy_signals": [
+    {
+      "ticker": "CRWV",
+      "group": "Semi",
+      "timeframe": "1h",
+      "signal_ts": "2026-07-16 18:30 UTC",
+      "bars_ago": 0,
+      "close": 73.14,
+      "DIFF": -3.095456,
+      "DEA": -2.90252,
+      "MACD": -0.385871
+    }
+  ]
 }
