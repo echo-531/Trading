@@ -1,243 +1,45 @@
 {
-  "generated_at": "2026-07-17T18:01:10.474592+00:00",
-  "next_scan_at": "2026-07-17T19:00:00+00:00",
+  "generated_at": "2026-07-17T19:05:15.105028+00:00",
+  "next_scan_at": "2026-07-17T20:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
   "stats": {
     "total_scanned": 78,
-    "buy_signals": 21
+    "buy_signals": 3
   },
   "buy_signals": [
     {
-      "ticker": "JBL",
-      "group": "Semi",
+      "ticker": "FORM",
+      "group": "光",
       "timeframe": "1h",
-      "signal_ts": "2026-07-17 16:30 UTC",
-      "bars_ago": 1,
-      "close": 304.43,
-      "DIFF": -6.161859,
-      "DEA": -5.370232,
-      "MACD": -1.583254
+      "signal_ts": "2026-07-17 18:30 UTC",
+      "bars_ago": 0,
+      "close": 105.43,
+      "DIFF": -2.542096,
+      "DEA": -2.348469,
+      "MACD": -0.387253
     },
     {
       "ticker": "MXL",
       "group": "光",
       "timeframe": "1h",
+      "signal_ts": "2026-07-17 18:30 UTC",
+      "bars_ago": 0,
+      "close": 72.125,
+      "DIFF": -4.824657,
+      "DEA": -4.254954,
+      "MACD": -1.139406
+    },
+    {
+      "ticker": "JBL",
+      "group": "Semi",
+      "timeframe": "1h",
       "signal_ts": "2026-07-17 16:30 UTC",
-      "bars_ago": 1,
-      "close": 74.055,
-      "DIFF": -4.779345,
-      "DEA": -3.920325,
-      "MACD": -1.71804
-    },
-    {
-      "ticker": "GFS",
-      "group": "Semi",
-      "timeframe": "1h",
-      "signal_ts": "2026-07-17 15:30 UTC",
       "bars_ago": 2,
-      "close": 58.3761,
-      "DIFF": -2.078066,
-      "DEA": -2.160726,
-      "MACD": 0.165321
-    },
-    {
-      "ticker": "VICR",
-      "group": "Semi",
-      "timeframe": "1h",
-      "signal_ts": "2026-07-17 15:30 UTC",
-      "bars_ago": 2,
-      "close": 236.915,
-      "DIFF": -9.142627,
-      "DEA": -8.135908,
-      "MACD": -2.013439
-    },
-    {
-      "ticker": "AMPX",
-      "group": "Semi",
-      "timeframe": "1h",
-      "signal_ts": "2026-07-17 15:30 UTC",
-      "bars_ago": 2,
-      "close": 10.189,
-      "DIFF": -0.36181,
-      "DEA": -0.325949,
-      "MACD": -0.07172
-    },
-    {
-      "ticker": "INOD",
-      "group": "Semi",
-      "timeframe": "1h",
-      "signal_ts": "2026-07-17 15:30 UTC",
-      "bars_ago": 2,
-      "close": 61.18,
-      "DIFF": -1.85489,
-      "DEA": -1.692244,
-      "MACD": -0.325291
-    },
-    {
-      "ticker": "CRCL",
-      "group": "Semi",
-      "timeframe": "1h",
-      "signal_ts": "2026-07-17 15:30 UTC",
-      "bars_ago": 2,
-      "close": 61.59,
-      "DIFF": -0.936304,
-      "DEA": -0.629447,
-      "MACD": -0.613713
-    },
-    {
-      "ticker": "SMTC",
-      "group": "Semi",
-      "timeframe": "1h",
-      "signal_ts": "2026-07-17 15:30 UTC",
-      "bars_ago": 2,
-      "close": 125.87,
-      "DIFF": -2.943803,
-      "DEA": -1.976607,
-      "MACD": -1.934393
-    },
-    {
-      "ticker": "AMKR",
-      "group": "Semi",
-      "timeframe": "1h",
-      "signal_ts": "2026-07-17 15:30 UTC",
-      "bars_ago": 2,
-      "close": 62.54,
-      "DIFF": -1.819594,
-      "DEA": -1.513494,
-      "MACD": -0.6122
-    },
-    {
-      "ticker": "TTMI",
-      "group": "Semi",
-      "timeframe": "1h",
-      "signal_ts": "2026-07-17 15:30 UTC",
-      "bars_ago": 2,
-      "close": 130.265,
-      "DIFF": -3.873816,
-      "DEA": -3.191145,
-      "MACD": -1.365342
-    },
-    {
-      "ticker": "AEVA",
-      "group": "Semi",
-      "timeframe": "1h",
-      "signal_ts": "2026-07-17 15:30 UTC",
-      "bars_ago": 2,
-      "close": 17.02,
-      "DIFF": -0.925582,
-      "DEA": -0.909255,
-      "MACD": -0.032654
-    },
-    {
-      "ticker": "INTC",
-      "group": "Semi",
-      "timeframe": "1h",
-      "signal_ts": "2026-07-17 15:30 UTC",
-      "bars_ago": 2,
-      "close": 95.68,
-      "DIFF": -3.151559,
-      "DEA": -2.843493,
-      "MACD": -0.616131
-    },
-    {
-      "ticker": "POET",
-      "group": "光",
-      "timeframe": "1h",
-      "signal_ts": "2026-07-17 15:30 UTC",
-      "bars_ago": 2,
-      "close": 7.57,
-      "DIFF": -0.249806,
-      "DEA": -0.197969,
-      "MACD": -0.103674
-    },
-    {
-      "ticker": "GLW",
-      "group": "光",
-      "timeframe": "1h",
-      "signal_ts": "2026-07-17 15:30 UTC",
-      "bars_ago": 2,
-      "close": 156.335,
-      "DIFF": -8.127584,
-      "DEA": -7.562765,
-      "MACD": -1.129638
-    },
-    {
-      "ticker": "COHR",
-      "group": "光",
-      "timeframe": "1h",
-      "signal_ts": "2026-07-17 15:30 UTC",
-      "bars_ago": 2,
-      "close": 280.74,
-      "DIFF": -9.520669,
-      "DEA": -9.555659,
-      "MACD": 0.06998
-    },
-    {
-      "ticker": "FORM",
-      "group": "光",
-      "timeframe": "1h",
-      "signal_ts": "2026-07-17 15:30 UTC",
-      "bars_ago": 2,
-      "close": 105.69,
-      "DIFF": -2.840585,
-      "DEA": -2.126338,
-      "MACD": -1.428496
-    },
-    {
-      "ticker": "OCC",
-      "group": "光",
-      "timeframe": "1h",
-      "signal_ts": "2026-07-17 15:30 UTC",
-      "bars_ago": 2,
-      "close": 14.82,
-      "DIFF": -0.353216,
-      "DEA": -0.242421,
-      "MACD": -0.221589
-    },
-    {
-      "ticker": "SNDK",
-      "group": "存储",
-      "timeframe": "1h",
-      "signal_ts": "2026-07-17 15:30 UTC",
-      "bars_ago": 2,
-      "close": 1475.79,
-      "DIFF": -81.023496,
-      "DEA": -78.970095,
-      "MACD": -4.106803
-    },
-    {
-      "ticker": "MRVL",
-      "group": "存储",
-      "timeframe": "1h",
-      "signal_ts": "2026-07-17 15:30 UTC",
-      "bars_ago": 2,
-      "close": 190.095,
-      "DIFF": -9.971541,
-      "DEA": -9.801194,
-      "MACD": -0.340694
-    },
-    {
-      "ticker": "QBTS",
-      "group": "量子",
-      "timeframe": "1h",
-      "signal_ts": "2026-07-17 15:30 UTC",
-      "bars_ago": 2,
-      "close": 16.9783,
-      "DIFF": -0.705968,
-      "DEA": -0.677476,
-      "MACD": -0.056985
-    },
-    {
-      "ticker": "IONQ",
-      "group": "量子",
-      "timeframe": "1h",
-      "signal_ts": "2026-07-17 15:30 UTC",
-      "bars_ago": 2,
-      "close": 35.12,
-      "DIFF": -1.633879,
-      "DEA": -1.662864,
-      "MACD": 0.057969
+      "close": 304.43,
+      "DIFF": -6.161859,
+      "DEA": -5.370232,
+      "MACD": -1.583254
     }
   ]
 }
