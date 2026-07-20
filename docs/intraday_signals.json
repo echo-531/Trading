@@ -1,34 +1,11 @@
 {
-  "generated_at": "2026-07-20T16:08:16.498117+00:00",
+  "generated_at": "2026-07-20T16:36:28.326705+00:00",
   "next_scan_at": "2026-07-20T17:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
   "stats": {
     "total_scanned": 78,
-    "buy_signals": 2
+    "buy_signals": 0
   },
-  "buy_signals": [
-    {
-      "ticker": "CRCL",
-      "group": "Semi",
-      "timeframe": "1h",
-      "signal_ts": "2026-07-20 13:30 UTC",
-      "bars_ago": 2,
-      "close": 62.345,
-      "DIFF": -0.760806,
-      "DEA": -0.773525,
-      "MACD": 0.025438
-    },
-    {
-      "ticker": "POET",
-      "group": "光",
-      "timeframe": "1h",
-      "signal_ts": "2026-07-20 13:30 UTC",
-      "bars_ago": 2,
-      "close": 7.65,
-      "DIFF": -0.222105,
-      "DEA": -0.223075,
-      "MACD": 0.00194
-    }
-  ]
+  "buy_signals": []
 }
