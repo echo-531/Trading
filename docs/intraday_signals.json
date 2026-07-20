@@ -1,45 +1,56 @@
 {
-  "generated_at": "2026-07-17T19:05:15.105028+00:00",
-  "next_scan_at": "2026-07-17T20:00:00+00:00",
+  "generated_at": "2026-07-20T15:25:06.481872+00:00",
+  "next_scan_at": "2026-07-20T16:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
   "stats": {
     "total_scanned": 78,
-    "buy_signals": 3
+    "buy_signals": 4
   },
   "buy_signals": [
     {
-      "ticker": "FORM",
-      "group": "光",
+      "ticker": "CRCL",
+      "group": "Semi",
       "timeframe": "1h",
-      "signal_ts": "2026-07-17 18:30 UTC",
-      "bars_ago": 0,
-      "close": 105.43,
-      "DIFF": -2.542096,
-      "DEA": -2.348469,
-      "MACD": -0.387253
+      "signal_ts": "2026-07-20 13:30 UTC",
+      "bars_ago": 1,
+      "close": 62.345,
+      "DIFF": -0.760806,
+      "DEA": -0.773525,
+      "MACD": 0.025438
     },
     {
-      "ticker": "MXL",
+      "ticker": "POET",
       "group": "光",
       "timeframe": "1h",
-      "signal_ts": "2026-07-17 18:30 UTC",
-      "bars_ago": 0,
-      "close": 72.125,
-      "DIFF": -4.824657,
-      "DEA": -4.254954,
-      "MACD": -1.139406
+      "signal_ts": "2026-07-20 13:30 UTC",
+      "bars_ago": 1,
+      "close": 7.65,
+      "DIFF": -0.222105,
+      "DEA": -0.223075,
+      "MACD": 0.00194
     },
     {
       "ticker": "JBL",
       "group": "Semi",
       "timeframe": "1h",
-      "signal_ts": "2026-07-17 16:30 UTC",
+      "signal_ts": "2026-07-17 19:30 UTC",
       "bars_ago": 2,
-      "close": 304.43,
-      "DIFF": -6.161859,
-      "DEA": -5.370232,
-      "MACD": -1.583254
+      "close": 300.96,
+      "DIFF": -6.092674,
+      "DEA": -5.75196,
+      "MACD": -0.681427
+    },
+    {
+      "ticker": "SMTC",
+      "group": "Semi",
+      "timeframe": "1h",
+      "signal_ts": "2026-07-17 19:30 UTC",
+      "bars_ago": 2,
+      "close": 124.89,
+      "DIFF": -2.779834,
+      "DEA": -2.46978,
+      "MACD": -0.620109
     }
   ]
 }
