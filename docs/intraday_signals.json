@@ -1,11 +1,34 @@
 {
-  "generated_at": "2026-07-20T16:36:28.326705+00:00",
-  "next_scan_at": "2026-07-20T17:00:00+00:00",
+  "generated_at": "2026-07-20T17:59:43.208342+00:00",
+  "next_scan_at": "2026-07-20T18:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
   "stats": {
     "total_scanned": 78,
-    "buy_signals": 0
+    "buy_signals": 2
   },
-  "buy_signals": []
+  "buy_signals": [
+    {
+      "ticker": "ORCL",
+      "group": "Semi",
+      "timeframe": "1h",
+      "signal_ts": "2026-07-20 17:30 UTC",
+      "bars_ago": 0,
+      "close": 122.94,
+      "DIFF": -2.38979,
+      "DEA": -2.324273,
+      "MACD": -0.131033
+    },
+    {
+      "ticker": "BE",
+      "group": "电力",
+      "timeframe": "1h",
+      "signal_ts": "2026-07-20 17:30 UTC",
+      "bars_ago": 0,
+      "close": 205.195,
+      "DIFF": -7.474068,
+      "DEA": -7.368112,
+      "MACD": -0.211911
+    }
+  ]
 }
