@@ -1,45 +1,11 @@
 {
-  "generated_at": "2026-07-21T16:26:56.081528+00:00",
-  "next_scan_at": "2026-07-21T17:00:00+00:00",
+  "generated_at": "2026-07-21T17:15:50.454879+00:00",
+  "next_scan_at": "2026-07-21T18:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
   "stats": {
     "total_scanned": 78,
-    "buy_signals": 3
+    "buy_signals": 0
   },
-  "buy_signals": [
-    {
-      "ticker": "IWM",
-      "group": "ETF",
-      "timeframe": "1h",
-      "signal_ts": "2026-07-21 13:30 UTC",
-      "bars_ago": 2,
-      "close": 294.825,
-      "DIFF": -0.462825,
-      "DEA": -0.405777,
-      "MACD": -0.114096
-    },
-    {
-      "ticker": "ORCL",
-      "group": "Semi",
-      "timeframe": "1h",
-      "signal_ts": "2026-07-21 13:30 UTC",
-      "bars_ago": 2,
-      "close": 125.605,
-      "DIFF": -2.088289,
-      "DEA": -2.293554,
-      "MACD": 0.410531
-    },
-    {
-      "ticker": "BE",
-      "group": "电力",
-      "timeframe": "1h",
-      "signal_ts": "2026-07-21 13:30 UTC",
-      "bars_ago": 2,
-      "close": 219.865,
-      "DIFF": -6.198436,
-      "DEA": -7.270852,
-      "MACD": 2.144832
-    }
-  ]
+  "buy_signals": []
 }
