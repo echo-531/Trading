@@ -1,23 +1,11 @@
 {
-  "generated_at": "2026-07-22T16:24:30.878457+00:00",
-  "next_scan_at": "2026-07-22T17:00:00+00:00",
+  "generated_at": "2026-07-22T17:15:56.414759+00:00",
+  "next_scan_at": "2026-07-22T18:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
   "stats": {
     "total_scanned": 78,
-    "buy_signals": 1
+    "buy_signals": 0
   },
-  "buy_signals": [
-    {
-      "ticker": "VICR",
-      "group": "Semi",
-      "timeframe": "1h",
-      "signal_ts": "2026-07-22 13:30 UTC",
-      "bars_ago": 2,
-      "close": 217.215,
-      "DIFF": -7.917856,
-      "DEA": -7.221758,
-      "MACD": -1.392197
-    }
-  ]
+  "buy_signals": []
 }
