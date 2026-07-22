@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-22T15:18:40.634786+00:00",
+  "generated_at": "2026-07-22T15:43:26.831176+00:00",
   "next_scan_at": "2026-07-22T16:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
@@ -13,7 +13,7 @@
       "group": "Semi",
       "timeframe": "1h",
       "signal_ts": "2026-07-22 13:30 UTC",
-      "bars_ago": 1,
+      "bars_ago": 2,
       "close": 217.215,
       "DIFF": -7.917856,
       "DEA": -7.221758,
