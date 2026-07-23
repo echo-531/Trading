@@ -1,11 +1,23 @@
 {
-  "generated_at": "2026-07-23T15:29:51.867923+00:00",
+  "generated_at": "2026-07-23T15:55:53.256140+00:00",
   "next_scan_at": "2026-07-23T16:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
   "stats": {
     "total_scanned": 78,
-    "buy_signals": 0
+    "buy_signals": 1
   },
-  "buy_signals": []
+  "buy_signals": [
+    {
+      "ticker": "OCS",
+      "group": "光",
+      "timeframe": "1h",
+      "signal_ts": "2026-07-23 15:30 UTC",
+      "bars_ago": 0,
+      "close": 11.465,
+      "DIFF": -0.224922,
+      "DEA": -0.223114,
+      "MACD": -0.003615
+    }
+  ]
 }
