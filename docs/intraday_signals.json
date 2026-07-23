@@ -1,41 +1,30 @@
 {
-  "generated_at": "2026-07-23T17:20:11.268447+00:00",
-  "next_scan_at": "2026-07-23T18:00:00+00:00",
+  "generated_at": "2026-07-23T18:09:23.322240+00:00",
+  "next_scan_at": "2026-07-23T19:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
   "stats": {
     "total_scanned": 78,
-    "buy_signals": 5
+    "buy_signals": 4
   },
   "buy_signals": [
-    {
-      "ticker": "PL",
-      "group": "太空",
-      "timeframe": "1h",
-      "signal_ts": "2026-07-23 16:30 UTC",
-      "bars_ago": 0,
-      "close": 22.18,
-      "DIFF": -0.304695,
-      "DEA": -0.270045,
-      "MACD": -0.0693
-    },
     {
       "ticker": "IONQ",
       "group": "量子",
       "timeframe": "1h",
       "signal_ts": "2026-07-23 16:30 UTC",
-      "bars_ago": 0,
-      "close": 34.5799,
-      "DIFF": -0.411966,
-      "DEA": -0.384906,
-      "MACD": -0.05412
+      "bars_ago": 1,
+      "close": 34.53,
+      "DIFF": -0.415947,
+      "DEA": -0.385702,
+      "MACD": -0.060489
     },
     {
       "ticker": "CGNX",
       "group": "Semi",
       "timeframe": "1h",
       "signal_ts": "2026-07-23 15:30 UTC",
-      "bars_ago": 1,
+      "bars_ago": 2,
       "close": 62.67,
       "DIFF": -0.380312,
       "DEA": -0.330151,
@@ -46,7 +35,7 @@
       "group": "光",
       "timeframe": "1h",
       "signal_ts": "2026-07-23 15:30 UTC",
-      "bars_ago": 1,
+      "bars_ago": 2,
       "close": 11.515,
       "DIFF": -0.220933,
       "DEA": -0.222316,
@@ -57,7 +46,7 @@
       "group": "太空",
       "timeframe": "1h",
       "signal_ts": "2026-07-23 15:30 UTC",
-      "bars_ago": 1,
+      "bars_ago": 2,
       "close": 115.925,
       "DIFF": -3.752056,
       "DEA": -3.111959,
