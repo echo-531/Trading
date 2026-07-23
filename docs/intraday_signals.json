@@ -1,23 +1,34 @@
 {
-  "generated_at": "2026-07-23T16:40:05.557437+00:00",
-  "next_scan_at": "2026-07-23T17:00:00+00:00",
+  "generated_at": "2026-07-23T17:20:11.268447+00:00",
+  "next_scan_at": "2026-07-23T18:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
   "stats": {
     "total_scanned": 78,
-    "buy_signals": 3
+    "buy_signals": 5
   },
   "buy_signals": [
     {
-      "ticker": "OCS",
-      "group": "光",
+      "ticker": "PL",
+      "group": "太空",
       "timeframe": "1h",
-      "signal_ts": "2026-07-23 15:30 UTC",
+      "signal_ts": "2026-07-23 16:30 UTC",
       "bars_ago": 0,
-      "close": 11.515,
-      "DIFF": -0.220933,
-      "DEA": -0.222316,
-      "MACD": 0.002767
+      "close": 22.18,
+      "DIFF": -0.304695,
+      "DEA": -0.270045,
+      "MACD": -0.0693
+    },
+    {
+      "ticker": "IONQ",
+      "group": "量子",
+      "timeframe": "1h",
+      "signal_ts": "2026-07-23 16:30 UTC",
+      "bars_ago": 0,
+      "close": 34.5799,
+      "DIFF": -0.411966,
+      "DEA": -0.384906,
+      "MACD": -0.05412
     },
     {
       "ticker": "CGNX",
@@ -29,6 +40,17 @@
       "DIFF": -0.380312,
       "DEA": -0.330151,
       "MACD": -0.100322
+    },
+    {
+      "ticker": "OCS",
+      "group": "光",
+      "timeframe": "1h",
+      "signal_ts": "2026-07-23 15:30 UTC",
+      "bars_ago": 1,
+      "close": 11.515,
+      "DIFF": -0.220933,
+      "DEA": -0.222316,
+      "MACD": 0.002767
     },
     {
       "ticker": "SPCX",
