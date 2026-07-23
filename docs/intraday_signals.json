@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-07-23T16:07:14.565359+00:00",
+  "generated_at": "2026-07-23T16:40:05.557437+00:00",
   "next_scan_at": "2026-07-23T17:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
   "stats": {
     "total_scanned": 78,
-    "buy_signals": 1
+    "buy_signals": 3
   },
   "buy_signals": [
     {
@@ -14,10 +14,32 @@
       "timeframe": "1h",
       "signal_ts": "2026-07-23 15:30 UTC",
       "bars_ago": 0,
-      "close": 11.46,
-      "DIFF": -0.22532,
-      "DEA": -0.223194,
-      "MACD": -0.004253
+      "close": 11.515,
+      "DIFF": -0.220933,
+      "DEA": -0.222316,
+      "MACD": 0.002767
+    },
+    {
+      "ticker": "CGNX",
+      "group": "Semi",
+      "timeframe": "1h",
+      "signal_ts": "2026-07-23 15:30 UTC",
+      "bars_ago": 1,
+      "close": 62.67,
+      "DIFF": -0.380312,
+      "DEA": -0.330151,
+      "MACD": -0.100322
+    },
+    {
+      "ticker": "SPCX",
+      "group": "太空",
+      "timeframe": "1h",
+      "signal_ts": "2026-07-23 15:30 UTC",
+      "bars_ago": 1,
+      "close": 115.925,
+      "DIFF": -3.752056,
+      "DEA": -3.111959,
+      "MACD": -1.280194
     }
   ]
 }
