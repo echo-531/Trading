@@ -1,19 +1,30 @@
 {
-  "generated_at": "2026-07-24T15:54:53.751145+00:00",
-  "next_scan_at": "2026-07-24T16:00:00+00:00",
+  "generated_at": "2026-07-24T16:46:41.962872+00:00",
+  "next_scan_at": "2026-07-24T17:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
   "stats": {
     "total_scanned": 78,
-    "buy_signals": 1
+    "buy_signals": 2
   },
   "buy_signals": [
+    {
+      "ticker": "QQQ",
+      "group": "ETF",
+      "timeframe": "1h",
+      "signal_ts": "2026-07-24 15:30 UTC",
+      "bars_ago": 1,
+      "close": 691.113,
+      "DIFF": -4.409564,
+      "DEA": -3.38683,
+      "MACD": -2.045466
+    },
     {
       "ticker": "SYM",
       "group": "Semi",
       "timeframe": "1h",
       "signal_ts": "2026-07-24 14:30 UTC",
-      "bars_ago": 1,
+      "bars_ago": 2,
       "close": 40.62,
       "DIFF": -0.482875,
       "DEA": -0.312229,
