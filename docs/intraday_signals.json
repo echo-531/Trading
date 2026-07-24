@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-24T18:15:03.260312+00:00",
-  "next_scan_at": "2026-07-24T19:00:00+00:00",
+  "generated_at": "2026-07-24T19:22:39.867118+00:00",
+  "next_scan_at": "2026-07-24T20:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
   "stats": {
@@ -9,15 +9,15 @@
   },
   "buy_signals": [
     {
-      "ticker": "QQQ",
-      "group": "ETF",
+      "ticker": "OCS",
+      "group": "光",
       "timeframe": "1h",
-      "signal_ts": "2026-07-24 15:30 UTC",
-      "bars_ago": 2,
-      "close": 691.113,
-      "DIFF": -4.409564,
-      "DEA": -3.38683,
-      "MACD": -2.045466
+      "signal_ts": "2026-07-24 18:30 UTC",
+      "bars_ago": 0,
+      "close": 11.305,
+      "DIFF": -0.214032,
+      "DEA": -0.219319,
+      "MACD": 0.010573
     }
   ]
 }
