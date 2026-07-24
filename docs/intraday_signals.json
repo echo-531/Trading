@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-07-24T15:26:20.428816+00:00",
+  "generated_at": "2026-07-24T15:54:53.751145+00:00",
   "next_scan_at": "2026-07-24T16:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
   "stats": {
     "total_scanned": 78,
-    "buy_signals": 2
+    "buy_signals": 1
   },
   "buy_signals": [
     {
@@ -13,22 +13,11 @@
       "group": "Semi",
       "timeframe": "1h",
       "signal_ts": "2026-07-24 14:30 UTC",
-      "bars_ago": 0,
-      "close": 40.6,
-      "DIFF": -0.48447,
-      "DEA": -0.312548,
-      "MACD": -0.343844
-    },
-    {
-      "ticker": "PL",
-      "group": "太空",
-      "timeframe": "1h",
-      "signal_ts": "2026-07-23 19:30 UTC",
-      "bars_ago": 2,
-      "close": 22.35,
-      "DIFF": -0.280246,
-      "DEA": -0.28386,
-      "MACD": 0.007227
+      "bars_ago": 1,
+      "close": 40.62,
+      "DIFF": -0.482875,
+      "DEA": -0.312229,
+      "MACD": -0.341292
     }
   ]
 }
