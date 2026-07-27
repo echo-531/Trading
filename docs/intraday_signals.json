@@ -1,23 +1,45 @@
 {
-  "generated_at": "2026-07-27T15:57:01.478143+00:00",
-  "next_scan_at": "2026-07-27T16:00:00+00:00",
+  "generated_at": "2026-07-27T16:21:35.032029+00:00",
+  "next_scan_at": "2026-07-27T17:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
   "stats": {
     "total_scanned": 78,
-    "buy_signals": 8
+    "buy_signals": 10
   },
   "buy_signals": [
+    {
+      "ticker": "AMPX",
+      "group": "Semi",
+      "timeframe": "1h",
+      "signal_ts": "2026-07-27 15:30 UTC",
+      "bars_ago": 0,
+      "close": 9.35,
+      "DIFF": -0.293051,
+      "DEA": -0.25989,
+      "MACD": -0.066321
+    },
     {
       "ticker": "AEVA",
       "group": "Semi",
       "timeframe": "1h",
       "signal_ts": "2026-07-27 15:30 UTC",
       "bars_ago": 0,
-      "close": 15.0,
-      "DIFF": -0.548275,
-      "DEA": -0.505819,
-      "MACD": -0.084911
+      "close": 15.08,
+      "DIFF": -0.541893,
+      "DEA": -0.504543,
+      "MACD": -0.0747
+    },
+    {
+      "ticker": "SYNA",
+      "group": "Semi",
+      "timeframe": "1h",
+      "signal_ts": "2026-07-27 15:30 UTC",
+      "bars_ago": 0,
+      "close": 113.37,
+      "DIFF": -1.440887,
+      "DEA": -1.130079,
+      "MACD": -0.621618
     },
     {
       "ticker": "PL",
