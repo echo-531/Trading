@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-27T17:40:39.525198+00:00",
-  "next_scan_at": "2026-07-27T18:00:00+00:00",
+  "generated_at": "2026-07-27T18:21:12.393824+00:00",
+  "next_scan_at": "2026-07-27T19:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
   "stats": {
@@ -9,26 +9,26 @@
   },
   "buy_signals": [
     {
+      "ticker": "OUST",
+      "group": "Semi",
+      "timeframe": "1h",
+      "signal_ts": "2026-07-27 17:30 UTC",
+      "bars_ago": 0,
+      "close": 34.19,
+      "DIFF": -1.160352,
+      "DEA": -0.989882,
+      "MACD": -0.340939
+    },
+    {
       "ticker": "PL",
       "group": "太空",
       "timeframe": "1h",
       "signal_ts": "2026-07-27 17:30 UTC",
       "bars_ago": 0,
-      "close": 20.52,
-      "DIFF": -0.567317,
-      "DEA": -0.564408,
-      "MACD": -0.005817
-    },
-    {
-      "ticker": "OUST",
-      "group": "Semi",
-      "timeframe": "1h",
-      "signal_ts": "2026-07-27 15:30 UTC",
-      "bars_ago": 2,
-      "close": 34.78,
-      "DIFF": -1.168502,
-      "DEA": -0.888526,
-      "MACD": -0.559952
+      "close": 20.59,
+      "DIFF": -0.561733,
+      "DEA": -0.563292,
+      "MACD": 0.003117
     },
     {
       "ticker": "AMPX",
