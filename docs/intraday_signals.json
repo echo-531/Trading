@@ -1,23 +1,100 @@
 {
-  "generated_at": "2026-07-24T19:22:39.867118+00:00",
-  "next_scan_at": "2026-07-24T20:00:00+00:00",
+  "generated_at": "2026-07-27T15:57:01.478143+00:00",
+  "next_scan_at": "2026-07-27T16:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
   "stats": {
     "total_scanned": 78,
-    "buy_signals": 1
+    "buy_signals": 8
   },
   "buy_signals": [
     {
-      "ticker": "OCS",
+      "ticker": "AEVA",
+      "group": "Semi",
+      "timeframe": "1h",
+      "signal_ts": "2026-07-27 15:30 UTC",
+      "bars_ago": 0,
+      "close": 15.0,
+      "DIFF": -0.548275,
+      "DEA": -0.505819,
+      "MACD": -0.084911
+    },
+    {
+      "ticker": "PL",
+      "group": "太空",
+      "timeframe": "1h",
+      "signal_ts": "2026-07-27 14:30 UTC",
+      "bars_ago": 1,
+      "close": 20.68,
+      "DIFF": -0.61449,
+      "DEA": -0.551216,
+      "MACD": -0.126547
+    },
+    {
+      "ticker": "INOD",
+      "group": "Semi",
+      "timeframe": "1h",
+      "signal_ts": "2026-07-27 13:30 UTC",
+      "bars_ago": 2,
+      "close": 57.47,
+      "DIFF": -1.545661,
+      "DEA": -1.326287,
+      "MACD": -0.438747
+    },
+    {
+      "ticker": "ORCL",
+      "group": "Semi",
+      "timeframe": "1h",
+      "signal_ts": "2026-07-27 13:30 UTC",
+      "bars_ago": 2,
+      "close": 120.08,
+      "DIFF": -2.231714,
+      "DEA": -2.08873,
+      "MACD": -0.285968
+    },
+    {
+      "ticker": "VELO",
       "group": "光",
       "timeframe": "1h",
-      "signal_ts": "2026-07-24 18:30 UTC",
-      "bars_ago": 0,
-      "close": 11.305,
-      "DIFF": -0.214032,
-      "DEA": -0.219319,
-      "MACD": 0.010573
+      "signal_ts": "2026-07-27 13:30 UTC",
+      "bars_ago": 2,
+      "close": 10.0,
+      "DIFF": -0.258988,
+      "DEA": -0.24377,
+      "MACD": -0.030436
+    },
+    {
+      "ticker": "RKLB",
+      "group": "太空",
+      "timeframe": "1h",
+      "signal_ts": "2026-07-27 13:30 UTC",
+      "bars_ago": 2,
+      "close": 65.39,
+      "DIFF": -1.421555,
+      "DEA": -1.020771,
+      "MACD": -0.801569
+    },
+    {
+      "ticker": "QBTS",
+      "group": "量子",
+      "timeframe": "1h",
+      "signal_ts": "2026-07-27 13:30 UTC",
+      "bars_ago": 2,
+      "close": 18.91,
+      "DIFF": -0.105084,
+      "DEA": -0.194804,
+      "MACD": 0.17944
+    },
+    {
+      "ticker": "IONQ",
+      "group": "量子",
+      "timeframe": "1h",
+      "signal_ts": "2026-07-27 13:30 UTC",
+      "bars_ago": 2,
+      "close": 35.77,
+      "DIFF": -0.425923,
+      "DEA": -0.530947,
+      "MACD": 0.210048
     }
   ]
 }
