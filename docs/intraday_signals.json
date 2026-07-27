@@ -1,100 +1,166 @@
 {
-  "generated_at": "2026-07-27T18:21:12.393824+00:00",
-  "next_scan_at": "2026-07-27T19:00:00+00:00",
+  "generated_at": "2026-07-27T19:24:49.216987+00:00",
+  "next_scan_at": "2026-07-27T20:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
   "stats": {
     "total_scanned": 78,
-    "buy_signals": 8
+    "buy_signals": 14
   },
   "buy_signals": [
+    {
+      "ticker": "XLK",
+      "group": "ETF",
+      "timeframe": "1h",
+      "signal_ts": "2026-07-27 18:30 UTC",
+      "bars_ago": 0,
+      "close": 174.58,
+      "DIFF": -1.496492,
+      "DEA": -1.173786,
+      "MACD": -0.64541
+    },
+    {
+      "ticker": "ALAB",
+      "group": "Semi",
+      "timeframe": "1h",
+      "signal_ts": "2026-07-27 18:30 UTC",
+      "bars_ago": 0,
+      "close": 283.0004,
+      "DIFF": -12.696981,
+      "DEA": -10.534748,
+      "MACD": -4.324466
+    },
+    {
+      "ticker": "GFS",
+      "group": "Semi",
+      "timeframe": "1h",
+      "signal_ts": "2026-07-27 18:30 UTC",
+      "bars_ago": 0,
+      "close": 52.83,
+      "DIFF": -1.658111,
+      "DEA": -1.512264,
+      "MACD": -0.291694
+    },
+    {
+      "ticker": "VICR",
+      "group": "Semi",
+      "timeframe": "1h",
+      "signal_ts": "2026-07-27 18:30 UTC",
+      "bars_ago": 0,
+      "close": 202.89,
+      "DIFF": -7.149763,
+      "DEA": -6.049393,
+      "MACD": -2.20074
+    },
+    {
+      "ticker": "AMKR",
+      "group": "Semi",
+      "timeframe": "1h",
+      "signal_ts": "2026-07-27 18:30 UTC",
+      "bars_ago": 0,
+      "close": 61.1999,
+      "DIFF": -1.475833,
+      "DEA": -1.000357,
+      "MACD": -0.950953
+    },
+    {
+      "ticker": "WYFI",
+      "group": "Semi",
+      "timeframe": "1h",
+      "signal_ts": "2026-07-27 18:30 UTC",
+      "bars_ago": 0,
+      "close": 23.1744,
+      "DIFF": -1.260753,
+      "DEA": -1.093154,
+      "MACD": -0.335199
+    },
+    {
+      "ticker": "INTC",
+      "group": "Semi",
+      "timeframe": "1h",
+      "signal_ts": "2026-07-27 18:30 UTC",
+      "bars_ago": 0,
+      "close": 92.225,
+      "DIFF": -3.013164,
+      "DEA": -2.581595,
+      "MACD": -0.863138
+    },
+    {
+      "ticker": "CRWV",
+      "group": "Semi",
+      "timeframe": "1h",
+      "signal_ts": "2026-07-27 18:30 UTC",
+      "bars_ago": 0,
+      "close": 71.54,
+      "DIFF": -2.435112,
+      "DEA": -1.830619,
+      "MACD": -1.208987
+    },
+    {
+      "ticker": "GLW",
+      "group": "光",
+      "timeframe": "1h",
+      "signal_ts": "2026-07-27 18:30 UTC",
+      "bars_ago": 0,
+      "close": 141.905,
+      "DIFF": -4.944864,
+      "DEA": -4.186458,
+      "MACD": -1.516812
+    },
+    {
+      "ticker": "AAOI",
+      "group": "光",
+      "timeframe": "1h",
+      "signal_ts": "2026-07-27 18:30 UTC",
+      "bars_ago": 0,
+      "close": 97.8,
+      "DIFF": -4.03082,
+      "DEA": -3.259641,
+      "MACD": -1.542359
+    },
+    {
+      "ticker": "CIEN",
+      "group": "光",
+      "timeframe": "1h",
+      "signal_ts": "2026-07-27 18:30 UTC",
+      "bars_ago": 0,
+      "close": 375.36,
+      "DIFF": -8.533668,
+      "DEA": -6.13744,
+      "MACD": -4.792455
+    },
+    {
+      "ticker": "MRVL",
+      "group": "存储",
+      "timeframe": "1h",
+      "signal_ts": "2026-07-27 18:30 UTC",
+      "bars_ago": 0,
+      "close": 189.625,
+      "DIFF": -5.051618,
+      "DEA": -3.871292,
+      "MACD": -2.360652
+    },
     {
       "ticker": "OUST",
       "group": "Semi",
       "timeframe": "1h",
       "signal_ts": "2026-07-27 17:30 UTC",
-      "bars_ago": 0,
-      "close": 34.19,
-      "DIFF": -1.160352,
-      "DEA": -0.989882,
-      "MACD": -0.340939
+      "bars_ago": 1,
+      "close": 34.1517,
+      "DIFF": -1.163407,
+      "DEA": -0.990493,
+      "MACD": -0.345828
     },
     {
       "ticker": "PL",
       "group": "太空",
       "timeframe": "1h",
       "signal_ts": "2026-07-27 17:30 UTC",
-      "bars_ago": 0,
+      "bars_ago": 1,
       "close": 20.59,
       "DIFF": -0.561733,
       "DEA": -0.563292,
       "MACD": 0.003117
-    },
-    {
-      "ticker": "AMPX",
-      "group": "Semi",
-      "timeframe": "1h",
-      "signal_ts": "2026-07-27 15:30 UTC",
-      "bars_ago": 2,
-      "close": 9.4495,
-      "DIFF": -0.285113,
-      "DEA": -0.258303,
-      "MACD": -0.053621
-    },
-    {
-      "ticker": "TEM",
-      "group": "Semi",
-      "timeframe": "1h",
-      "signal_ts": "2026-07-27 15:30 UTC",
-      "bars_ago": 2,
-      "close": 42.645,
-      "DIFF": -1.669662,
-      "DEA": -1.627107,
-      "MACD": -0.085111
-    },
-    {
-      "ticker": "NOK",
-      "group": "Semi",
-      "timeframe": "1h",
-      "signal_ts": "2026-07-27 15:30 UTC",
-      "bars_ago": 2,
-      "close": 9.06,
-      "DIFF": -0.360376,
-      "DEA": -0.326498,
-      "MACD": -0.067756
-    },
-    {
-      "ticker": "AEVA",
-      "group": "Semi",
-      "timeframe": "1h",
-      "signal_ts": "2026-07-27 15:30 UTC",
-      "bars_ago": 2,
-      "close": 15.29,
-      "DIFF": -0.525141,
-      "DEA": -0.501192,
-      "MACD": -0.047897
-    },
-    {
-      "ticker": "SYNA",
-      "group": "Semi",
-      "timeframe": "1h",
-      "signal_ts": "2026-07-27 15:30 UTC",
-      "bars_ago": 2,
-      "close": 114.305,
-      "DIFF": -1.366301,
-      "DEA": -1.115161,
-      "MACD": -0.502279
-    },
-    {
-      "ticker": "RKLB",
-      "group": "太空",
-      "timeframe": "1h",
-      "signal_ts": "2026-07-27 15:30 UTC",
-      "bars_ago": 2,
-      "close": 65.47,
-      "DIFF": -1.348086,
-      "DEA": -1.149438,
-      "MACD": -0.397296
     }
   ]
 }
