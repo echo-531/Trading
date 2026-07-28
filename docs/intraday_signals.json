@@ -1,41 +1,85 @@
 {
-  "generated_at": "2026-07-28T16:18:25.626978+00:00",
+  "generated_at": "2026-07-28T16:45:01.390736+00:00",
   "next_scan_at": "2026-07-28T17:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
   "stats": {
     "total_scanned": 78,
-    "buy_signals": 4
+    "buy_signals": 8
   },
   "buy_signals": [
+    {
+      "ticker": "ALAB",
+      "group": "Semi",
+      "timeframe": "1h",
+      "signal_ts": "2026-07-28 16:30 UTC",
+      "bars_ago": 0,
+      "close": 265.57,
+      "DIFF": -14.453227,
+      "DEA": -12.985797,
+      "MACD": -2.934859
+    },
+    {
+      "ticker": "ANET",
+      "group": "Semi",
+      "timeframe": "1h",
+      "signal_ts": "2026-07-28 16:30 UTC",
+      "bars_ago": 0,
+      "close": 167.56,
+      "DIFF": -2.005621,
+      "DEA": -1.470441,
+      "MACD": -1.07036
+    },
     {
       "ticker": "QQQ",
       "group": "ETF",
       "timeframe": "1h",
       "signal_ts": "2026-07-28 15:30 UTC",
-      "bars_ago": 0,
-      "close": 677.51,
-      "DIFF": -5.797073,
-      "DEA": -5.693828,
-      "MACD": -0.206489
+      "bars_ago": 1,
+      "close": 677.3047,
+      "DIFF": -5.813452,
+      "DEA": -5.697104,
+      "MACD": -0.232696
+    },
+    {
+      "ticker": "OUST",
+      "group": "Semi",
+      "timeframe": "1h",
+      "signal_ts": "2026-07-28 15:30 UTC",
+      "bars_ago": 1,
+      "close": 33.234,
+      "DIFF": -1.193201,
+      "DEA": -1.094059,
+      "MACD": -0.198284
     },
     {
       "ticker": "POET",
       "group": "光",
       "timeframe": "1h",
       "signal_ts": "2026-07-28 15:30 UTC",
-      "bars_ago": 0,
-      "close": 6.685,
-      "DIFF": -0.253773,
-      "DEA": -0.241987,
-      "MACD": -0.023571
+      "bars_ago": 1,
+      "close": 6.6899,
+      "DIFF": -0.253382,
+      "DEA": -0.241909,
+      "MACD": -0.022946
+    },
+    {
+      "ticker": "RKLB",
+      "group": "太空",
+      "timeframe": "1h",
+      "signal_ts": "2026-07-28 15:30 UTC",
+      "bars_ago": 1,
+      "close": 63.9999,
+      "DIFF": -1.274899,
+      "DEA": -1.215291,
+      "MACD": -0.119216
     },
     {
       "ticker": "WYFI",
       "group": "Semi",
       "timeframe": "1h",
       "signal_ts": "2026-07-28 14:30 UTC",
-      "bars_ago": 1,
+      "bars_ago": 2,
       "close": 23.0963,
       "DIFF": -1.206573,
       "DEA": -1.161344,
@@ -46,7 +90,7 @@
       "group": "太空",
       "timeframe": "1h",
       "signal_ts": "2026-07-28 14:30 UTC",
-      "bars_ago": 1,
+      "bars_ago": 2,
       "close": 19.59,
       "DIFF": -0.264246,
       "DEA": -0.217132,
