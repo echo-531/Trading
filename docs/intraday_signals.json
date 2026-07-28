@@ -1,34 +1,45 @@
 {
-  "generated_at": "2026-07-28T16:45:01.390736+00:00",
-  "next_scan_at": "2026-07-28T17:00:00+00:00",
+  "generated_at": "2026-07-28T17:24:01.791007+00:00",
+  "next_scan_at": "2026-07-28T18:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
   "stats": {
     "total_scanned": 78,
-    "buy_signals": 8
+    "buy_signals": 9
   },
   "buy_signals": [
-    {
-      "ticker": "ALAB",
-      "group": "Semi",
-      "timeframe": "1h",
-      "signal_ts": "2026-07-28 16:30 UTC",
-      "bars_ago": 0,
-      "close": 265.57,
-      "DIFF": -14.453227,
-      "DEA": -12.985797,
-      "MACD": -2.934859
-    },
     {
       "ticker": "ANET",
       "group": "Semi",
       "timeframe": "1h",
       "signal_ts": "2026-07-28 16:30 UTC",
       "bars_ago": 0,
-      "close": 167.56,
-      "DIFF": -2.005621,
-      "DEA": -1.470441,
-      "MACD": -1.07036
+      "close": 167.945,
+      "DIFF": -1.974908,
+      "DEA": -1.464298,
+      "MACD": -1.021219
+    },
+    {
+      "ticker": "AEVA",
+      "group": "Semi",
+      "timeframe": "1h",
+      "signal_ts": "2026-07-28 16:30 UTC",
+      "bars_ago": 0,
+      "close": 14.64,
+      "DIFF": -0.494837,
+      "DEA": -0.48461,
+      "MACD": -0.020453
+    },
+    {
+      "ticker": "CRWV",
+      "group": "Semi",
+      "timeframe": "1h",
+      "signal_ts": "2026-07-28 16:30 UTC",
+      "bars_ago": 0,
+      "close": 67.82,
+      "DIFF": -3.003851,
+      "DEA": -2.55529,
+      "MACD": -0.897123
     },
     {
       "ticker": "QQQ",
