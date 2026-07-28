@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-07-28T16:05:30.263050+00:00",
+  "generated_at": "2026-07-28T16:18:25.626978+00:00",
   "next_scan_at": "2026-07-28T17:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
   "stats": {
     "total_scanned": 78,
-    "buy_signals": 7
+    "buy_signals": 4
   },
   "buy_signals": [
     {
@@ -14,32 +14,10 @@
       "timeframe": "1h",
       "signal_ts": "2026-07-28 15:30 UTC",
       "bars_ago": 0,
-      "close": 678.93,
-      "DIFF": -5.683798,
-      "DEA": -5.671173,
-      "MACD": -0.025249
-    },
-    {
-      "ticker": "ALAB",
-      "group": "Semi",
-      "timeframe": "1h",
-      "signal_ts": "2026-07-28 15:30 UTC",
-      "bars_ago": 0,
-      "close": 266.96,
-      "DIFF": -14.51292,
-      "DEA": -12.586154,
-      "MACD": -3.853532
-    },
-    {
-      "ticker": "OUST",
-      "group": "Semi",
-      "timeframe": "1h",
-      "signal_ts": "2026-07-28 15:30 UTC",
-      "bars_ago": 0,
-      "close": 33.305,
-      "DIFF": -1.187537,
-      "DEA": -1.092926,
-      "MACD": -0.189222
+      "close": 677.51,
+      "DIFF": -5.797073,
+      "DEA": -5.693828,
+      "MACD": -0.206489
     },
     {
       "ticker": "POET",
@@ -47,21 +25,10 @@
       "timeframe": "1h",
       "signal_ts": "2026-07-28 15:30 UTC",
       "bars_ago": 0,
-      "close": 6.75,
-      "DIFF": -0.248588,
-      "DEA": -0.24095,
-      "MACD": -0.015275
-    },
-    {
-      "ticker": "RKLB",
-      "group": "太空",
-      "timeframe": "1h",
-      "signal_ts": "2026-07-28 15:30 UTC",
-      "bars_ago": 0,
-      "close": 64.015,
-      "DIFF": -1.273694,
-      "DEA": -1.21505,
-      "MACD": -0.117289
+      "close": 6.685,
+      "DIFF": -0.253773,
+      "DEA": -0.241987,
+      "MACD": -0.023571
     },
     {
       "ticker": "WYFI",
