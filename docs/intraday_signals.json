@@ -1,78 +1,144 @@
 {
-  "generated_at": "2026-07-28T18:09:57.960507+00:00",
-  "next_scan_at": "2026-07-28T19:00:00+00:00",
+  "generated_at": "2026-07-28T19:20:15.687178+00:00",
+  "next_scan_at": "2026-07-28T20:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
   "stats": {
     "total_scanned": 78,
-    "buy_signals": 6
+    "buy_signals": 12
   },
   "buy_signals": [
     {
-      "ticker": "ANET",
+      "ticker": "ALAB",
       "group": "Semi",
       "timeframe": "1h",
-      "signal_ts": "2026-07-28 17:30 UTC",
+      "signal_ts": "2026-07-28 18:30 UTC",
       "bars_ago": 0,
-      "close": 168.44,
-      "DIFF": -1.904616,
-      "DEA": -1.561296,
-      "MACD": -0.686639
+      "close": 262.41,
+      "DIFF": -14.477141,
+      "DEA": -13.614727,
+      "MACD": -1.724828
     },
     {
-      "ticker": "AEVA",
+      "ticker": "GFS",
       "group": "Semi",
       "timeframe": "1h",
-      "signal_ts": "2026-07-28 16:30 UTC",
-      "bars_ago": 1,
-      "close": 14.56,
-      "DIFF": -0.501218,
-      "DEA": -0.485886,
-      "MACD": -0.030664
+      "signal_ts": "2026-07-28 18:30 UTC",
+      "bars_ago": 0,
+      "close": 49.3595,
+      "DIFF": -1.985096,
+      "DEA": -1.837971,
+      "MACD": -0.294249
     },
     {
-      "ticker": "QQQ",
-      "group": "ETF",
+      "ticker": "VICR",
+      "group": "Semi",
       "timeframe": "1h",
-      "signal_ts": "2026-07-28 15:30 UTC",
-      "bars_ago": 2,
-      "close": 677.3047,
-      "DIFF": -5.813452,
-      "DEA": -5.697104,
-      "MACD": -0.232696
+      "signal_ts": "2026-07-28 18:30 UTC",
+      "bars_ago": 0,
+      "close": 191.77,
+      "DIFF": -8.706875,
+      "DEA": -8.096322,
+      "MACD": -1.221104
     },
     {
       "ticker": "OUST",
       "group": "Semi",
       "timeframe": "1h",
-      "signal_ts": "2026-07-28 15:30 UTC",
-      "bars_ago": 2,
-      "close": 33.234,
-      "DIFF": -1.193201,
-      "DEA": -1.094059,
-      "MACD": -0.198284
+      "signal_ts": "2026-07-28 18:30 UTC",
+      "bars_ago": 0,
+      "close": 33.895,
+      "DIFF": -1.055851,
+      "DEA": -1.103067,
+      "MACD": 0.094432
+    },
+    {
+      "ticker": "AMPX",
+      "group": "Semi",
+      "timeframe": "1h",
+      "signal_ts": "2026-07-28 18:30 UTC",
+      "bars_ago": 0,
+      "close": 9.035,
+      "DIFF": -0.266077,
+      "DEA": -0.258116,
+      "MACD": -0.015921
+    },
+    {
+      "ticker": "AEVA",
+      "group": "Semi",
+      "timeframe": "1h",
+      "signal_ts": "2026-07-28 18:30 UTC",
+      "bars_ago": 0,
+      "close": 14.52,
+      "DIFF": -0.505268,
+      "DEA": -0.49569,
+      "MACD": -0.019155
+    },
+    {
+      "ticker": "BB",
+      "group": "Semi",
+      "timeframe": "1h",
+      "signal_ts": "2026-07-28 18:30 UTC",
+      "bars_ago": 0,
+      "close": 8.04,
+      "DIFF": -0.210839,
+      "DEA": -0.193794,
+      "MACD": -0.03409
     },
     {
       "ticker": "POET",
       "group": "光",
       "timeframe": "1h",
-      "signal_ts": "2026-07-28 15:30 UTC",
-      "bars_ago": 2,
-      "close": 6.6899,
-      "DIFF": -0.253382,
-      "DEA": -0.241909,
-      "MACD": -0.022946
+      "signal_ts": "2026-07-28 18:30 UTC",
+      "bars_ago": 0,
+      "close": 6.71,
+      "DIFF": -0.236236,
+      "DEA": -0.24246,
+      "MACD": 0.012448
     },
     {
-      "ticker": "RKLB",
-      "group": "太空",
+      "ticker": "CIEN",
+      "group": "光",
       "timeframe": "1h",
-      "signal_ts": "2026-07-28 15:30 UTC",
-      "bars_ago": 2,
-      "close": 63.9999,
-      "DIFF": -1.274899,
-      "DEA": -1.215291,
-      "MACD": -0.119216
+      "signal_ts": "2026-07-28 18:30 UTC",
+      "bars_ago": 0,
+      "close": 345.64,
+      "DIFF": -15.013462,
+      "DEA": -12.313417,
+      "MACD": -5.400089
+    },
+    {
+      "ticker": "WDC",
+      "group": "存储",
+      "timeframe": "1h",
+      "signal_ts": "2026-07-28 18:30 UTC",
+      "bars_ago": 0,
+      "close": 459.5498,
+      "DIFF": -21.682224,
+      "DEA": -18.096006,
+      "MACD": -7.172435
+    },
+    {
+      "ticker": "JBL",
+      "group": "Semi",
+      "timeframe": "1h",
+      "signal_ts": "2026-07-28 17:30 UTC",
+      "bars_ago": 1,
+      "close": 300.915,
+      "DIFF": -4.453143,
+      "DEA": -3.709587,
+      "MACD": -1.487112
+    },
+    {
+      "ticker": "ANET",
+      "group": "Semi",
+      "timeframe": "1h",
+      "signal_ts": "2026-07-28 17:30 UTC",
+      "bars_ago": 1,
+      "close": 168.04,
+      "DIFF": -1.936525,
+      "DEA": -1.567678,
+      "MACD": -0.737694
     }
   ]
 }
