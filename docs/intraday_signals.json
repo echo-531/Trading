@@ -1,52 +1,41 @@
 {
-  "generated_at": "2026-07-28T17:24:01.791007+00:00",
-  "next_scan_at": "2026-07-28T18:00:00+00:00",
+  "generated_at": "2026-07-28T18:09:57.960507+00:00",
+  "next_scan_at": "2026-07-28T19:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
   "stats": {
     "total_scanned": 78,
-    "buy_signals": 9
+    "buy_signals": 6
   },
   "buy_signals": [
     {
       "ticker": "ANET",
       "group": "Semi",
       "timeframe": "1h",
-      "signal_ts": "2026-07-28 16:30 UTC",
+      "signal_ts": "2026-07-28 17:30 UTC",
       "bars_ago": 0,
-      "close": 167.945,
-      "DIFF": -1.974908,
-      "DEA": -1.464298,
-      "MACD": -1.021219
+      "close": 168.44,
+      "DIFF": -1.904616,
+      "DEA": -1.561296,
+      "MACD": -0.686639
     },
     {
       "ticker": "AEVA",
       "group": "Semi",
       "timeframe": "1h",
       "signal_ts": "2026-07-28 16:30 UTC",
-      "bars_ago": 0,
-      "close": 14.64,
-      "DIFF": -0.494837,
-      "DEA": -0.48461,
-      "MACD": -0.020453
-    },
-    {
-      "ticker": "CRWV",
-      "group": "Semi",
-      "timeframe": "1h",
-      "signal_ts": "2026-07-28 16:30 UTC",
-      "bars_ago": 0,
-      "close": 67.82,
-      "DIFF": -3.003851,
-      "DEA": -2.55529,
-      "MACD": -0.897123
+      "bars_ago": 1,
+      "close": 14.56,
+      "DIFF": -0.501218,
+      "DEA": -0.485886,
+      "MACD": -0.030664
     },
     {
       "ticker": "QQQ",
       "group": "ETF",
       "timeframe": "1h",
       "signal_ts": "2026-07-28 15:30 UTC",
-      "bars_ago": 1,
+      "bars_ago": 2,
       "close": 677.3047,
       "DIFF": -5.813452,
       "DEA": -5.697104,
@@ -57,7 +46,7 @@
       "group": "Semi",
       "timeframe": "1h",
       "signal_ts": "2026-07-28 15:30 UTC",
-      "bars_ago": 1,
+      "bars_ago": 2,
       "close": 33.234,
       "DIFF": -1.193201,
       "DEA": -1.094059,
@@ -68,7 +57,7 @@
       "group": "光",
       "timeframe": "1h",
       "signal_ts": "2026-07-28 15:30 UTC",
-      "bars_ago": 1,
+      "bars_ago": 2,
       "close": 6.6899,
       "DIFF": -0.253382,
       "DEA": -0.241909,
@@ -79,33 +68,11 @@
       "group": "太空",
       "timeframe": "1h",
       "signal_ts": "2026-07-28 15:30 UTC",
-      "bars_ago": 1,
+      "bars_ago": 2,
       "close": 63.9999,
       "DIFF": -1.274899,
       "DEA": -1.215291,
       "MACD": -0.119216
-    },
-    {
-      "ticker": "WYFI",
-      "group": "Semi",
-      "timeframe": "1h",
-      "signal_ts": "2026-07-28 14:30 UTC",
-      "bars_ago": 2,
-      "close": 23.0963,
-      "DIFF": -1.206573,
-      "DEA": -1.161344,
-      "MACD": -0.090459
-    },
-    {
-      "ticker": "FLY",
-      "group": "太空",
-      "timeframe": "1h",
-      "signal_ts": "2026-07-28 14:30 UTC",
-      "bars_ago": 2,
-      "close": 19.59,
-      "DIFF": -0.264246,
-      "DEA": -0.217132,
-      "MACD": -0.094228
     }
   ]
 }
