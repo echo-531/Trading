@@ -1,23 +1,67 @@
 {
-  "generated_at": "2026-07-29T16:25:52.157688+00:00",
-  "next_scan_at": "2026-07-29T17:00:00+00:00",
+  "generated_at": "2026-07-29T17:12:37.286306+00:00",
+  "next_scan_at": "2026-07-29T18:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
   "stats": {
     "total_scanned": 78,
-    "buy_signals": 1
+    "buy_signals": 5
   },
   "buy_signals": [
     {
-      "ticker": "STX",
+      "ticker": "ALAB",
       "group": "Semi",
       "timeframe": "1h",
-      "signal_ts": "2026-07-29 13:30 UTC",
-      "bars_ago": 2,
-      "close": 767.45,
-      "DIFF": -32.228481,
-      "DEA": -29.927416,
-      "MACD": -4.602128
+      "signal_ts": "2026-07-29 16:30 UTC",
+      "bars_ago": 0,
+      "close": 250.91,
+      "DIFF": -14.816229,
+      "DEA": -14.395461,
+      "MACD": -0.841536
+    },
+    {
+      "ticker": "GFS",
+      "group": "Semi",
+      "timeframe": "1h",
+      "signal_ts": "2026-07-29 16:30 UTC",
+      "bars_ago": 0,
+      "close": 47.65,
+      "DIFF": -2.143325,
+      "DEA": -2.021227,
+      "MACD": -0.244197
+    },
+    {
+      "ticker": "VICR",
+      "group": "Semi",
+      "timeframe": "1h",
+      "signal_ts": "2026-07-29 16:30 UTC",
+      "bars_ago": 0,
+      "close": 183.355,
+      "DIFF": -8.712642,
+      "DEA": -8.433118,
+      "MACD": -0.559049
+    },
+    {
+      "ticker": "BB",
+      "group": "Semi",
+      "timeframe": "1h",
+      "signal_ts": "2026-07-29 16:30 UTC",
+      "bars_ago": 0,
+      "close": 7.9078,
+      "DIFF": -0.208762,
+      "DEA": -0.203069,
+      "MACD": -0.011386
+    },
+    {
+      "ticker": "CIEN",
+      "group": "光",
+      "timeframe": "1h",
+      "signal_ts": "2026-07-29 16:30 UTC",
+      "bars_ago": 0,
+      "close": 335.7,
+      "DIFF": -14.901551,
+      "DEA": -13.874081,
+      "MACD": -2.054941
     }
   ]
 }
