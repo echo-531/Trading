@@ -1,188 +1,34 @@
 {
-  "generated_at": "2026-07-30T16:05:58.430670+00:00",
+  "generated_at": "2026-07-30T16:40:30.908833+00:00",
   "next_scan_at": "2026-07-30T17:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
   "stats": {
     "total_scanned": 78,
-    "buy_signals": 16
+    "buy_signals": 2
   },
   "buy_signals": [
+    {
+      "ticker": "SPY",
+      "group": "ETF",
+      "timeframe": "1h",
+      "signal_ts": "2026-07-30 15:30 UTC",
+      "bars_ago": 1,
+      "close": 738.76,
+      "DIFF": -1.328706,
+      "DEA": -1.473634,
+      "MACD": 0.289857
+    },
     {
       "ticker": "IWM",
       "group": "ETF",
       "timeframe": "1h",
       "signal_ts": "2026-07-30 15:30 UTC",
-      "bars_ago": 0,
-      "close": 290.64,
-      "DIFF": -0.730079,
-      "DEA": -0.667982,
-      "MACD": -0.124195
-    },
-    {
-      "ticker": "ARM",
-      "group": "Semi",
-      "timeframe": "1h",
-      "signal_ts": "2026-07-30 13:30 UTC",
-      "bars_ago": 2,
-      "close": 242.5,
-      "DIFF": -9.279991,
-      "DEA": -9.46568,
-      "MACD": 0.371378
-    },
-    {
-      "ticker": "JBL",
-      "group": "Semi",
-      "timeframe": "1h",
-      "signal_ts": "2026-07-30 13:30 UTC",
-      "bars_ago": 2,
-      "close": 305.565,
-      "DIFF": -4.755104,
-      "DEA": -5.246463,
-      "MACD": 0.982718
-    },
-    {
-      "ticker": "FLEX",
-      "group": "Semi",
-      "timeframe": "1h",
-      "signal_ts": "2026-07-30 13:30 UTC",
-      "bars_ago": 2,
-      "close": 109.03,
-      "DIFF": -3.658365,
-      "DEA": -4.020648,
-      "MACD": 0.724566
-    },
-    {
-      "ticker": "ANET",
-      "group": "Semi",
-      "timeframe": "1h",
-      "signal_ts": "2026-07-30 13:30 UTC",
-      "bars_ago": 2,
-      "close": 170.95,
-      "DIFF": -2.44761,
-      "DEA": -2.607043,
-      "MACD": 0.318865
-    },
-    {
-      "ticker": "AMPX",
-      "group": "Semi",
-      "timeframe": "1h",
-      "signal_ts": "2026-07-30 13:30 UTC",
-      "bars_ago": 2,
-      "close": 9.43,
-      "DIFF": -0.222108,
-      "DEA": -0.268994,
-      "MACD": 0.093773
-    },
-    {
-      "ticker": "INOD",
-      "group": "Semi",
-      "timeframe": "1h",
-      "signal_ts": "2026-07-30 13:30 UTC",
-      "bars_ago": 2,
-      "close": 58.68,
-      "DIFF": -0.676046,
-      "DEA": -0.843983,
-      "MACD": 0.335875
-    },
-    {
-      "ticker": "WYFI",
-      "group": "Semi",
-      "timeframe": "1h",
-      "signal_ts": "2026-07-30 13:30 UTC",
-      "bars_ago": 2,
-      "close": 25.67,
-      "DIFF": -0.637964,
-      "DEA": -0.880137,
-      "MACD": 0.484345
-    },
-    {
-      "ticker": "CRWV",
-      "group": "Semi",
-      "timeframe": "1h",
-      "signal_ts": "2026-07-30 13:30 UTC",
-      "bars_ago": 2,
-      "close": 74.54,
-      "DIFF": -2.39358,
-      "DEA": -3.124132,
-      "MACD": 1.461103
-    },
-    {
-      "ticker": "VELO",
-      "group": "光",
-      "timeframe": "1h",
-      "signal_ts": "2026-07-30 13:30 UTC",
-      "bars_ago": 2,
-      "close": 9.33,
-      "DIFF": -0.346378,
-      "DEA": -0.332987,
-      "MACD": -0.026782
-    },
-    {
-      "ticker": "NVDA",
-      "group": "MEGA7",
-      "timeframe": "1h",
-      "signal_ts": "2026-07-30 13:30 UTC",
-      "bars_ago": 2,
-      "close": 196.81,
-      "DIFF": -2.818737,
-      "DEA": -3.104471,
-      "MACD": 0.571468
-    },
-    {
-      "ticker": "MRVL",
-      "group": "存储",
-      "timeframe": "1h",
-      "signal_ts": "2026-07-30 13:30 UTC",
-      "bars_ago": 2,
-      "close": 183.55,
-      "DIFF": -6.258342,
-      "DEA": -7.34375,
-      "MACD": 2.170817
-    },
-    {
-      "ticker": "ASTS",
-      "group": "太空",
-      "timeframe": "1h",
-      "signal_ts": "2026-07-30 13:30 UTC",
-      "bars_ago": 2,
-      "close": 57.87,
-      "DIFF": -0.800115,
-      "DEA": -0.883257,
-      "MACD": 0.166283
-    },
-    {
-      "ticker": "FLY",
-      "group": "太空",
-      "timeframe": "1h",
-      "signal_ts": "2026-07-30 13:30 UTC",
-      "bars_ago": 2,
-      "close": 19.32,
-      "DIFF": -0.427205,
-      "DEA": -0.447603,
-      "MACD": 0.040797
-    },
-    {
-      "ticker": "QBTS",
-      "group": "量子",
-      "timeframe": "1h",
-      "signal_ts": "2026-07-30 13:30 UTC",
-      "bars_ago": 2,
-      "close": 17.7187,
-      "DIFF": -0.23011,
-      "DEA": -0.145821,
-      "MACD": -0.168579
-    },
-    {
-      "ticker": "IONQ",
-      "group": "量子",
-      "timeframe": "1h",
-      "signal_ts": "2026-07-30 13:30 UTC",
-      "bars_ago": 2,
-      "close": 35.05,
-      "DIFF": -0.339516,
-      "DEA": -0.401645,
-      "MACD": 0.124258
+      "bars_ago": 1,
+      "close": 291.04,
+      "DIFF": -0.698171,
+      "DEA": -0.6616,
+      "MACD": -0.073141
     }
   ]
 }
