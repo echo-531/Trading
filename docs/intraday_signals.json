@@ -1,45 +1,23 @@
 {
-  "generated_at": "2026-07-30T18:12:20.859091+00:00",
-  "next_scan_at": "2026-07-30T19:00:00+00:00",
+  "generated_at": "2026-07-30T19:23:25.780207+00:00",
+  "next_scan_at": "2026-07-30T20:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
   "stats": {
     "total_scanned": 78,
-    "buy_signals": 3
+    "buy_signals": 1
   },
   "buy_signals": [
     {
       "ticker": "PLTR",
       "group": "Semi",
       "timeframe": "1h",
-      "signal_ts": "2026-07-30 16:30 UTC",
-      "bars_ago": 1,
-      "close": 122.395,
-      "DIFF": -1.133945,
-      "DEA": -0.901436,
-      "MACD": -0.465019
-    },
-    {
-      "ticker": "SPY",
-      "group": "ETF",
-      "timeframe": "1h",
-      "signal_ts": "2026-07-30 15:30 UTC",
-      "bars_ago": 2,
-      "close": 738.76,
-      "DIFF": -1.328706,
-      "DEA": -1.473634,
-      "MACD": 0.289857
-    },
-    {
-      "ticker": "IWM",
-      "group": "ETF",
-      "timeframe": "1h",
-      "signal_ts": "2026-07-30 15:30 UTC",
-      "bars_ago": 2,
-      "close": 291.04,
-      "DIFF": -0.698171,
-      "DEA": -0.6616,
-      "MACD": -0.073141
+      "signal_ts": "2026-07-30 18:30 UTC",
+      "bars_ago": 0,
+      "close": 122.16,
+      "DIFF": -1.10406,
+      "DEA": -0.978122,
+      "MACD": -0.251876
     }
   ]
 }
