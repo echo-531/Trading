@@ -1,34 +1,23 @@
 {
-  "generated_at": "2026-07-30T15:51:56.190027+00:00",
-  "next_scan_at": "2026-07-30T16:00:00+00:00",
+  "generated_at": "2026-07-30T16:05:58.430670+00:00",
+  "next_scan_at": "2026-07-30T17:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
   "stats": {
     "total_scanned": 78,
-    "buy_signals": 17
+    "buy_signals": 16
   },
   "buy_signals": [
-    {
-      "ticker": "SPY",
-      "group": "ETF",
-      "timeframe": "1h",
-      "signal_ts": "2026-07-30 15:30 UTC",
-      "bars_ago": 0,
-      "close": 737.05,
-      "DIFF": -1.465118,
-      "DEA": -1.500916,
-      "MACD": 0.071597
-    },
     {
       "ticker": "IWM",
       "group": "ETF",
       "timeframe": "1h",
       "signal_ts": "2026-07-30 15:30 UTC",
       "bars_ago": 0,
-      "close": 290.6,
-      "DIFF": -0.733271,
-      "DEA": -0.66862,
-      "MACD": -0.129301
+      "close": 290.64,
+      "DIFF": -0.730079,
+      "DEA": -0.667982,
+      "MACD": -0.124195
     },
     {
       "ticker": "ARM",
