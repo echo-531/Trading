@@ -1,23 +1,11 @@
 {
-  "generated_at": "2026-07-30T19:23:25.780207+00:00",
-  "next_scan_at": "2026-07-30T20:00:00+00:00",
+  "generated_at": "2026-07-31T15:33:52.772061+00:00",
+  "next_scan_at": "2026-07-31T16:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
   "stats": {
     "total_scanned": 78,
-    "buy_signals": 1
+    "buy_signals": 0
   },
-  "buy_signals": [
-    {
-      "ticker": "PLTR",
-      "group": "Semi",
-      "timeframe": "1h",
-      "signal_ts": "2026-07-30 18:30 UTC",
-      "bars_ago": 0,
-      "close": 122.16,
-      "DIFF": -1.10406,
-      "DEA": -0.978122,
-      "MACD": -0.251876
-    }
-  ]
+  "buy_signals": []
 }
