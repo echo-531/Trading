@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-31T17:26:49.082076+00:00",
-  "next_scan_at": "2026-07-31T18:00:00+00:00",
+  "generated_at": "2026-07-31T18:16:10.320545+00:00",
+  "next_scan_at": "2026-07-31T19:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
   "stats": {
@@ -13,18 +13,18 @@
       "group": "Semi",
       "timeframe": "1h",
       "signal_ts": "2026-07-31 16:30 UTC",
-      "bars_ago": 0,
-      "close": 61.66,
-      "DIFF": -0.675605,
-      "DEA": -0.49841,
-      "MACD": -0.354391
+      "bars_ago": 1,
+      "close": 61.6999,
+      "DIFF": -0.672422,
+      "DEA": -0.497773,
+      "MACD": -0.349298
     },
     {
       "ticker": "PLTR",
       "group": "Semi",
       "timeframe": "1h",
       "signal_ts": "2026-07-31 15:30 UTC",
-      "bars_ago": 1,
+      "bars_ago": 2,
       "close": 122.35,
       "DIFF": -1.119847,
       "DEA": -1.076881,
