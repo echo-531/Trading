@@ -1,23 +1,11 @@
 {
-  "generated_at": "2026-08-03T16:26:16.422857+00:00",
+  "generated_at": "2026-08-03T16:56:08.724791+00:00",
   "next_scan_at": "2026-08-03T17:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
   "stats": {
     "total_scanned": 78,
-    "buy_signals": 1
+    "buy_signals": 0
   },
-  "buy_signals": [
-    {
-      "ticker": "SPCX",
-      "group": "太空",
-      "timeframe": "1h",
-      "signal_ts": "2026-08-03 13:30 UTC",
-      "bars_ago": 2,
-      "close": 110.77,
-      "DIFF": -1.558877,
-      "DEA": -1.396052,
-      "MACD": -0.325649
-    }
-  ]
+  "buy_signals": []
 }
