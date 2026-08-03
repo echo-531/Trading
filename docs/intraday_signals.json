@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-31T19:22:19.699437+00:00",
-  "next_scan_at": "2026-07-31T20:00:00+00:00",
+  "generated_at": "2026-08-03T15:59:30.010726+00:00",
+  "next_scan_at": "2026-08-03T16:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
   "stats": {
@@ -9,15 +9,15 @@
   },
   "buy_signals": [
     {
-      "ticker": "CRCL",
-      "group": "Semi",
+      "ticker": "SPCX",
+      "group": "太空",
       "timeframe": "1h",
-      "signal_ts": "2026-07-31 16:30 UTC",
+      "signal_ts": "2026-08-03 13:30 UTC",
       "bars_ago": 2,
-      "close": 61.6999,
-      "DIFF": -0.672422,
-      "DEA": -0.497773,
-      "MACD": -0.349298
+      "close": 110.77,
+      "DIFF": -1.558877,
+      "DEA": -1.396052,
+      "MACD": -0.325649
     }
   ]
 }
