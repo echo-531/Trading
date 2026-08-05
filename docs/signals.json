@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-03T08:07:26.090203+00:00",
+  "generated_at": "2026-08-04T09:33:22.924055+00:00",
   "lookback": {
     "1d": 3,
     "1wk": 3,
     "1mo": 2
   },
   "stats": {
-    "total_scanned": 1504,
-    "buy_signals": 51
+    "total_scanned": 1505,
+    "buy_signals": 44
   },
   "buy_signals": [
     {
@@ -22,19 +22,6 @@
       "DIFF": -13.456509,
       "DEA": -12.1513,
       "MACD": -2.610418
-    },
-    {
-      "ticker": "AVY",
-      "market": "US",
-      "sector": "Materials",
-      "industry": "Packaging & Containers",
-      "timeframe": "monthly",
-      "signal_date": "2026-07-01",
-      "bars_ago": 0,
-      "close": 169.73,
-      "DIFF": -4.290713,
-      "DEA": -3.2097,
-      "MACD": -2.162027
     },
     {
       "ticker": "CCOI",
@@ -89,6 +76,19 @@
       "MACD": -0.206404
     },
     {
+      "ticker": "CNH",
+      "market": "US",
+      "sector": "Industrials",
+      "industry": "Farm & Heavy Construction Machinery",
+      "timeframe": "monthly",
+      "signal_date": "2026-08-01",
+      "bars_ago": 0,
+      "close": 10.8,
+      "DIFF": -0.249645,
+      "DEA": -0.235801,
+      "MACD": -0.027689
+    },
+    {
       "ticker": "CPRT",
       "market": "US",
       "sector": "Industrials",
@@ -128,19 +128,6 @@
       "MACD": -0.107968
     },
     {
-      "ticker": "DOCU",
-      "market": "US",
-      "sector": "Information Technology",
-      "industry": "Software - Application",
-      "timeframe": "monthly",
-      "signal_date": "2026-07-01",
-      "bars_ago": 0,
-      "close": 54.83,
-      "DIFF": -6.846873,
-      "DEA": -4.806155,
-      "MACD": -4.081438
-    },
-    {
       "ticker": "HAL",
       "market": "US",
       "sector": "Energy",
@@ -152,6 +139,19 @@
       "DIFF": -1.165256,
       "DEA": -1.068514,
       "MACD": -0.193484
+    },
+    {
+      "ticker": "HUBB",
+      "market": "US",
+      "sector": "Industrials",
+      "industry": "Electrical Equipment & Parts",
+      "timeframe": "daily",
+      "signal_date": "2026-08-03",
+      "bars_ago": 0,
+      "close": 476.04,
+      "DIFF": -5.057143,
+      "DEA": -4.071329,
+      "MACD": -1.971628
     },
     {
       "ticker": "KALU",
@@ -178,19 +178,6 @@
       "DIFF": -37.237042,
       "DEA": -31.118559,
       "MACD": -12.236967
-    },
-    {
-      "ticker": "MKTX",
-      "market": "US",
-      "sector": "Financials",
-      "industry": "Capital Markets",
-      "timeframe": "monthly",
-      "signal_date": "2026-07-01",
-      "bars_ago": 0,
-      "close": 162.3,
-      "DIFF": -24.917354,
-      "DEA": -22.951618,
-      "MACD": -3.931473
     },
     {
       "ticker": "MTDR",
@@ -232,58 +219,6 @@
       "MACD": 0.109297
     },
     {
-      "ticker": "PAYC",
-      "market": "US",
-      "sector": "Industrials",
-      "industry": "Software - Application",
-      "timeframe": "monthly",
-      "signal_date": "2026-07-01",
-      "bars_ago": 0,
-      "close": 163.96,
-      "DIFF": -24.799881,
-      "DEA": -22.992917,
-      "MACD": -3.613928
-    },
-    {
-      "ticker": "PYPL",
-      "market": "US",
-      "sector": "Financials",
-      "industry": "Credit Services",
-      "timeframe": "monthly",
-      "signal_date": "2026-07-01",
-      "bars_ago": 0,
-      "close": 57.21,
-      "DIFF": -8.032014,
-      "DEA": -7.522676,
-      "MACD": -1.018677
-    },
-    {
-      "ticker": "USPH",
-      "market": "US",
-      "sector": "Health Care",
-      "industry": "Medical Care Facilities",
-      "timeframe": "monthly",
-      "signal_date": "2026-07-01",
-      "bars_ago": 0,
-      "close": 79.06,
-      "DIFF": -3.643727,
-      "DEA": -3.587184,
-      "MACD": -0.113085
-    },
-    {
-      "ticker": "VEEV",
-      "market": "US",
-      "sector": "Health Care",
-      "industry": "Health Information Services",
-      "timeframe": "monthly",
-      "signal_date": "2026-07-01",
-      "bars_ago": 0,
-      "close": 203.78,
-      "DIFF": -10.266095,
-      "DEA": -1.638576,
-      "MACD": -17.255039
-    },
-    {
       "ticker": "AKAM",
       "market": "US",
       "sector": "Information Technology",
@@ -295,19 +230,6 @@
       "DIFF": -3.632114,
       "DEA": -2.890979,
       "MACD": -1.48227
-    },
-    {
-      "ticker": "ALRM",
-      "market": "US",
-      "sector": "Information Technology",
-      "industry": "Software - Application",
-      "timeframe": "monthly",
-      "signal_date": "2026-06-01",
-      "bars_ago": 1,
-      "close": 46.72,
-      "DIFF": -3.97873,
-      "DEA": -3.233119,
-      "MACD": -1.491222
     },
     {
       "ticker": "AMZN",
@@ -336,43 +258,17 @@
       "MACD": -0.195046
     },
     {
-      "ticker": "AZTA",
+      "ticker": "AVY",
       "market": "US",
-      "sector": "Health Care",
-      "industry": "Medical Instruments & Supplies",
+      "sector": "Materials",
+      "industry": "Packaging & Containers",
       "timeframe": "monthly",
-      "signal_date": "2026-06-01",
+      "signal_date": "2026-07-01",
       "bars_ago": 1,
-      "close": 25.52,
-      "DIFF": -6.725336,
-      "DEA": -6.545442,
-      "MACD": -0.359787
-    },
-    {
-      "ticker": "CNH",
-      "market": "US",
-      "sector": "Industrials",
-      "industry": "Farm & Heavy Construction Machinery",
-      "timeframe": "monthly",
-      "signal_date": "2026-06-01",
-      "bars_ago": 1,
-      "close": 11.23,
-      "DIFF": -0.235343,
-      "DEA": -0.222843,
-      "MACD": -0.025
-    },
-    {
-      "ticker": "COO",
-      "market": "US",
-      "sector": "Health Care",
-      "industry": "Medical Instruments & Supplies",
-      "timeframe": "monthly",
-      "signal_date": "2026-06-01",
-      "bars_ago": 1,
-      "close": 71.71,
-      "DIFF": -5.444418,
-      "DEA": -4.605186,
-      "MACD": -1.678465
+      "close": 169.73,
+      "DIFF": -4.291264,
+      "DEA": -3.210508,
+      "MACD": -2.161512
     },
     {
       "ticker": "DOCN",
@@ -388,6 +284,32 @@
       "MACD": -1.230404
     },
     {
+      "ticker": "DOCU",
+      "market": "US",
+      "sector": "Information Technology",
+      "industry": "Software - Application",
+      "timeframe": "monthly",
+      "signal_date": "2026-07-01",
+      "bars_ago": 1,
+      "close": 54.83,
+      "DIFF": -6.846873,
+      "DEA": -4.806155,
+      "MACD": -4.081438
+    },
+    {
+      "ticker": "DXC",
+      "market": "US",
+      "sector": "Information Technology",
+      "industry": "Information Technology Services",
+      "timeframe": "monthly",
+      "signal_date": "2026-07-01",
+      "bars_ago": 1,
+      "close": 11.24,
+      "DIFF": -2.832662,
+      "DEA": -2.711394,
+      "MACD": -0.242536
+    },
+    {
       "ticker": "DY",
       "market": "US",
       "sector": "Industrials",
@@ -399,32 +321,6 @@
       "DIFF": -12.22835,
       "DEA": -10.692215,
       "MACD": -3.072269
-    },
-    {
-      "ticker": "EEFT",
-      "market": "US",
-      "sector": "Financials",
-      "industry": "Software - Infrastructure",
-      "timeframe": "monthly",
-      "signal_date": "2026-06-01",
-      "bars_ago": 1,
-      "close": 73.19,
-      "DIFF": -8.655009,
-      "DEA": -7.174642,
-      "MACD": -2.960733
-    },
-    {
-      "ticker": "ENR",
-      "market": "US",
-      "sector": "Consumer Staples",
-      "industry": "Electrical Equipment & Parts",
-      "timeframe": "monthly",
-      "signal_date": "2026-06-01",
-      "bars_ago": 1,
-      "close": 21.44,
-      "DIFF": -2.354529,
-      "DEA": -2.182047,
-      "MACD": -0.344963
     },
     {
       "ticker": "LKQ",
@@ -440,32 +336,6 @@
       "MACD": -0.169583
     },
     {
-      "ticker": "LNN",
-      "market": "US",
-      "sector": "Industrials",
-      "industry": "Farm & Heavy Construction Machinery",
-      "timeframe": "monthly",
-      "signal_date": "2026-06-01",
-      "bars_ago": 1,
-      "close": 123.8,
-      "DIFF": -2.258164,
-      "DEA": -1.107433,
-      "MACD": -2.301461
-    },
-    {
-      "ticker": "LW",
-      "market": "US",
-      "sector": "Consumer Staples",
-      "industry": "Packaged Foods",
-      "timeframe": "monthly",
-      "signal_date": "2026-06-01",
-      "bars_ago": 1,
-      "close": 43.18,
-      "DIFF": -7.86444,
-      "DEA": -7.552605,
-      "MACD": -0.623669
-    },
-    {
       "ticker": "MARA",
       "market": "US",
       "sector": "Information Technology",
@@ -479,17 +349,17 @@
       "MACD": -0.129905
     },
     {
-      "ticker": "MLKN",
+      "ticker": "MKTX",
       "market": "US",
-      "sector": "Industrials",
-      "industry": "Furnishings, Fixtures & Appliances",
+      "sector": "Financials",
+      "industry": "Capital Markets",
       "timeframe": "monthly",
-      "signal_date": "2026-06-01",
+      "signal_date": "2026-07-01",
       "bars_ago": 1,
-      "close": 20.46,
-      "DIFF": -1.206347,
-      "DEA": -1.417887,
-      "MACD": 0.423079
+      "close": 162.3,
+      "DIFF": -24.917335,
+      "DEA": -22.951589,
+      "MACD": -3.931492
     },
     {
       "ticker": "OLN",
@@ -503,6 +373,32 @@
       "DIFF": -0.569792,
       "DEA": -0.005197,
       "MACD": -1.129191
+    },
+    {
+      "ticker": "PAYC",
+      "market": "US",
+      "sector": "Industrials",
+      "industry": "Software - Application",
+      "timeframe": "monthly",
+      "signal_date": "2026-07-01",
+      "bars_ago": 1,
+      "close": 163.96,
+      "DIFF": -24.799522,
+      "DEA": -22.99239,
+      "MACD": -3.614263
+    },
+    {
+      "ticker": "PYPL",
+      "market": "US",
+      "sector": "Financials",
+      "industry": "Credit Services",
+      "timeframe": "monthly",
+      "signal_date": "2026-07-01",
+      "bars_ago": 1,
+      "close": 57.21,
+      "DIFF": -8.032173,
+      "DEA": -7.522909,
+      "MACD": -1.018527
     },
     {
       "ticker": "SAM",
@@ -531,17 +427,30 @@
       "MACD": -0.095744
     },
     {
-      "ticker": "TRIP",
+      "ticker": "USPH",
       "market": "US",
-      "sector": "Communication",
-      "industry": "Travel Services",
+      "sector": "Health Care",
+      "industry": "Medical Care Facilities",
       "timeframe": "monthly",
-      "signal_date": "2026-06-01",
+      "signal_date": "2026-07-01",
       "bars_ago": 1,
-      "close": 13.71,
-      "DIFF": -1.82884,
-      "DEA": -1.809148,
-      "MACD": -0.039385
+      "close": 79.06,
+      "DIFF": -3.643298,
+      "DEA": -3.586554,
+      "MACD": -0.113489
+    },
+    {
+      "ticker": "VEEV",
+      "market": "US",
+      "sector": "Health Care",
+      "industry": "Health Information Services",
+      "timeframe": "monthly",
+      "signal_date": "2026-07-01",
+      "bars_ago": 1,
+      "close": 203.78,
+      "DIFF": -10.265884,
+      "DEA": -1.638264,
+      "MACD": -17.255238
     },
     {
       "ticker": "BJ",
