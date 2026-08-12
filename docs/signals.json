@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-08-11T09:12:01.775608+00:00",
+  "generated_at": "2026-08-12T16:55:41.663056+00:00",
   "lookback": {
     "1d": 3,
     "1wk": 3,
     "1mo": 2
   },
   "stats": {
-    "total_scanned": 1505,
-    "buy_signals": 37
+    "total_scanned": 1504,
+    "buy_signals": 31
   },
   "buy_signals": [
     {
-      "ticker": "MOS",
+      "ticker": "CNH",
       "market": "US",
-      "sector": "Materials",
-      "industry": "Agricultural Inputs",
+      "sector": "Industrials",
+      "industry": "Farm & Heavy Construction Machinery",
       "timeframe": "monthly",
       "signal_date": "2026-08-01",
       "bars_ago": 0,
-      "close": 23.47,
-      "DIFF": -2.12648,
-      "DEA": -1.719101,
-      "MACD": -0.814758
+      "close": 10.6005,
+      "DIFF": -0.26556,
+      "DEA": -0.238984,
+      "MACD": -0.053152
     },
     {
       "ticker": "NOG",
@@ -31,10 +31,10 @@
       "timeframe": "monthly",
       "signal_date": "2026-08-01",
       "bars_ago": 0,
-      "close": 23.49,
-      "DIFF": -1.758383,
-      "DEA": -1.515057,
-      "MACD": -0.486652
+      "close": 24.01,
+      "DIFF": -1.716901,
+      "DEA": -1.506761,
+      "MACD": -0.420281
     },
     {
       "ticker": "OLED",
@@ -44,23 +44,23 @@
       "timeframe": "monthly",
       "signal_date": "2026-08-01",
       "bars_ago": 0,
-      "close": 90.54,
-      "DIFF": -18.314377,
-      "DEA": -14.323863,
-      "MACD": -7.981027
+      "close": 92.33,
+      "DIFF": -18.171584,
+      "DEA": -14.295304,
+      "MACD": -7.75256
     },
     {
-      "ticker": "TMUS",
+      "ticker": "YUM",
       "market": "US",
-      "sector": "Communication",
-      "industry": "Telecom Services",
-      "timeframe": "weekly",
-      "signal_date": "2026-08-10",
+      "sector": "Consumer Discretionary",
+      "industry": "Restaurants",
+      "timeframe": "daily",
+      "signal_date": "2026-08-12",
       "bars_ago": 0,
-      "close": 178.2,
-      "DIFF": -6.972831,
-      "DEA": -6.7923,
-      "MACD": -0.361061
+      "close": 148.9775,
+      "DIFF": -1.765001,
+      "DEA": -1.496545,
+      "MACD": -0.536911
     },
     {
       "ticker": "AVY",
@@ -81,12 +81,12 @@
       "sector": "Industrials",
       "industry": "Rental & Leasing Services",
       "timeframe": "daily",
-      "signal_date": "2026-08-07",
+      "signal_date": "2026-08-11",
       "bars_ago": 1,
-      "close": 142.18,
-      "DIFF": -7.115543,
-      "DEA": -5.820926,
-      "MACD": -2.589235
+      "close": 140.66,
+      "DIFF": -7.109551,
+      "DEA": -6.307335,
+      "MACD": -1.604431
     },
     {
       "ticker": "CNM",
@@ -100,19 +100,6 @@
       "DIFF": -1.935657,
       "DEA": -1.726834,
       "MACD": -0.417646
-    },
-    {
-      "ticker": "CRH",
-      "market": "US",
-      "sector": "Materials",
-      "industry": "Building Materials",
-      "timeframe": "daily",
-      "signal_date": "2026-08-07",
-      "bars_ago": 1,
-      "close": 100.48,
-      "DIFF": -1.826222,
-      "DEA": -1.995714,
-      "MACD": 0.338984
     },
     {
       "ticker": "DOCU",
@@ -167,19 +154,6 @@
       "MACD": -0.349405
     },
     {
-      "ticker": "MIR",
-      "market": "US",
-      "sector": "Information Technology",
-      "industry": "Specialty Industrial Machinery",
-      "timeframe": "daily",
-      "signal_date": "2026-08-07",
-      "bars_ago": 1,
-      "close": 15.71,
-      "DIFF": -0.451949,
-      "DEA": -0.449676,
-      "MACD": -0.004545
-    },
-    {
       "ticker": "MKTX",
       "market": "US",
       "sector": "Financials",
@@ -189,21 +163,8 @@
       "bars_ago": 1,
       "close": 162.3,
       "DIFF": -24.917337,
-      "DEA": -22.951592,
-      "MACD": -3.931491
-    },
-    {
-      "ticker": "MLM",
-      "market": "US",
-      "sector": "Materials",
-      "industry": "Building Materials",
-      "timeframe": "daily",
-      "signal_date": "2026-08-07",
-      "bars_ago": 1,
-      "close": 548.57,
-      "DIFF": -9.025233,
-      "DEA": -8.495279,
-      "MACD": -1.059909
+      "DEA": -22.951591,
+      "MACD": -3.931492
     },
     {
       "ticker": "NFLX",
@@ -219,17 +180,17 @@
       "MACD": -1.444049
     },
     {
-      "ticker": "ON",
+      "ticker": "OLN",
       "market": "US",
-      "sector": "Information Technology",
-      "industry": "Semiconductors",
+      "sector": "Materials",
+      "industry": "Chemicals",
       "timeframe": "daily",
-      "signal_date": "2026-08-07",
+      "signal_date": "2026-08-11",
       "bars_ago": 1,
-      "close": 81.17,
-      "DIFF": -5.61598,
-      "DEA": -5.678768,
-      "MACD": 0.125575
+      "close": 19.08,
+      "DIFF": -0.977143,
+      "DEA": -0.762157,
+      "MACD": -0.429971
     },
     {
       "ticker": "ORCL",
@@ -254,8 +215,8 @@
       "bars_ago": 1,
       "close": 163.96,
       "DIFF": -24.799523,
-      "DEA": -22.99239,
-      "MACD": -3.614265
+      "DEA": -22.992391,
+      "MACD": -3.614264
     },
     {
       "ticker": "PYPL",
@@ -271,17 +232,17 @@
       "MACD": -1.018527
     },
     {
-      "ticker": "ROL",
+      "ticker": "REX",
       "market": "US",
-      "sector": "Industrials",
-      "industry": "Personal Services",
+      "sector": "Energy",
+      "industry": "Chemicals",
       "timeframe": "daily",
-      "signal_date": "2026-08-07",
+      "signal_date": "2026-08-11",
       "bars_ago": 1,
-      "close": 37.557,
-      "DIFF": -2.013426,
-      "DEA": -1.855023,
-      "MACD": -0.316806
+      "close": 43.35,
+      "DIFF": -0.654197,
+      "DEA": -0.572213,
+      "MACD": -0.163968
     },
     {
       "ticker": "SNPS",
@@ -295,19 +256,6 @@
       "DIFF": -15.436936,
       "DEA": -7.89647,
       "MACD": -15.080933
-    },
-    {
-      "ticker": "STWD",
-      "market": "US",
-      "sector": "Financials",
-      "industry": "REIT - Mortgage",
-      "timeframe": "daily",
-      "signal_date": "2026-08-07",
-      "bars_ago": 1,
-      "close": 16.45,
-      "DIFF": -0.100476,
-      "DEA": -0.072185,
-      "MACD": -0.05658
     },
     {
       "ticker": "STWD",
@@ -332,7 +280,7 @@
       "bars_ago": 1,
       "close": 79.06,
       "DIFF": -3.643298,
-      "DEA": -3.586553,
+      "DEA": -3.586554,
       "MACD": -0.113489
     },
     {
@@ -372,7 +320,7 @@
       "close": 368.12,
       "DIFF": -14.327018,
       "DEA": -10.567334,
-      "MACD": -7.519368
+      "MACD": -7.519369
     },
     {
       "ticker": "XPO",
@@ -380,12 +328,12 @@
       "sector": "Industrials",
       "industry": "Trucking",
       "timeframe": "daily",
-      "signal_date": "2026-08-07",
+      "signal_date": "2026-08-11",
       "bars_ago": 1,
-      "close": 202.58,
-      "DIFF": -2.639332,
-      "DEA": -1.824768,
-      "MACD": -1.629129
+      "close": 203.4,
+      "DIFF": -2.343186,
+      "DEA": -2.05579,
+      "MACD": -0.574792
     },
     {
       "ticker": "CCOI",
@@ -440,30 +388,17 @@
       "MACD": -0.029002
     },
     {
-      "ticker": "LKQ",
+      "ticker": "MIR",
       "market": "US",
-      "sector": "Consumer Discretionary",
-      "industry": "Auto Parts",
+      "sector": "Information Technology",
+      "industry": "Specialty Industrial Machinery",
       "timeframe": "daily",
-      "signal_date": "2026-08-06",
+      "signal_date": "2026-08-07",
       "bars_ago": 2,
-      "close": 24.47,
-      "DIFF": -0.489364,
-      "DEA": -0.408095,
-      "MACD": -0.162537
-    },
-    {
-      "ticker": "MTDR",
-      "market": "US",
-      "sector": "Energy",
-      "industry": "Oil & Gas E&P",
-      "timeframe": "daily",
-      "signal_date": "2026-08-06",
-      "bars_ago": 2,
-      "close": 48.2881,
-      "DIFF": -1.140274,
-      "DEA": -0.920924,
-      "MACD": -0.4387
+      "close": 15.71,
+      "DIFF": -0.451949,
+      "DEA": -0.449676,
+      "MACD": -0.004545
     },
     {
       "ticker": "OLED",
@@ -477,19 +412,6 @@
       "DIFF": -8.511534,
       "DEA": -8.566183,
       "MACD": 0.109297
-    },
-    {
-      "ticker": "WMG",
-      "market": "US",
-      "sector": "Communication",
-      "industry": "Entertainment",
-      "timeframe": "daily",
-      "signal_date": "2026-08-06",
-      "bars_ago": 2,
-      "close": 26.44,
-      "DIFF": -0.62487,
-      "DEA": -0.482742,
-      "MACD": -0.284256
     }
   ]
 }
