@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-13T16:54:05.592570+00:00",
-  "next_scan_at": "2026-08-13T17:00:00+00:00",
+  "generated_at": "2026-08-13T17:54:08.538695+00:00",
+  "next_scan_at": "2026-08-13T18:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
   "stats": {
@@ -12,12 +12,12 @@
       "ticker": "INOD",
       "group": "Semi",
       "timeframe": "1h",
-      "signal_ts": "2026-08-13 16:30 UTC",
+      "signal_ts": "2026-08-13 17:30 UTC",
       "bars_ago": 0,
-      "close": 61.13,
-      "DIFF": -0.887781,
-      "DEA": -0.849478,
-      "MACD": -0.076604
+      "close": 61.0571,
+      "DIFF": -0.877943,
+      "DEA": -0.856065,
+      "MACD": -0.043756
     }
   ]
 }
