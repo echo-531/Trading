@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-12T16:55:41.663056+00:00",
+  "generated_at": "2026-08-13T00:42:30.123269+00:00",
   "lookback": {
     "1d": 3,
     "1wk": 3,
@@ -7,7 +7,7 @@
   },
   "stats": {
     "total_scanned": 1504,
-    "buy_signals": 31
+    "buy_signals": 21
   },
   "buy_signals": [
     {
@@ -18,10 +18,23 @@
       "timeframe": "monthly",
       "signal_date": "2026-08-01",
       "bars_ago": 0,
-      "close": 10.6005,
-      "DIFF": -0.26556,
-      "DEA": -0.238984,
-      "MACD": -0.053152
+      "close": 10.73,
+      "DIFF": -0.25523,
+      "DEA": -0.236918,
+      "MACD": -0.036624
+    },
+    {
+      "ticker": "FUN",
+      "market": "US",
+      "sector": "Consumer Discretionary",
+      "industry": "Leisure",
+      "timeframe": "daily",
+      "signal_date": "2026-08-12",
+      "bars_ago": 0,
+      "close": 16.44,
+      "DIFF": -0.911366,
+      "DEA": -0.851477,
+      "MACD": -0.119779
     },
     {
       "ticker": "NOG",
@@ -31,10 +44,10 @@
       "timeframe": "monthly",
       "signal_date": "2026-08-01",
       "bars_ago": 0,
-      "close": 24.01,
-      "DIFF": -1.716901,
-      "DEA": -1.506761,
-      "MACD": -0.420281
+      "close": 24.09,
+      "DIFF": -1.71052,
+      "DEA": -1.505485,
+      "MACD": -0.41007
     },
     {
       "ticker": "OLED",
@@ -44,23 +57,10 @@
       "timeframe": "monthly",
       "signal_date": "2026-08-01",
       "bars_ago": 0,
-      "close": 92.33,
-      "DIFF": -18.171584,
-      "DEA": -14.295304,
-      "MACD": -7.75256
-    },
-    {
-      "ticker": "YUM",
-      "market": "US",
-      "sector": "Consumer Discretionary",
-      "industry": "Restaurants",
-      "timeframe": "daily",
-      "signal_date": "2026-08-12",
-      "bars_ago": 0,
-      "close": 148.9775,
-      "DIFF": -1.765001,
-      "DEA": -1.496545,
-      "MACD": -0.536911
+      "close": 92.01,
+      "DIFF": -18.197111,
+      "DEA": -14.30041,
+      "MACD": -7.793403
     },
     {
       "ticker": "AVY",
@@ -71,9 +71,9 @@
       "signal_date": "2026-07-01",
       "bars_ago": 1,
       "close": 169.73,
-      "DIFF": -4.291263,
+      "DIFF": -4.291262,
       "DEA": -3.210508,
-      "MACD": -2.161511
+      "MACD": -2.16151
     },
     {
       "ticker": "CAR",
@@ -162,9 +162,9 @@
       "signal_date": "2026-07-01",
       "bars_ago": 1,
       "close": 162.3,
-      "DIFF": -24.917337,
+      "DIFF": -24.917336,
       "DEA": -22.951591,
-      "MACD": -3.931492
+      "MACD": -3.931491
     },
     {
       "ticker": "NFLX",
@@ -204,136 +204,6 @@
       "DIFF": -13.288616,
       "DEA": -9.411223,
       "MACD": -7.754786
-    },
-    {
-      "ticker": "PAYC",
-      "market": "US",
-      "sector": "Industrials",
-      "industry": "Software - Application",
-      "timeframe": "monthly",
-      "signal_date": "2026-07-01",
-      "bars_ago": 1,
-      "close": 163.96,
-      "DIFF": -24.799523,
-      "DEA": -22.992391,
-      "MACD": -3.614264
-    },
-    {
-      "ticker": "PYPL",
-      "market": "US",
-      "sector": "Financials",
-      "industry": "Credit Services",
-      "timeframe": "monthly",
-      "signal_date": "2026-07-01",
-      "bars_ago": 1,
-      "close": 57.21,
-      "DIFF": -8.032173,
-      "DEA": -7.522909,
-      "MACD": -1.018527
-    },
-    {
-      "ticker": "REX",
-      "market": "US",
-      "sector": "Energy",
-      "industry": "Chemicals",
-      "timeframe": "daily",
-      "signal_date": "2026-08-11",
-      "bars_ago": 1,
-      "close": 43.35,
-      "DIFF": -0.654197,
-      "DEA": -0.572213,
-      "MACD": -0.163968
-    },
-    {
-      "ticker": "SNPS",
-      "market": "US",
-      "sector": "Information Technology",
-      "industry": "Software - Infrastructure",
-      "timeframe": "weekly",
-      "signal_date": "2026-08-03",
-      "bars_ago": 1,
-      "close": 415.99,
-      "DIFF": -15.436936,
-      "DEA": -7.89647,
-      "MACD": -15.080933
-    },
-    {
-      "ticker": "STWD",
-      "market": "US",
-      "sector": "Financials",
-      "industry": "REIT - Mortgage",
-      "timeframe": "weekly",
-      "signal_date": "2026-08-03",
-      "bars_ago": 1,
-      "close": 16.45,
-      "DIFF": -0.175325,
-      "DEA": -0.146118,
-      "MACD": -0.058415
-    },
-    {
-      "ticker": "USPH",
-      "market": "US",
-      "sector": "Health Care",
-      "industry": "Medical Care Facilities",
-      "timeframe": "monthly",
-      "signal_date": "2026-07-01",
-      "bars_ago": 1,
-      "close": 79.06,
-      "DIFF": -3.643298,
-      "DEA": -3.586554,
-      "MACD": -0.113489
-    },
-    {
-      "ticker": "VEEV",
-      "market": "US",
-      "sector": "Health Care",
-      "industry": "Health Information Services",
-      "timeframe": "monthly",
-      "signal_date": "2026-07-01",
-      "bars_ago": 1,
-      "close": 203.78,
-      "DIFF": -10.265884,
-      "DEA": -1.638264,
-      "MACD": -17.255238
-    },
-    {
-      "ticker": "VICI",
-      "market": "US",
-      "sector": "Real Estate",
-      "industry": "REIT - Diversified",
-      "timeframe": "weekly",
-      "signal_date": "2026-08-03",
-      "bars_ago": 1,
-      "close": 26.74,
-      "DIFF": -0.410689,
-      "DEA": -0.351695,
-      "MACD": -0.117988
-    },
-    {
-      "ticker": "WINA",
-      "market": "US",
-      "sector": "Consumer Discretionary",
-      "industry": "Specialty Retail",
-      "timeframe": "weekly",
-      "signal_date": "2026-08-03",
-      "bars_ago": 1,
-      "close": 368.12,
-      "DIFF": -14.327018,
-      "DEA": -10.567334,
-      "MACD": -7.519369
-    },
-    {
-      "ticker": "XPO",
-      "market": "US",
-      "sector": "Industrials",
-      "industry": "Trucking",
-      "timeframe": "daily",
-      "signal_date": "2026-08-11",
-      "bars_ago": 1,
-      "close": 203.4,
-      "DIFF": -2.343186,
-      "DEA": -2.05579,
-      "MACD": -0.574792
     },
     {
       "ticker": "CCOI",
