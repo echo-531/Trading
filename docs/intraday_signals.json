@@ -1,23 +1,11 @@
 {
-  "generated_at": "2026-08-13T19:54:04.123257+00:00",
-  "next_scan_at": "2026-08-13T20:00:00+00:00",
+  "generated_at": "2026-08-14T14:28:50.008999+00:00",
+  "next_scan_at": "2026-08-14T15:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
   "stats": {
     "total_scanned": 78,
-    "buy_signals": 1
+    "buy_signals": 0
   },
-  "buy_signals": [
-    {
-      "ticker": "INOD",
-      "group": "Semi",
-      "timeframe": "1h",
-      "signal_ts": "2026-08-13 17:30 UTC",
-      "bars_ago": 2,
-      "close": 61.42,
-      "DIFF": -0.848994,
-      "DEA": -0.850275,
-      "MACD": 0.002562
-    }
-  ]
+  "buy_signals": []
 }
