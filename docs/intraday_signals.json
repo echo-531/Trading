@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-19T18:32:18.947463+00:00",
-  "next_scan_at": "2026-08-19T19:00:00+00:00",
+  "generated_at": "2026-08-19T19:20:39.228604+00:00",
+  "next_scan_at": "2026-08-19T20:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
   "stats": {
@@ -9,15 +9,15 @@
   },
   "buy_signals": [
     {
-      "ticker": "CLS",
-      "group": "Semi",
+      "ticker": "ONDS",
+      "group": "太空",
       "timeframe": "1h",
       "signal_ts": "2026-08-19 18:30 UTC",
       "bars_ago": 0,
-      "close": 302.77,
-      "DIFF": -9.658464,
-      "DEA": -7.944758,
-      "MACD": -3.427411
+      "close": 8.89,
+      "DIFF": -0.077944,
+      "DEA": -0.077407,
+      "MACD": -0.001073
     }
   ]
 }
