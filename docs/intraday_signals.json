@@ -1,11 +1,23 @@
 {
-  "generated_at": "2026-08-19T17:21:58.332799+00:00",
-  "next_scan_at": "2026-08-19T18:00:00+00:00",
+  "generated_at": "2026-08-19T18:32:18.947463+00:00",
+  "next_scan_at": "2026-08-19T19:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
   "stats": {
     "total_scanned": 78,
-    "buy_signals": 0
+    "buy_signals": 1
   },
-  "buy_signals": []
+  "buy_signals": [
+    {
+      "ticker": "CLS",
+      "group": "Semi",
+      "timeframe": "1h",
+      "signal_ts": "2026-08-19 18:30 UTC",
+      "bars_ago": 0,
+      "close": 302.77,
+      "DIFF": -9.658464,
+      "DEA": -7.944758,
+      "MACD": -3.427411
+    }
+  ]
 }
