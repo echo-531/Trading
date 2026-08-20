@@ -1,34 +1,45 @@
 {
-  "generated_at": "2026-08-20T19:26:31.578085+00:00",
+  "generated_at": "2026-08-20T19:52:20.176260+00:00",
   "next_scan_at": "2026-08-20T20:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
   "stats": {
     "total_scanned": 78,
-    "buy_signals": 2
+    "buy_signals": 3
   },
   "buy_signals": [
     {
-      "ticker": "CLS",
+      "ticker": "CGNX",
       "group": "Semi",
       "timeframe": "1h",
-      "signal_ts": "2026-08-20 16:30 UTC",
-      "bars_ago": 2,
-      "close": 297.8242,
-      "DIFF": -9.174545,
-      "DEA": -8.902713,
-      "MACD": -0.543662
+      "signal_ts": "2026-08-20 19:30 UTC",
+      "bars_ago": 0,
+      "close": 59.73,
+      "DIFF": -1.161504,
+      "DEA": -1.02351,
+      "MACD": -0.275988
     },
     {
-      "ticker": "VPG",
-      "group": "Semi",
+      "ticker": "GOOGL",
+      "group": "MEGA7",
       "timeframe": "1h",
-      "signal_ts": "2026-08-20 16:30 UTC",
-      "bars_ago": 2,
-      "close": 61.915,
-      "DIFF": -2.421033,
-      "DEA": -2.110897,
-      "MACD": -0.620271
+      "signal_ts": "2026-08-20 19:30 UTC",
+      "bars_ago": 0,
+      "close": 340.98,
+      "DIFF": -1.202678,
+      "DEA": -0.992381,
+      "MACD": -0.420594
+    },
+    {
+      "ticker": "XE",
+      "group": "电力",
+      "timeframe": "1h",
+      "signal_ts": "2026-08-20 19:30 UTC",
+      "bars_ago": 0,
+      "close": 18.3,
+      "DIFF": -0.56908,
+      "DEA": -0.50069,
+      "MACD": -0.13678
     }
   ]
 }
