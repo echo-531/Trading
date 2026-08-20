@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-08-20T14:05:49.062803+00:00",
+  "generated_at": "2026-08-20T14:36:45.201968+00:00",
   "next_scan_at": "2026-08-20T15:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
   "stats": {
     "total_scanned": 78,
-    "buy_signals": 2
+    "buy_signals": 1
   },
   "buy_signals": [
     {
@@ -13,22 +13,11 @@
       "group": "Semi",
       "timeframe": "1h",
       "signal_ts": "2026-08-19 19:30 UTC",
-      "bars_ago": 1,
+      "bars_ago": 2,
       "close": 301.47,
       "DIFF": -9.60885,
       "DEA": -8.285231,
       "MACD": -2.647238
-    },
-    {
-      "ticker": "ONDS",
-      "group": "太空",
-      "timeframe": "1h",
-      "signal_ts": "2026-08-19 18:30 UTC",
-      "bars_ago": 2,
-      "close": 8.9199,
-      "DIFF": -0.075558,
-      "DEA": -0.07693,
-      "MACD": 0.002743
     }
   ]
 }
