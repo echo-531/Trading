@@ -1,23 +1,34 @@
 {
-  "generated_at": "2026-08-20T17:23:35.975575+00:00",
-  "next_scan_at": "2026-08-20T18:00:00+00:00",
+  "generated_at": "2026-08-20T18:36:00.305335+00:00",
+  "next_scan_at": "2026-08-20T19:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
   "stats": {
     "total_scanned": 78,
-    "buy_signals": 1
+    "buy_signals": 2
   },
   "buy_signals": [
+    {
+      "ticker": "VPG",
+      "group": "Semi",
+      "timeframe": "1h",
+      "signal_ts": "2026-08-20 18:30 UTC",
+      "bars_ago": 0,
+      "close": 61.51,
+      "DIFF": -2.355188,
+      "DEA": -2.206452,
+      "MACD": -0.297473
+    },
     {
       "ticker": "CLS",
       "group": "Semi",
       "timeframe": "1h",
       "signal_ts": "2026-08-20 16:30 UTC",
-      "bars_ago": 0,
-      "close": 298.09,
-      "DIFF": -9.15334,
-      "DEA": -8.898473,
-      "MACD": -0.509736
+      "bars_ago": 2,
+      "close": 297.8242,
+      "DIFF": -9.174545,
+      "DEA": -8.902713,
+      "MACD": -0.543662
     }
   ]
 }
