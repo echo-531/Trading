@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T09:28:09.588618+00:00",
+  "generated_at": "2026-08-20T09:32:41.149823+00:00",
   "lookback": {
     "1d": 3,
     "1wk": 3,
@@ -7,7 +7,7 @@
   },
   "stats": {
     "total_scanned": 1504,
-    "buy_signals": 31
+    "buy_signals": 37
   },
   "buy_signals": [
     {
@@ -16,12 +16,103 @@
       "sector": "Health Care",
       "industry": "Drug Manufacturers - Specialty & Generic",
       "timeframe": "daily",
-      "signal_date": "2026-08-18",
+      "signal_date": "2026-08-19",
       "bars_ago": 0,
-      "close": 28.5,
-      "DIFF": -2.10217,
-      "DEA": -1.632196,
-      "MACD": -0.939948
+      "close": 28.74,
+      "DIFF": -2.005996,
+      "DEA": -1.555768,
+      "MACD": -0.900456
+    },
+    {
+      "ticker": "FMC",
+      "market": "US",
+      "sector": "Materials",
+      "industry": "Agricultural Inputs",
+      "timeframe": "daily",
+      "signal_date": "2026-08-19",
+      "bars_ago": 0,
+      "close": 10.81,
+      "DIFF": -0.25718,
+      "DEA": -0.277713,
+      "MACD": 0.041067
+    },
+    {
+      "ticker": "FUN",
+      "market": "US",
+      "sector": "Consumer Discretionary",
+      "industry": "Leisure",
+      "timeframe": "daily",
+      "signal_date": "2026-08-19",
+      "bars_ago": 0,
+      "close": 16.9,
+      "DIFF": -0.79126,
+      "DEA": -0.849601,
+      "MACD": 0.116682
+    },
+    {
+      "ticker": "G",
+      "market": "US",
+      "sector": "Industrials",
+      "industry": "Information Technology Services",
+      "timeframe": "monthly",
+      "signal_date": "2026-08-01",
+      "bars_ago": 0,
+      "close": 36.4,
+      "DIFF": -1.661988,
+      "DEA": -0.511369,
+      "MACD": -2.301238
+    },
+    {
+      "ticker": "HLI",
+      "market": "US",
+      "sector": "Financials",
+      "industry": "Capital Markets",
+      "timeframe": "weekly",
+      "signal_date": "2026-08-17",
+      "bars_ago": 0,
+      "close": 130.09,
+      "DIFF": -8.463819,
+      "DEA": -8.182681,
+      "MACD": -0.562276
+    },
+    {
+      "ticker": "IBM",
+      "market": "US",
+      "sector": "Information Technology",
+      "industry": "Information Technology Services",
+      "timeframe": "weekly",
+      "signal_date": "2026-08-17",
+      "bars_ago": 0,
+      "close": 237.16,
+      "DIFF": -7.281143,
+      "DEA": -5.307567,
+      "MACD": -3.947152
+    },
+    {
+      "ticker": "LPX",
+      "market": "US",
+      "sector": "Industrials",
+      "industry": "Building Products & Equipment",
+      "timeframe": "daily",
+      "signal_date": "2026-08-19",
+      "bars_ago": 0,
+      "close": 75.99,
+      "DIFF": -0.147646,
+      "DEA": -0.06738,
+      "MACD": -0.160532
+    },
+    {
+      "ticker": "NKE",
+      "market": "US",
+      "sector": "Consumer Discretionary",
+      "industry": "Footwear & Accessories",
+      "timeframe": "daily",
+      "signal_date": "2026-08-19",
+      "bars_ago": 0,
+      "close": 41.05,
+      "DIFF": -0.677389,
+      "DEA": -0.552787,
+      "MACD": -0.249204
     },
     {
       "ticker": "NOG",
@@ -31,23 +122,36 @@
       "timeframe": "monthly",
       "signal_date": "2026-08-01",
       "bars_ago": 0,
-      "close": 25.39,
-      "DIFF": -1.606816,
-      "DEA": -1.484744,
-      "MACD": -0.244144
+      "close": 26.06,
+      "DIFF": -1.553369,
+      "DEA": -1.474055,
+      "MACD": -0.158629
     },
     {
-      "ticker": "PODD",
+      "ticker": "NRG",
       "market": "US",
-      "sector": "Health Care",
-      "industry": "Medical Devices",
+      "sector": "Utilities",
+      "industry": "Utilities - Independent Power Producers",
       "timeframe": "daily",
-      "signal_date": "2026-08-18",
+      "signal_date": "2026-08-19",
       "bars_ago": 0,
-      "close": 148.03,
-      "DIFF": -4.396557,
-      "DEA": -3.290112,
-      "MACD": -2.212889
+      "close": 120.58,
+      "DIFF": -4.05412,
+      "DEA": -3.917567,
+      "MACD": -0.273107
+    },
+    {
+      "ticker": "OLN",
+      "market": "US",
+      "sector": "Materials",
+      "industry": "Chemicals",
+      "timeframe": "daily",
+      "signal_date": "2026-08-19",
+      "bars_ago": 0,
+      "close": 18.71,
+      "DIFF": -0.855454,
+      "DEA": -0.859004,
+      "MACD": 0.007099
     },
     {
       "ticker": "PSKY",
@@ -57,10 +161,49 @@
       "timeframe": "monthly",
       "signal_date": "2026-08-01",
       "bars_ago": 0,
-      "close": 10.43,
-      "DIFF": -1.224913,
-      "DEA": -1.021087,
-      "MACD": -0.407653
+      "close": 10.6,
+      "DIFF": -1.211352,
+      "DEA": -1.018375,
+      "MACD": -0.385955
+    },
+    {
+      "ticker": "STWD",
+      "market": "US",
+      "sector": "Financials",
+      "industry": "REIT - Mortgage",
+      "timeframe": "weekly",
+      "signal_date": "2026-08-17",
+      "bars_ago": 0,
+      "close": 16.56,
+      "DIFF": -0.165301,
+      "DEA": -0.155776,
+      "MACD": -0.019051
+    },
+    {
+      "ticker": "VICI",
+      "market": "US",
+      "sector": "Real Estate",
+      "industry": "REIT - Diversified",
+      "timeframe": "daily",
+      "signal_date": "2026-08-19",
+      "bars_ago": 0,
+      "close": 26.37,
+      "DIFF": -0.157854,
+      "DEA": -0.143027,
+      "MACD": -0.029653
+    },
+    {
+      "ticker": "ZTS",
+      "market": "US",
+      "sector": "Health Care",
+      "industry": "Drug Manufacturers - Specialty & Generic",
+      "timeframe": "daily",
+      "signal_date": "2026-08-19",
+      "bars_ago": 0,
+      "close": 76.68,
+      "DIFF": -0.480428,
+      "DEA": -0.538003,
+      "MACD": 0.11515
     },
     {
       "ticker": "AVY",
@@ -72,7 +215,7 @@
       "bars_ago": 1,
       "close": 169.73,
       "DIFF": -4.291263,
-      "DEA": -3.210507,
+      "DEA": -3.210508,
       "MACD": -2.161511
     },
     {
@@ -84,22 +227,9 @@
       "signal_date": "2026-08-10",
       "bars_ago": 1,
       "close": 11.31,
-      "DIFF": -3.501402,
-      "DEA": -3.456022,
-      "MACD": -0.090758
-    },
-    {
-      "ticker": "CLSK",
-      "market": "US",
-      "sector": "Information Technology",
-      "industry": "Capital Markets",
-      "timeframe": "daily",
-      "signal_date": "2026-08-17",
-      "bars_ago": 1,
-      "close": 12.4,
-      "DIFF": -0.644168,
-      "DEA": -0.544535,
-      "MACD": -0.199264
+      "DIFF": -3.489274,
+      "DEA": -3.44838,
+      "MACD": -0.081788
     },
     {
       "ticker": "DOCU",
@@ -135,10 +265,10 @@
       "timeframe": "monthly",
       "signal_date": "2026-07-01",
       "bars_ago": 1,
-      "close": 162.3,
-      "DIFF": -24.917334,
-      "DEA": -22.951589,
-      "MACD": -3.93149
+      "close": 161.5213,
+      "DIFF": -24.797783,
+      "DEA": -22.841469,
+      "MACD": -3.912628
     },
     {
       "ticker": "PAYC",
@@ -151,7 +281,20 @@
       "close": 163.96,
       "DIFF": -24.799522,
       "DEA": -22.99239,
-      "MACD": -3.614263
+      "MACD": -3.614264
+    },
+    {
+      "ticker": "PODD",
+      "market": "US",
+      "sector": "Health Care",
+      "industry": "Medical Devices",
+      "timeframe": "daily",
+      "signal_date": "2026-08-18",
+      "bars_ago": 1,
+      "close": 148.03,
+      "DIFF": -4.396557,
+      "DEA": -3.290112,
+      "MACD": -2.212889
     },
     {
       "ticker": "PYPL",
@@ -176,7 +319,7 @@
       "bars_ago": 1,
       "close": 182.61,
       "DIFF": -6.621036,
-      "DEA": -6.721942,
+      "DEA": -6.721941,
       "MACD": 0.201811
     },
     {
@@ -206,30 +349,17 @@
       "MACD": -17.255238
     },
     {
-      "ticker": "CAR",
+      "ticker": "CLSK",
       "market": "US",
-      "sector": "Industrials",
-      "industry": "Rental & Leasing Services",
+      "sector": "Information Technology",
+      "industry": "Capital Markets",
       "timeframe": "daily",
-      "signal_date": "2026-08-14",
+      "signal_date": "2026-08-17",
       "bars_ago": 2,
-      "close": 137.85,
-      "DIFF": -7.29634,
-      "DEA": -6.852752,
-      "MACD": -0.887178
-    },
-    {
-      "ticker": "CCOI",
-      "market": "US",
-      "sector": "Communication",
-      "industry": "Telecom Services",
-      "timeframe": "daily",
-      "signal_date": "2026-08-14",
-      "bars_ago": 2,
-      "close": 11.31,
-      "DIFF": -0.753758,
-      "DEA": -0.663496,
-      "MACD": -0.180524
+      "close": 12.4,
+      "DIFF": -0.644168,
+      "DEA": -0.544535,
+      "MACD": -0.199264
     },
     {
       "ticker": "CNM",
@@ -240,9 +370,9 @@
       "signal_date": "2026-08-03",
       "bars_ago": 2,
       "close": 46.55,
-      "DIFF": -1.962757,
-      "DEA": -1.73787,
-      "MACD": -0.449774
+      "DIFF": -1.935657,
+      "DEA": -1.726834,
+      "MACD": -0.417646
     },
     {
       "ticker": "ESAB",
@@ -253,22 +383,22 @@
       "signal_date": "2026-08-03",
       "bars_ago": 2,
       "close": 91.86,
-      "DIFF": -5.668314,
-      "DEA": -5.582712,
-      "MACD": -0.171203
+      "DIFF": -5.610419,
+      "DEA": -5.559135,
+      "MACD": -0.102567
     },
     {
-      "ticker": "HWKN",
+      "ticker": "GRBK",
       "market": "US",
-      "sector": "Materials",
-      "industry": "Specialty Chemicals",
+      "sector": "Consumer Discretionary",
+      "industry": "Residential Construction",
       "timeframe": "daily",
-      "signal_date": "2026-08-14",
+      "signal_date": "2026-08-17",
       "bars_ago": 2,
-      "close": 131.05,
-      "DIFF": -4.250324,
-      "DEA": -4.269106,
-      "MACD": 0.037564
+      "close": 70.88,
+      "DIFF": -0.581809,
+      "DEA": -0.490246,
+      "MACD": -0.183126
     },
     {
       "ticker": "LKQ",
@@ -297,19 +427,6 @@
       "MACD": -1.444049
     },
     {
-      "ticker": "NRG",
-      "market": "US",
-      "sector": "Utilities",
-      "industry": "Utilities - Independent Power Producers",
-      "timeframe": "daily",
-      "signal_date": "2026-08-14",
-      "bars_ago": 2,
-      "close": 126.24,
-      "DIFF": -4.097521,
-      "DEA": -3.835874,
-      "MACD": -0.523294
-    },
-    {
       "ticker": "ORCL",
       "market": "US",
       "sector": "Information Technology",
@@ -336,19 +453,6 @@
       "MACD": -0.140128
     },
     {
-      "ticker": "ROL",
-      "market": "US",
-      "sector": "Industrials",
-      "industry": "Personal Services",
-      "timeframe": "daily",
-      "signal_date": "2026-08-14",
-      "bars_ago": 2,
-      "close": 36.2,
-      "DIFF": -1.910656,
-      "DEA": -1.921327,
-      "MACD": 0.021341
-    },
-    {
       "ticker": "SNPS",
       "market": "US",
       "sector": "Information Technology",
@@ -360,19 +464,6 @@
       "DIFF": -15.436936,
       "DEA": -7.89647,
       "MACD": -15.080933
-    },
-    {
-      "ticker": "STWD",
-      "market": "US",
-      "sector": "Financials",
-      "industry": "REIT - Mortgage",
-      "timeframe": "weekly",
-      "signal_date": "2026-08-03",
-      "bars_ago": 2,
-      "close": 16.45,
-      "DIFF": -0.175325,
-      "DEA": -0.146118,
-      "MACD": -0.058415
     },
     {
       "ticker": "VICI",
@@ -388,30 +479,17 @@
       "MACD": -0.117988
     },
     {
-      "ticker": "WING",
+      "ticker": "WINA",
       "market": "US",
       "sector": "Consumer Discretionary",
-      "industry": "Restaurants",
-      "timeframe": "daily",
-      "signal_date": "2026-08-14",
+      "industry": "Specialty Retail",
+      "timeframe": "weekly",
+      "signal_date": "2026-08-03",
       "bars_ago": 2,
-      "close": 126.12,
-      "DIFF": -8.665566,
-      "DEA": -8.588594,
-      "MACD": -0.153944
-    },
-    {
-      "ticker": "WMG",
-      "market": "US",
-      "sector": "Communication",
-      "industry": "Entertainment",
-      "timeframe": "daily",
-      "signal_date": "2026-08-14",
-      "bars_ago": 2,
-      "close": 25.65,
-      "DIFF": -0.786946,
-      "DEA": -0.668533,
-      "MACD": -0.236826
+      "close": 367.105,
+      "DIFF": -14.287517,
+      "DEA": -10.5382,
+      "MACD": -7.498635
     }
   ]
 }
