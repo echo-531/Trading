@@ -1,11 +1,23 @@
 {
-  "generated_at": "2026-08-21T18:33:52.817671+00:00",
-  "next_scan_at": "2026-08-21T19:00:00+00:00",
+  "generated_at": "2026-08-21T19:22:07.050284+00:00",
+  "next_scan_at": "2026-08-21T20:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
   "stats": {
     "total_scanned": 78,
-    "buy_signals": 0
+    "buy_signals": 1
   },
-  "buy_signals": []
+  "buy_signals": [
+    {
+      "ticker": "AMZN",
+      "group": "MEGA7",
+      "timeframe": "1h",
+      "signal_ts": "2026-08-21 18:30 UTC",
+      "bars_ago": 0,
+      "close": 259.26,
+      "DIFF": -1.159797,
+      "DEA": -0.925478,
+      "MACD": -0.468637
+    }
+  ]
 }
