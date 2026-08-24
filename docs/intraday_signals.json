@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-21T19:44:32.217634+00:00",
-  "next_scan_at": "2026-08-21T20:00:00+00:00",
+  "generated_at": "2026-08-24T14:08:12.916878+00:00",
+  "next_scan_at": "2026-08-24T15:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
   "stats": {
@@ -12,12 +12,12 @@
       "ticker": "AMZN",
       "group": "MEGA7",
       "timeframe": "1h",
-      "signal_ts": "2026-08-21 18:30 UTC",
-      "bars_ago": 1,
-      "close": 259.47,
-      "DIFF": -1.143045,
-      "DEA": -0.922128,
-      "MACD": -0.441835
+      "signal_ts": "2026-08-24 13:30 UTC",
+      "bars_ago": 0,
+      "close": 260.79,
+      "DIFF": -1.008924,
+      "DEA": -0.979314,
+      "MACD": -0.059221
     }
   ]
 }
