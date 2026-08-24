@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T15:10:09.311139+00:00",
+  "generated_at": "2026-08-24T15:44:53.571825+00:00",
   "next_scan_at": "2026-08-24T16:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
@@ -13,7 +13,7 @@
       "group": "MEGA7",
       "timeframe": "1h",
       "signal_ts": "2026-08-24 13:30 UTC",
-      "bars_ago": 1,
+      "bars_ago": 2,
       "close": 261.41,
       "DIFF": -0.959466,
       "DEA": -0.969422,
