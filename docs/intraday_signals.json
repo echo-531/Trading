@@ -1,45 +1,23 @@
 {
-  "generated_at": "2026-08-24T16:33:48.409068+00:00",
-  "next_scan_at": "2026-08-24T17:00:00+00:00",
+  "generated_at": "2026-08-24T17:25:58.430686+00:00",
+  "next_scan_at": "2026-08-24T18:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
   "stats": {
     "total_scanned": 78,
-    "buy_signals": 4
+    "buy_signals": 2
   },
   "buy_signals": [
     {
-      "ticker": "QQQ",
-      "group": "ETF",
+      "ticker": "NBIS",
+      "group": "数据中心",
       "timeframe": "1h",
       "signal_ts": "2026-08-24 16:30 UTC",
       "bars_ago": 0,
-      "close": 708.44,
-      "DIFF": -2.863883,
-      "DEA": -2.867506,
-      "MACD": 0.007245
-    },
-    {
-      "ticker": "ARM",
-      "group": "Semi",
-      "timeframe": "1h",
-      "signal_ts": "2026-08-24 16:30 UTC",
-      "bars_ago": 0,
-      "close": 238.86,
-      "DIFF": -5.002379,
-      "DEA": -4.988095,
-      "MACD": -0.028569
-    },
-    {
-      "ticker": "INTC",
-      "group": "Semi",
-      "timeframe": "1h",
-      "signal_ts": "2026-08-24 16:30 UTC",
-      "bars_ago": 0,
-      "close": 87.6301,
-      "DIFF": -2.331893,
-      "DEA": -2.26706,
-      "MACD": -0.129667
+      "close": 210.79,
+      "DIFF": -7.265019,
+      "DEA": -7.278877,
+      "MACD": 0.027717
     },
     {
       "ticker": "CRWV",
