@@ -1,23 +1,56 @@
 {
-  "generated_at": "2026-08-24T15:44:53.571825+00:00",
-  "next_scan_at": "2026-08-24T16:00:00+00:00",
+  "generated_at": "2026-08-24T16:33:48.409068+00:00",
+  "next_scan_at": "2026-08-24T17:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
   "stats": {
     "total_scanned": 78,
-    "buy_signals": 1
+    "buy_signals": 4
   },
   "buy_signals": [
     {
-      "ticker": "AMZN",
-      "group": "MEGA7",
+      "ticker": "QQQ",
+      "group": "ETF",
       "timeframe": "1h",
-      "signal_ts": "2026-08-24 13:30 UTC",
-      "bars_ago": 2,
-      "close": 261.41,
-      "DIFF": -0.959466,
-      "DEA": -0.969422,
-      "MACD": 0.019912
+      "signal_ts": "2026-08-24 16:30 UTC",
+      "bars_ago": 0,
+      "close": 708.44,
+      "DIFF": -2.863883,
+      "DEA": -2.867506,
+      "MACD": 0.007245
+    },
+    {
+      "ticker": "ARM",
+      "group": "Semi",
+      "timeframe": "1h",
+      "signal_ts": "2026-08-24 16:30 UTC",
+      "bars_ago": 0,
+      "close": 238.86,
+      "DIFF": -5.002379,
+      "DEA": -4.988095,
+      "MACD": -0.028569
+    },
+    {
+      "ticker": "INTC",
+      "group": "Semi",
+      "timeframe": "1h",
+      "signal_ts": "2026-08-24 16:30 UTC",
+      "bars_ago": 0,
+      "close": 87.6301,
+      "DIFF": -2.331893,
+      "DEA": -2.26706,
+      "MACD": -0.129667
+    },
+    {
+      "ticker": "CRWV",
+      "group": "Semi",
+      "timeframe": "1h",
+      "signal_ts": "2026-08-24 15:30 UTC",
+      "bars_ago": 1,
+      "close": 86.91,
+      "DIFF": -2.582401,
+      "DEA": -2.608864,
+      "MACD": 0.052926
     }
   ]
 }
