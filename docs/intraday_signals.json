@@ -1,41 +1,63 @@
 {
-  "generated_at": "2026-08-24T19:24:40.426714+00:00",
+  "generated_at": "2026-08-24T19:51:23.080510+00:00",
   "next_scan_at": "2026-08-24T20:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
   "stats": {
     "total_scanned": 78,
-    "buy_signals": 12
+    "buy_signals": 13
   },
   "buy_signals": [
+    {
+      "ticker": "POET",
+      "group": "光",
+      "timeframe": "1h",
+      "signal_ts": "2026-08-24 19:30 UTC",
+      "bars_ago": 0,
+      "close": 7.81,
+      "DIFF": -0.208672,
+      "DEA": -0.194872,
+      "MACD": -0.0276
+    },
+    {
+      "ticker": "NOK",
+      "group": "Semi",
+      "timeframe": "1h",
+      "signal_ts": "2026-08-24 18:30 UTC",
+      "bars_ago": 1,
+      "close": 9.99,
+      "DIFF": -0.094559,
+      "DEA": -0.08503,
+      "MACD": -0.019057
+    },
     {
       "ticker": "CGNX",
       "group": "Semi",
       "timeframe": "1h",
       "signal_ts": "2026-08-24 18:30 UTC",
-      "bars_ago": 0,
-      "close": 58.74,
-      "DIFF": -0.893179,
-      "DEA": -0.90767,
-      "MACD": 0.028982
+      "bars_ago": 1,
+      "close": 58.8199,
+      "DIFF": -0.886805,
+      "DEA": -0.906395,
+      "MACD": 0.03918
     },
     {
       "ticker": "QQQ",
       "group": "ETF",
       "timeframe": "1h",
       "signal_ts": "2026-08-24 17:30 UTC",
-      "bars_ago": 1,
+      "bars_ago": 2,
       "close": 709.16,
-      "DIFF": -2.81807,
-      "DEA": -2.873035,
-      "MACD": 0.109931
+      "DIFF": -2.818041,
+      "DEA": -2.872993,
+      "MACD": 0.109904
     },
     {
       "ticker": "XLK",
       "group": "ETF",
       "timeframe": "1h",
       "signal_ts": "2026-08-24 17:30 UTC",
-      "bars_ago": 1,
+      "bars_ago": 2,
       "close": 181.06,
       "DIFF": -1.319971,
       "DEA": -1.239226,
@@ -46,18 +68,18 @@
       "group": "Semi",
       "timeframe": "1h",
       "signal_ts": "2026-08-24 17:30 UTC",
-      "bars_ago": 1,
+      "bars_ago": 2,
       "close": 239.3,
-      "DIFF": -4.894007,
-      "DEA": -4.974637,
-      "MACD": 0.16126
+      "DIFF": -4.894008,
+      "DEA": -4.974638,
+      "MACD": 0.161261
     },
     {
       "ticker": "SMTC",
       "group": "Semi",
       "timeframe": "1h",
       "signal_ts": "2026-08-24 17:30 UTC",
-      "bars_ago": 1,
+      "bars_ago": 2,
       "close": 119.2101,
       "DIFF": -3.594949,
       "DEA": -3.532818,
@@ -68,7 +90,7 @@
       "group": "Semi",
       "timeframe": "1h",
       "signal_ts": "2026-08-24 17:30 UTC",
-      "bars_ago": 1,
+      "bars_ago": 2,
       "close": 48.095,
       "DIFF": -1.533855,
       "DEA": -1.521546,
@@ -79,7 +101,7 @@
       "group": "Semi",
       "timeframe": "1h",
       "signal_ts": "2026-08-24 17:30 UTC",
-      "bars_ago": 1,
+      "bars_ago": 2,
       "close": 87.8,
       "DIFF": -2.301192,
       "DEA": -2.281545,
@@ -90,29 +112,29 @@
       "group": "光",
       "timeframe": "1h",
       "signal_ts": "2026-08-24 17:30 UTC",
-      "bars_ago": 1,
+      "bars_ago": 2,
       "close": 145.98,
-      "DIFF": -3.301283,
-      "DEA": -3.302941,
-      "MACD": 0.003316
+      "DIFF": -3.301282,
+      "DEA": -3.30294,
+      "MACD": 0.003315
     },
     {
       "ticker": "LITE",
       "group": "光",
       "timeframe": "1h",
       "signal_ts": "2026-08-24 17:30 UTC",
-      "bars_ago": 1,
+      "bars_ago": 2,
       "close": 841.78,
-      "DIFF": -12.060002,
-      "DEA": -10.352148,
-      "MACD": -3.415709
+      "DIFF": -12.060015,
+      "DEA": -10.352167,
+      "MACD": -3.415697
     },
     {
       "ticker": "FORM",
       "group": "光",
       "timeframe": "1h",
       "signal_ts": "2026-08-24 17:30 UTC",
-      "bars_ago": 1,
+      "bars_ago": 2,
       "close": 108.01,
       "DIFF": -3.670246,
       "DEA": -3.468067,
@@ -123,22 +145,11 @@
       "group": "存储",
       "timeframe": "1h",
       "signal_ts": "2026-08-24 17:30 UTC",
-      "bars_ago": 1,
-      "close": 439.6549,
-      "DIFF": -12.426742,
-      "DEA": -10.334253,
-      "MACD": -4.184978
-    },
-    {
-      "ticker": "NBIS",
-      "group": "数据中心",
-      "timeframe": "1h",
-      "signal_ts": "2026-08-24 16:30 UTC",
       "bars_ago": 2,
-      "close": 210.51,
-      "DIFF": -7.287355,
-      "DEA": -7.283345,
-      "MACD": -0.008021
+      "close": 439.6549,
+      "DIFF": -12.426699,
+      "DEA": -10.334266,
+      "MACD": -4.184866
     }
   ]
 }
