@@ -1,34 +1,23 @@
 {
-  "generated_at": "2026-08-24T18:37:07.377299+00:00",
-  "next_scan_at": "2026-08-24T19:00:00+00:00",
+  "generated_at": "2026-08-24T19:24:40.426714+00:00",
+  "next_scan_at": "2026-08-24T20:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
   "stats": {
     "total_scanned": 78,
-    "buy_signals": 13
+    "buy_signals": 12
   },
   "buy_signals": [
-    {
-      "ticker": "STX",
-      "group": "Semi",
-      "timeframe": "1h",
-      "signal_ts": "2026-08-24 18:30 UTC",
-      "bars_ago": 0,
-      "close": 803.6,
-      "DIFF": -22.621602,
-      "DEA": -20.546385,
-      "MACD": -4.150434
-    },
     {
       "ticker": "CGNX",
       "group": "Semi",
       "timeframe": "1h",
       "signal_ts": "2026-08-24 18:30 UTC",
       "bars_ago": 0,
-      "close": 58.77,
-      "DIFF": -0.890786,
-      "DEA": -0.907191,
-      "MACD": 0.032811
+      "close": 58.74,
+      "DIFF": -0.893179,
+      "DEA": -0.90767,
+      "MACD": 0.028982
     },
     {
       "ticker": "QQQ",
@@ -37,9 +26,9 @@
       "signal_ts": "2026-08-24 17:30 UTC",
       "bars_ago": 1,
       "close": 709.16,
-      "DIFF": -2.818041,
-      "DEA": -2.872993,
-      "MACD": 0.109904
+      "DIFF": -2.81807,
+      "DEA": -2.873035,
+      "MACD": 0.109931
     },
     {
       "ticker": "XLK",
@@ -59,9 +48,9 @@
       "signal_ts": "2026-08-24 17:30 UTC",
       "bars_ago": 1,
       "close": 239.3,
-      "DIFF": -4.894008,
-      "DEA": -4.974638,
-      "MACD": 0.161261
+      "DIFF": -4.894007,
+      "DEA": -4.974637,
+      "MACD": 0.16126
     },
     {
       "ticker": "SMTC",
@@ -103,9 +92,9 @@
       "signal_ts": "2026-08-24 17:30 UTC",
       "bars_ago": 1,
       "close": 145.98,
-      "DIFF": -3.301282,
-      "DEA": -3.30294,
-      "MACD": 0.003315
+      "DIFF": -3.301283,
+      "DEA": -3.302941,
+      "MACD": 0.003316
     },
     {
       "ticker": "LITE",
@@ -114,9 +103,9 @@
       "signal_ts": "2026-08-24 17:30 UTC",
       "bars_ago": 1,
       "close": 841.78,
-      "DIFF": -12.060015,
-      "DEA": -10.352167,
-      "MACD": -3.415697
+      "DIFF": -12.060002,
+      "DEA": -10.352148,
+      "MACD": -3.415709
     },
     {
       "ticker": "FORM",
@@ -136,9 +125,9 @@
       "signal_ts": "2026-08-24 17:30 UTC",
       "bars_ago": 1,
       "close": 439.6549,
-      "DIFF": -12.426699,
-      "DEA": -10.334266,
-      "MACD": -4.184866
+      "DIFF": -12.426742,
+      "DEA": -10.334253,
+      "MACD": -4.184978
     },
     {
       "ticker": "NBIS",
