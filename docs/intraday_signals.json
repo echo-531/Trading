@@ -1,34 +1,155 @@
 {
-  "generated_at": "2026-08-24T17:25:58.430686+00:00",
-  "next_scan_at": "2026-08-24T18:00:00+00:00",
+  "generated_at": "2026-08-24T18:37:07.377299+00:00",
+  "next_scan_at": "2026-08-24T19:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
   "stats": {
     "total_scanned": 78,
-    "buy_signals": 2
+    "buy_signals": 13
   },
   "buy_signals": [
+    {
+      "ticker": "STX",
+      "group": "Semi",
+      "timeframe": "1h",
+      "signal_ts": "2026-08-24 18:30 UTC",
+      "bars_ago": 0,
+      "close": 803.6,
+      "DIFF": -22.621602,
+      "DEA": -20.546385,
+      "MACD": -4.150434
+    },
+    {
+      "ticker": "CGNX",
+      "group": "Semi",
+      "timeframe": "1h",
+      "signal_ts": "2026-08-24 18:30 UTC",
+      "bars_ago": 0,
+      "close": 58.77,
+      "DIFF": -0.890786,
+      "DEA": -0.907191,
+      "MACD": 0.032811
+    },
+    {
+      "ticker": "QQQ",
+      "group": "ETF",
+      "timeframe": "1h",
+      "signal_ts": "2026-08-24 17:30 UTC",
+      "bars_ago": 1,
+      "close": 709.16,
+      "DIFF": -2.818041,
+      "DEA": -2.872993,
+      "MACD": 0.109904
+    },
+    {
+      "ticker": "XLK",
+      "group": "ETF",
+      "timeframe": "1h",
+      "signal_ts": "2026-08-24 17:30 UTC",
+      "bars_ago": 1,
+      "close": 181.06,
+      "DIFF": -1.319971,
+      "DEA": -1.239226,
+      "MACD": -0.16149
+    },
+    {
+      "ticker": "ARM",
+      "group": "Semi",
+      "timeframe": "1h",
+      "signal_ts": "2026-08-24 17:30 UTC",
+      "bars_ago": 1,
+      "close": 239.3,
+      "DIFF": -4.894008,
+      "DEA": -4.974638,
+      "MACD": 0.161261
+    },
+    {
+      "ticker": "SMTC",
+      "group": "Semi",
+      "timeframe": "1h",
+      "signal_ts": "2026-08-24 17:30 UTC",
+      "bars_ago": 1,
+      "close": 119.2101,
+      "DIFF": -3.594949,
+      "DEA": -3.532818,
+      "MACD": -0.124263
+    },
+    {
+      "ticker": "AMKR",
+      "group": "Semi",
+      "timeframe": "1h",
+      "signal_ts": "2026-08-24 17:30 UTC",
+      "bars_ago": 1,
+      "close": 48.095,
+      "DIFF": -1.533855,
+      "DEA": -1.521546,
+      "MACD": -0.024617
+    },
+    {
+      "ticker": "INTC",
+      "group": "Semi",
+      "timeframe": "1h",
+      "signal_ts": "2026-08-24 17:30 UTC",
+      "bars_ago": 1,
+      "close": 87.8,
+      "DIFF": -2.301192,
+      "DEA": -2.281545,
+      "MACD": -0.039296
+    },
+    {
+      "ticker": "GLW",
+      "group": "光",
+      "timeframe": "1h",
+      "signal_ts": "2026-08-24 17:30 UTC",
+      "bars_ago": 1,
+      "close": 145.98,
+      "DIFF": -3.301282,
+      "DEA": -3.30294,
+      "MACD": 0.003315
+    },
+    {
+      "ticker": "LITE",
+      "group": "光",
+      "timeframe": "1h",
+      "signal_ts": "2026-08-24 17:30 UTC",
+      "bars_ago": 1,
+      "close": 841.78,
+      "DIFF": -12.060015,
+      "DEA": -10.352167,
+      "MACD": -3.415697
+    },
+    {
+      "ticker": "FORM",
+      "group": "光",
+      "timeframe": "1h",
+      "signal_ts": "2026-08-24 17:30 UTC",
+      "bars_ago": 1,
+      "close": 108.01,
+      "DIFF": -3.670246,
+      "DEA": -3.468067,
+      "MACD": -0.404358
+    },
+    {
+      "ticker": "WDC",
+      "group": "存储",
+      "timeframe": "1h",
+      "signal_ts": "2026-08-24 17:30 UTC",
+      "bars_ago": 1,
+      "close": 439.6549,
+      "DIFF": -12.426699,
+      "DEA": -10.334266,
+      "MACD": -4.184866
+    },
     {
       "ticker": "NBIS",
       "group": "数据中心",
       "timeframe": "1h",
       "signal_ts": "2026-08-24 16:30 UTC",
-      "bars_ago": 0,
-      "close": 210.79,
-      "DIFF": -7.265019,
-      "DEA": -7.278877,
-      "MACD": 0.027717
-    },
-    {
-      "ticker": "CRWV",
-      "group": "Semi",
-      "timeframe": "1h",
-      "signal_ts": "2026-08-24 15:30 UTC",
-      "bars_ago": 1,
-      "close": 86.91,
-      "DIFF": -2.582401,
-      "DEA": -2.608864,
-      "MACD": 0.052926
+      "bars_ago": 2,
+      "close": 210.51,
+      "DIFF": -7.287355,
+      "DEA": -7.283345,
+      "MACD": -0.008021
     }
   ]
 }
