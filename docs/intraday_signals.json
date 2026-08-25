@@ -1,23 +1,45 @@
 {
-  "generated_at": "2026-08-25T14:46:34.188137+00:00",
-  "next_scan_at": "2026-08-25T15:00:00+00:00",
+  "generated_at": "2026-08-25T15:20:41.689632+00:00",
+  "next_scan_at": "2026-08-25T16:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
   "stats": {
     "total_scanned": 78,
-    "buy_signals": 11
+    "buy_signals": 14
   },
   "buy_signals": [
+    {
+      "ticker": "SIMO",
+      "group": "Semi",
+      "timeframe": "1h",
+      "signal_ts": "2026-08-25 14:30 UTC",
+      "bars_ago": 0,
+      "close": 246.505,
+      "DIFF": -1.996158,
+      "DEA": -1.627247,
+      "MACD": -0.737822
+    },
+    {
+      "ticker": "AMBA",
+      "group": "Semi",
+      "timeframe": "1h",
+      "signal_ts": "2026-08-25 14:30 UTC",
+      "bars_ago": 0,
+      "close": 70.03,
+      "DIFF": -1.470002,
+      "DEA": -1.424652,
+      "MACD": -0.0907
+    },
     {
       "ticker": "WDC",
       "group": "存储",
       "timeframe": "1h",
       "signal_ts": "2026-08-25 14:30 UTC",
       "bars_ago": 0,
-      "close": 435.995,
-      "DIFF": -12.021007,
-      "DEA": -11.477499,
-      "MACD": -1.087015
+      "close": 443.46,
+      "DIFF": -11.425509,
+      "DEA": -11.3584,
+      "MACD": -0.134218
     },
     {
       "ticker": "ONDS",
@@ -25,10 +47,21 @@
       "timeframe": "1h",
       "signal_ts": "2026-08-25 14:30 UTC",
       "bars_ago": 0,
-      "close": 8.265,
-      "DIFF": -0.138973,
-      "DEA": -0.130359,
-      "MACD": -0.017227
+      "close": 8.285,
+      "DIFF": -0.137377,
+      "DEA": -0.13004,
+      "MACD": -0.014674
+    },
+    {
+      "ticker": "RDW",
+      "group": "太空",
+      "timeframe": "1h",
+      "signal_ts": "2026-08-25 14:30 UTC",
+      "bars_ago": 0,
+      "close": 11.5347,
+      "DIFF": -0.270246,
+      "DEA": -0.272536,
+      "MACD": 0.00458
     },
     {
       "ticker": "XLK",
