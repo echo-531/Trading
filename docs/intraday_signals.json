@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-24T19:51:23.080510+00:00",
-  "next_scan_at": "2026-08-24T20:00:00+00:00",
+  "generated_at": "2026-08-25T14:11:14.735615+00:00",
+  "next_scan_at": "2026-08-25T15:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
   "stats": {
@@ -9,147 +9,147 @@
   },
   "buy_signals": [
     {
-      "ticker": "POET",
-      "group": "光",
+      "ticker": "XLK",
+      "group": "ETF",
       "timeframe": "1h",
-      "signal_ts": "2026-08-24 19:30 UTC",
+      "signal_ts": "2026-08-25 13:30 UTC",
       "bars_ago": 0,
-      "close": 7.81,
-      "DIFF": -0.208672,
-      "DEA": -0.194872,
-      "MACD": -0.0276
+      "close": 181.785,
+      "DIFF": -1.199205,
+      "DEA": -1.25661,
+      "MACD": 0.114809
+    },
+    {
+      "ticker": "SIMO",
+      "group": "Semi",
+      "timeframe": "1h",
+      "signal_ts": "2026-08-25 13:30 UTC",
+      "bars_ago": 0,
+      "close": 246.39,
+      "DIFF": -1.860359,
+      "DEA": -1.469367,
+      "MACD": -0.781985
+    },
+    {
+      "ticker": "STX",
+      "group": "Semi",
+      "timeframe": "1h",
+      "signal_ts": "2026-08-25 13:30 UTC",
+      "bars_ago": 0,
+      "close": 809.495,
+      "DIFF": -21.79724,
+      "DEA": -21.267509,
+      "MACD": -1.059462
+    },
+    {
+      "ticker": "AMD",
+      "group": "Semi",
+      "timeframe": "1h",
+      "signal_ts": "2026-08-25 13:30 UTC",
+      "bars_ago": 0,
+      "close": 475.065,
+      "DIFF": -3.660561,
+      "DEA": -4.61847,
+      "MACD": 1.915818
     },
     {
       "ticker": "NOK",
       "group": "Semi",
       "timeframe": "1h",
-      "signal_ts": "2026-08-24 18:30 UTC",
-      "bars_ago": 1,
-      "close": 9.99,
-      "DIFF": -0.094559,
-      "DEA": -0.08503,
-      "MACD": -0.019057
+      "signal_ts": "2026-08-25 13:30 UTC",
+      "bars_ago": 0,
+      "close": 10.285,
+      "DIFF": -0.068064,
+      "DEA": -0.083244,
+      "MACD": 0.030359
+    },
+    {
+      "ticker": "AEVA",
+      "group": "Semi",
+      "timeframe": "1h",
+      "signal_ts": "2026-08-25 13:30 UTC",
+      "bars_ago": 0,
+      "close": 16.605,
+      "DIFF": -1.059234,
+      "DEA": -1.04699,
+      "MACD": -0.024487
+    },
+    {
+      "ticker": "AMBA",
+      "group": "Semi",
+      "timeframe": "1h",
+      "signal_ts": "2026-08-25 13:30 UTC",
+      "bars_ago": 0,
+      "close": 70.24,
+      "DIFF": -1.468263,
+      "DEA": -1.40789,
+      "MACD": -0.120745
+    },
+    {
+      "ticker": "POET",
+      "group": "光",
+      "timeframe": "1h",
+      "signal_ts": "2026-08-25 13:30 UTC",
+      "bars_ago": 0,
+      "close": 7.93,
+      "DIFF": -0.196114,
+      "DEA": -0.195695,
+      "MACD": -0.000838
+    },
+    {
+      "ticker": "LITE",
+      "group": "光",
+      "timeframe": "1h",
+      "signal_ts": "2026-08-25 13:30 UTC",
+      "bars_ago": 0,
+      "close": 865.81,
+      "DIFF": -9.546695,
+      "DEA": -10.740986,
+      "MACD": 2.388581
+    },
+    {
+      "ticker": "VELO",
+      "group": "光",
+      "timeframe": "1h",
+      "signal_ts": "2026-08-25 13:30 UTC",
+      "bars_ago": 0,
+      "close": 12.785,
+      "DIFF": -0.396699,
+      "DEA": -0.417517,
+      "MACD": 0.041636
+    },
+    {
+      "ticker": "CIEN",
+      "group": "光",
+      "timeframe": "1h",
+      "signal_ts": "2026-08-25 13:30 UTC",
+      "bars_ago": 0,
+      "close": 384.05,
+      "DIFF": -7.921435,
+      "DEA": -7.982121,
+      "MACD": 0.121371
+    },
+    {
+      "ticker": "WDC",
+      "group": "存储",
+      "timeframe": "1h",
+      "signal_ts": "2026-08-25 13:30 UTC",
+      "bars_ago": 0,
+      "close": 438.54,
+      "DIFF": -11.959049,
+      "DEA": -11.255867,
+      "MACD": -1.406364
     },
     {
       "ticker": "CGNX",
       "group": "Semi",
       "timeframe": "1h",
       "signal_ts": "2026-08-24 18:30 UTC",
-      "bars_ago": 1,
+      "bars_ago": 2,
       "close": 58.8199,
       "DIFF": -0.886805,
       "DEA": -0.906395,
       "MACD": 0.03918
-    },
-    {
-      "ticker": "QQQ",
-      "group": "ETF",
-      "timeframe": "1h",
-      "signal_ts": "2026-08-24 17:30 UTC",
-      "bars_ago": 2,
-      "close": 709.16,
-      "DIFF": -2.818041,
-      "DEA": -2.872993,
-      "MACD": 0.109904
-    },
-    {
-      "ticker": "XLK",
-      "group": "ETF",
-      "timeframe": "1h",
-      "signal_ts": "2026-08-24 17:30 UTC",
-      "bars_ago": 2,
-      "close": 181.06,
-      "DIFF": -1.319971,
-      "DEA": -1.239226,
-      "MACD": -0.16149
-    },
-    {
-      "ticker": "ARM",
-      "group": "Semi",
-      "timeframe": "1h",
-      "signal_ts": "2026-08-24 17:30 UTC",
-      "bars_ago": 2,
-      "close": 239.3,
-      "DIFF": -4.894008,
-      "DEA": -4.974638,
-      "MACD": 0.161261
-    },
-    {
-      "ticker": "SMTC",
-      "group": "Semi",
-      "timeframe": "1h",
-      "signal_ts": "2026-08-24 17:30 UTC",
-      "bars_ago": 2,
-      "close": 119.2101,
-      "DIFF": -3.594949,
-      "DEA": -3.532818,
-      "MACD": -0.124263
-    },
-    {
-      "ticker": "AMKR",
-      "group": "Semi",
-      "timeframe": "1h",
-      "signal_ts": "2026-08-24 17:30 UTC",
-      "bars_ago": 2,
-      "close": 48.095,
-      "DIFF": -1.533855,
-      "DEA": -1.521546,
-      "MACD": -0.024617
-    },
-    {
-      "ticker": "INTC",
-      "group": "Semi",
-      "timeframe": "1h",
-      "signal_ts": "2026-08-24 17:30 UTC",
-      "bars_ago": 2,
-      "close": 87.8,
-      "DIFF": -2.301192,
-      "DEA": -2.281545,
-      "MACD": -0.039296
-    },
-    {
-      "ticker": "GLW",
-      "group": "光",
-      "timeframe": "1h",
-      "signal_ts": "2026-08-24 17:30 UTC",
-      "bars_ago": 2,
-      "close": 145.98,
-      "DIFF": -3.301282,
-      "DEA": -3.30294,
-      "MACD": 0.003315
-    },
-    {
-      "ticker": "LITE",
-      "group": "光",
-      "timeframe": "1h",
-      "signal_ts": "2026-08-24 17:30 UTC",
-      "bars_ago": 2,
-      "close": 841.78,
-      "DIFF": -12.060015,
-      "DEA": -10.352167,
-      "MACD": -3.415697
-    },
-    {
-      "ticker": "FORM",
-      "group": "光",
-      "timeframe": "1h",
-      "signal_ts": "2026-08-24 17:30 UTC",
-      "bars_ago": 2,
-      "close": 108.01,
-      "DIFF": -3.670246,
-      "DEA": -3.468067,
-      "MACD": -0.404358
-    },
-    {
-      "ticker": "WDC",
-      "group": "存储",
-      "timeframe": "1h",
-      "signal_ts": "2026-08-24 17:30 UTC",
-      "bars_ago": 2,
-      "close": 439.6549,
-      "DIFF": -12.426699,
-      "DEA": -10.334266,
-      "MACD": -4.184866
     }
   ]
 }
