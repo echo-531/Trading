@@ -1,13 +1,24 @@
 {
-  "generated_at": "2026-08-25T16:33:43.463594+00:00",
-  "next_scan_at": "2026-08-25T17:00:00+00:00",
+  "generated_at": "2026-08-25T17:26:27.975433+00:00",
+  "next_scan_at": "2026-08-25T18:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
   "stats": {
     "total_scanned": 78,
-    "buy_signals": 6
+    "buy_signals": 7
   },
   "buy_signals": [
+    {
+      "ticker": "BKSY",
+      "group": "太空",
+      "timeframe": "1h",
+      "signal_ts": "2026-08-25 16:30 UTC",
+      "bars_ago": 0,
+      "close": 25.48,
+      "DIFF": -0.75567,
+      "DEA": -0.694298,
+      "MACD": -0.122743
+    },
     {
       "ticker": "SYM",
       "group": "Semi",
@@ -20,17 +31,6 @@
       "MACD": -0.166056
     },
     {
-      "ticker": "AMBA",
-      "group": "Semi",
-      "timeframe": "1h",
-      "signal_ts": "2026-08-25 14:30 UTC",
-      "bars_ago": 1,
-      "close": 70.085,
-      "DIFF": -1.465615,
-      "DEA": -1.423775,
-      "MACD": -0.08368
-    },
-    {
       "ticker": "SIMO",
       "group": "Semi",
       "timeframe": "1h",
@@ -40,6 +40,17 @@
       "DIFF": -1.966243,
       "DEA": -1.621264,
       "MACD": -0.689958
+    },
+    {
+      "ticker": "AMBA",
+      "group": "Semi",
+      "timeframe": "1h",
+      "signal_ts": "2026-08-25 14:30 UTC",
+      "bars_ago": 2,
+      "close": 70.085,
+      "DIFF": -1.465615,
+      "DEA": -1.423775,
+      "MACD": -0.08368
     },
     {
       "ticker": "WDC",
