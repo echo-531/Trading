@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-08-26T16:23:23.545732+00:00",
+  "generated_at": "2026-08-26T16:45:58.967392+00:00",
   "next_scan_at": "2026-08-26T17:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
   "stats": {
     "total_scanned": 78,
-    "buy_signals": 2
+    "buy_signals": 1
   },
   "buy_signals": [
     {
@@ -13,22 +13,11 @@
       "group": "太空",
       "timeframe": "1h",
       "signal_ts": "2026-08-26 14:30 UTC",
-      "bars_ago": 1,
+      "bars_ago": 2,
       "close": 22.32,
       "DIFF": -0.663161,
       "DEA": -0.630967,
       "MACD": -0.064388
-    },
-    {
-      "ticker": "SIMO",
-      "group": "Semi",
-      "timeframe": "1h",
-      "signal_ts": "2026-08-26 13:30 UTC",
-      "bars_ago": 2,
-      "close": 250.865,
-      "DIFF": -1.6488,
-      "DEA": -1.981909,
-      "MACD": 0.666219
     }
   ]
 }
