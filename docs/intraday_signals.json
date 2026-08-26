@@ -1,45 +1,56 @@
 {
-  "generated_at": "2026-08-25T19:52:45.926077+00:00",
-  "next_scan_at": "2026-08-25T20:00:00+00:00",
+  "generated_at": "2026-08-26T14:08:56.619640+00:00",
+  "next_scan_at": "2026-08-26T15:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
   "stats": {
     "total_scanned": 78,
-    "buy_signals": 3
+    "buy_signals": 4
   },
   "buy_signals": [
     {
       "ticker": "SIMO",
       "group": "Semi",
       "timeframe": "1h",
-      "signal_ts": "2026-08-25 19:30 UTC",
+      "signal_ts": "2026-08-26 13:30 UTC",
       "bars_ago": 0,
-      "close": 242.415,
-      "DIFF": -2.327852,
-      "DEA": -2.054577,
-      "MACD": -0.546551
+      "close": 249.78,
+      "DIFF": -1.735353,
+      "DEA": -1.99922,
+      "MACD": 0.527734
+    },
+    {
+      "ticker": "FLY",
+      "group": "太空",
+      "timeframe": "1h",
+      "signal_ts": "2026-08-26 13:30 UTC",
+      "bars_ago": 0,
+      "close": 22.58,
+      "DIFF": -0.643792,
+      "DEA": -0.61534,
+      "MACD": -0.056904
     },
     {
       "ticker": "ASTS",
       "group": "太空",
       "timeframe": "1h",
       "signal_ts": "2026-08-25 19:30 UTC",
-      "bars_ago": 0,
-      "close": 62.33,
-      "DIFF": -1.271149,
-      "DEA": -1.182134,
-      "MACD": -0.17803
+      "bars_ago": 1,
+      "close": 62.0,
+      "DIFF": -1.297474,
+      "DEA": -1.187399,
+      "MACD": -0.22015
     },
     {
       "ticker": "BKSY",
       "group": "太空",
       "timeframe": "1h",
       "signal_ts": "2026-08-25 19:30 UTC",
-      "bars_ago": 0,
-      "close": 25.21,
-      "DIFF": -0.725235,
-      "DEA": -0.711589,
-      "MACD": -0.027292
+      "bars_ago": 1,
+      "close": 25.18,
+      "DIFF": -0.727628,
+      "DEA": -0.712068,
+      "MACD": -0.031121
     }
   ]
 }
