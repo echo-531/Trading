@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-26T18:54:05.624077+00:00",
-  "next_scan_at": "2026-08-26T19:00:00+00:00",
+  "generated_at": "2026-08-26T19:45:54.563951+00:00",
+  "next_scan_at": "2026-08-26T20:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
   "stats": {
@@ -9,37 +9,37 @@
   },
   "buy_signals": [
     {
+      "ticker": "ASTS",
+      "group": "太空",
+      "timeframe": "1h",
+      "signal_ts": "2026-08-26 18:30 UTC",
+      "bars_ago": 1,
+      "close": 60.1,
+      "DIFF": -1.578211,
+      "DEA": -1.461811,
+      "MACD": -0.232801
+    },
+    {
       "ticker": "BKSY",
       "group": "太空",
       "timeframe": "1h",
       "signal_ts": "2026-08-26 18:30 UTC",
-      "bars_ago": 0,
-      "close": 24.51,
-      "DIFF": -0.743595,
-      "DEA": -0.743402,
-      "MACD": -0.000387
+      "bars_ago": 1,
+      "close": 24.59,
+      "DIFF": -0.737214,
+      "DEA": -0.742125,
+      "MACD": 0.009823
     },
     {
       "ticker": "AVGO",
       "group": "Semi",
       "timeframe": "1h",
       "signal_ts": "2026-08-26 17:30 UTC",
-      "bars_ago": 1,
+      "bars_ago": 2,
       "close": 353.7,
       "DIFF": -4.385488,
       "DEA": -4.373324,
       "MACD": -0.024327
-    },
-    {
-      "ticker": "ONDS",
-      "group": "太空",
-      "timeframe": "1h",
-      "signal_ts": "2026-08-26 16:30 UTC",
-      "bars_ago": 2,
-      "close": 8.215,
-      "DIFF": -0.128011,
-      "DEA": -0.129933,
-      "MACD": 0.003844
     }
   ]
 }
