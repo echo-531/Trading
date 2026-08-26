@@ -1,23 +1,45 @@
 {
-  "generated_at": "2026-08-26T16:45:58.967392+00:00",
-  "next_scan_at": "2026-08-26T17:00:00+00:00",
+  "generated_at": "2026-08-26T18:54:05.624077+00:00",
+  "next_scan_at": "2026-08-26T19:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
   "stats": {
     "total_scanned": 78,
-    "buy_signals": 1
+    "buy_signals": 3
   },
   "buy_signals": [
     {
-      "ticker": "FLY",
+      "ticker": "BKSY",
       "group": "太空",
       "timeframe": "1h",
-      "signal_ts": "2026-08-26 14:30 UTC",
+      "signal_ts": "2026-08-26 18:30 UTC",
+      "bars_ago": 0,
+      "close": 24.51,
+      "DIFF": -0.743595,
+      "DEA": -0.743402,
+      "MACD": -0.000387
+    },
+    {
+      "ticker": "AVGO",
+      "group": "Semi",
+      "timeframe": "1h",
+      "signal_ts": "2026-08-26 17:30 UTC",
+      "bars_ago": 1,
+      "close": 353.7,
+      "DIFF": -4.385488,
+      "DEA": -4.373324,
+      "MACD": -0.024327
+    },
+    {
+      "ticker": "ONDS",
+      "group": "太空",
+      "timeframe": "1h",
+      "signal_ts": "2026-08-26 16:30 UTC",
       "bars_ago": 2,
-      "close": 22.32,
-      "DIFF": -0.663161,
-      "DEA": -0.630967,
-      "MACD": -0.064388
+      "close": 8.215,
+      "DIFF": -0.128011,
+      "DEA": -0.129933,
+      "MACD": 0.003844
     }
   ]
 }
