@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-28T07:57:03.492947+00:00",
+  "generated_at": "2026-08-29T12:47:09.973663+00:00",
   "lookback": {
     "1d": 3,
     "1wk": 3,
@@ -7,7 +7,7 @@
   },
   "stats": {
     "total_scanned": 1503,
-    "buy_signals": 50
+    "buy_signals": 48
   },
   "buy_signals": [
     {
@@ -50,19 +50,6 @@
       "MACD": -8.960172
     },
     {
-      "ticker": "BL",
-      "market": "US",
-      "sector": "Information Technology",
-      "industry": "Software - Application",
-      "timeframe": "monthly",
-      "signal_date": "2026-08-01",
-      "bars_ago": 0,
-      "close": 33.72,
-      "DIFF": -7.291016,
-      "DEA": -5.634419,
-      "MACD": -3.313194
-    },
-    {
       "ticker": "BWXT",
       "market": "US",
       "sector": "Industrials",
@@ -83,10 +70,10 @@
       "timeframe": "monthly",
       "signal_date": "2026-08-01",
       "bars_ago": 0,
-      "close": 11.43,
-      "DIFF": -0.199389,
-      "DEA": -0.22575,
-      "MACD": 0.052721
+      "close": 11.68,
+      "DIFF": -0.179446,
+      "DEA": -0.221761,
+      "MACD": 0.08463
     },
     {
       "ticker": "EPAM",
@@ -96,10 +83,10 @@
       "timeframe": "monthly",
       "signal_date": "2026-08-01",
       "bars_ago": 0,
-      "close": 112.77,
-      "DIFF": -34.869221,
-      "DEA": -31.364328,
-      "MACD": -7.009786
+      "close": 114.8,
+      "DIFF": -34.707283,
+      "DEA": -31.331941,
+      "MACD": -6.750685
     },
     {
       "ticker": "G",
@@ -109,10 +96,10 @@
       "timeframe": "monthly",
       "signal_date": "2026-08-01",
       "bars_ago": 0,
-      "close": 37.53,
-      "DIFF": -1.571846,
-      "DEA": -0.493341,
-      "MACD": -2.15701
+      "close": 38.02,
+      "DIFF": -1.532757,
+      "DEA": -0.485523,
+      "MACD": -2.094468
     },
     {
       "ticker": "HLI",
@@ -122,23 +109,10 @@
       "timeframe": "weekly",
       "signal_date": "2026-08-24",
       "bars_ago": 0,
-      "close": 130.81,
-      "DIFF": -8.285361,
-      "DEA": -8.216491,
-      "MACD": -0.137739
-    },
-    {
-      "ticker": "IBM",
-      "market": "US",
-      "sector": "Information Technology",
-      "industry": "Information Technology Services",
-      "timeframe": "weekly",
-      "signal_date": "2026-08-24",
-      "bars_ago": 0,
-      "close": 238.79,
-      "DIFF": -7.092445,
-      "DEA": -5.683433,
-      "MACD": -2.818024
+      "close": 133.02,
+      "DIFF": -8.109064,
+      "DEA": -8.181232,
+      "MACD": 0.144336
     },
     {
       "ticker": "MOS",
@@ -148,10 +122,10 @@
       "timeframe": "monthly",
       "signal_date": "2026-08-01",
       "bars_ago": 0,
-      "close": 23.76,
-      "DIFF": -2.103346,
-      "DEA": -1.714474,
-      "MACD": -0.777744
+      "close": 23.6,
+      "DIFF": -2.116109,
+      "DEA": -1.717026,
+      "MACD": -0.798165
     },
     {
       "ticker": "NOG",
@@ -161,10 +135,10 @@
       "timeframe": "monthly",
       "signal_date": "2026-08-01",
       "bars_ago": 0,
-      "close": 26.08,
-      "DIFF": -1.551774,
-      "DEA": -1.473736,
-      "MACD": -0.156076
+      "close": 25.73,
+      "DIFF": -1.579694,
+      "DEA": -1.47932,
+      "MACD": -0.200748
     },
     {
       "ticker": "NXT",
@@ -226,10 +200,10 @@
       "timeframe": "monthly",
       "signal_date": "2026-08-01",
       "bars_ago": 0,
-      "close": 10.8,
-      "DIFF": -1.195398,
-      "DEA": -1.015184,
-      "MACD": -0.360428
+      "close": 10.88,
+      "DIFF": -1.189016,
+      "DEA": -1.013907,
+      "MACD": -0.350217
     },
     {
       "ticker": "PSN",
@@ -239,10 +213,10 @@
       "timeframe": "weekly",
       "signal_date": "2026-08-24",
       "bars_ago": 0,
-      "close": 49.28,
-      "DIFF": -3.582194,
-      "DEA": -3.583728,
-      "MACD": 0.003069
+      "close": 49.0,
+      "DIFF": -3.60453,
+      "DEA": -3.588195,
+      "MACD": -0.032669
     },
     {
       "ticker": "SAIA",
@@ -265,10 +239,10 @@
       "timeframe": "weekly",
       "signal_date": "2026-08-24",
       "bars_ago": 0,
-      "close": 464.89,
-      "DIFF": -11.200622,
-      "DEA": -10.698103,
-      "MACD": -1.005037
+      "close": 442.61,
+      "DIFF": -12.977946,
+      "DEA": -11.053568,
+      "MACD": -3.848756
     },
     {
       "ticker": "SOLS",
@@ -409,7 +383,7 @@
       "signal_date": "2026-07-01",
       "bars_ago": 1,
       "close": 169.73,
-      "DIFF": -4.291263,
+      "DIFF": -4.291264,
       "DEA": -3.210508,
       "MACD": -2.161511
     },
@@ -539,9 +513,9 @@
       "signal_date": "2026-07-01",
       "bars_ago": 1,
       "close": 161.5213,
-      "DIFF": -24.797783,
-      "DEA": -22.841469,
-      "MACD": -3.912627
+      "DIFF": -24.797785,
+      "DEA": -22.841471,
+      "MACD": -3.912629
     },
     {
       "ticker": "NRG",
@@ -565,9 +539,9 @@
       "signal_date": "2026-07-01",
       "bars_ago": 1,
       "close": 163.6916,
-      "DIFF": -24.758925,
-      "DEA": -22.954751,
-      "MACD": -3.608348
+      "DIFF": -24.758924,
+      "DEA": -22.95475,
+      "MACD": -3.608347
     },
     {
       "ticker": "PYPL",
@@ -578,7 +552,7 @@
       "signal_date": "2026-07-01",
       "bars_ago": 1,
       "close": 57.21,
-      "DIFF": -8.032172,
+      "DIFF": -8.032173,
       "DEA": -7.522909,
       "MACD": -1.018527
     },
@@ -617,9 +591,9 @@
       "signal_date": "2026-07-01",
       "bars_ago": 1,
       "close": 78.5937,
-      "DIFF": -3.621813,
+      "DIFF": -3.621812,
       "DEA": -3.565402,
-      "MACD": -0.112821
+      "MACD": -0.11282
     },
     {
       "ticker": "VEEV",
