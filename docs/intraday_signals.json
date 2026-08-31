@@ -1,23 +1,45 @@
 {
-  "generated_at": "2026-08-31T19:32:51.525475+00:00",
+  "generated_at": "2026-08-31T19:51:44.512236+00:00",
   "next_scan_at": "2026-08-31T20:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
   "stats": {
     "total_scanned": 78,
-    "buy_signals": 12
+    "buy_signals": 14
   },
   "buy_signals": [
+    {
+      "ticker": "COHR",
+      "group": "光",
+      "timeframe": "1h",
+      "signal_ts": "2026-08-31 19:30 UTC",
+      "bars_ago": 0,
+      "close": 276.71,
+      "DIFF": -3.696447,
+      "DEA": -2.890384,
+      "MACD": -1.612126
+    },
+    {
+      "ticker": "MXL",
+      "group": "光",
+      "timeframe": "1h",
+      "signal_ts": "2026-08-31 19:30 UTC",
+      "bars_ago": 0,
+      "close": 59.9597,
+      "DIFF": -1.266246,
+      "DEA": -1.122449,
+      "MACD": -0.287594
+    },
     {
       "ticker": "BKSY",
       "group": "太空",
       "timeframe": "1h",
       "signal_ts": "2026-08-31 19:30 UTC",
       "bars_ago": 0,
-      "close": 23.22,
-      "DIFF": -0.587198,
-      "DEA": -0.587042,
-      "MACD": -0.000311
+      "close": 23.16,
+      "DIFF": -0.591984,
+      "DEA": -0.588,
+      "MACD": -0.007969
     },
     {
       "ticker": "NBIS",
@@ -25,10 +47,10 @@
       "timeframe": "1h",
       "signal_ts": "2026-08-31 19:30 UTC",
       "bars_ago": 0,
-      "close": 204.21,
-      "DIFF": -3.58125,
-      "DEA": -3.294425,
-      "MACD": -0.57365
+      "close": 205.935,
+      "DIFF": -3.443644,
+      "DEA": -3.266903,
+      "MACD": -0.35348
     },
     {
       "ticker": "SIMO",
@@ -37,9 +59,9 @@
       "signal_ts": "2026-08-31 18:30 UTC",
       "bars_ago": 1,
       "close": 243.505,
-      "DIFF": -2.570448,
-      "DEA": -1.653832,
-      "MACD": -1.833232
+      "DIFF": -2.570443,
+      "DEA": -1.653824,
+      "MACD": -1.833237
     },
     {
       "ticker": "VICR",
@@ -70,9 +92,9 @@
       "signal_ts": "2026-08-31 18:30 UTC",
       "bars_ago": 1,
       "close": 61.865,
-      "DIFF": -1.040826,
-      "DEA": -0.741843,
-      "MACD": -0.597966
+      "DIFF": -1.040784,
+      "DEA": -0.741782,
+      "MACD": -0.598003
     },
     {
       "ticker": "POET",
