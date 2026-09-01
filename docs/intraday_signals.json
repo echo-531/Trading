@@ -1,166 +1,34 @@
 {
-  "generated_at": "2026-08-31T19:51:44.512236+00:00",
-  "next_scan_at": "2026-08-31T20:00:00+00:00",
+  "generated_at": "2026-09-01T17:21:28.640219+00:00",
+  "next_scan_at": "2026-09-01T18:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
   "stats": {
     "total_scanned": 78,
-    "buy_signals": 14
+    "buy_signals": 2
   },
   "buy_signals": [
     {
-      "ticker": "COHR",
+      "ticker": "OCC",
       "group": "光",
       "timeframe": "1h",
-      "signal_ts": "2026-08-31 19:30 UTC",
+      "signal_ts": "2026-09-01 16:30 UTC",
       "bars_ago": 0,
-      "close": 276.71,
-      "DIFF": -3.696447,
-      "DEA": -2.890384,
-      "MACD": -1.612126
+      "close": 13.25,
+      "DIFF": -0.102264,
+      "DEA": -0.083961,
+      "MACD": -0.036605
     },
     {
-      "ticker": "MXL",
-      "group": "光",
-      "timeframe": "1h",
-      "signal_ts": "2026-08-31 19:30 UTC",
-      "bars_ago": 0,
-      "close": 59.9597,
-      "DIFF": -1.266246,
-      "DEA": -1.122449,
-      "MACD": -0.287594
-    },
-    {
-      "ticker": "BKSY",
+      "ticker": "FLY",
       "group": "太空",
       "timeframe": "1h",
-      "signal_ts": "2026-08-31 19:30 UTC",
+      "signal_ts": "2026-09-01 16:30 UTC",
       "bars_ago": 0,
-      "close": 23.16,
-      "DIFF": -0.591984,
-      "DEA": -0.588,
-      "MACD": -0.007969
-    },
-    {
-      "ticker": "NBIS",
-      "group": "数据中心",
-      "timeframe": "1h",
-      "signal_ts": "2026-08-31 19:30 UTC",
-      "bars_ago": 0,
-      "close": 205.935,
-      "DIFF": -3.443644,
-      "DEA": -3.266903,
-      "MACD": -0.35348
-    },
-    {
-      "ticker": "SIMO",
-      "group": "Semi",
-      "timeframe": "1h",
-      "signal_ts": "2026-08-31 18:30 UTC",
-      "bars_ago": 1,
-      "close": 243.505,
-      "DIFF": -2.570443,
-      "DEA": -1.653824,
-      "MACD": -1.833237
-    },
-    {
-      "ticker": "VICR",
-      "group": "Semi",
-      "timeframe": "1h",
-      "signal_ts": "2026-08-31 18:30 UTC",
-      "bars_ago": 1,
-      "close": 186.15,
-      "DIFF": -3.652839,
-      "DEA": -3.056763,
-      "MACD": -1.192151
-    },
-    {
-      "ticker": "AMPX",
-      "group": "Semi",
-      "timeframe": "1h",
-      "signal_ts": "2026-08-31 18:30 UTC",
-      "bars_ago": 1,
-      "close": 9.845,
-      "DIFF": -0.140557,
-      "DEA": -0.111357,
-      "MACD": -0.0584
-    },
-    {
-      "ticker": "VPG",
-      "group": "Semi",
-      "timeframe": "1h",
-      "signal_ts": "2026-08-31 18:30 UTC",
-      "bars_ago": 1,
-      "close": 61.865,
-      "DIFF": -1.040784,
-      "DEA": -0.741782,
-      "MACD": -0.598003
-    },
-    {
-      "ticker": "POET",
-      "group": "光",
-      "timeframe": "1h",
-      "signal_ts": "2026-08-31 18:30 UTC",
-      "bars_ago": 1,
-      "close": 7.45,
-      "DIFF": -0.172357,
-      "DEA": -0.145904,
-      "MACD": -0.052906
-    },
-    {
-      "ticker": "PL",
-      "group": "太空",
-      "timeframe": "1h",
-      "signal_ts": "2026-08-31 18:30 UTC",
-      "bars_ago": 1,
-      "close": 19.775,
-      "DIFF": -0.477426,
-      "DEA": -0.441863,
-      "MACD": -0.071127
-    },
-    {
-      "ticker": "RDW",
-      "group": "太空",
-      "timeframe": "1h",
-      "signal_ts": "2026-08-31 18:30 UTC",
-      "bars_ago": 1,
-      "close": 10.675,
-      "DIFF": -0.225982,
-      "DEA": -0.221331,
-      "MACD": -0.009303
-    },
-    {
-      "ticker": "OUST",
-      "group": "Semi",
-      "timeframe": "1h",
-      "signal_ts": "2026-08-31 17:30 UTC",
-      "bars_ago": 2,
-      "close": 34.11,
-      "DIFF": -0.742881,
-      "DEA": -0.716091,
-      "MACD": -0.05358
-    },
-    {
-      "ticker": "FORM",
-      "group": "光",
-      "timeframe": "1h",
-      "signal_ts": "2026-08-31 17:30 UTC",
-      "bars_ago": 2,
-      "close": 101.35,
-      "DIFF": -2.405958,
-      "DEA": -2.090672,
-      "MACD": -0.63057
-    },
-    {
-      "ticker": "VRT",
-      "group": "电力",
-      "timeframe": "1h",
-      "signal_ts": "2026-08-31 17:30 UTC",
-      "bars_ago": 2,
-      "close": 258.55,
-      "DIFF": -1.376103,
-      "DEA": -0.755287,
-      "MACD": -1.241632
+      "close": 20.655,
+      "DIFF": -0.457704,
+      "DEA": -0.467107,
+      "MACD": 0.018805
     }
   ]
 }
