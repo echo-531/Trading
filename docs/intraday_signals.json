@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-02T17:58:28.460443+00:00",
-  "next_scan_at": "2026-09-02T18:00:00+00:00",
+  "generated_at": "2026-09-02T18:30:33.198271+00:00",
+  "next_scan_at": "2026-09-02T19:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
   "stats": {
@@ -9,48 +9,37 @@
   },
   "buy_signals": [
     {
-      "ticker": "AMPX",
-      "group": "Semi",
-      "timeframe": "1h",
-      "signal_ts": "2026-09-02 17:30 UTC",
-      "bars_ago": 0,
-      "close": 9.44,
-      "DIFF": -0.161019,
-      "DEA": -0.162232,
-      "MACD": 0.002425
-    },
-    {
-      "ticker": "INOD",
-      "group": "Semi",
-      "timeframe": "1h",
-      "signal_ts": "2026-09-02 17:30 UTC",
-      "bars_ago": 0,
-      "close": 54.39,
-      "DIFF": -0.966957,
-      "DEA": -0.907067,
-      "MACD": -0.11978
-    },
-    {
       "ticker": "AMD",
       "group": "Semi",
       "timeframe": "1h",
-      "signal_ts": "2026-09-02 17:30 UTC",
+      "signal_ts": "2026-09-02 18:30 UTC",
       "bars_ago": 0,
-      "close": 456.97,
-      "DIFF": -3.658718,
-      "DEA": -3.641117,
-      "MACD": -0.035202
+      "close": 456.69,
+      "DIFF": -3.650697,
+      "DEA": -3.65133,
+      "MACD": 0.001265
     },
     {
-      "ticker": "WYFI",
+      "ticker": "TEM",
       "group": "Semi",
       "timeframe": "1h",
-      "signal_ts": "2026-09-02 17:30 UTC",
+      "signal_ts": "2026-09-02 18:30 UTC",
       "bars_ago": 0,
-      "close": 17.09,
-      "DIFF": -0.548963,
-      "DEA": -0.559887,
-      "MACD": 0.021849
+      "close": 61.3296,
+      "DIFF": -1.256054,
+      "DEA": -1.246174,
+      "MACD": -0.019759
+    },
+    {
+      "ticker": "COHR",
+      "group": "光",
+      "timeframe": "1h",
+      "signal_ts": "2026-09-02 18:30 UTC",
+      "bars_ago": 0,
+      "close": 267.2,
+      "DIFF": -4.368787,
+      "DEA": -4.269219,
+      "MACD": -0.199137
     },
     {
       "ticker": "OCC",
@@ -58,10 +47,10 @@
       "timeframe": "1h",
       "signal_ts": "2026-09-02 17:30 UTC",
       "bars_ago": 0,
-      "close": 13.065,
-      "DIFF": -0.118692,
-      "DEA": -0.107511,
-      "MACD": -0.022361
+      "close": 13.19,
+      "DIFF": -0.108721,
+      "DEA": -0.105517,
+      "MACD": -0.006407
     },
     {
       "ticker": "BKSY",
@@ -69,32 +58,43 @@
       "timeframe": "1h",
       "signal_ts": "2026-09-02 17:30 UTC",
       "bars_ago": 0,
-      "close": 21.48,
-      "DIFF": -0.786107,
-      "DEA": -0.798039,
-      "MACD": 0.023863
+      "close": 21.6876,
+      "DIFF": -0.769546,
+      "DEA": -0.794726,
+      "MACD": 0.05036
+    },
+    {
+      "ticker": "INOD",
+      "group": "Semi",
+      "timeframe": "1h",
+      "signal_ts": "2026-09-02 17:30 UTC",
+      "bars_ago": 1,
+      "close": 54.58,
+      "DIFF": -0.9518,
+      "DEA": -0.904035,
+      "MACD": -0.095529
+    },
+    {
+      "ticker": "WYFI",
+      "group": "Semi",
+      "timeframe": "1h",
+      "signal_ts": "2026-09-02 17:30 UTC",
+      "bars_ago": 1,
+      "close": 17.355,
+      "DIFF": -0.527823,
+      "DEA": -0.555659,
+      "MACD": 0.055672
     },
     {
       "ticker": "VICR",
       "group": "Semi",
       "timeframe": "1h",
       "signal_ts": "2026-09-02 16:30 UTC",
-      "bars_ago": 1,
+      "bars_ago": 2,
       "close": 174.625,
       "DIFF": -5.078524,
       "DEA": -4.877704,
       "MACD": -0.401639
-    },
-    {
-      "ticker": "ARM",
-      "group": "Semi",
-      "timeframe": "1h",
-      "signal_ts": "2026-09-02 15:30 UTC",
-      "bars_ago": 2,
-      "close": 232.9601,
-      "DIFF": -3.188147,
-      "DEA": -2.947238,
-      "MACD": -0.481818
     }
   ]
 }
