@@ -1,41 +1,85 @@
 {
-  "generated_at": "2026-09-02T17:12:57.927608+00:00",
+  "generated_at": "2026-09-02T17:40:07.758538+00:00",
   "next_scan_at": "2026-09-02T18:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
   "stats": {
     "total_scanned": 78,
-    "buy_signals": 3
+    "buy_signals": 7
   },
   "buy_signals": [
     {
-      "ticker": "VICR",
+      "ticker": "AMPX",
       "group": "Semi",
       "timeframe": "1h",
-      "signal_ts": "2026-09-02 16:30 UTC",
+      "signal_ts": "2026-09-02 17:30 UTC",
       "bars_ago": 0,
-      "close": 174.79,
-      "DIFF": -5.065362,
-      "DEA": -4.875072,
-      "MACD": -0.38058
+      "close": 9.44,
+      "DIFF": -0.161019,
+      "DEA": -0.162232,
+      "MACD": 0.002425
+    },
+    {
+      "ticker": "INOD",
+      "group": "Semi",
+      "timeframe": "1h",
+      "signal_ts": "2026-09-02 17:30 UTC",
+      "bars_ago": 0,
+      "close": 53.59,
+      "DIFF": -1.030774,
+      "DEA": -0.91983,
+      "MACD": -0.221888
+    },
+    {
+      "ticker": "AMD",
+      "group": "Semi",
+      "timeframe": "1h",
+      "signal_ts": "2026-09-02 17:30 UTC",
+      "bars_ago": 0,
+      "close": 457.0585,
+      "DIFF": -3.651658,
+      "DEA": -3.639705,
+      "MACD": -0.023906
+    },
+    {
+      "ticker": "OCC",
+      "group": "光",
+      "timeframe": "1h",
+      "signal_ts": "2026-09-02 17:30 UTC",
+      "bars_ago": 0,
+      "close": 13.085,
+      "DIFF": -0.117097,
+      "DEA": -0.107192,
+      "MACD": -0.019808
     },
     {
       "ticker": "BKSY",
       "group": "太空",
       "timeframe": "1h",
-      "signal_ts": "2026-09-02 16:30 UTC",
+      "signal_ts": "2026-09-02 17:30 UTC",
       "bars_ago": 0,
-      "close": 21.29,
-      "DIFF": -0.815925,
-      "DEA": -0.800702,
-      "MACD": -0.030445
+      "close": 21.32,
+      "DIFF": -0.79887,
+      "DEA": -0.800591,
+      "MACD": 0.003442
+    },
+    {
+      "ticker": "VICR",
+      "group": "Semi",
+      "timeframe": "1h",
+      "signal_ts": "2026-09-02 16:30 UTC",
+      "bars_ago": 1,
+      "close": 174.625,
+      "DIFF": -5.078524,
+      "DEA": -4.877704,
+      "MACD": -0.401639
     },
     {
       "ticker": "ARM",
       "group": "Semi",
       "timeframe": "1h",
       "signal_ts": "2026-09-02 15:30 UTC",
-      "bars_ago": 1,
+      "bars_ago": 2,
       "close": 232.9601,
       "DIFF": -3.188147,
       "DEA": -2.947238,
