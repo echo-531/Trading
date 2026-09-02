@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-02T17:40:07.758538+00:00",
+  "generated_at": "2026-09-02T17:58:28.460443+00:00",
   "next_scan_at": "2026-09-02T18:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
   "stats": {
     "total_scanned": 78,
-    "buy_signals": 7
+    "buy_signals": 8
   },
   "buy_signals": [
     {
@@ -25,10 +25,10 @@
       "timeframe": "1h",
       "signal_ts": "2026-09-02 17:30 UTC",
       "bars_ago": 0,
-      "close": 53.59,
-      "DIFF": -1.030774,
-      "DEA": -0.91983,
-      "MACD": -0.221888
+      "close": 54.39,
+      "DIFF": -0.966957,
+      "DEA": -0.907067,
+      "MACD": -0.11978
     },
     {
       "ticker": "AMD",
@@ -36,10 +36,21 @@
       "timeframe": "1h",
       "signal_ts": "2026-09-02 17:30 UTC",
       "bars_ago": 0,
-      "close": 457.0585,
-      "DIFF": -3.651658,
-      "DEA": -3.639705,
-      "MACD": -0.023906
+      "close": 456.97,
+      "DIFF": -3.658718,
+      "DEA": -3.641117,
+      "MACD": -0.035202
+    },
+    {
+      "ticker": "WYFI",
+      "group": "Semi",
+      "timeframe": "1h",
+      "signal_ts": "2026-09-02 17:30 UTC",
+      "bars_ago": 0,
+      "close": 17.09,
+      "DIFF": -0.548963,
+      "DEA": -0.559887,
+      "MACD": 0.021849
     },
     {
       "ticker": "OCC",
@@ -47,10 +58,10 @@
       "timeframe": "1h",
       "signal_ts": "2026-09-02 17:30 UTC",
       "bars_ago": 0,
-      "close": 13.085,
-      "DIFF": -0.117097,
-      "DEA": -0.107192,
-      "MACD": -0.019808
+      "close": 13.065,
+      "DIFF": -0.118692,
+      "DEA": -0.107511,
+      "MACD": -0.022361
     },
     {
       "ticker": "BKSY",
@@ -58,10 +69,10 @@
       "timeframe": "1h",
       "signal_ts": "2026-09-02 17:30 UTC",
       "bars_ago": 0,
-      "close": 21.32,
-      "DIFF": -0.79887,
-      "DEA": -0.800591,
-      "MACD": 0.003442
+      "close": 21.48,
+      "DIFF": -0.786107,
+      "DEA": -0.798039,
+      "MACD": 0.023863
     },
     {
       "ticker": "VICR",
