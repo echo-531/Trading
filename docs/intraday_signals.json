@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T17:05:02.827802+00:00",
+  "generated_at": "2026-09-03T17:35:04.164657+00:00",
   "next_scan_at": "2026-09-03T18:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
@@ -9,26 +9,26 @@
   },
   "buy_signals": [
     {
+      "ticker": "NOK",
+      "group": "Semi",
+      "timeframe": "1h",
+      "signal_ts": "2026-09-03 16:30 UTC",
+      "bars_ago": 1,
+      "close": 9.745,
+      "DIFF": -0.10948,
+      "DEA": -0.108981,
+      "MACD": -0.000997
+    },
+    {
       "ticker": "COHR",
       "group": "光",
       "timeframe": "1h",
       "signal_ts": "2026-09-03 15:30 UTC",
-      "bars_ago": 1,
+      "bars_ago": 2,
       "close": 267.41,
       "DIFF": -4.100658,
       "DEA": -4.279881,
       "MACD": 0.358446
-    },
-    {
-      "ticker": "TTMI",
-      "group": "Semi",
-      "timeframe": "1h",
-      "signal_ts": "2026-09-03 14:30 UTC",
-      "bars_ago": 2,
-      "close": 115.99,
-      "DIFF": -1.057067,
-      "DEA": -1.025429,
-      "MACD": -0.063275
     }
   ]
 }
