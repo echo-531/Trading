@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-03T18:26:43.287360+00:00",
-  "next_scan_at": "2026-09-03T19:00:00+00:00",
+  "generated_at": "2026-09-03T19:05:09.980385+00:00",
+  "next_scan_at": "2026-09-03T20:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
   "stats": {
@@ -9,26 +9,26 @@
   },
   "buy_signals": [
     {
+      "ticker": "AVGO",
+      "group": "Semi",
+      "timeframe": "1h",
+      "signal_ts": "2026-09-03 18:30 UTC",
+      "bars_ago": 0,
+      "close": 356.85,
+      "DIFF": -3.55243,
+      "DEA": -2.152602,
+      "MACD": -2.799656
+    },
+    {
       "ticker": "NOK",
       "group": "Semi",
       "timeframe": "1h",
       "signal_ts": "2026-09-03 16:30 UTC",
-      "bars_ago": 1,
+      "bars_ago": 2,
       "close": 9.745,
       "DIFF": -0.10948,
       "DEA": -0.108981,
       "MACD": -0.000997
-    },
-    {
-      "ticker": "COHR",
-      "group": "光",
-      "timeframe": "1h",
-      "signal_ts": "2026-09-03 15:30 UTC",
-      "bars_ago": 2,
-      "close": 267.41,
-      "DIFF": -4.100658,
-      "DEA": -4.279881,
-      "MACD": 0.358446
     }
   ]
 }
