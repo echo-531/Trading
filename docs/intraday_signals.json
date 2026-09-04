@@ -1,23 +1,11 @@
 {
-  "generated_at": "2026-09-04T16:54:23.772968+00:00",
-  "next_scan_at": "2026-09-04T17:00:00+00:00",
+  "generated_at": "2026-09-04T17:24:19.313372+00:00",
+  "next_scan_at": "2026-09-04T18:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
   "stats": {
     "total_scanned": 78,
-    "buy_signals": 1
+    "buy_signals": 0
   },
-  "buy_signals": [
-    {
-      "ticker": "AVGO",
-      "group": "Semi",
-      "timeframe": "1h",
-      "signal_ts": "2026-09-04 16:30 UTC",
-      "bars_ago": 0,
-      "close": 356.34,
-      "DIFF": -3.020153,
-      "DEA": -2.792556,
-      "MACD": -0.455193
-    }
-  ]
+  "buy_signals": []
 }
