@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-04T19:15:46.860686+00:00",
-  "next_scan_at": "2026-09-04T20:00:00+00:00",
+  "generated_at": "2026-09-07T18:17:47.346705+00:00",
+  "next_scan_at": "2026-09-07T19:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
   "stats": {
@@ -13,7 +13,7 @@
       "group": "Semi",
       "timeframe": "1h",
       "signal_ts": "2026-09-04 17:30 UTC",
-      "bars_ago": 1,
+      "bars_ago": 2,
       "close": 355.93,
       "DIFF": -3.037908,
       "DEA": -2.862048,
