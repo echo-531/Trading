@@ -1,23 +1,11 @@
 {
-  "generated_at": "2026-09-09T19:35:04.353764+00:00",
-  "next_scan_at": "2026-09-09T20:00:00+00:00",
+  "generated_at": "2026-09-10T17:02:29.635761+00:00",
+  "next_scan_at": "2026-09-10T18:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
   "stats": {
     "total_scanned": 78,
-    "buy_signals": 1
+    "buy_signals": 0
   },
-  "buy_signals": [
-    {
-      "ticker": "OCC",
-      "group": "光",
-      "timeframe": "1h",
-      "signal_ts": "2026-09-09 17:30 UTC",
-      "bars_ago": 2,
-      "close": 13.59,
-      "DIFF": -0.022728,
-      "DEA": 0.049378,
-      "MACD": -0.144213
-    }
-  ]
+  "buy_signals": []
 }
