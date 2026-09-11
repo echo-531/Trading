@@ -1,34 +1,11 @@
 {
-  "generated_at": "2026-09-11T17:03:23.001201+00:00",
+  "generated_at": "2026-09-11T17:36:08.550952+00:00",
   "next_scan_at": "2026-09-11T18:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
   "stats": {
     "total_scanned": 78,
-    "buy_signals": 2
+    "buy_signals": 0
   },
-  "buy_signals": [
-    {
-      "ticker": "PL",
-      "group": "太空",
-      "timeframe": "1h",
-      "signal_ts": "2026-09-11 14:30 UTC",
-      "bars_ago": 2,
-      "close": 16.8574,
-      "DIFF": -0.39896,
-      "DEA": -0.40399,
-      "MACD": 0.010059
-    },
-    {
-      "ticker": "IONQ",
-      "group": "量子",
-      "timeframe": "1h",
-      "signal_ts": "2026-09-11 14:30 UTC",
-      "bars_ago": 2,
-      "close": 37.758,
-      "DIFF": -0.605776,
-      "DEA": -0.473608,
-      "MACD": -0.264336
-    }
-  ]
+  "buy_signals": []
 }
