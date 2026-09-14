@@ -1,34 +1,23 @@
 {
-  "generated_at": "2026-09-14T19:04:32.733889+00:00",
+  "generated_at": "2026-09-14T19:31:40.761144+00:00",
   "next_scan_at": "2026-09-14T20:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
   "stats": {
     "total_scanned": 78,
-    "buy_signals": 2
+    "buy_signals": 1
   },
   "buy_signals": [
     {
-      "ticker": "QQQ",
-      "group": "ETF",
+      "ticker": "VELO",
+      "group": "光",
       "timeframe": "1h",
-      "signal_ts": "2026-09-14 16:30 UTC",
-      "bars_ago": 2,
-      "close": 712.348,
-      "DIFF": -1.123421,
-      "DEA": -0.845155,
-      "MACD": -0.55653
-    },
-    {
-      "ticker": "PL",
-      "group": "太空",
-      "timeframe": "1h",
-      "signal_ts": "2026-09-14 16:30 UTC",
-      "bars_ago": 2,
-      "close": 16.33,
-      "DIFF": -0.391792,
-      "DEA": -0.392647,
-      "MACD": 0.00171
+      "signal_ts": "2026-09-14 19:30 UTC",
+      "bars_ago": 0,
+      "close": 10.1,
+      "DIFF": -0.301538,
+      "DEA": -0.28816,
+      "MACD": -0.026758
     }
   ]
 }
