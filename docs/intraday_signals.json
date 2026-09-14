@@ -1,23 +1,11 @@
 {
-  "generated_at": "2026-09-14T19:31:40.761144+00:00",
+  "generated_at": "2026-09-14T19:47:22.962586+00:00",
   "next_scan_at": "2026-09-14T20:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
   "stats": {
     "total_scanned": 78,
-    "buy_signals": 1
+    "buy_signals": 0
   },
-  "buy_signals": [
-    {
-      "ticker": "VELO",
-      "group": "光",
-      "timeframe": "1h",
-      "signal_ts": "2026-09-14 19:30 UTC",
-      "bars_ago": 0,
-      "close": 10.1,
-      "DIFF": -0.301538,
-      "DEA": -0.28816,
-      "MACD": -0.026758
-    }
-  ]
+  "buy_signals": []
 }
