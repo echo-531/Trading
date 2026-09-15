@@ -1,11 +1,23 @@
 {
-  "generated_at": "2026-09-14T19:47:22.962586+00:00",
-  "next_scan_at": "2026-09-14T20:00:00+00:00",
+  "generated_at": "2026-09-15T17:42:21.251462+00:00",
+  "next_scan_at": "2026-09-15T18:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
   "stats": {
     "total_scanned": 78,
-    "buy_signals": 0
+    "buy_signals": 1
   },
-  "buy_signals": []
+  "buy_signals": [
+    {
+      "ticker": "ONDS",
+      "group": "太空",
+      "timeframe": "1h",
+      "signal_ts": "2026-09-15 15:30 UTC",
+      "bars_ago": 2,
+      "close": 7.325,
+      "DIFF": -0.048169,
+      "DEA": -0.054592,
+      "MACD": 0.012846
+    }
+  ]
 }
