@@ -1,45 +1,23 @@
 {
-  "generated_at": "2026-09-15T18:22:44.358138+00:00",
+  "generated_at": "2026-09-15T18:50:27.187156+00:00",
   "next_scan_at": "2026-09-15T19:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
   "stats": {
     "total_scanned": 78,
-    "buy_signals": 3
+    "buy_signals": 1
   },
   "buy_signals": [
-    {
-      "ticker": "IWM",
-      "group": "ETF",
-      "timeframe": "1h",
-      "signal_ts": "2026-09-15 17:30 UTC",
-      "bars_ago": 0,
-      "close": 285.655,
-      "DIFF": -1.471947,
-      "DEA": -1.287611,
-      "MACD": -0.368673
-    },
     {
       "ticker": "VPG",
       "group": "Semi",
       "timeframe": "1h",
       "signal_ts": "2026-09-15 17:30 UTC",
-      "bars_ago": 0,
-      "close": 60.48,
-      "DIFF": -0.953904,
-      "DEA": -0.692884,
-      "MACD": -0.52204
-    },
-    {
-      "ticker": "ONDS",
-      "group": "太空",
-      "timeframe": "1h",
-      "signal_ts": "2026-09-15 15:30 UTC",
-      "bars_ago": 2,
-      "close": 7.325,
-      "DIFF": -0.048169,
-      "DEA": -0.054592,
-      "MACD": 0.012846
+      "bars_ago": 1,
+      "close": 60.605,
+      "DIFF": -0.943933,
+      "DEA": -0.69089,
+      "MACD": -0.506086
     }
   ]
 }
