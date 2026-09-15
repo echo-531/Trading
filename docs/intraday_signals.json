@@ -1,19 +1,30 @@
 {
-  "generated_at": "2026-09-15T18:50:27.187156+00:00",
-  "next_scan_at": "2026-09-15T19:00:00+00:00",
+  "generated_at": "2026-09-15T19:30:52.897675+00:00",
+  "next_scan_at": "2026-09-15T20:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
   "stats": {
     "total_scanned": 78,
-    "buy_signals": 1
+    "buy_signals": 2
   },
   "buy_signals": [
+    {
+      "ticker": "XLF",
+      "group": "ETF",
+      "timeframe": "1h",
+      "signal_ts": "2026-09-15 18:30 UTC",
+      "bars_ago": 0,
+      "close": 56.875,
+      "DIFF": -0.152969,
+      "DEA": -0.14048,
+      "MACD": -0.024978
+    },
     {
       "ticker": "VPG",
       "group": "Semi",
       "timeframe": "1h",
       "signal_ts": "2026-09-15 17:30 UTC",
-      "bars_ago": 1,
+      "bars_ago": 2,
       "close": 60.605,
       "DIFF": -0.943933,
       "DEA": -0.69089,
