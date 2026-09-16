@@ -1,45 +1,23 @@
 {
-  "generated_at": "2026-09-15T19:57:09.687312+00:00",
-  "next_scan_at": "2026-09-15T20:00:00+00:00",
+  "generated_at": "2026-09-16T17:39:26.897890+00:00",
+  "next_scan_at": "2026-09-16T18:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
   "stats": {
     "total_scanned": 78,
-    "buy_signals": 3
+    "buy_signals": 1
   },
   "buy_signals": [
-    {
-      "ticker": "VICR",
-      "group": "Semi",
-      "timeframe": "1h",
-      "signal_ts": "2026-09-15 19:30 UTC",
-      "bars_ago": 0,
-      "close": 183.03,
-      "DIFF": -1.813335,
-      "DEA": -1.069363,
-      "MACD": -1.487942
-    },
     {
       "ticker": "XLF",
       "group": "ETF",
       "timeframe": "1h",
-      "signal_ts": "2026-09-15 18:30 UTC",
-      "bars_ago": 1,
-      "close": 56.87,
-      "DIFF": -0.153368,
-      "DEA": -0.14056,
-      "MACD": -0.025616
-    },
-    {
-      "ticker": "VPG",
-      "group": "Semi",
-      "timeframe": "1h",
-      "signal_ts": "2026-09-15 17:30 UTC",
-      "bars_ago": 2,
-      "close": 60.605,
-      "DIFF": -0.943933,
-      "DEA": -0.69089,
-      "MACD": -0.506086
+      "signal_ts": "2026-09-16 17:30 UTC",
+      "bars_ago": 0,
+      "close": 56.555,
+      "DIFF": -0.168969,
+      "DEA": -0.159241,
+      "MACD": -0.019456
     }
   ]
 }
