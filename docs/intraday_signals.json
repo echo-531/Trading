@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-24T19:47:28.495315+00:00",
-  "next_scan_at": "2026-09-24T20:00:00+00:00",
+  "generated_at": "2026-09-25T17:59:57.155296+00:00",
+  "next_scan_at": "2026-09-25T18:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
   "stats": {
@@ -9,15 +9,15 @@
   },
   "buy_signals": [
     {
-      "ticker": "CGNX",
+      "ticker": "ORCL",
       "group": "Semi",
       "timeframe": "1h",
-      "signal_ts": "2026-09-24 19:30 UTC",
-      "bars_ago": 0,
-      "close": 57.76,
-      "DIFF": -0.737517,
-      "DEA": -0.704364,
-      "MACD": -0.066307
+      "signal_ts": "2026-09-25 15:30 UTC",
+      "bars_ago": 2,
+      "close": 138.56,
+      "DIFF": -2.539754,
+      "DEA": -2.203769,
+      "MACD": -0.671969
     }
   ]
 }
