@@ -1,23 +1,11 @@
 {
-  "generated_at": "2026-09-25T18:16:37.489347+00:00",
+  "generated_at": "2026-09-25T18:48:05.151381+00:00",
   "next_scan_at": "2026-09-25T19:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
   "stats": {
     "total_scanned": 78,
-    "buy_signals": 1
+    "buy_signals": 0
   },
-  "buy_signals": [
-    {
-      "ticker": "ORCL",
-      "group": "Semi",
-      "timeframe": "1h",
-      "signal_ts": "2026-09-25 15:30 UTC",
-      "bars_ago": 2,
-      "close": 138.56,
-      "DIFF": -2.539754,
-      "DEA": -2.203769,
-      "MACD": -0.671969
-    }
-  ]
+  "buy_signals": []
 }
