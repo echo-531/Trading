@@ -1,19 +1,41 @@
 {
-  "generated_at": "2026-09-25T19:11:44.439538+00:00",
+  "generated_at": "2026-09-25T19:48:39.338596+00:00",
   "next_scan_at": "2026-09-25T20:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
   "stats": {
     "total_scanned": 78,
-    "buy_signals": 1
+    "buy_signals": 3
   },
   "buy_signals": [
+    {
+      "ticker": "ORCL",
+      "group": "Semi",
+      "timeframe": "1h",
+      "signal_ts": "2026-09-25 19:30 UTC",
+      "bars_ago": 0,
+      "close": 137.565,
+      "DIFF": -2.362598,
+      "DEA": -2.324475,
+      "MACD": -0.076246
+    },
+    {
+      "ticker": "OCS",
+      "group": "光",
+      "timeframe": "1h",
+      "signal_ts": "2026-09-25 19:30 UTC",
+      "bars_ago": 0,
+      "close": 9.29,
+      "DIFF": -0.242691,
+      "DEA": -0.225979,
+      "MACD": -0.033425
+    },
     {
       "ticker": "XLE",
       "group": "ETF",
       "timeframe": "1h",
       "signal_ts": "2026-09-25 18:30 UTC",
-      "bars_ago": 0,
+      "bars_ago": 1,
       "close": 62.035,
       "DIFF": -0.298074,
       "DEA": -0.2592,
