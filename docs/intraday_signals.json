@@ -1,45 +1,11 @@
 {
-  "generated_at": "2026-09-29T19:54:10.792475+00:00",
-  "next_scan_at": "2026-09-29T20:00:00+00:00",
+  "generated_at": "2026-09-30T18:29:06.407420+00:00",
+  "next_scan_at": "2026-09-30T19:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
   "stats": {
     "total_scanned": 78,
-    "buy_signals": 3
+    "buy_signals": 0
   },
-  "buy_signals": [
-    {
-      "ticker": "IWM",
-      "group": "ETF",
-      "timeframe": "1h",
-      "signal_ts": "2026-09-29 18:30 UTC",
-      "bars_ago": 1,
-      "close": 278.82,
-      "DIFF": -1.207223,
-      "DEA": -1.094251,
-      "MACD": -0.225944
-    },
-    {
-      "ticker": "XLF",
-      "group": "ETF",
-      "timeframe": "1h",
-      "signal_ts": "2026-09-29 17:30 UTC",
-      "bars_ago": 2,
-      "close": 53.995,
-      "DIFF": -0.258039,
-      "DEA": -0.225967,
-      "MACD": -0.064144
-    },
-    {
-      "ticker": "XE",
-      "group": "电力",
-      "timeframe": "1h",
-      "signal_ts": "2026-09-29 17:30 UTC",
-      "bars_ago": 2,
-      "close": 14.3201,
-      "DIFF": -0.394243,
-      "DEA": -0.373522,
-      "MACD": -0.041442
-    }
-  ]
+  "buy_signals": []
 }
