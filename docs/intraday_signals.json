@@ -1,23 +1,11 @@
 {
-  "generated_at": "2026-10-01T19:18:32.381988+00:00",
+  "generated_at": "2026-10-01T19:41:02.690515+00:00",
   "next_scan_at": "2026-10-01T20:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
   "stats": {
     "total_scanned": 78,
-    "buy_signals": 1
+    "buy_signals": 0
   },
-  "buy_signals": [
-    {
-      "ticker": "XE",
-      "group": "电力",
-      "timeframe": "1h",
-      "signal_ts": "2026-10-01 16:30 UTC",
-      "bars_ago": 2,
-      "close": 14.0285,
-      "DIFF": -0.307703,
-      "DEA": -0.305734,
-      "MACD": -0.003938
-    }
-  ]
+  "buy_signals": []
 }
