@@ -1,11 +1,45 @@
 {
-  "generated_at": "2026-10-06T19:42:42.236655+00:00",
-  "next_scan_at": "2026-10-06T20:00:00+00:00",
+  "generated_at": "2026-10-07T19:25:05.083747+00:00",
+  "next_scan_at": "2026-10-07T20:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
   "stats": {
     "total_scanned": 78,
-    "buy_signals": 0
+    "buy_signals": 3
   },
-  "buy_signals": []
+  "buy_signals": [
+    {
+      "ticker": "WYFI",
+      "group": "Semi",
+      "timeframe": "1h",
+      "signal_ts": "2026-10-07 18:30 UTC",
+      "bars_ago": 0,
+      "close": 16.76,
+      "DIFF": -0.321668,
+      "DEA": -0.278405,
+      "MACD": -0.086526
+    },
+    {
+      "ticker": "ONDS",
+      "group": "太空",
+      "timeframe": "1h",
+      "signal_ts": "2026-10-07 18:30 UTC",
+      "bars_ago": 0,
+      "close": 7.185,
+      "DIFF": -0.068539,
+      "DEA": -0.043193,
+      "MACD": -0.050691
+    },
+    {
+      "ticker": "QBTS",
+      "group": "量子",
+      "timeframe": "1h",
+      "signal_ts": "2026-10-07 17:30 UTC",
+      "bars_ago": 1,
+      "close": 15.22,
+      "DIFF": -0.290174,
+      "DEA": -0.266586,
+      "MACD": -0.047176
+    }
+  ]
 }
