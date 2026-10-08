@@ -1,56 +1,34 @@
 {
-  "generated_at": "2026-10-07T19:46:30.998047+00:00",
-  "next_scan_at": "2026-10-07T20:00:00+00:00",
+  "generated_at": "2026-10-08T19:19:48.255072+00:00",
+  "next_scan_at": "2026-10-08T20:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
   "stats": {
     "total_scanned": 78,
-    "buy_signals": 4
+    "buy_signals": 2
   },
   "buy_signals": [
     {
-      "ticker": "RDW",
-      "group": "太空",
-      "timeframe": "1h",
-      "signal_ts": "2026-10-07 19:30 UTC",
-      "bars_ago": 0,
-      "close": 10.285,
-      "DIFF": -0.169698,
-      "DEA": -0.139389,
-      "MACD": -0.060618
-    },
-    {
-      "ticker": "WYFI",
+      "ticker": "STX",
       "group": "Semi",
       "timeframe": "1h",
-      "signal_ts": "2026-10-07 18:30 UTC",
-      "bars_ago": 1,
-      "close": 16.75,
-      "DIFF": -0.322466,
-      "DEA": -0.278565,
-      "MACD": -0.087803
+      "signal_ts": "2026-10-08 18:30 UTC",
+      "bars_ago": 0,
+      "close": 777.86,
+      "DIFF": -21.657736,
+      "DEA": -21.857938,
+      "MACD": 0.400404
     },
     {
-      "ticker": "ONDS",
-      "group": "太空",
+      "ticker": "CRCL",
+      "group": "Semi",
       "timeframe": "1h",
-      "signal_ts": "2026-10-07 18:30 UTC",
+      "signal_ts": "2026-10-08 17:30 UTC",
       "bars_ago": 1,
-      "close": 7.175,
-      "DIFF": -0.069337,
-      "DEA": -0.043353,
-      "MACD": -0.051967
-    },
-    {
-      "ticker": "QBTS",
-      "group": "量子",
-      "timeframe": "1h",
-      "signal_ts": "2026-10-07 17:30 UTC",
-      "bars_ago": 2,
-      "close": 15.22,
-      "DIFF": -0.290193,
-      "DEA": -0.266613,
-      "MACD": -0.047161
+      "close": 80.31,
+      "DIFF": -0.964816,
+      "DEA": -0.794802,
+      "MACD": -0.340027
     }
   ]
 }
