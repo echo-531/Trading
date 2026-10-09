@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-09T19:18:27.220252+00:00",
+  "generated_at": "2026-10-09T19:36:59.071389+00:00",
   "next_scan_at": "2026-10-09T20:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
   "stats": {
     "total_scanned": 78,
-    "buy_signals": 2
+    "buy_signals": 1
   },
   "buy_signals": [
     {
@@ -13,22 +13,11 @@
       "group": "太空",
       "timeframe": "1h",
       "signal_ts": "2026-10-09 18:30 UTC",
-      "bars_ago": 0,
-      "close": 20.82,
-      "DIFF": -0.304725,
-      "DEA": -0.267701,
-      "MACD": -0.074047
-    },
-    {
-      "ticker": "XE",
-      "group": "电力",
-      "timeframe": "1h",
-      "signal_ts": "2026-10-09 16:30 UTC",
-      "bars_ago": 2,
-      "close": 13.635,
-      "DIFF": -0.272479,
-      "DEA": -0.242569,
-      "MACD": -0.059821
+      "bars_ago": 1,
+      "close": 20.915,
+      "DIFF": -0.297147,
+      "DEA": -0.266186,
+      "MACD": -0.061922
     }
   ]
 }
