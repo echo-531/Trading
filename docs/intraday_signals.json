@@ -1,23 +1,78 @@
 {
-  "generated_at": "2026-10-09T19:36:59.071389+00:00",
-  "next_scan_at": "2026-10-09T20:00:00+00:00",
+  "generated_at": "2026-10-13T19:54:06.623838+00:00",
+  "next_scan_at": "2026-10-13T20:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
   "stats": {
     "total_scanned": 78,
-    "buy_signals": 1
+    "buy_signals": 6
   },
   "buy_signals": [
     {
-      "ticker": "BKSY",
-      "group": "太空",
+      "ticker": "CGNX",
+      "group": "Semi",
       "timeframe": "1h",
-      "signal_ts": "2026-10-09 18:30 UTC",
-      "bars_ago": 1,
-      "close": 20.915,
-      "DIFF": -0.297147,
-      "DEA": -0.266186,
-      "MACD": -0.061922
+      "signal_ts": "2026-10-13 19:30 UTC",
+      "bars_ago": 0,
+      "close": 60.23,
+      "DIFF": -0.71838,
+      "DEA": -0.518313,
+      "MACD": -0.400135
+    },
+    {
+      "ticker": "OCC",
+      "group": "光",
+      "timeframe": "1h",
+      "signal_ts": "2026-10-13 19:30 UTC",
+      "bars_ago": 0,
+      "close": 15.2,
+      "DIFF": -0.276474,
+      "DEA": -0.285601,
+      "MACD": 0.018254
+    },
+    {
+      "ticker": "STX",
+      "group": "Semi",
+      "timeframe": "1h",
+      "signal_ts": "2026-10-13 17:30 UTC",
+      "bars_ago": 2,
+      "close": 736.1,
+      "DIFF": -18.981788,
+      "DEA": -18.618922,
+      "MACD": -0.725731
+    },
+    {
+      "ticker": "AMKR",
+      "group": "Semi",
+      "timeframe": "1h",
+      "signal_ts": "2026-10-13 17:30 UTC",
+      "bars_ago": 2,
+      "close": 47.28,
+      "DIFF": -1.220784,
+      "DEA": -1.245963,
+      "MACD": 0.050358
+    },
+    {
+      "ticker": "VELO",
+      "group": "光",
+      "timeframe": "1h",
+      "signal_ts": "2026-10-13 17:30 UTC",
+      "bars_ago": 2,
+      "close": 7.7821,
+      "DIFF": -0.361926,
+      "DEA": -0.349758,
+      "MACD": -0.024336
+    },
+    {
+      "ticker": "WDC",
+      "group": "存储",
+      "timeframe": "1h",
+      "signal_ts": "2026-10-13 17:30 UTC",
+      "bars_ago": 2,
+      "close": 377.74,
+      "DIFF": -7.630533,
+      "DEA": -7.431358,
+      "MACD": -0.39835
     }
   ]
 }
