@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-15T18:59:17.416991+00:00",
-  "next_scan_at": "2026-10-15T19:00:00+00:00",
+  "generated_at": "2026-10-15T19:41:06.671759+00:00",
+  "next_scan_at": "2026-10-15T20:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
   "stats": {
@@ -13,18 +13,18 @@
       "group": "Semi",
       "timeframe": "1h",
       "signal_ts": "2026-10-15 18:30 UTC",
-      "bars_ago": 0,
-      "close": 94.46,
-      "DIFF": -2.893817,
-      "DEA": -2.709149,
-      "MACD": -0.369336
+      "bars_ago": 1,
+      "close": 95.92,
+      "DIFF": -2.77735,
+      "DEA": -2.685856,
+      "MACD": -0.182989
     },
     {
       "ticker": "AMBA",
       "group": "Semi",
       "timeframe": "1h",
       "signal_ts": "2026-10-15 17:30 UTC",
-      "bars_ago": 1,
+      "bars_ago": 2,
       "close": 61.07,
       "DIFF": -1.084916,
       "DEA": -0.984329,
@@ -35,7 +35,7 @@
       "group": "存储",
       "timeframe": "1h",
       "signal_ts": "2026-10-15 17:30 UTC",
-      "bars_ago": 1,
+      "bars_ago": 2,
       "close": 1349.51,
       "DIFF": -52.874123,
       "DEA": -50.99596,
