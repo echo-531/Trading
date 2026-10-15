@@ -1,11 +1,23 @@
 {
-  "generated_at": "2026-10-14T19:57:57.958879+00:00",
-  "next_scan_at": "2026-10-14T20:00:00+00:00",
+  "generated_at": "2026-10-15T17:49:01.228597+00:00",
+  "next_scan_at": "2026-10-15T18:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
   "stats": {
     "total_scanned": 78,
-    "buy_signals": 0
+    "buy_signals": 1
   },
-  "buy_signals": []
+  "buy_signals": [
+    {
+      "ticker": "SNDK",
+      "group": "存储",
+      "timeframe": "1h",
+      "signal_ts": "2026-10-15 17:30 UTC",
+      "bars_ago": 0,
+      "close": 1347.4501,
+      "DIFF": -53.038448,
+      "DEA": -51.028825,
+      "MACD": -4.019246
+    }
+  ]
 }
