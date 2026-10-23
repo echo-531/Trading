@@ -1,23 +1,199 @@
 {
-  "generated_at": "2026-10-22T19:43:46.527168+00:00",
-  "next_scan_at": "2026-10-22T20:00:00+00:00",
+  "generated_at": "2026-10-23T17:54:41.113497+00:00",
+  "next_scan_at": "2026-10-23T18:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
   "stats": {
     "total_scanned": 78,
-    "buy_signals": 1
+    "buy_signals": 17
   },
   "buy_signals": [
     {
-      "ticker": "JBL",
+      "ticker": "QQQ",
+      "group": "ETF",
+      "timeframe": "1h",
+      "signal_ts": "2026-10-23 17:30 UTC",
+      "bars_ago": 0,
+      "close": 705.49,
+      "DIFF": -4.549515,
+      "DEA": -4.08976,
+      "MACD": -0.919509
+    },
+    {
+      "ticker": "ALAB",
       "group": "Semi",
       "timeframe": "1h",
-      "signal_ts": "2026-10-22 18:30 UTC",
+      "signal_ts": "2026-10-23 17:30 UTC",
+      "bars_ago": 0,
+      "close": 260.2,
+      "DIFF": -8.163084,
+      "DEA": -7.931578,
+      "MACD": -0.463012
+    },
+    {
+      "ticker": "SIMO",
+      "group": "Semi",
+      "timeframe": "1h",
+      "signal_ts": "2026-10-23 17:30 UTC",
+      "bars_ago": 0,
+      "close": 189.89,
+      "DIFF": -8.191963,
+      "DEA": -7.371296,
+      "MACD": -1.641333
+    },
+    {
+      "ticker": "AVGO",
+      "group": "Semi",
+      "timeframe": "1h",
+      "signal_ts": "2026-10-23 17:30 UTC",
+      "bars_ago": 0,
+      "close": 324.515,
+      "DIFF": -3.535257,
+      "DEA": -3.437639,
+      "MACD": -0.195237
+    },
+    {
+      "ticker": "WYFI",
+      "group": "Semi",
+      "timeframe": "1h",
+      "signal_ts": "2026-10-23 17:30 UTC",
+      "bars_ago": 0,
+      "close": 10.24,
+      "DIFF": -0.458258,
+      "DEA": -0.437081,
+      "MACD": -0.042355
+    },
+    {
+      "ticker": "CRWV",
+      "group": "Semi",
+      "timeframe": "1h",
+      "signal_ts": "2026-10-23 17:30 UTC",
+      "bars_ago": 0,
+      "close": 54.78,
+      "DIFF": -2.333404,
+      "DEA": -2.21741,
+      "MACD": -0.231989
+    },
+    {
+      "ticker": "CIEN",
+      "group": "光",
+      "timeframe": "1h",
+      "signal_ts": "2026-10-23 17:30 UTC",
+      "bars_ago": 0,
+      "close": 324.15,
+      "DIFF": -7.711363,
+      "DEA": -6.903902,
+      "MACD": -1.614922
+    },
+    {
+      "ticker": "MXL",
+      "group": "光",
+      "timeframe": "1h",
+      "signal_ts": "2026-10-23 17:30 UTC",
+      "bars_ago": 0,
+      "close": 64.02,
+      "DIFF": -3.388232,
+      "DEA": -3.067639,
+      "MACD": -0.641187
+    },
+    {
+      "ticker": "SNDK",
+      "group": "存储",
+      "timeframe": "1h",
+      "signal_ts": "2026-10-23 17:30 UTC",
+      "bars_ago": 0,
+      "close": 1266.7101,
+      "DIFF": -29.409945,
+      "DEA": -26.991265,
+      "MACD": -4.837359
+    },
+    {
+      "ticker": "QBTS",
+      "group": "量子",
+      "timeframe": "1h",
+      "signal_ts": "2026-10-23 17:30 UTC",
+      "bars_ago": 0,
+      "close": 11.49,
+      "DIFF": -0.18261,
+      "DEA": -0.166213,
+      "MACD": -0.032794
+    },
+    {
+      "ticker": "VICR",
+      "group": "Semi",
+      "timeframe": "1h",
+      "signal_ts": "2026-10-23 16:30 UTC",
       "bars_ago": 1,
-      "close": 267.135,
-      "DIFF": -5.280783,
-      "DEA": -4.255432,
-      "MACD": -2.050703
+      "close": 177.81,
+      "DIFF": -8.781751,
+      "DEA": -7.660949,
+      "MACD": -2.241604
+    },
+    {
+      "ticker": "AEVA",
+      "group": "Semi",
+      "timeframe": "1h",
+      "signal_ts": "2026-10-23 16:30 UTC",
+      "bars_ago": 1,
+      "close": 9.97,
+      "DIFF": -0.211783,
+      "DEA": -0.189691,
+      "MACD": -0.044184
+    },
+    {
+      "ticker": "OCC",
+      "group": "光",
+      "timeframe": "1h",
+      "signal_ts": "2026-10-23 16:30 UTC",
+      "bars_ago": 1,
+      "close": 11.93,
+      "DIFF": -0.412623,
+      "DEA": -0.378133,
+      "MACD": -0.06898
+    },
+    {
+      "ticker": "IONQ",
+      "group": "量子",
+      "timeframe": "1h",
+      "signal_ts": "2026-10-23 16:30 UTC",
+      "bars_ago": 1,
+      "close": 31.095,
+      "DIFF": -0.2951,
+      "DEA": -0.262082,
+      "MACD": -0.066035
+    },
+    {
+      "ticker": "AMKR",
+      "group": "Semi",
+      "timeframe": "1h",
+      "signal_ts": "2026-10-23 15:30 UTC",
+      "bars_ago": 2,
+      "close": 39.6801,
+      "DIFF": -1.021025,
+      "DEA": -0.885284,
+      "MACD": -0.271482
+    },
+    {
+      "ticker": "SYNA",
+      "group": "Semi",
+      "timeframe": "1h",
+      "signal_ts": "2026-10-23 15:30 UTC",
+      "bars_ago": 2,
+      "close": 117.26,
+      "DIFF": -0.121045,
+      "DEA": -0.086226,
+      "MACD": -0.069637
+    },
+    {
+      "ticker": "VRT",
+      "group": "电力",
+      "timeframe": "1h",
+      "signal_ts": "2026-10-23 15:30 UTC",
+      "bars_ago": 2,
+      "close": 196.085,
+      "DIFF": -4.43381,
+      "DEA": -3.888746,
+      "MACD": -1.090128
     }
   ]
 }
