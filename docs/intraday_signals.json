@@ -1,23 +1,11 @@
 {
-  "generated_at": "2026-10-27T19:58:40.056775+00:00",
-  "next_scan_at": "2026-10-27T20:00:00+00:00",
+  "generated_at": "2026-10-28T18:57:07.772073+00:00",
+  "next_scan_at": "2026-10-28T19:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
   "stats": {
     "total_scanned": 78,
-    "buy_signals": 1
+    "buy_signals": 0
   },
-  "buy_signals": [
-    {
-      "ticker": "SHOP",
-      "group": "Semi",
-      "timeframe": "1h",
-      "signal_ts": "2026-10-27 18:30 UTC",
-      "bars_ago": 1,
-      "close": 166.17,
-      "DIFF": -1.407306,
-      "DEA": -1.28975,
-      "MACD": -0.235113
-    }
-  ]
+  "buy_signals": []
 }
