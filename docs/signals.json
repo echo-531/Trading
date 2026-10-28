@@ -1,15 +1,28 @@
 {
-  "generated_at": "2026-10-27T09:39:01.226608+00:00",
+  "generated_at": "2026-10-28T00:22:47.121024+00:00",
   "lookback": {
     "1d": 3,
     "1wk": 3,
     "1mo": 2
   },
   "stats": {
-    "total_scanned": 1504,
-    "buy_signals": 89
+    "total_scanned": 1505,
+    "buy_signals": 93
   },
   "buy_signals": [
+    {
+      "ticker": "ABG",
+      "market": "US",
+      "sector": "Consumer Discretionary",
+      "industry": "Auto & Truck Dealerships",
+      "timeframe": "weekly",
+      "signal_date": "2026-10-26",
+      "bars_ago": 0,
+      "close": 194.99,
+      "DIFF": -8.648017,
+      "DEA": -6.255812,
+      "MACD": -4.78441
+    },
     {
       "ticker": "ALGT",
       "market": "US",
@@ -70,10 +83,10 @@
       "timeframe": "monthly",
       "signal_date": "2026-10-01",
       "bars_ago": 0,
-      "close": 34.18,
-      "DIFF": -7.38715,
-      "DEA": -6.329229,
-      "MACD": -2.115842
+      "close": 34.09,
+      "DIFF": -7.39433,
+      "DEA": -6.330665,
+      "MACD": -2.127329
     },
     {
       "ticker": "BWXT",
@@ -96,10 +109,10 @@
       "timeframe": "monthly",
       "signal_date": "2026-10-01",
       "bars_ago": 0,
-      "close": 87.47,
-      "DIFF": -5.138118,
-      "DEA": -4.801139,
-      "MACD": -0.673958
+      "close": 87.87,
+      "DIFF": -5.106209,
+      "DEA": -4.794757,
+      "MACD": -0.622904
     },
     {
       "ticker": "CSCO",
@@ -161,10 +174,10 @@
       "timeframe": "monthly",
       "signal_date": "2026-10-01",
       "bars_ago": 0,
-      "close": 40.48,
-      "DIFF": -1.326421,
-      "DEA": -0.860107,
-      "MACD": -0.932627
+      "close": 39.2,
+      "DIFF": -1.428529,
+      "DEA": -0.880529,
+      "MACD": -1.096
     },
     {
       "ticker": "GVA",
@@ -206,6 +219,19 @@
       "MACD": -0.904304
     },
     {
+      "ticker": "KTOS",
+      "market": "US",
+      "sector": "Industrials",
+      "industry": "Aerospace & Defense",
+      "timeframe": "weekly",
+      "signal_date": "2026-10-26",
+      "bars_ago": 0,
+      "close": 41.315,
+      "DIFF": -6.534917,
+      "DEA": -6.248667,
+      "MACD": -0.5725
+    },
+    {
       "ticker": "MOG-A",
       "market": "US",
       "sector": "Unknown",
@@ -226,10 +252,10 @@
       "timeframe": "monthly",
       "signal_date": "2026-10-01",
       "bars_ago": 0,
-      "close": 88.47,
-      "DIFF": -18.622276,
-      "DEA": -16.003856,
-      "MACD": -5.236839
+      "close": 90.36,
+      "DIFF": -18.471506,
+      "DEA": -15.973702,
+      "MACD": -4.995608
     },
     {
       "ticker": "PLD",
@@ -252,10 +278,10 @@
       "timeframe": "monthly",
       "signal_date": "2026-10-01",
       "bars_ago": 0,
-      "close": 185.92,
-      "DIFF": -9.909259,
-      "DEA": -9.213831,
-      "MACD": -1.390856
+      "close": 184.24,
+      "DIFF": -10.043275,
+      "DEA": -9.240634,
+      "MACD": -1.605283
     },
     {
       "ticker": "TDG",
@@ -265,10 +291,10 @@
       "timeframe": "weekly",
       "signal_date": "2026-10-26",
       "bars_ago": 0,
-      "close": 1129.7,
-      "DIFF": -39.70333,
-      "DEA": -34.12066,
-      "MACD": -11.165341
+      "close": 1130.23,
+      "DIFF": -39.661049,
+      "DEA": -34.112203,
+      "MACD": -11.09769
     },
     {
       "ticker": "UAL",
@@ -282,6 +308,32 @@
       "DIFF": -3.285171,
       "DEA": -3.095285,
       "MACD": -0.379773
+    },
+    {
+      "ticker": "WD",
+      "market": "US",
+      "sector": "Financials",
+      "industry": "Mortgage Finance",
+      "timeframe": "weekly",
+      "signal_date": "2026-10-26",
+      "bars_ago": 0,
+      "close": 34.63,
+      "DIFF": -4.89835,
+      "DEA": -4.351757,
+      "MACD": -1.093185
+    },
+    {
+      "ticker": "WSC",
+      "market": "US",
+      "sector": "Industrials",
+      "industry": "Rental & Leasing Services",
+      "timeframe": "weekly",
+      "signal_date": "2026-10-26",
+      "bars_ago": 0,
+      "close": 17.65,
+      "DIFF": -1.846028,
+      "DEA": -1.159527,
+      "MACD": -1.373003
     },
     {
       "ticker": "ALB",
@@ -370,7 +422,7 @@
       "signal_date": "2026-10-19",
       "bars_ago": 1,
       "close": 22.69,
-      "DIFF": -0.988506,
+      "DIFF": -0.988505,
       "DEA": -0.825736,
       "MACD": -0.325539
     },
@@ -721,7 +773,7 @@
       "signal_date": "2026-10-12",
       "bars_ago": 2,
       "close": 161.25,
-      "DIFF": -8.255562,
+      "DIFF": -8.255563,
       "DEA": -6.754237,
       "MACD": -3.002652
     },
@@ -1007,8 +1059,8 @@
       "signal_date": "2026-10-12",
       "bars_ago": 2,
       "close": 172.57,
-      "DIFF": -13.142557,
-      "DEA": -12.143818,
+      "DIFF": -13.142558,
+      "DEA": -12.143819,
       "MACD": -1.997477
     },
     {
@@ -1072,9 +1124,9 @@
       "signal_date": "2026-10-12",
       "bars_ago": 2,
       "close": 294.66,
-      "DIFF": -13.720376,
-      "DEA": -10.978832,
-      "MACD": -5.483088
+      "DIFF": -13.720375,
+      "DEA": -10.978831,
+      "MACD": -5.483089
     },
     {
       "ticker": "TAP",
