@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T19:03:10.348451+00:00",
+  "generated_at": "2026-10-29T19:26:06.159576+00:00",
   "next_scan_at": "2026-10-29T20:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
@@ -12,12 +12,12 @@
       "ticker": "SPCX",
       "group": "太空",
       "timeframe": "1h",
-      "signal_ts": "2026-10-29 16:30 UTC",
-      "bars_ago": 2,
-      "close": 144.285,
-      "DIFF": -1.343826,
-      "DEA": -1.193792,
-      "MACD": -0.300068
+      "signal_ts": "2026-10-29 18:30 UTC",
+      "bars_ago": 0,
+      "close": 143.77,
+      "DIFF": -1.36055,
+      "DEA": -1.256023,
+      "MACD": -0.209054
     }
   ]
 }
