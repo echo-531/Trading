@@ -1,23 +1,34 @@
 {
-  "generated_at": "2026-10-30T19:00:22.258625+00:00",
+  "generated_at": "2026-10-30T19:35:26.750768+00:00",
   "next_scan_at": "2026-10-30T20:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
   "stats": {
     "total_scanned": 78,
-    "buy_signals": 1
+    "buy_signals": 2
   },
   "buy_signals": [
+    {
+      "ticker": "MSFT",
+      "group": "MEGA7",
+      "timeframe": "1h",
+      "signal_ts": "2026-10-30 19:30 UTC",
+      "bars_ago": 0,
+      "close": 523.45,
+      "DIFF": -1.851109,
+      "DEA": -1.416371,
+      "MACD": -0.869478
+    },
     {
       "ticker": "SYM",
       "group": "Semi",
       "timeframe": "1h",
-      "signal_ts": "2026-10-30 17:30 UTC",
-      "bars_ago": 0,
-      "close": 37.22,
-      "DIFF": -0.588977,
-      "DEA": -0.465804,
-      "MACD": -0.246347
+      "signal_ts": "2026-10-30 18:30 UTC",
+      "bars_ago": 1,
+      "close": 37.58,
+      "DIFF": -0.575213,
+      "DEA": -0.493812,
+      "MACD": -0.162803
     }
   ]
 }
