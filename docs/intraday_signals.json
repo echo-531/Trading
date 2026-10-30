@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-30T19:35:26.750768+00:00",
+  "generated_at": "2026-10-30T19:53:35.471411+00:00",
   "next_scan_at": "2026-10-30T20:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
   "stats": {
     "total_scanned": 78,
-    "buy_signals": 2
+    "buy_signals": 1
   },
   "buy_signals": [
     {
@@ -14,21 +14,10 @@
       "timeframe": "1h",
       "signal_ts": "2026-10-30 19:30 UTC",
       "bars_ago": 0,
-      "close": 523.45,
-      "DIFF": -1.851109,
-      "DEA": -1.416371,
-      "MACD": -0.869478
-    },
-    {
-      "ticker": "SYM",
-      "group": "Semi",
-      "timeframe": "1h",
-      "signal_ts": "2026-10-30 18:30 UTC",
-      "bars_ago": 1,
-      "close": 37.58,
-      "DIFF": -0.575213,
-      "DEA": -0.493812,
-      "MACD": -0.162803
+      "close": 523.52,
+      "DIFF": -1.854757,
+      "DEA": -1.41693,
+      "MACD": -0.875656
     }
   ]
 }
