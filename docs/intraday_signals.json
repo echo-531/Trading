@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T20:25:38.867985+00:00",
+  "generated_at": "2026-11-03T20:33:31.418239+00:00",
   "next_scan_at": "2026-11-03T21:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
@@ -13,33 +13,33 @@
       "group": "Semi",
       "timeframe": "1h",
       "signal_ts": "2026-11-03 19:30 UTC",
-      "bars_ago": 0,
-      "close": 234.85,
-      "DIFF": -10.218559,
-      "DEA": -10.205826,
-      "MACD": -0.025466
+      "bars_ago": 1,
+      "close": 234.46,
+      "DIFF": -10.24967,
+      "DEA": -10.212048,
+      "MACD": -0.075244
     },
     {
       "ticker": "MXL",
       "group": "光",
       "timeframe": "1h",
       "signal_ts": "2026-11-03 19:30 UTC",
-      "bars_ago": 0,
-      "close": 63.39,
-      "DIFF": -1.797094,
-      "DEA": -1.805895,
-      "MACD": 0.017602
+      "bars_ago": 1,
+      "close": 63.46,
+      "DIFF": -1.79151,
+      "DEA": -1.804778,
+      "MACD": 0.026537
     },
     {
       "ticker": "RDW",
       "group": "太空",
       "timeframe": "1h",
       "signal_ts": "2026-11-03 19:30 UTC",
-      "bars_ago": 0,
-      "close": 8.0801,
-      "DIFF": -0.183512,
-      "DEA": -0.178762,
-      "MACD": -0.0095
+      "bars_ago": 1,
+      "close": 8.115,
+      "DIFF": -0.180728,
+      "DEA": -0.178205,
+      "MACD": -0.005046
     }
   ]
 }
