@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T20:28:17.897971+00:00",
+  "generated_at": "2026-11-04T20:40:46.996801+00:00",
   "next_scan_at": "2026-11-04T21:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
@@ -9,11 +9,22 @@
   },
   "buy_signals": [
     {
+      "ticker": "COHR",
+      "group": "光",
+      "timeframe": "1h",
+      "signal_ts": "2026-11-04 19:30 UTC",
+      "bars_ago": 1,
+      "close": 193.63,
+      "DIFF": -6.879271,
+      "DEA": -6.23189,
+      "MACD": -1.294762
+    },
+    {
       "ticker": "VELO",
       "group": "光",
       "timeframe": "1h",
       "signal_ts": "2026-11-04 19:30 UTC",
-      "bars_ago": 0,
+      "bars_ago": 1,
       "close": 5.635,
       "DIFF": -0.216064,
       "DEA": -0.215961,
@@ -24,33 +35,22 @@
       "group": "光",
       "timeframe": "1h",
       "signal_ts": "2026-11-04 19:30 UTC",
-      "bars_ago": 0,
-      "close": 59.24,
-      "DIFF": -3.215217,
-      "DEA": -3.145814,
-      "MACD": -0.138806
+      "bars_ago": 1,
+      "close": 59.18,
+      "DIFF": -3.220003,
+      "DEA": -3.146771,
+      "MACD": -0.146464
     },
     {
       "ticker": "ALAB",
       "group": "Semi",
       "timeframe": "1h",
       "signal_ts": "2026-11-04 18:30 UTC",
-      "bars_ago": 1,
+      "bars_ago": 2,
       "close": 220.9282,
       "DIFF": -11.794172,
       "DEA": -11.197395,
       "MACD": -1.193554
-    },
-    {
-      "ticker": "OCS",
-      "group": "光",
-      "timeframe": "1h",
-      "signal_ts": "2026-11-04 17:30 UTC",
-      "bars_ago": 2,
-      "close": 7.255,
-      "DIFF": -0.239822,
-      "DEA": -0.194089,
-      "MACD": -0.091466
     }
   ]
 }
