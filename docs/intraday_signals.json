@@ -1,13 +1,46 @@
 {
-  "generated_at": "2026-11-04T20:40:46.996801+00:00",
+  "generated_at": "2026-11-04T20:52:50.061097+00:00",
   "next_scan_at": "2026-11-04T21:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
   "stats": {
     "total_scanned": 78,
-    "buy_signals": 4
+    "buy_signals": 7
   },
   "buy_signals": [
+    {
+      "ticker": "AMBA",
+      "group": "Semi",
+      "timeframe": "1h",
+      "signal_ts": "2026-11-04 20:30 UTC",
+      "bars_ago": 0,
+      "close": 61.14,
+      "DIFF": -0.681827,
+      "DEA": -0.642788,
+      "MACD": -0.078079
+    },
+    {
+      "ticker": "SNDK",
+      "group": "存储",
+      "timeframe": "1h",
+      "signal_ts": "2026-11-04 20:30 UTC",
+      "bars_ago": 0,
+      "close": 1033.54,
+      "DIFF": -47.051945,
+      "DEA": -46.563664,
+      "MACD": -0.976563
+    },
+    {
+      "ticker": "RDW",
+      "group": "太空",
+      "timeframe": "1h",
+      "signal_ts": "2026-11-04 20:30 UTC",
+      "bars_ago": 0,
+      "close": 7.7166,
+      "DIFF": -0.214404,
+      "DEA": -0.204033,
+      "MACD": -0.02074
+    },
     {
       "ticker": "COHR",
       "group": "光",
