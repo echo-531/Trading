@@ -1,45 +1,56 @@
 {
-  "generated_at": "2026-11-03T20:51:04.717412+00:00",
-  "next_scan_at": "2026-11-03T21:00:00+00:00",
+  "generated_at": "2026-11-04T20:28:17.897971+00:00",
+  "next_scan_at": "2026-11-04T21:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
   "stats": {
     "total_scanned": 78,
-    "buy_signals": 3
+    "buy_signals": 4
   },
   "buy_signals": [
+    {
+      "ticker": "VELO",
+      "group": "光",
+      "timeframe": "1h",
+      "signal_ts": "2026-11-04 19:30 UTC",
+      "bars_ago": 0,
+      "close": 5.635,
+      "DIFF": -0.216064,
+      "DEA": -0.215961,
+      "MACD": -0.000205
+    },
+    {
+      "ticker": "AAOI",
+      "group": "光",
+      "timeframe": "1h",
+      "signal_ts": "2026-11-04 19:30 UTC",
+      "bars_ago": 0,
+      "close": 59.24,
+      "DIFF": -3.215217,
+      "DEA": -3.145814,
+      "MACD": -0.138806
+    },
     {
       "ticker": "ALAB",
       "group": "Semi",
       "timeframe": "1h",
-      "signal_ts": "2026-11-03 19:30 UTC",
+      "signal_ts": "2026-11-04 18:30 UTC",
       "bars_ago": 1,
-      "close": 234.46,
-      "DIFF": -10.24967,
-      "DEA": -10.212048,
-      "MACD": -0.075244
+      "close": 220.9282,
+      "DIFF": -11.794172,
+      "DEA": -11.197395,
+      "MACD": -1.193554
     },
     {
-      "ticker": "MXL",
+      "ticker": "OCS",
       "group": "光",
       "timeframe": "1h",
-      "signal_ts": "2026-11-03 19:30 UTC",
-      "bars_ago": 1,
-      "close": 63.46,
-      "DIFF": -1.79151,
-      "DEA": -1.804778,
-      "MACD": 0.026537
-    },
-    {
-      "ticker": "RDW",
-      "group": "太空",
-      "timeframe": "1h",
-      "signal_ts": "2026-11-03 19:30 UTC",
-      "bars_ago": 1,
-      "close": 8.115,
-      "DIFF": -0.180728,
-      "DEA": -0.178205,
-      "MACD": -0.005046
+      "signal_ts": "2026-11-04 17:30 UTC",
+      "bars_ago": 2,
+      "close": 7.255,
+      "DIFF": -0.239822,
+      "DEA": -0.194089,
+      "MACD": -0.091466
     }
   ]
 }
