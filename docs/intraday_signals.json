@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T20:44:11.375285+00:00",
+  "generated_at": "2026-11-05T20:56:48.196061+00:00",
   "next_scan_at": "2026-11-05T21:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
@@ -9,26 +9,26 @@
   },
   "buy_signals": [
     {
-      "ticker": "TTMI",
+      "ticker": "INOD",
       "group": "Semi",
       "timeframe": "1h",
       "signal_ts": "2026-11-05 20:30 UTC",
       "bars_ago": 0,
-      "close": 63.44,
-      "DIFF": -5.278125,
-      "DEA": -4.519845,
-      "MACD": -1.516559
+      "close": 38.65,
+      "DIFF": -1.61666,
+      "DEA": -1.410825,
+      "MACD": -0.411669
     },
     {
-      "ticker": "MRVL",
-      "group": "存储",
+      "ticker": "CRCL",
+      "group": "Semi",
       "timeframe": "1h",
       "signal_ts": "2026-11-05 20:30 UTC",
       "bars_ago": 0,
-      "close": 136.79,
-      "DIFF": -14.110529,
-      "DEA": -13.816995,
-      "MACD": -0.587068
+      "close": 69.62,
+      "DIFF": -2.053911,
+      "DEA": -1.491982,
+      "MACD": -1.12386
     },
     {
       "ticker": "OCS",
