@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-05T20:56:48.196061+00:00",
-  "next_scan_at": "2026-11-05T21:00:00+00:00",
+  "generated_at": "2026-11-06T19:59:46.077279+00:00",
+  "next_scan_at": "2026-11-06T20:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
   "stats": {
@@ -9,37 +9,37 @@
   },
   "buy_signals": [
     {
-      "ticker": "INOD",
-      "group": "Semi",
-      "timeframe": "1h",
-      "signal_ts": "2026-11-05 20:30 UTC",
-      "bars_ago": 0,
-      "close": 38.65,
-      "DIFF": -1.61666,
-      "DEA": -1.410825,
-      "MACD": -0.411669
-    },
-    {
       "ticker": "CRCL",
       "group": "Semi",
       "timeframe": "1h",
-      "signal_ts": "2026-11-05 20:30 UTC",
+      "signal_ts": "2026-11-06 19:30 UTC",
       "bars_ago": 0,
-      "close": 69.62,
-      "DIFF": -2.053911,
-      "DEA": -1.491982,
-      "MACD": -1.12386
+      "close": 67.55,
+      "DIFF": -2.22479,
+      "DEA": -2.077147,
+      "MACD": -0.295285
     },
     {
-      "ticker": "OCS",
-      "group": "光",
+      "ticker": "INOD",
+      "group": "Semi",
       "timeframe": "1h",
-      "signal_ts": "2026-11-05 19:30 UTC",
+      "signal_ts": "2026-11-06 18:30 UTC",
       "bars_ago": 1,
-      "close": 6.93,
-      "DIFF": -0.240662,
-      "DEA": -0.231035,
-      "MACD": -0.019254
+      "close": 36.71,
+      "DIFF": -1.769701,
+      "DEA": -1.664679,
+      "MACD": -0.210044
+    },
+    {
+      "ticker": "ORCL",
+      "group": "Semi",
+      "timeframe": "1h",
+      "signal_ts": "2026-11-06 18:30 UTC",
+      "bars_ago": 1,
+      "close": 114.83,
+      "DIFF": -3.102766,
+      "DEA": -3.058269,
+      "MACD": -0.088993
     }
   ]
 }
