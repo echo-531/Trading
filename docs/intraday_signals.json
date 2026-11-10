@@ -1,45 +1,34 @@
 {
-  "generated_at": "2026-11-06T20:47:04.832404+00:00",
-  "next_scan_at": "2026-11-06T21:00:00+00:00",
+  "generated_at": "2026-11-10T20:30:33.837491+00:00",
+  "next_scan_at": "2026-11-10T21:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
   "stats": {
     "total_scanned": 78,
-    "buy_signals": 3
+    "buy_signals": 2
   },
   "buy_signals": [
-    {
-      "ticker": "CRCL",
-      "group": "Semi",
-      "timeframe": "1h",
-      "signal_ts": "2026-11-06 19:30 UTC",
-      "bars_ago": 1,
-      "close": 67.875,
-      "DIFF": -2.198864,
-      "DEA": -2.071962,
-      "MACD": -0.253804
-    },
     {
       "ticker": "INOD",
       "group": "Semi",
       "timeframe": "1h",
-      "signal_ts": "2026-11-06 18:30 UTC",
-      "bars_ago": 2,
-      "close": 36.71,
-      "DIFF": -1.769701,
-      "DEA": -1.664679,
-      "MACD": -0.210044
+      "signal_ts": "2026-11-10 19:30 UTC",
+      "bars_ago": 1,
+      "close": 35.0458,
+      "DIFF": -1.317628,
+      "DEA": -1.247907,
+      "MACD": -0.139442
     },
     {
-      "ticker": "ORCL",
+      "ticker": "CRCL",
       "group": "Semi",
       "timeframe": "1h",
-      "signal_ts": "2026-11-06 18:30 UTC",
-      "bars_ago": 2,
-      "close": 114.83,
-      "DIFF": -3.102766,
-      "DEA": -3.058269,
-      "MACD": -0.088993
+      "signal_ts": "2026-11-10 19:30 UTC",
+      "bars_ago": 1,
+      "close": 64.9,
+      "DIFF": -1.782412,
+      "DEA": -1.735109,
+      "MACD": -0.094607
     }
   ]
 }
