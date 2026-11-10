@@ -1,13 +1,24 @@
 {
-  "generated_at": "2026-11-10T20:43:00.380457+00:00",
+  "generated_at": "2026-11-10T20:56:50.269720+00:00",
   "next_scan_at": "2026-11-10T21:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
   "stats": {
     "total_scanned": 78,
-    "buy_signals": 2
+    "buy_signals": 3
   },
   "buy_signals": [
+    {
+      "ticker": "SHOP",
+      "group": "Semi",
+      "timeframe": "1h",
+      "signal_ts": "2026-11-10 20:30 UTC",
+      "bars_ago": 0,
+      "close": 146.51,
+      "DIFF": -1.10826,
+      "DEA": -0.759244,
+      "MACD": -0.698033
+    },
     {
       "ticker": "INOD",
       "group": "Semi",
