@@ -1,45 +1,11 @@
 {
-  "generated_at": "2026-11-10T20:56:50.269720+00:00",
-  "next_scan_at": "2026-11-10T21:00:00+00:00",
+  "generated_at": "2026-11-11T20:15:38.424628+00:00",
+  "next_scan_at": "2026-11-11T21:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
   "stats": {
     "total_scanned": 78,
-    "buy_signals": 3
+    "buy_signals": 0
   },
-  "buy_signals": [
-    {
-      "ticker": "SHOP",
-      "group": "Semi",
-      "timeframe": "1h",
-      "signal_ts": "2026-11-10 20:30 UTC",
-      "bars_ago": 0,
-      "close": 146.51,
-      "DIFF": -1.10826,
-      "DEA": -0.759244,
-      "MACD": -0.698033
-    },
-    {
-      "ticker": "INOD",
-      "group": "Semi",
-      "timeframe": "1h",
-      "signal_ts": "2026-11-10 19:30 UTC",
-      "bars_ago": 1,
-      "close": 35.0458,
-      "DIFF": -1.317628,
-      "DEA": -1.247907,
-      "MACD": -0.139442
-    },
-    {
-      "ticker": "CRCL",
-      "group": "Semi",
-      "timeframe": "1h",
-      "signal_ts": "2026-11-10 19:30 UTC",
-      "bars_ago": 1,
-      "close": 64.9,
-      "DIFF": -1.782319,
-      "DEA": -1.734991,
-      "MACD": -0.094657
-    }
-  ]
+  "buy_signals": []
 }
