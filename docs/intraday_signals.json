@@ -1,23 +1,34 @@
 {
-  "generated_at": "2026-11-13T20:46:43.446907+00:00",
+  "generated_at": "2026-11-13T20:56:54.747174+00:00",
   "next_scan_at": "2026-11-13T21:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
   "stats": {
     "total_scanned": 78,
-    "buy_signals": 1
+    "buy_signals": 2
   },
   "buy_signals": [
+    {
+      "ticker": "INTC",
+      "group": "Semi",
+      "timeframe": "1h",
+      "signal_ts": "2026-11-13 20:30 UTC",
+      "bars_ago": 0,
+      "close": 59.79,
+      "DIFF": -0.17576,
+      "DEA": 0.109009,
+      "MACD": -0.569538
+    },
     {
       "ticker": "IREN",
       "group": "数据中心",
       "timeframe": "1h",
       "signal_ts": "2026-11-13 20:30 UTC",
       "bars_ago": 0,
-      "close": 18.0654,
-      "DIFF": -0.768147,
-      "DEA": -0.658626,
-      "MACD": -0.219043
+      "close": 18.0944,
+      "DIFF": -0.765834,
+      "DEA": -0.658163,
+      "MACD": -0.215341
     }
   ]
 }
