@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-12T20:58:09.192821+00:00",
-  "next_scan_at": "2026-11-12T21:00:00+00:00",
+  "generated_at": "2026-11-13T20:32:58.742819+00:00",
+  "next_scan_at": "2026-11-13T21:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
   "stats": {
@@ -9,15 +9,15 @@
   },
   "buy_signals": [
     {
-      "ticker": "NVDA",
-      "group": "MEGA7",
+      "ticker": "CRCL",
+      "group": "Semi",
       "timeframe": "1h",
-      "signal_ts": "2026-11-12 20:30 UTC",
+      "signal_ts": "2026-11-13 20:30 UTC",
       "bars_ago": 0,
-      "close": 166.055,
-      "DIFF": -4.361729,
-      "DEA": -4.344335,
-      "MACD": -0.034788
+      "close": 62.4506,
+      "DIFF": -1.343593,
+      "DEA": -1.277736,
+      "MACD": -0.131714
     }
   ]
 }
