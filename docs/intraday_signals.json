@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T20:32:58.742819+00:00",
+  "generated_at": "2026-11-13T20:46:43.446907+00:00",
   "next_scan_at": "2026-11-13T21:00:00+00:00",
   "interval": "1h",
   "lookback_bars": 3,
@@ -9,15 +9,15 @@
   },
   "buy_signals": [
     {
-      "ticker": "CRCL",
-      "group": "Semi",
+      "ticker": "IREN",
+      "group": "数据中心",
       "timeframe": "1h",
       "signal_ts": "2026-11-13 20:30 UTC",
       "bars_ago": 0,
-      "close": 62.4506,
-      "DIFF": -1.343593,
-      "DEA": -1.277736,
-      "MACD": -0.131714
+      "close": 18.0654,
+      "DIFF": -0.768147,
+      "DEA": -0.658626,
+      "MACD": -0.219043
     }
   ]
 }
